@@ -14,12 +14,14 @@
       "blocks": {
         "image_yGHV8A": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bandeau-bal-finissant-2.png",
             "mobile_image": "shopify://shop_images/bandeau-bal-finissant-mobile.png",
             "image_overlay_opacity": 0,
             "heading": "Les bals de finissants arrivent",
             "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
             "button_label": "Voyez notre sélection d'accessoires",
             "link": "shopify://collections/bal-de-finissant",
             "button_style_secondary": false,
@@ -32,11 +34,13 @@
         },
         "image_M737rz": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/woman-day.png",
             "image_overlay_opacity": 0,
             "heading": "Journée internationale des droits des femmes",
             "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
             "button_label": "Voir nos suggestions cadeaux",
             "link": "shopify://collections/journee-de-la-femme",
             "button_style_secondary": true,
@@ -49,6 +53,7 @@
         },
         "image_DBinQX": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ombelle-fleuriste-paques.jpg",
             "mobile_image": "shopify://shop_images/ombelle-fleuriste-paques-mobile.jpg",
@@ -68,6 +73,7 @@
         },
         "8f8ffa35-56b8-4f1a-96c1-d74d359330fe": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ombelle-fleuriste-st-valentin.jpg",
             "mobile_image": "shopify://shop_images/ombelle-fleuriste-st-valentin-mobile.jpg",
@@ -87,6 +93,7 @@
         },
         "image_ERTEDE": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/semaine-des-secretaires.jpg",
             "mobile_image": "shopify://shop_images/id_es-cadeaux-semaine-des-secretaires-mobile.jpg",
@@ -106,12 +113,14 @@
         },
         "image_nMpgdw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bandeau-fete-des-meres_e8437d24-8f6f-4f4e-a5fa-15723a9d5efe.jpg",
             "mobile_image": "shopify://shop_images/accueil-fete-des-meres-mobile.jpg",
             "image_overlay_opacity": 0,
             "heading": "La fête des mères approche",
             "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
             "button_label": "Voir nos idées cadeaux",
             "link": "shopify://collections/fete-des-meres",
             "button_style_secondary": true,
@@ -124,12 +133,14 @@
         },
         "image_NFDGyT": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bandeau-noel.jpg",
             "mobile_image": "shopify://shop_images/bandeau-noel-mobile.jpg",
             "image_overlay_opacity": 0,
             "heading": "Vous cherchez le cadeau de Noël idéal?",
             "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
             "button_label": "Voir nos idées-cadeaux",
             "link": "shopify://collections/noel",
             "button_style_secondary": true,
@@ -161,6 +172,7 @@
         },
         "template--14802453463121__417c6329-9f07-424d-af16-36b50beeee3c-1672875523a936bcb3-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ombelle-fleuriste-bandeau2_ea44b7ad-9342-48eb-affc-6f2f2de75546.jpg",
             "mobile_image": "shopify://shop_images/ombelle-fleuriste-bandeau2-mobile.jpg",
@@ -180,6 +192,7 @@
         },
         "274b2d3b-dbf4-46e0-b7f9-e02ccfbb6ebe": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ombelle-fleuriste-bandeau3_18900604-8f12-4074-bc00-99d1eb861d15.jpg",
             "mobile_image": "shopify://shop_images/ombelle-fleuriste-bandeau3-mobile.jpg",
@@ -216,6 +229,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 7,
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Diaporama"
       }
@@ -322,6 +336,8 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
@@ -350,6 +366,8 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
@@ -376,6 +394,8 @@
             "button_label_1": "Commencer la visite",
             "button_link_1": "https://maps.app.goo.gl/Py16EtAZD2UctHr28",
             "button_style_secondary_1": true,
+            "button_label_2": "Texte du bouton",
+            "button_link_2": "",
             "button_style_secondary_2": true
           }
         }
@@ -386,10 +406,11 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Ombelle-360-sm_3ecdcf07-1926-46d0-b285-576573aca63e.jpg",
-        "mobile_image": "shopify://shop_images/Ombelle-360-mobile_cf6d0db7-9561-4cb1-a6be-124361dd9a13.jpg",
         "hide_without_image": false,
+        "mobile_image": "shopify://shop_images/Ombelle-360-mobile_cf6d0db7-9561-4cb1-a6be-124361dd9a13.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
@@ -465,11 +486,14 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -486,6 +510,9 @@
             "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
             "heading_size": "h2",
             "subheading": "Franz Vanoosthuyse",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
             "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -502,6 +529,9 @@
             "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
             "heading_size": "h2",
             "subheading": "Olivier Kaija",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
             "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -518,6 +548,9 @@
             "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
             "heading_size": "h2",
             "subheading": "Marie Eve Bourassa",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
             "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -537,6 +570,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 7,
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Témoignages de nos clients"
       }
