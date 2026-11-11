@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_7L3FLV": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_7L3FLV-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage romantique rouge",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_7L3FLV-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau-original-galerie-rouge.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_z9qFiw": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau-original-galerie-rouge.jpg",
+        "title": "Photos mariage romantique rouge",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 25,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_qmyTag": {
+      "type": "gallery",
+      "blocks": {
+        "image_Lpdhff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-couple-blanc-fleuri-1.jpg"
+          }
+        },
+        "image_9ejMck": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee2.jpg"
+          }
+        },
+        "image_bWmaeT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-boutonnieres-garcon-marie.jpg"
+          }
+        },
+        "image_Agzk6D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-Forfait.jpg"
+          }
+        },
+        "image_EfXGQn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-couple-gerbe-lampadaire.jpg"
+          }
+        },
+        "image_V6GitV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-demoiselle.jpg"
+          }
+        },
+        "image_iMPpYi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-couple-lampadaire-1.jpg"
+          }
+        },
+        "image_MkLnDL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-gerbe-lampadaire.jpg"
+          }
+        },
+        "image_4YpRUq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-marie_5025905a-5341-41c3-a56d-5344098a9393.jpg"
+          }
+        },
+        "image_9pYBrQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-rose-banc-fleuri-lampadaire.jpg"
+          }
+        },
+        "image_FQMkUm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bracelet_94299c16-1415-4b0e-ae51-8c5ebf7977cd.jpg"
+          }
+        },
+        "image_EqXmNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee-Forfait.jpg"
+          }
+        },
+        "image_W6p4Xk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-rose-decor.jpg"
+          }
+        },
+        "image_JdVaqD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee.jpg"
+          }
+        },
+        "image_axE4nc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-boutonniere-marie.jpg"
+          }
+        },
+        "image_iTQFf7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-couple-lampadaire-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_Lpdhff",
+        "image_9ejMck",
+        "image_bWmaeT",
+        "image_Agzk6D",
+        "image_EfXGQn",
+        "image_V6GitV",
+        "image_iMPpYi",
+        "image_MkLnDL",
+        "image_4YpRUq",
+        "image_9pYBrQ",
+        "image_FQMkUm",
+        "image_EqXmNx",
+        "image_W6p4Xk",
+        "image_JdVaqD",
+        "image_axE4nc",
+        "image_iTQFf7"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_7L3FLV",
+    "wedding_image_overlay_z9qFiw",
+    "gallery_qmyTag"
+  ]
+}

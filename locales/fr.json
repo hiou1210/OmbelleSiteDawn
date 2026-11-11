@@ -221,6 +221,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Page non trouvée",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
@@ -269,10 +273,6 @@
         "error_heading": "Veuillez ajuster les éléments suivants :",
         "title": "Formulaire de contact"
       }
-    },
-    "404": {
-      "title": "Page non trouvée",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -538,6 +538,48 @@
       "send_on_label": "Envoyer le (facultatif)",
       "expanded": "Formulaire de destinataire de carte-cadeau agrandi",
       "collapsed": "Formulaire de destinataire de carte-cadeau réduit"
+    }
+  },
+  "ombelle": {
+    "general": {
+      "back_to_top": "Retour en haut"
+    },
+    "cart": {
+      "terms_prefix": "J'ai lu et j'accepte les",
+      "terms_link": "conditions de vente en ligne"
+    },
+    "product": {
+      "card": {
+        "legend": "Ajouter une carte (gratuit)",
+        "yes": "Oui",
+        "no": "Non",
+        "text_label": "Texte de la carte",
+        "text_hint": "Maximum 150 caractères",
+        "text_required": "Veuillez écrire le texte de la carte, ou choisir Non."
+      },
+      "funeral": {
+        "deceased_name": "Nom du/de la défunt(e)",
+        "ceremony_time": "Heure de la cérémonie",
+        "urn_height": "Hauteur de l'urne",
+        "urn_diameter": "Diamètre de l'urne",
+        "urn_width": "Largeur de l'urne",
+        "urn_depth": "Profondeur de l'urne"
+      },
+      "vase": {
+        "legend": "Ajout d'un vase",
+        "none": "Aucun"
+      }
+    },
+    "article": {
+      "read_time": "{{ minutes }} minutes de lecture",
+      "breadcrumb_label": "Fil d'Ariane",
+      "home": "Accueil"
+    },
+    "gallery": {
+      "open_image": "Agrandir l'image",
+      "dialog_label": "Visionneuse d'images",
+      "previous": "Image précédente",
+      "next": "Image suivante"
     }
   }
 }

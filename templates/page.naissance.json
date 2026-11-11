@@ -1,0 +1,228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e629e3bc-80d7-4257-8917-d9f501b406e8": {
+      "type": "image-banner",
+      "blocks": {
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleurs et cadeaux",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-text": {
+          "type": "text",
+          "settings": {
+            "text": "pour célébrer l'arrivée du nouveau-né",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-heading",
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/naissance.bandeau_92ec4c22-4c60-4ea5-87cb-f13468072580.jpg",
+        "mobile_image": "shopify://shop_images/naissance-bandeau-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "029ac15e-7865-4c8b-80fa-0e72bcddf27f-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14808045682769__029ac15e-7865-4c8b-80fa-0e72bcddf27f-16739117826de03693-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Voici quelques suggestions pour célébrer la naissance d'un enfant et féliciter les nouveaux parents. </p><p>Vous trouverez chez Ombelle Fleuriste divers présents à offrir pour souligner cet heureux événement. Notamment des  fleurs, plantes, peluches et tricots. Nous pouvons également créer des ensembles cadeaux à votre goût en réunissant divers éléments.</p><p>Appelez-nous pour connaître les items disponibles en boutique et obtenir beaucoup plus d'idées!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045682769__029ac15e-7865-4c8b-80fa-0e72bcddf27f-16739117826de03693-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Peluche-herisson-opt.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "bde753f0-0f8b-41fb-bcd1-3461ab98a9e1": {
+      "type": "gallery",
+      "blocks": {
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-naissance-elephant_2447619e-b3bc-4852-8752-c53f7fdbea61.jpg"
+          }
+        },
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-remerciements-enfants_4e277f48-d467-4893-b979-166f1cbee6e0.jpg"
+          }
+        },
+        "6f0f0d3b-2f23-41bd-8cea-9fb5d36fb084": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peluche-chat-gris-of_fd74cf61-26e0-449f-9e39-70a368ed44b3.jpg"
+          }
+        },
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chaussons-fleurs-rose-gris_b6764445-a1fd-4269-a650-07478f66f86b.jpg"
+          }
+        },
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Creation-florale-naissance-harfang_5737b271-77b0-4278-8fb8-e5384c3ef86a.jpg"
+          }
+        },
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lapin-chaussons-gris-rouges.jpg"
+          }
+        },
+        "28bd598a-3bec-4e29-8163-584af76e3212": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lapin-chaussons-violet_509f393b-3d14-4bb8-9ebe-caba34269f8f.jpg"
+          }
+        },
+        "47d3fbcb-98a4-477d-a7c7-e1292f548489": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peluche-chat-noir-blanc_3e7e1970-306d-4591-9ce7-d556013cb0bd.jpg"
+          }
+        },
+        "11326fa8-e5d8-4307-ab21-1d79cf312dd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peluche-chouette-rose-2.jpg"
+          }
+        },
+        "9c26a162-0ec8-4025-803f-608a84efbfa4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peluche-jack-russel_90a48e84-a177-4e61-8268-9fae87a21848.jpg"
+          }
+        },
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chaussons-fleurs-rose-blanc_e97ae2a0-d390-4434-ac8f-dd0d34182515.jpg"
+          }
+        },
+        "e01b0c57-7c2e-401a-88f5-f0b0f4f0b9b4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Poupees-tracas-garcons_db7c181a-3a9d-47ef-801a-adf9dfc52813.jpg"
+          }
+        },
+        "46251ba4-c206-4e73-b983-558be1f1ba39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Toutou-violette-africaine_bdb5dbd9-9d22-4e85-8e70-8e007dd7c03a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-2",
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-3",
+        "6f0f0d3b-2f23-41bd-8cea-9fb5d36fb084",
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-5",
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-6",
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-7",
+        "28bd598a-3bec-4e29-8163-584af76e3212",
+        "47d3fbcb-98a4-477d-a7c7-e1292f548489",
+        "11326fa8-e5d8-4307-ab21-1d79cf312dd6",
+        "9c26a162-0ec8-4025-803f-608a84efbfa4",
+        "template--14808045682769__bde753f0-0f8b-41fb-bcd1-3461ab98a9e1-1673911781328df23e-4",
+        "e01b0c57-7c2e-401a-88f5-f0b0f4f0b9b4",
+        "46251ba4-c206-4e73-b983-558be1f1ba39"
+      ],
+      "settings": {
+        "heading": "Quelque idées de présent",
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d2f6b219-9ea0-4f66-ba8d-de04d2c3d4a0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14808045682769__d2f6b219-9ea0-4f66-ba8d-de04d2c3d4a0-1673959079bc5417b1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Baby-shower-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/Baby-shower-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Merci beaucoup!  Simon est très heureux et sa petite sœur n'arrête pas de vouloir faire des câlins au bonhomme! C'est une belle fête pour lui.   Bonne continuité !\"",
+            "heading_size": "h2",
+            "subheading": "Line Lacourse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045682769__d2f6b219-9ea0-4f66-ba8d-de04d2c3d4a0-1673959079bc5417b1-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "e629e3bc-80d7-4257-8917-d9f501b406e8",
+    "029ac15e-7865-4c8b-80fa-0e72bcddf27f-1",
+    "bde753f0-0f8b-41fb-bcd1-3461ab98a9e1",
+    "d2f6b219-9ea0-4f66-ba8d-de04d2c3d4a0"
+  ]
+}

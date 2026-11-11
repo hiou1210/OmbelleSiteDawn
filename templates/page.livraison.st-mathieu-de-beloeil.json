@@ -1,0 +1,267 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1344faa0-dda0-4b90-b215-1af99eea4f7a": {
+      "type": "image-banner",
+      "blocks": {
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste St-Mathieu-de-Beloeil",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison St-Mathieu",
+            "text_style": "subtitle"
+          }
+        },
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-heading",
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-text",
+        "1344faa0-dda0-4b90-b215-1af99eea4f7a-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-st-mathieu-de-beloeil-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-st-mathieu-de-beloeil-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "91fe426f-ccd6-4f53-ab66-4c563b33ac2d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bouquets-et-creations"
+          }
+        },
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plantes"
+          }
+        },
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fleurs-pour-funerailles"
+          }
+        },
+        "f4674eff-9842-409b-a0d3-4ae38c6f456a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plaisirs-gourmands"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-0",
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-1",
+        "template--14812867821649__91fe426f-ccd6-4f53-ab66-4c563b33ac2d-1674686488e9fc2ade-2",
+        "f4674eff-9842-409b-a0d3-4ae38c6f456a"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812867821649__890fbd48-3874-4b51-9cbc-1b40bf17aad7-1674686499e11ed221-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\">Ombelle Fleuriste</a> offre un service rapide et efficace pour la livraison de fleurs fraîches, de plantes et de cadeaux à St-Mathieu-de-Beloeil. Soyez assuré de la qualité de son service, de même que de l’écoute et de la courtoisie de son personnel.</p><p>Livraison de fleurs fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\">toutes occasions</a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\">mariages</a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\">funérailles</a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p><p>Élégance et modernité caractérisent les bouquets et arrangements floraux confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812867821649__890fbd48-3874-4b51-9cbc-1b40bf17aad7-1674686499e11ed221-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-st-mathieu-de-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812867821649__890fbd48-3874-4b51-9cbc-1b40bf17aad7-1674686499e11ed221-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels et les auberges (ex. : l’<a href=\"https://hotelrivegauche.ca/\" title=\"https://hotelrivegauche.ca/\">Hôtel Rive Gauche – Refuge Urbain</a>, le Manoir Rouville Campbell, l’<a href=\"https://www.lestroistilleuls.com/fr/accueil/\" title=\"https://www.lestroistilleuls.com/fr/accueil/\">Hôtel Trois Tilleuls</a> et l’<a href=\"https://www.aubergehandfield.com/\" title=\"https://www.aubergehandfield.com/\">Auberge Handfield</a>), les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\">Hôpital Honoré-Mercier</a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\">Hôpital Pierre Boucher</a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\">Hôpital Charles-Le Moyne</a>) et les salons funéraires (ex. : le Salon Funéraire Maurice Demers Beloeil, le Salon Funéraire Maurice Demers McMasterville, le Salon Funéraire Maurice Demers Saint-Amable et le Salon Funéraire Demers Mont-Saint-Hilaire) situés à St-Mathieu-de-Beloeil ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812867821649__890fbd48-3874-4b51-9cbc-1b40bf17aad7-1674686499e11ed221-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-st-mathieu-de-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "40dfcd48-329a-4fca-b285-689862abba6a-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son service de livraison à plusieurs autres municipalités de la Rive-Sud et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p><p>Appelez-nous : <a href=\"tel:+14503002793\" title=\"tel:+14503002793\">450 300-2793</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "40dfcd48-329a-4fca-b285-689862abba6a-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-st-mathieu-de-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "9b0116f0-a3ff-49ef-b192-346e37db234c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-st-mathieu-de-beloeil-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-st-mathieu-de-beloeil-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-mathieu-de-beloeil-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-mathieu-de-beloeil-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-saint-mathieu-de-beloeil-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-saint-mathieu-de-beloeil-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-0",
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-1",
+        "template--14812867821649__9b0116f0-a3ff-49ef-b192-346e37db234c-167468651089ee06c9-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "1344faa0-dda0-4b90-b215-1af99eea4f7a",
+    "91fe426f-ccd6-4f53-ab66-4c563b33ac2d",
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-1",
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-2",
+    "890fbd48-3874-4b51-9cbc-1b40bf17aad7-3",
+    "9b0116f0-a3ff-49ef-b192-346e37db234c"
+  ]
+}

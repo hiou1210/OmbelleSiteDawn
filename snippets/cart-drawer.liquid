@@ -293,6 +293,20 @@
                           headers="CartDrawer-ColumnQuantity"
                         >
                           <quantity-popover>
+                            {%- liquid
+                              assign is_nested_line = false
+                              if item.parent_relationship.parent != null
+                                assign is_nested_line = true
+                              endif
+                              assign quantity_locked = is_nested_line
+                              if item.instructions and item.instructions.can_update_quantity == false
+                                assign quantity_locked = true
+                              endif
+                              assign remove_locked = is_nested_line
+                              if item.instructions and item.instructions.can_remove == false
+                                assign remove_locked = true
+                              endif
+                            -%}
                             <div class="cart-item__quantity-wrapper quantity-popover-wrapper">
                               <div class="quantity-popover-container{% if has_qty_rules or has_vol_pricing %} quantity-popover-container--hover{% endif %}">
                                 <quantity-input class="quantity cart-quantity">
@@ -300,7 +314,7 @@
                                     class="quantity__button"
                                     name="minus"
                                     type="button"
-                                    {% if item.instructions and item.instructions.can_update_quantity == false %}
+                                    {% if quantity_locked %}
                                       disabled
                                     {% endif %}
                                   >
@@ -332,7 +346,7 @@
                                     aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                                     id="Drawer-quantity-{{ item.index | plus: 1 }}"
                                     data-index="{{ item.index | plus: 1 }}"
-                                    {% if item.instructions and item.instructions.can_update_quantity == false %}
+                                    {% if quantity_locked %}
                                       disabled
                                     {% endif %}
                                   >
@@ -340,7 +354,7 @@
                                     class="quantity__button"
                                     name="plus"
                                     type="button"
-                                    {% if item.instructions and item.instructions.can_update_quantity == false %}
+                                    {% if quantity_locked %}
                                       disabled
                                     {% endif %}
                                   >
@@ -366,7 +380,7 @@
                                   class="button button--tertiary cart-remove-button"
                                   aria-label="{{ 'sections.cart.remove_title' | t: title: item.title | escape }}"
                                   data-variant-id="{{ item.variant.id }}"
-                                  {% if item.instructions and item.instructions.can_remove == false %}
+                                  {% if remove_locked %}
                                     class="hidden"
                                   {% endif %}
                                 >
@@ -575,6 +589,7 @@
         <!-- CTAs -->
 
         <div class="cart__ctas" {{ block.shopify_attributes }}>
+          {%- render 'cart-terms', form_id: 'CartDrawer-Form', field_id: 'CartDrawer-terms' -%}
           <button
             type="submit"
             id="CartDrawer-Checkout"

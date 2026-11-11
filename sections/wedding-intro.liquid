@@ -1,0 +1,142 @@
+{{ 'section-wedding.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="wedding-intro gradient color-{{ section.settings.color_scheme }}">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="wedding-intro__content wedding-intro__content--{{ section.settings.text_alignment }}">
+      {%- if section.settings.image != blank -%}
+        <div class="wedding-intro__media">
+          {{
+            section.settings.image
+            | image_url: width: 2400
+            | image_tag:
+              loading: 'lazy',
+              sizes: '(min-width: 1200px) 1200px, 100vw',
+              widths: '375, 750, 1100, 1500, 2000, 2400',
+              class: 'wedding-intro__image',
+              alt: section.settings.image.alt
+          }}
+        </div>
+      {%- endif -%}
+
+      {%- if section.settings.title != blank -%}
+        <h2 class="wedding-intro__title font-script">{{ section.settings.title | escape }}</h2>
+      {%- endif -%}
+
+      {%- if section.settings.subtitle != blank -%}
+        <p class="wedding-intro__subtitle font-script">{{ section.settings.subtitle | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.content != blank -%}
+        <div class="wedding-intro__text rte">{{ section.settings.content }}</div>
+      {%- endif -%}
+
+      {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+        <a class="button button--primary" href="{{ section.settings.button_link }}">
+          {{- section.settings.button_label | escape -}}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Introduction mariage",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1800 x 800 px recommandé"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Nos forfaits mariage"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Sous-titre",
+      "default": "Trouvez votre style et contactez-nous!"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Texte du bouton"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Lien du bouton"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centre" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Introduction mariage"
+    }
+  ]
+}
+{% endschema %}

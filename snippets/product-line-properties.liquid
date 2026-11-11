@@ -1,0 +1,170 @@
+{%- doc -%}
+  Champs de propriétés de ligne ajoutés au panier avec le produit : carte de souhaits et
+  informations funéraires (selon la métadonnée custom.type_funeraire).
+  Les noms des propriétés sont fixes (ils servent aux courriels et aux bons de livraison) ;
+  seuls les libellés sont traduits.
+
+  @param {product} product - Le produit affiché
+  @param {string} product_form_id - Identifiant du formulaire produit auquel les champs sont liés
+  @param {boolean} show_card - Afficher le choix de carte
+  @param {boolean} show_funeral - Afficher les champs funéraires
+
+  @example
+  {% render 'product-line-properties', product: product, product_form_id: product_form_id, show_card: true, show_funeral: true %}
+{%- enddoc -%}
+{%- liquid
+  assign funeral_type = product.metafields.custom.type_funeraire.value
+  assign has_funeral_fields = false
+  if show_funeral and funeral_type != blank and funeral_type != 'Aucun'
+    assign has_funeral_fields = true
+  endif
+  assign has_card_field = false
+  if show_card and product.type != 'Cours'
+    assign has_card_field = true
+  endif
+  assign uid = product_form_id
+-%}
+
+{%- if has_card_field -%}
+  {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
+  <line-properties class="line-properties">
+    <fieldset class="line-properties__group product-form__input product-form__input--pill">
+      <legend class="form__label">{{ 'ombelle.product.card.legend' | t }}</legend>
+      <input
+        type="radio"
+        id="{{ uid }}-card-yes"
+        name="properties[Ajouter une carte]"
+        value="Oui"
+        form="{{ product_form_id }}"
+        data-card-choice
+        checked
+      >
+      <label for="{{ uid }}-card-yes">{{ 'ombelle.product.card.yes' | t }}</label>
+      <input
+        type="radio"
+        id="{{ uid }}-card-no"
+        name="properties[Ajouter une carte]"
+        value="Non"
+        form="{{ product_form_id }}"
+        data-card-choice
+      >
+      <label for="{{ uid }}-card-no">{{ 'ombelle.product.card.no' | t }}</label>
+    </fieldset>
+
+    <div class="line-properties__group" data-card-text-group>
+      <div class="field">
+        <textarea
+          class="text-area field__input"
+          id="{{ uid }}-card-text"
+          name="properties[Texte de la carte]"
+          form="{{ product_form_id }}"
+          rows="4"
+          maxlength="150"
+          placeholder=" "
+          data-required-property
+          data-required-message="{{ 'ombelle.product.card.text_required' | t | escape }}"
+        ></textarea>
+        <label class="field__label" for="{{ uid }}-card-text">{{ 'ombelle.product.card.text_label' | t }}</label>
+      </div>
+      <p class="line-properties__hint caption">{{ 'ombelle.product.card.text_hint' | t }}</p>
+    </div>
+  </line-properties>
+{%- endif -%}
+
+{%- if has_funeral_fields -%}
+  <div class="line-properties">
+    <div class="line-properties__group field">
+      <input
+        class="field__input"
+        type="text"
+        id="{{ uid }}-deceased-name"
+        name="properties[Nom du/de la défunt(e)]"
+        form="{{ product_form_id }}"
+        maxlength="50"
+        placeholder=" "
+      >
+      <label class="field__label" for="{{ uid }}-deceased-name">{{ 'ombelle.product.funeral.deceased_name' | t }}</label>
+    </div>
+    <div class="line-properties__group field">
+      <input
+        class="field__input"
+        type="text"
+        id="{{ uid }}-ceremony-time"
+        name="properties[Heure de la cérémonie]"
+        form="{{ product_form_id }}"
+        maxlength="50"
+        placeholder=" "
+      >
+      <label class="field__label" for="{{ uid }}-ceremony-time">{{ 'ombelle.product.funeral.ceremony_time' | t }}</label>
+    </div>
+
+    {%- case funeral_type -%}
+      {%- when 'Urne Ronde' -%}
+        <div class="line-properties__group field">
+          <input
+            class="field__input"
+            type="text"
+            id="{{ uid }}-urn-height"
+            name="properties[Hauteur de l urne]"
+            form="{{ product_form_id }}"
+            maxlength="20"
+            placeholder=" "
+          >
+          <label class="field__label" for="{{ uid }}-urn-height">{{ 'ombelle.product.funeral.urn_height' | t }}</label>
+        </div>
+        <div class="line-properties__group field">
+          <input
+            class="field__input"
+            type="text"
+            id="{{ uid }}-urn-diameter"
+            name="properties[Diamètre de l urne]"
+            form="{{ product_form_id }}"
+            maxlength="20"
+            placeholder=" "
+          >
+          <label class="field__label" for="{{ uid }}-urn-diameter">{{ 'ombelle.product.funeral.urn_diameter' | t }}</label>
+        </div>
+      {%- when 'Urne Carrée' -%}
+        <div class="line-properties__group field">
+          <input
+            class="field__input"
+            type="text"
+            id="{{ uid }}-urn-height"
+            name="properties[Hauteur de l urne]"
+            form="{{ product_form_id }}"
+            maxlength="20"
+            placeholder=" "
+          >
+          <label class="field__label" for="{{ uid }}-urn-height">{{ 'ombelle.product.funeral.urn_height' | t }}</label>
+        </div>
+        <div class="line-properties__group field">
+          <input
+            class="field__input"
+            type="text"
+            id="{{ uid }}-urn-width"
+            name="properties[Largeur de l urne]"
+            form="{{ product_form_id }}"
+            maxlength="20"
+            placeholder=" "
+          >
+          <label class="field__label" for="{{ uid }}-urn-width">{{ 'ombelle.product.funeral.urn_width' | t }}</label>
+        </div>
+        <div class="line-properties__group field">
+          <input
+            class="field__input"
+            type="text"
+            id="{{ uid }}-urn-depth"
+            name="properties[Profondeur de l urne]"
+            form="{{ product_form_id }}"
+            maxlength="20"
+            placeholder=" "
+          >
+          <label class="field__label" for="{{ uid }}-urn-depth">{{ 'ombelle.product.funeral.urn_depth' | t }}</label>
+        </div>
+    {%- endcase -%}
+  </div>
+{%- endif -%}
+
+{%- if has_card_field -%}
+  <script src="{{ 'line-properties.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}

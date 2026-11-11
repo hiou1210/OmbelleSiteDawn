@@ -1,0 +1,158 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_aihMNj": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_aihMNj-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage poétique blanc",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_aihMNj-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire-bandeau-original_-_galerie-blanc.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_fdTm3d": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire-bandeau-original_-_galerie-blanc.jpg",
+        "title": "Photos mariage poétique blanc",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 30,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_976NgD": {
+      "type": "gallery",
+      "blocks": {
+        "image_hQi3j3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-couple-arche-global-carre_d2e6865a-1a93-4b80-9a73-d95d2ed7274b.jpg"
+          }
+        },
+        "image_kGmCU9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bouquet-mariee2.jpg"
+          }
+        },
+        "image_V3Ehfj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bouquet-mariee-copyright.jpg"
+          }
+        },
+        "image_pTX3hB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-jardiniere.jpg"
+          }
+        },
+        "image_N3hJYn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-couple-balancoire.jpg"
+          }
+        },
+        "image_mDFLX8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-marie.jpg"
+          }
+        },
+        "image_tUmEUa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bouquet-demoiselle.jpg"
+          }
+        },
+        "image_hMkdyW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-couronne.jpg"
+          }
+        },
+        "image_QzqTRq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariage-poetique-blanc-boutonniere-garcon.jpg"
+          }
+        },
+        "image_CKJFFb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bracelet.jpg"
+          }
+        },
+        "image_GcKBaB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-boutonniere-marie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_hQi3j3",
+        "image_kGmCU9",
+        "image_V3Ehfj",
+        "image_pTX3hB",
+        "image_N3hJYn",
+        "image_mDFLX8",
+        "image_tUmEUa",
+        "image_hMkdyW",
+        "image_QzqTRq",
+        "image_CKJFFb",
+        "image_GcKBaB"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 5,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_aihMNj",
+    "wedding_image_overlay_fdTm3d",
+    "gallery_976NgD"
+  ]
+}

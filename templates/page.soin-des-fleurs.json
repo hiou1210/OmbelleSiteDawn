@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "soin-banniere": {
+      "type": "image-banner",
+      "blocks": {
+        "soin-banniere-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comment nous prenons soin de vos fleurs",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "soin-banniere-text": {
+          "type": "text",
+          "settings": {
+            "text": "De la réception à la livraison",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "soin-banniere-heading",
+        "soin-banniere-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bandeau-soin-des-fleurs-ombelle-fleuriste.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "soin-intro": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p>Une fleur coupée ne dure que si l'on s'en occupe dès son arrivée. À la boutique d'Ombelle Fleuriste, à Saint-Basile-le-Grand, chaque fleur reçoit, dès la réception, le traitement qui convient à sa variété, avant même d'entrer dans un bouquet.</p><p>Voici, étape par étape, ce qui se passe avant que vos fleurs soient livrées.</p>",
+        "color_scheme": "scheme-1",
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "soin-etapes-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "soin-etape-coupe-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une tige, une coupe",
+            "heading_size": "h1"
+          }
+        },
+        "soin-etape-coupe-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dès l'arrivée des fleurs, chaque tige est recoupée <strong>individuellement</strong>, en biseau, avec une lame bien affûtée et propre. Nous ne coupons jamais les tiges en paquet.</p><p>Une fleur boit par sa tige. Une coupe nette garde ouverts les canaux qui font monter l'eau. Une lame émoussée les écrase, et une lame sale y introduit des bactéries qui bloquent l'absorption : la fleur fane alors beaucoup plus vite.</p><p>Les feuilles qui se trouveraient sous la ligne d'eau sont aussi retirées, pour qu'elles ne pourrissent pas dans le seau ou le vase.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "soin-etape-coupe-heading",
+        "soin-etape-coupe-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/recoupe-tige-individuelle-ombelle-fleuriste.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "soin-etapes-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "soin-etape-eau-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une eau propre et un nutritif adapté",
+            "heading_size": "h1"
+          }
+        },
+        "soin-etape-eau-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Après la coupe, les fleurs se réhydratent pendant <strong>plusieurs heures</strong> dans une eau propre, additionnée du nutritif floral adapté à leur variété, avant d'être travaillées.</p><p>Nos seaux et nos vases sont nettoyés et désinfectés. Une eau propre compte autant que la coupe : c'est elle qui empêche les bactéries de s'installer.</p><p>Nos fleurs ne sont jamais gardées au sec en attendant d'être utilisées.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "soin-etape-eau-heading",
+        "soin-etape-eau-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/seaux-eau-propre-fleurs-ombelle-fleuriste.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "soin-etapes-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "soin-etape-froid-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "La chambre froide",
+            "heading_size": "h1"
+          }
+        },
+        "soin-etape-froid-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une fois conditionnées, les fleurs reposent dans notre <strong>chambre froide, à température contrôlée</strong>, jusqu'au moment de composer votre bouquet. Le froid ralentit leur vieillissement et préserve leur fraîcheur.</p><p>Votre commande est ensuite composée dans notre boutique, par l'équipe qui vous répond au téléphone, puis livrée directement par nous.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "soin-etape-froid-heading",
+        "soin-etape-froid-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/chambre-froide-fleurs-saint-basile-le-grand.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "soin-suite": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h2>Chaque variété a son traitement</h2><p>Toutes les fleurs ne se traitent pas de la même façon. Chaque variété a ses besoins : certaines demandent une coupe ou un nutritif particulier, d'autres doivent être conditionnées à part avant d'être mélangées aux autres. Nos fleuristes adaptent le traitement à chaque variété pour lui donner la meilleure longévité possible.</p><h2>De notre chambre froide jusqu'à vos mains</h2><p>Le soin ne s'arrête pas à la boutique. Nos fleurs sont livrées par notre propre équipe, en main propre : jamais laissées à la porte, au soleil, au froid ou sous la pluie. Si personne n'est présent, elles retournent à la boutique, au frais, et nous communiquons avec vous. Pour une livraison le jour même, passez votre commande avant 17 h en semaine ou avant 16 h la fin de semaine. Consultez notre page de <a href=\"/pages/livraison-de-fleurs\" title=\"Livraison de fleurs sur la Rive-Sud\">livraison de fleurs</a> pour les détails.</p><h2>Une fois chez vous</h2><p>Pour garder vos fleurs belles le plus longtemps possible, suivez nos <a href=\"/pages/faq\" title=\"Foire aux questions\">conseils d'entretien dans la foire aux questions</a>. Au moment de commander, demandez-nous quelles fleurs de saison tiennent le mieux.</p>",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "soin-faq": {
+      "type": "faq",
+      "blocks": {
+        "soin-faq-1": {
+          "type": "question",
+          "settings": {
+            "question": "Pourquoi recoupez-vous chaque tige une à une plutôt qu'en paquet ?",
+            "answer": "<p>Parce qu'une fleur boit par sa tige. Une coupe nette, faite avec une lame affûtée et propre, garde les canaux de la tige ouverts. Couper tout un paquet d'un coup avec une lame émoussée écrase les tiges, et une lame malpropre y introduit des bactéries qui bloquent l'absorption de l'eau : la fleur fane alors beaucoup plus vite. Chez Ombelle Fleuriste, chaque tige reçoit sa propre coupe.</p>"
+          }
+        },
+        "soin-faq-2": {
+          "type": "question",
+          "settings": {
+            "question": "Toutes les fleurs reçoivent-elles le même traitement ?",
+            "answer": "<p>Non. Chaque variété a ses besoins, et nos fleuristes adaptent le traitement (coupe, nutritif, conditionnement) à chacune pour lui donner la meilleure longévité possible.</p>"
+          }
+        },
+        "soin-faq-3": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps vos fleurs coupées vont-elles durer ?",
+            "answer": "<p>Cela dépend de la variété et de la saison : certaines fleurs sont naturellement plus éphémères que d'autres. Comme nos fleurs sont conditionnées dès leur réception et gardées au frais jusqu'à la livraison, elles arrivent chez vous prêtes à durer. Pour les garder belles le plus longtemps possible, suivez nos <a href=\"/pages/faq\" title=\"Foire aux questions\">conseils d'entretien</a>. Au moment de commander, demandez-nous quelles fleurs de saison tiennent le mieux.</p>"
+          }
+        },
+        "soin-faq-4": {
+          "type": "question",
+          "settings": {
+            "question": "Comment vos fleurs sont-elles conservées dans votre boutique ?",
+            "answer": "<p>Dès la réception, chaque tige est recoupée, les feuilles sous la ligne d'eau sont retirées et les fleurs se réhydratent plusieurs heures dans une eau propre avec le nutritif adapté à leur variété. Elles reposent ensuite dans notre chambre froide, à température contrôlée, jusqu'à ce que nous composions votre commande. Elles ne sont jamais gardées au sec.</p>"
+          }
+        },
+        "soin-faq-5": {
+          "type": "question",
+          "settings": {
+            "question": "Laissez-vous les fleurs devant la porte si personne ne répond ?",
+            "answer": "<p>Non, jamais. Nos fleurs sont livrées en main propre par l'équipe d'Ombelle Fleuriste. À moins d'avis contraire de votre part, nous appelons le destinataire avant la livraison. Si personne ne répond sur place, nous rapportons les fleurs à la boutique, où elles retournent au frais, et nous communiquons avec vous pour convenir d'une nouvelle livraison (des frais de livraison s'appliquent alors de nouveau).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "soin-faq-1",
+        "soin-faq-2",
+        "soin-faq-3",
+        "soin-faq-4",
+        "soin-faq-5"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes sur le soin des fleurs",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "soin-cta": {
+      "type": "rich-text",
+      "blocks": {
+        "soin-cta-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des fleurs soignées de la réception à la livraison",
+            "heading_size": "h1"
+          }
+        },
+        "soin-cta-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Composées dans notre boutique, livrées en main propre.</p>"
+          }
+        },
+        "soin-cta-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir nos bouquets",
+            "button_link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "soin-cta-heading",
+        "soin-cta-text",
+        "soin-cta-button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "soin-banniere",
+    "soin-intro",
+    "soin-etapes-1",
+    "soin-etapes-2",
+    "soin-etapes-3",
+    "soin-suite",
+    "soin-faq",
+    "soin-cta"
+  ]
+}

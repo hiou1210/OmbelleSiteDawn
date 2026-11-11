@@ -1,0 +1,45 @@
+/* ==========================================================================
+   FAQ
+   ========================================================================== */
+
+.faq__heading {
+  margin: 0 0 2.4rem;
+}
+
+.faq__group-heading {
+  margin: 3.2rem 0 1.2rem;
+}
+
+.faq__group-heading:first-child {
+  margin-top: 0;
+}
+
+.faq__layout {
+  display: grid;
+  gap: 2.4rem;
+}
+
+.faq__media {
+  line-height: 0;
+}
+
+.faq__media img,
+.faq__media .placeholder-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--media-radius);
+}
+
+.faq .accordion__title {
+  flex: 1;
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .faq__layout--with-image {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+}

@@ -488,6 +488,19 @@
                     block: block,
                     product_form_id: product_form_id
                   %}
+                {%- when 'vase_picker' -%}
+                  <div {{ block.shopify_attributes }}>
+                    {%- render 'product-vase-picker', product: product, product_form_id: product_form_id -%}
+                  </div>
+                {%- when 'line_properties' -%}
+                  <div {{ block.shopify_attributes }}>
+                    {%- render 'product-line-properties',
+                      product: product,
+                      product_form_id: product_form_id,
+                      show_card: block.settings.show_card,
+                      show_funeral: block.settings.show_funeral
+                    -%}
+                  </div>
                 {%- when 'buy_buttons' -%}
                   {%- render 'buy-buttons',
                     block: block,
@@ -955,6 +968,37 @@
           "id": "share_label",
           "label": "t:sections.main-product.blocks.share.settings.text.label",
           "default": "t:sections.main-product.blocks.share.settings.text.default"
+        }
+      ]
+    },
+    {
+      "type": "vase_picker",
+      "name": "Ajout d'un vase",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Affiche les vases listés dans la métadonnée de produit « vases_disponibles ». Rien ne s'affiche si elle est vide."
+        }
+      ]
+    },
+    {
+      "type": "line_properties",
+      "name": "Carte et informations funéraires",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_card",
+          "label": "Proposer l'ajout d'une carte",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_funeral",
+          "label": "Afficher les champs funéraires",
+          "info": "Selon la métadonnée de produit « type_funeraire ».",
+          "default": true
         }
       ]
     },

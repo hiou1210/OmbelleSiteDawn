@@ -1,0 +1,164 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_y63qiF": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire-bandeau-original.jpg",
+        "title": "Mariage poétique pastel",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 30,
+        "stack_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "wedding_package_NktyzR": {
+      "type": "wedding-package",
+      "blocks": {
+        "include_item_tzAUzR": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_d6fMVD": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 bouquets de demoiselle d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_UWbQAi": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de marié",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_Yn7jnB": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 boutonnières de garçons d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_FUYNiR": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de petit page",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_EpzxiG": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        }
+      },
+      "block_order": [
+        "include_item_tzAUzR",
+        "include_item_d6fMVD",
+        "include_item_UWbQAi",
+        "include_item_Yn7jnB",
+        "include_item_FUYNiR",
+        "include_item_EpzxiG"
+      ],
+      "settings": {
+        "text_position": "left",
+        "includes_title": "Ce forfait comprend:",
+        "description": "<p>De délicates petites fleurs en abondance. Un doux mélange de couleurs pastel pour exprimer la vivacité d’un amour empli de tendresse.</p>",
+        "list_icon": "✿",
+        "price": "À partir de 625$ + taxes",
+        "note": "<p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+        "button_label": "VOIR PLUS DE PHOTOS",
+        "button_link": "shopify://pages/mariage-poetique-gallerie-2",
+        "image": "shopify://shop_images/Mariage-poetique-pastel-couple-face2.jpg",
+        "image_radius": 20,
+        "color_scheme": "scheme-1",
+        "box_color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "wedding_gallery_3hyMkk": {
+      "type": "gallery",
+      "blocks": {
+        "image_TnFyqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-couple-profil-2_e217f791-27a9-4b50-95ea-ef2029db2f8f.jpg"
+          }
+        },
+        "image_MLNQKt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau1-mariage-poetique-pastel.jpg"
+          }
+        },
+        "image_PjNybr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-bouquet-mariee1-carre-copyright.jpg"
+          }
+        },
+        "image_TH6yPX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-Forfait.jpg"
+          }
+        },
+        "image_eq9xFq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-boutonniere-marie2.jpg"
+          }
+        },
+        "image_J33E3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-decor2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_TnFyqi",
+        "image_MLNQKt",
+        "image_PjNybr",
+        "image_TH6yPX",
+        "image_eq9xFq",
+        "image_J33E3b"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "wedding_image_overlay_y63qiF",
+    "wedding_package_NktyzR",
+    "wedding_gallery_3hyMkk"
+  ]
+}

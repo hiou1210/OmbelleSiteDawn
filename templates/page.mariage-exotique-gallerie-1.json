@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_W9XtD4": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_W9XtD4-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage exotique soleil du sud",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_W9XtD4-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion2-bandeau-original_-galerie-Soleil-du-sud.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_FKyenx": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion2-bandeau-original_-galerie-Soleil-du-sud.jpg",
+        "title": "Photos mariage exotique soleil du sud",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 20,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_bENQrc": {
+      "type": "gallery",
+      "blocks": {
+        "image_9Bk9Mx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariage-exotique-jaune-rouge-couple-debout.jpg"
+          }
+        },
+        "image_haCTy9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-profil-escalier.jpg"
+          }
+        },
+        "image_nqKwEr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-marie2.jpg"
+          }
+        },
+        "image_EJeiAy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion1.jpg"
+          }
+        },
+        "image_bQKKjB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-dos-escalier.jpg"
+          }
+        },
+        "image_rtik7p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-boutonniere-marie.jpg"
+          }
+        },
+        "image_FwjD4V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariage-exotique-jaune-rouge-bracelet-demoiselle.jpg"
+          }
+        },
+        "image_HL6aYG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-bracelet.jpg"
+          }
+        },
+        "image_AqKEgT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-boutonniere-garcon.jpg"
+          }
+        },
+        "image_FFWUwV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-bouquet-demoiselle.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_9Bk9Mx",
+        "image_haCTy9",
+        "image_nqKwEr",
+        "image_EJeiAy",
+        "image_bQKKjB",
+        "image_rtik7p",
+        "image_FwjD4V",
+        "image_HL6aYG",
+        "image_AqKEgT",
+        "image_FFWUwV"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 5,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_W9XtD4",
+    "wedding_image_overlay_FKyenx",
+    "gallery_bENQrc"
+  ]
+}

@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "6fd33e57-948c-4770-8d1e-4b2229b17e70": {
+      "type": "image-banner",
+      "blocks": {
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Beloeil",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Beloeil<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-heading",
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-text",
+        "6fd33e57-948c-4770-8d1e-4b2229b17e70-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-beloeil-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-beloeil-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "d74bb875-81b6-457f-8366-b90e84b8801e": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_xPzxeT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863168593__d74bb875-81b6-457f-8366-b90e84b8801e-16746141962ca3feca-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863168593__d74bb875-81b6-457f-8366-b90e84b8801e-16746141962ca3feca-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "4958271a-a381-4622-9503-08da671a6333": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xPzxeT",
+        "template--14812863168593__d74bb875-81b6-457f-8366-b90e84b8801e-16746141962ca3feca-1",
+        "template--14812863168593__d74bb875-81b6-457f-8366-b90e84b8801e-16746141962ca3feca-2",
+        "4958271a-a381-4622-9503-08da671a6333"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863168593__b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1674614206e72a65f0-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\"><em>Ombelle Fleuriste</em></a>, <strong>Fleuriste Beloeil</strong>, offre une <strong>livraison rapide et efficace le jour même</strong>. Nous faisons la livraison de fleurs fraîches, de plantes et de cadeaux dans toute la ville. Soyez assuré de la qualité de notre service, de même que de l’écoute et de la courtoisie de notre personnel.</p><p>Élégance et modernité caractérisent les <strong>bouquets et arrangements floraux</strong> confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.<br/><strong>Livraison de fleurs fraîches</strong> pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><em>toutes occasions</em></a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\"><em>mariages</em></a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\"><em>funérailles</em></a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863168593__b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1674614206e72a65f0-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863168593__b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1674614206e72a65f0-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels et les auberges (ex. : l’<a href=\"https://hotelrivegauche.ca/\" target=\"_blank\" title=\"https://hotelrivegauche.ca/\"><em>Hôtel Rive Gauche – Refuge Urbain</em></a>, le Manoir Rouville Campbell, l’<a href=\"https://www.lestroistilleuls.com/fr/accueil/\" target=\"_blank\" title=\"https://www.lestroistilleuls.com/fr/accueil/\"><em>Hôtel Trois Tilleuls</em></a> et l’<a href=\"https://www.aubergehandfield.com/\" target=\"_blank\" title=\"https://www.aubergehandfield.com/\"><em>Auberge Handfield</em></a>), les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\"><em>Hôpital Honoré-Mercier</em></a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><em>Hôpital Pierre Boucher</em></a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><em>Hôpital Charles-Le Moyne</em></a>) et les salons funéraires (ex. : le Salon Funéraire Maurice Demers Beloeil, le Salon Funéraire Maurice Demers McMasterville et le Salon Funéraire Demers Mont-Saint-Hilaire) situés à Beloeil ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863168593__b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1674614206e72a65f0-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "99e61b45-844f-4000-8e27-9c7b8fa7b725-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre boutique étend son service de livraison dans d'autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> ainsi qu'à Montréal pour les événements corporatifs et les mariages. Pour des <strong>bouquets d'une fraîcheur incomparable</strong> et des <strong>fleurs à Beloeil</strong>, <em>Ombelle Fleuriste</em> est à votre service.</p>",
+            "text_style": "body"
+          }
+        },
+        "99e61b45-844f-4000-8e27-9c7b8fa7b725-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous: 450-300-2793",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "99e61b45-844f-4000-8e27-9c7b8fa7b725-text",
+        "99e61b45-844f-4000-8e27-9c7b8fa7b725-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-beloeil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "4a8268f0-c8e6-4f97-9767-b07cf996e8c5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-beloeil-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-beloeil-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"J’ai eu un service impeccable (commande par téléphone et livraison à la porte)….  ils ont livré un bouquet magnifique en une heure! Personnel courtois, efficace, attentionné et sympathique :-)\"",
+            "heading_size": "h2",
+            "subheading": "Véronique Fleury",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-beloeil-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-beloeil-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-beloeil-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-beloeil-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-0",
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-1",
+        "template--14812863168593__4a8268f0-c8e6-4f97-9767-b07cf996e8c5-16746142255564079a-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "6fd33e57-948c-4770-8d1e-4b2229b17e70",
+    "d74bb875-81b6-457f-8366-b90e84b8801e",
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-1",
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-2",
+    "b8bf7022-ec16-4d07-bc1f-7457b98ac5ef-3",
+    "4a8268f0-c8e6-4f97-9767-b07cf996e8c5"
+  ]
+}

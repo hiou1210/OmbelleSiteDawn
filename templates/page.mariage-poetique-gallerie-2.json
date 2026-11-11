@@ -1,0 +1,179 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_xJpAeK": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_xJpAeK-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage poétique pastel",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_xJpAeK-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire-bandeau-original_-_galerie-pastel.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_mGiX4Y": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire-bandeau-original_-_galerie-pastel.jpg",
+        "title": "Photos mariage poétique pastel",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 30,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_n3Lhr7": {
+      "type": "gallery",
+      "blocks": {
+        "image_gGfQgn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-couple-profil-2.jpg"
+          }
+        },
+        "image_kxXrL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-boutonniere-marie2.jpg"
+          }
+        },
+        "image_hDcfYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-gerbe-balancoire_85a72cd8-8dde-4a4e-94d1-1e13494193b9.jpg"
+          }
+        },
+        "image_3npBxL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-bouquet-mariee1-carre-copyright.jpg"
+          }
+        },
+        "image_gfKaaF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-gerbe.jpg"
+          }
+        },
+        "image_tNgpqR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau1-mariage-poetique-pastel.jpg"
+          }
+        },
+        "image_MkBpPi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-Forfait.jpg"
+          }
+        },
+        "image_YtEnwg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-couple-face.jpg"
+          }
+        },
+        "image_CTHhJX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Coiffure-cheveux-vagues-dos-couronne.jpg"
+          }
+        },
+        "image_93hYmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau2-mariage-poetique-pastel.jpg"
+          }
+        },
+        "image_3fnRmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-decor.jpg"
+          }
+        },
+        "image_TGwFzH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-bouquet-mariee.jpg"
+          }
+        },
+        "image_RKyHBt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-bouquet-mariee2.jpg"
+          }
+        },
+        "image_xi6KaW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-pastel-marie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_gGfQgn",
+        "image_kxXrL4",
+        "image_hDcfYh",
+        "image_3npBxL",
+        "image_gfKaaF",
+        "image_tNgpqR",
+        "image_MkBpPi",
+        "image_YtEnwg",
+        "image_CTHhJX",
+        "image_93hYmw",
+        "image_3fnRmw",
+        "image_TGwFzH",
+        "image_RKyHBt",
+        "image_xi6KaW"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 5,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_xJpAeK",
+    "wedding_image_overlay_mGiX4Y",
+    "gallery_n3Lhr7"
+  ]
+}

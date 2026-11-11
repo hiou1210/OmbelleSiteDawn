@@ -1,0 +1,371 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "5a667df9-13b1-4478-b6fe-3aa7f6877825": {
+      "type": "image-banner",
+      "blocks": {
+        "5a667df9-13b1-4478-b6fe-3aa7f6877825-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Salon funéraire Demers McMasterville",
+            "heading_size": "h1",
+            "heading_is_h1": false
+          }
+        },
+        "5a667df9-13b1-4478-b6fe-3aa7f6877825-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Appelez-nous pour commander",
+            "button_link_1": "tel:14503002793",
+            "button_style_secondary_1": true,
+            "button_label_2": "Ou commandez en ligne",
+            "button_link_2": "shopify://collections/fleurs-pour-funerailles",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "5a667df9-13b1-4478-b6fe-3aa7f6877825-heading",
+        "5a667df9-13b1-4478-b6fe-3aa7f6877825-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Entete.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "2d6a5b7e-e5ab-4d26-a26f-46ae3f7ce962-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14929956503633__2d6a5b7e-e5ab-4d26-a26f-46ae3f7ce962-image-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En tant que fleuriste dévoué, nous tenons à souligner notre engagement à fournir un service exceptionnel aux familles en deuil qui choisissent nos arrangements floraux funéraires. Chez Ombelle Fleuriste, nous comprenons l'importance de ces moments délicats et nous sommes fiers d'être votre choix pour rendre hommage à vos êtres chers, notamment pour les cérémonies au <strong>Centre Funéraire Demers de McMasterville</strong>.</p><p>Situés à proximité immédiate du Centre Funéraire Demers, nous sommes en mesure de garantir une livraison rapide de nos arrangements floraux pour honorer vos proches. Notre gamme comprend une variété d'options, telles que des <strong>couronnes</strong>, des <strong>paniers et des compositions personnalisées</strong>, toutes créées avec des fleurs de la plus <strong>haute qualité</strong>.</p><p>Nous sommes conscients de l'importance des détails dans cette période délicate, et notre équipe s'engage à créer des arrangements floraux qui reflètent dignement la mémoire du défunt. Notre proximité nous permet de travailler en étroite collaboration avec nos clients pour garantir que chaque <strong>arrangement floral</strong> soit conçu avec soin et livré à temps, avec le plus grand respect.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14929956503633__2d6a5b7e-e5ab-4d26-a26f-46ae3f7ce962-image-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Description1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "38c89a3b-9f2d-4a70-b684-7cbe6ed92066": {
+      "type": "gallery",
+      "blocks": {
+        "9d74ee3a-be4a-4597-ab10-5092fee419af": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-roses-astilbe-lys_a6b41b84-1bc8-450e-a63d-f53f38e07a2c.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Arrangement-funeraire-urne-rosettes-orangees_449a8d62-c9b7-4296-981f-aeaf5ea52c15.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-funeraire-calla-orchidee-moderne-design_89b87030-0c50-45b5-8a96-9762984f2db0.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-funeraire-lys-calla-gerbera-aster-blanc-vert_973305ce-25b0-4ef7-b87a-1cc72e5188d0.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-funeraire-lys-calla-gerbera-aster-blanc-vert_973305ce-25b0-4ef7-b87a-1cc72e5188d0.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquets-roses-funeraires.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquets-roses-funeraires.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-coussin-cercueil-moderne-callas-vert-blanc_c7351351-6af2-4e63-9b00-e79826a40df4.jpg"
+          }
+        },
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-bleu_362aa751-38ff-4cc8-b1d1-0371d8dfd808.jpg"
+          }
+        },
+        "ff832922-1ee6-467b-92a4-b84cc8ace97b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-coussin-cercueil-roses-rouges_096bc4c2-3271-49c9-8d8d-fe4d2e1f6cde.jpg"
+          }
+        },
+        "52532c99-2c0e-48fd-aca2-967563698956": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-coussin-cercueil-rose-blanc-champetre_fae7a9c2-08b2-415d-b1a6-7b8bc137f7b5.jpg"
+          }
+        },
+        "e25de853-72b3-4b80-a231-705ca67cd6f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/corbeille-arrangement-funeraire-roses-tournesols-solidago-jaune-vert-champetre_5c218884-aca8-429e-ba97-3be4312114e4.jpg"
+          }
+        },
+        "872f1e87-232d-450b-8461-b4c1d887abd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/corbeille-funeraire-jardin-rose-plectranthus.jpg"
+          }
+        },
+        "36121b9e-526d-4a62-888c-974c6b0fa5d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-mum-lisianthus-muflier_ed08bc31-09e8-4a08-994f-0bbab42f7f21.jpg"
+          }
+        },
+        "d823ac9f-d24c-42fa-bd16-e19059bbefa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-orchidee-blanche-rose_76b1e613-b03a-4af0-8b93-bf47da6ab05e.jpg"
+          }
+        },
+        "4b2dd9e3-6ab3-4c40-9d68-e3025adf9934": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-orchidee-rose-rose_39f9b29a-1b1a-4215-bf3d-59955cb2f785.jpg"
+          }
+        },
+        "6061092c-e0c1-4255-a370-e45e19292c58": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-corbeille-calla-orchidee-vert-blanc_ed33c6c6-3189-475a-87b7-539b8d9ba9ca.jpg"
+          }
+        },
+        "9a038253-0b01-49d2-a957-b8aee3690d59": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gerbe-funeraire-rouge-blanc-stylise.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9d74ee3a-be4a-4597-ab10-5092fee419af",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-1",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-2",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-3",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-4",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-5",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-6",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-7",
+        "template--14929956503633__38c89a3b-9f2d-4a70-b684-7cbe6ed92066-image-8",
+        "ff832922-1ee6-467b-92a4-b84cc8ace97b",
+        "52532c99-2c0e-48fd-aca2-967563698956",
+        "e25de853-72b3-4b80-a231-705ca67cd6f7",
+        "872f1e87-232d-450b-8461-b4c1d887abd6",
+        "36121b9e-526d-4a62-888c-974c6b0fa5d7",
+        "d823ac9f-d24c-42fa-bd16-e19059bbefa3",
+        "4b2dd9e3-6ab3-4c40-9d68-e3025adf9934",
+        "6061092c-e0c1-4255-a370-e45e19292c58",
+        "9a038253-0b01-49d2-a957-b8aee3690d59"
+      ],
+      "settings": {
+        "heading": "Quelques exemples de nos realisations",
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1b0fab2d-94fd-4897-abc0-c3e43796c1dd": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14929956503633__1b0fab2d-94fd-4897-abc0-c3e43796c1dd-text_block-1": {
+          "type": "column",
+          "settings": {
+            "link_label": "Appelez-nous pour commander",
+            "link": "tel:14503002793"
+          }
+        },
+        "template--14929956503633__1b0fab2d-94fd-4897-abc0-c3e43796c1dd-text_block-2": {
+          "type": "column",
+          "settings": {
+            "link_label": "Visitez notre boutique en ligne",
+            "link": "shopify://collections/fleurs-pour-funerailles"
+          }
+        }
+      },
+      "block_order": [
+        "template--14929956503633__1b0fab2d-94fd-4897-abc0-c3e43796c1dd-text_block-1",
+        "template--14929956503633__1b0fab2d-94fd-4897-abc0-c3e43796c1dd-text_block-2"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "51d86d60-2883-4b90-bed4-f74be3eaf9c1": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_1f413cf7-76dc-4d00-ac70-71246d5aa66d.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile_38fdd179-7781-4cfc-b501-2a64de91ef60.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je voulais prendre quelques minutes ce matin pour vous remercier pour la qualité de la corbeille funéraire que j’ai achetée chez vous samedi. Elle était magnifique. Cet arrangement floral était très important pour moi et je suis vraiment ravie d’avoir commandé chez vous.\"<br/>",
+            "heading_size": "h2",
+            "subheading": "Judith N.",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_1f413cf7-76dc-4d00-ac70-71246d5aa66d.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile_38fdd179-7781-4cfc-b501-2a64de91ef60.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Wow et wow. Nous avons commandé un funéraire, il était encore plus beau que sur la photo, les fleurs superbes et le montage réalisé par une artiste. Très satisfaits, nous reviendrons assurément et vous ferons de la publicité. Merci mille fois.\"",
+            "heading_size": "h2",
+            "subheading": "Manon Tremblay",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_1f413cf7-76dc-4d00-ac70-71246d5aa66d.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile_38fdd179-7781-4cfc-b501-2a64de91ef60.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Superbe arrangement de corbeille funéraire !\"",
+            "heading_size": "h2",
+            "subheading": "Danielle Béland",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-1",
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-2",
+        "template--14929956503633__51d86d60-2883-4b90-bed4-f74be3eaf9c1-image-3"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    },
+    "fc13c2e6-47c4-434d-9d31-4fd7d08ea3da": {
+      "type": "faq",
+      "blocks": {
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison au centre funéraire Demers de McMasterville"
+          }
+        },
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-content-2": {
+          "type": "question",
+          "settings": {
+            "question": "Je n'ai pas l'option de faire livrer le dimanche pour ma cérémonie de dimanche au salon Demers de McMasterville.",
+            "answer": "<p>C'est tout à fait normal. Les bouquet sont livrés dans la journée du samedi et le salon a une pièce dédiée pour garder les fleurs plus fraiche pour la cérémonie du lendemain.</p>"
+          }
+        },
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-image-1": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-heading-1",
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-content-2",
+        "template--14929956503633__fc13c2e6-47c4-434d-9d31-4fd7d08ea3da-image-1"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "5a667df9-13b1-4478-b6fe-3aa7f6877825",
+    "2d6a5b7e-e5ab-4d26-a26f-46ae3f7ce962-1",
+    "38c89a3b-9f2d-4a70-b684-7cbe6ed92066",
+    "1b0fab2d-94fd-4897-abc0-c3e43796c1dd",
+    "51d86d60-2883-4b90-bed4-f74be3eaf9c1",
+    "fc13c2e6-47c4-434d-9d31-4fd7d08ea3da"
+  ]
+}

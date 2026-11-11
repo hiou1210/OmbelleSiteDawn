@@ -13,14 +13,42 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "hours": {
+          "type": "text",
+          "settings": {
+            "heading": "Heures d'ouverture",
+            "subtext": "<p>Lundi : Fermé<br/>Mardi : 9 h 30 - 18 h<br/>Mercredi : 9 h 30 - 18 h<br/>Jeudi : 9 h 30 - 18 h<br/>Vendredi : 9 h 30 - 18 h<br/>Samedi : 9 h - 17 h<br/>Dimanche : Fermé</p>"
+          }
+        },
+        "quick-links": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Liens rapides",
+            "menu": "menu-rapide"
+          }
+        },
+        "delivery": {
+          "type": "text",
+          "settings": {
+            "heading": "Livraison",
+            "subtext": "<p>Ombelle Fleuriste effectue la <a href=\"/pages/livraison-de-fleurs\">livraison</a> de fleurs dans les municipalités de la <a href=\"/pages/fleuriste-rive-sud\">rive sud</a> suivantes :</p><p><a href=\"/pages/fleuriste-beloeil\">Beloeil</a>, <a href=\"/pages/livraison-de-fleurs\">Boucherville</a>, <a href=\"/pages/livraison-de-fleurs\">Brossard</a>, <a href=\"/pages/fleuriste-carignan\">Carignan</a>, <a href=\"/pages/fleuriste-chambly\">Chambly</a>, <a href=\"/pages/livraison-de-fleurs\">Greenfield Park</a>, <a href=\"/pages/fleuriste-longueuil\">Longueuil</a>, <a href=\"/pages/fleuriste-mcmasterville\">McMasterville</a>, <a href=\"/pages/fleuriste-mont-saint-hilaire\">Mont-Saint-Hilaire</a>, <a href=\"/pages/fleuriste-otterburn-park\">Otterburn Park</a>, <a href=\"/pages/livraison-de-fleurs\">St-Amable</a>, <a href=\"/pages/fleuriste-saint-basile-le-grand\">St-Basile-le-Grand</a>, <a href=\"/pages/fleuriste-saint-bruno-de-montarville\">St-Bruno-de-Montarville</a>, <a href=\"/pages/livraison-de-fleurs\">St-Charles-sur-Richelieu</a>, <a href=\"/pages/fleuriste-saint-hubert\">St-Hubert</a>, <a href=\"/pages/fleuriste-sainte-julie\">Ste-Julie</a>, <a href=\"/pages/fleuriste-saint-lambert\">St-Lambert</a>, <a href=\"/pages/livraison-de-fleurs\">St-Marc-sur-Richelieu</a>, <a href=\"/pages/livraison-de-fleurs\">Saint-Mathieu-de-Beloeil</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "hours",
+        "quick-links",
+        "delivery"
+      ],
       "settings": {
-        "color_scheme": "scheme-e7acc8af-8666-4064-9524-30ba1336c06e",
+        "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Abonnez-vous à notre infolettre",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,

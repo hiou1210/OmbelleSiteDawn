@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "10520057-03cf-4cf8-bbfd-ec8a8af4e786": {
+      "type": "image-banner",
+      "blocks": {
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste {{ page.metafields.custom.city_definition.value.city_name.value }}",
+            "heading_size": "h1",
+            "heading_is_h1": false
+          }
+        },
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander Maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-heading",
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-text",
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-buttons"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.city_definition.value.banner.value }}",
+        "mobile_image": "{{ page.metafields.custom.city_definition.value.mobile_banner.value }}",
+        "hide_without_image": true,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "001fbcdb-2c63-4ae1-b5eb-aab3d132ff43": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "567638fa-407a-4143-9d1a-cfd49c66a102": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-0",
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-1",
+        "template--14826887282769__001fbcdb-2c63-4ae1-b5eb-aab3d132ff43-1677454566713eb16d-2",
+        "567638fa-407a-4143-9d1a-cfd49c66a102"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de fleurs à {{ page.metafields.custom.city_definition.value.city_name.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.city_definition.value.text_1 | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-0-heading",
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-0-text"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.city_definition.value.image_1.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.city_definition.value.text_2 | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14826887282769__b42ba8b8-4687-4266-8151-0b095020eaf8-1677454615146fa17a-1-text"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.city_definition.value.image_2.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "e453e26b-8ed0-420b-b2b3-5b8e1a62524e-text": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.city_definition.value.text_3 | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "e453e26b-8ed0-420b-b2b3-5b8e1a62524e-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous : 450 300-2793",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "e453e26b-8ed0-420b-b2b3-5b8e1a62524e-text",
+        "e453e26b-8ed0-420b-b2b3-5b8e1a62524e-button"
+      ],
+      "settings": {
+        "image": "{{ page.metafields.custom.city_definition.value.image_3.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b872f14b-0fe4-41f7-af0a-b053fbed383a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ page.metafields.custom.city_definition.value.testemonial_image_1.value }}",
+            "mobile_image": "{{ page.metafields.custom.city_definition.value.testemonial_mobile_image_1.value }}",
+            "image_overlay_opacity": 40,
+            "heading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_text_1 | metafield_tag }}",
+            "heading_size": "h2",
+            "subheading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_author_1.value }}",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-1": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ page.metafields.custom.city_definition.value.testemonial_image_2.value }}",
+            "mobile_image": "{{ page.metafields.custom.city_definition.value.testemonial_mobile_image_2.value }}",
+            "image_overlay_opacity": 40,
+            "heading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_text_2 | metafield_tag }}",
+            "heading_size": "h2",
+            "subheading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_author_2.value }}",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-2": {
+          "type": "slide",
+          "settings": {
+            "image": "{{ page.metafields.custom.city_definition.value.testemonial_image_3.value }}",
+            "mobile_image": "{{ page.metafields.custom.city_definition.value.testemonial_mobile_image_3.value }}",
+            "image_overlay_opacity": 40,
+            "heading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_text_3 | metafield_tag }}",
+            "heading_size": "h2",
+            "subheading": "{{ page.metafields.custom.city_definition.value.testemonial_texts.value.testemonial_author_3.value }}",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-0",
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-1",
+        "template--14826887282769__b872f14b-0fe4-41f7-af0a-b053fbed383a-1677454637f4f91ae1-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "10520057-03cf-4cf8-bbfd-ec8a8af4e786",
+    "001fbcdb-2c63-4ae1-b5eb-aab3d132ff43",
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-1",
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-2",
+    "b42ba8b8-4687-4266-8151-0b095020eaf8-3",
+    "b872f14b-0fe4-41f7-af0a-b053fbed383a"
+  ]
+}

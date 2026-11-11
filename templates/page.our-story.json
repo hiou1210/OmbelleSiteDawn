@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false
+      }
+    },
+    "1631290044df65917f": {
+      "type": "image-banner",
+      "blocks": {
+        "1631290044df65917f-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Iconic design, sound excellence",
+            "heading_size": "h1",
+            "heading_is_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1631290044df65917f-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/turbo-seoul-social-share-image_193537bc-2332-40b5-bf81-3439ee238892.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "right",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "right",
+        "show_text_below": false
+      }
+    },
+    "16312923392302255c-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "16312923392302255c-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "People are listening",
+            "heading_size": "h1"
+          }
+        },
+        "16312923392302255c-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since 1925 Bang & Olufsen has created iconic audio and home entertainment products to the highest standards of sound, craft and design.</p>",
+            "text_style": "body"
+          }
+        },
+        "16312923392302255c-0-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our blog",
+            "button_link": "shopify://blogs/nouveautes-trucs-astuces"
+          }
+        }
+      },
+      "block_order": [
+        "16312923392302255c-0-heading",
+        "16312923392302255c-0-text",
+        "16312923392302255c-0-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/speaker-wood.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16312926738c03ebbe": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/3buds.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "164850833309ba8695": {
+      "type": "newsletter",
+      "blocks": {
+        "164850833309ba8695-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Abonnez-vous à notre infolettre",
+            "heading_size": "h1"
+          }
+        },
+        "164850833309ba8695-paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Soyez les premiers informés de nos nouveautés, de nos conseils et de nos offres spéciales.</p>"
+          }
+        },
+        "164850833309ba8695-email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "164850833309ba8695-heading",
+        "164850833309ba8695-paragraph",
+        "164850833309ba8695-email-form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1631290044df65917f",
+    "16312923392302255c-1",
+    "16312926738c03ebbe",
+    "164850833309ba8695"
+  ]
+}

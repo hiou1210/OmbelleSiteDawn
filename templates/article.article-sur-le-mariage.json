@@ -1,0 +1,349 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_AnBhYb": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/header-conseil-mariage-fleuri.png",
+        "title": "Vous rêvez d’un mariage fleuri? Par où commencer?",
+        "title_is_h1": true,
+        "subtitle": "<p>Conseils et inspirations pour créer un décor floral à votre image</p>",
+        "button_1_label": "Débutons ensemble",
+        "text_position": "left",
+        "text_align": "center",
+        "overlay_opacity": 20,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "article_mariage_content_KenYNn": {
+      "type": "article-mariage-content",
+      "blocks": {
+        "retain_item_F7RDH7": {
+          "type": "retain_item",
+          "settings": {
+            "text": "<p>Le thème et les couleurs de votre mariage permettent au fleuriste de bien vous conseiller dans la sélection de vos fleurs.</p>"
+          }
+        },
+        "retain_item_eVftDJ": {
+          "type": "retain_item",
+          "settings": {
+            "text": "<p>Le lieu de votre mariage représente le décor dans lequel vous souhaitez vous marier. La décoration florale ainsi que les fleurs pour le cortège s'harmoniseront avec le lieu que vous avez choisi.</p>"
+          }
+        },
+        "retain_item_WR3b9U": {
+          "type": "retain_item",
+          "settings": {
+            "text": "<p>Les tenues du mariage, leur style et leur couleur ont une influence directe sur votre choix de bouquets et d'accessoires floraux pour les mariés et le cortège.</p>"
+          }
+        },
+        "retain_item_rVa87p": {
+          "type": "retain_item",
+          "settings": {
+            "text": "<p>Le fleuriste transforme vos idées en réalité, prenant soin de fleurir votre mariage à votre image. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "retain_item_F7RDH7",
+        "retain_item_eVftDJ",
+        "retain_item_WR3b9U",
+        "retain_item_rVa87p"
+      ],
+      "settings": {
+        "breadcrumb": true,
+        "use_article_content": false,
+        "intro_text": "<p>Vous avez dit « oui » à la grande demande! La salle est réservée et le menu choisi. Le DG qui animera la soirée a été sélectionné et vos lettres d’invitation sont envoyées. Vous avez déjà en main beaucoup d’informations qui seront utiles pour votre fleuriste. <br/><br/>La table est donc mise pour discuter avec nous de ce que vous imaginez, de l’atmosphère unique que vous souhaitez créer pour ce jour magique et mémorable. Voyons ensemble les principaux points que nous aborderons avec vous.</p>",
+        "conseil_color_scheme": "scheme-2",
+        "retain_title": "À retenir",
+        "retain_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "text_with_wrapped_image_p9DJKK": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le thème, les couleurs et le lieu de votre mariage",
+        "heading_level": "h2",
+        "text": "<p>Quel est le thème de votre mariage? Est-ce un mariage de style classique, champêtre, romantique? Que vous vous marriez à l’église, à la Mairie ou dans un tout autre endroit, le lieu de la cérémonie ne déterminera pas votre style de mariage. C’est le lieu de votre réception qui sera en parfaite harmonie avec le thème de votre mariage. Mariage de style champêtre : une fermette à la campagne, un verger, un vignoble. Mariage classique : une jolie salle de réception à l’hôtel, un grand restaurant, un club de golf. Mariage romantique : pourquoi pas dans un manoir ou un château? Mariage à la maison : la cour arrière de votre demeure peut se transformer en un véritable jardin de rêve! Où vous recevrez vos invités, vous ferez la fête, danserez et vous amuserez. C’est là que vos fleurs seront à l’honneur.<br/><br/>Mais le lieu n’est pas tout! Quelles sont les couleurs de votre mariage? Avez-vous déjà choisi une palette de couleurs? Y a-t-il des couleurs que vous préférez? Sans doute, car nous avons tous et chacun notre personnalité. Et vos choix de couleur reflèteront l’unicité de votre mariage. Pour vous inspirer, les médias sociaux et les revues de mariage spécialisées sont d’excellentes sources! Ils regorgent d’idées simples et parfois rocambolesques. Il faut simplement démêler le tout et voir avec vous ce qui vous anime et vous plaît vraiment.<br/></p>",
+        "image": "shopify://shop_images/theme-mariage.png",
+        "image_position": "left",
+        "image_width": 550,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_9FUrHL": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "La robe de la mariée, le costume du marié et les habits du cortège (style et couleur)",
+        "heading_level": "h2",
+        "text": "<p>Si la robe de la mariée et le costume du marié sont déjà choisis, c’est parfait! Car le style et la couleur de chacun des vêtements ont une influence directe sur le bouquet de la mariée et la boutonnière du marié. <br/>[CONSEIL]Commençons par le bouquet. Dépendamment du modèle de la robe, de sa couleur, de son ampleur et de son tissu, notre <strong>fleuriste</strong> vous conseillera différents styles de bouquet et des fleurs qui feront en sorte que vous serez  à l’avant-scène et non le bouquet, aussi petit ou gros soit-il et souhaité! Une robe blanche avec un bouquet de roses blanches : un classique. Avez-vous déjà remarqué que les roses blanches ne sont jamais aussi blanches que la robe? Sur les photos, le bouquet paraît crème ou jaunâtre… Et la robe, d’un blanc pur! Une robe de mariée en dentelle avec un bouquet en cascade garni de fougères asparagus. C’est romantique et féérique, mais beaucoup moins lorsque les petites épines de fougère s’accrochent à tout moment dans votre dentelle! <br/><br/>Pour la boutonnière du marié, la couleur du costume, notamment du veston, ainsi que celle des accessoires tels que la veste, la cravate ou le nœud papillon, auront une forte influence sur la couleur des fleurs. Le costume du marié est bleu marine. Sa boutonnière ne contiendra pas de fleurs bleu foncé, car elles ne seront pas visibles. L’accessoire est orangé, on répètera cette couleur dans la <strong>boutonnière</strong> et aussi dans le bouquet de la mariée afin de créer l’harmonie. Et le tout en concordance avec les couleurs de votre mariage!<br/><br/>Et n’oublions pas le cortège! Les demoiselles d’honneur, les garçons d’honneur, la bouquetière et le petit page seront aussi vêtus de jolis vêtements, robes et costumes, aux couleurs qui s’agencent avec celles de votre mariage. <br/></p>",
+        "image": "shopify://shop_images/robe-mariee-couleur.jpg",
+        "image_position": "right",
+        "image_width": 550,
+        "show_conseil": true,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_text": "<p>Un bouquet composé uniquement de  roses blanches paraît souvent crème en photo à côté d'une robe blanche éclatante. Alterner les roses blanches à d'autres variétés de fleurs blanches telles que des renoncules, lisianthus, chrysanthèmes et petites fleurs de légèreté  atténuera cet effet grâce aux différentes  nuances de blanc qui composeront votre bouquet.</p>",
+        "conseil_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "padding_top": 60,
+        "padding_bottom": 52
+      }
+    },
+    "text_with_wrapped_image_Q9ipRE": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Choisir les fleurs de son mariage",
+        "heading_level": "h2",
+        "text": "<p>Le jour de votre mariage, c’est votre jour. Celui dont vous avez rêvé, celui qui célèbre l’amour que vous éprouvez et souhaitez déclarer, devant tous et chacun, pour votre partenaire de vie. Que votre événement soit intime ou de grande envergure, le décor floral se doit d’être à la hauteur de vos aspirations. Le bouquet de la mariée, les accessoires floraux, la <strong>décoration de la cérémonie et de la réception</strong> : tous les arrangements floraux contribuent à raconter votre histoire d'amour. Voici une liste de bouquets, d'arrangements floraux et d'accessoires qui pourront embellir votre cérémonie.</p>",
+        "image": "shopify://shop_images/choix-fleurs.png",
+        "image_position": "left",
+        "image_width": 250,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_f3HLQm": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le bouquet de la mariée : différents styles à découvrir",
+        "heading_level": "h3",
+        "text": "<p>Le style de bouquet de mariée que vous choisirez dépendra de nombreux facteurs : votre morphologie, le style de votre robe, le thème et les couleurs de votre mariage, et bien sûr, vos préférences personnelles. Voici une liste des modèles de bouquet les plus populaires :</p>",
+        "image_position": "left",
+        "image_width": 400,
+        "show_conseil": false,
+        "conseil_title": "Le bouquet de la mariée : différents styles à découvrir",
+        "conseil_text": "<p>Le style de bouquet de mariée que vous choisirez dépendra de nombreux facteurs : votre morphologie, le style de votre robe, le thème et les couleurs de votre mariage, et bien sûr, vos préférences personnelles. Voici une liste des modèles de bouquet les plus populaires :</p>",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_p8nGYD": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le bouquet rond : un classique qui traverse le temps",
+        "heading_level": "h4",
+        "text": "<p>Compact et symétrique, le bouquet rond est composé de fleurs serrées les unes contre les autres formant presque une sphère. Il convient à tous les styles de mariage, du traditionnel au moderne. Peu importe votre robe de mariée, il apporte une touche intemporelle à votre tenue. Les roses, les rosettes et les renoncules sont des fleurs parfaites pour créer ce style.</p>",
+        "image": "shopify://shop_images/bouquet-rond.jpg",
+        "image_position": "right",
+        "image_width": 250,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_dWtHcV": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le bouquet cascade : le romantisme dans toute sa beauté",
+        "heading_level": "h4",
+        "text": "<p>Élégant et spectaculaire, le bouquet cascade retombe gracieusement vers le bas, créant un effet dramatique. Ce style de bouquet convient particulièrement aux <strong>robes de mariée princesse</strong> ou aux robes longues et simples. Il peut inclure des fleurs tombantes comme des orchidées et des mini callas, et bien entendu du feuillage tel de l’eucalyptus ou du lierre qui lui donne une touche poétique.</p>",
+        "image": "shopify://shop_images/bouquet-cascade.png",
+        "image_position": "right",
+        "image_width": 250,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_Ajxrwb": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le bouquet champêtre : une profusion de petites fleurs des champs",
+        "heading_level": "h4",
+        "text": "<p>Parfait pour les mariages en plein air, à la campagne, ce style de bouquet mise sur un aspect simple et spontané. Les fleurs et  feuillages sont arrangés de façon organique, donnant l'impression d'avoir été fraîchement cueillis dans un champ. On y retrouve souvent un mélange de textures et de variétés : marguerites, matricaires, véroniques, eryngiums, (pour ne nommer que ces fleurs), herbes aromatiques, branchages, graminées et même des fleurs séchées. C'est le choix idéal pour une mariée à la recherche d'un look naturel et décontracté.</p>",
+        "image": "shopify://shop_images/bouquet-champetre.jpg",
+        "image_position": "right",
+        "image_width": 250,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_eM36Rp": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Le bouquet bohème : l’asymétrie et le mouvement dans toute sa splendeur",
+        "heading_level": "h4",
+        "text": "<p>Parfois léger, parfois volumineux, le <strong>bouquet bohème</strong> se distingue par sa forme asymétrique et le choix des fleurs et feuillages qui créent son mouvement. D’aspect naturel, le bouquet se compose de fleurs qui ne suivent pas de lignes clairement définies, tantôt à gauche, tantôt à droite. Certaines s’élèvent au-dessus des autres, d’autres s’enfoncent au creux du bouquet, créant un effet de profondeur. Les textures sont privilégiées, la forme et les différentes grosseurs de fleurs également. Pivoines, lisianthus, roses, rosettes, renoncules, scabiosas, eucalyptus : tout est profusion et déséquilibre.</p>",
+        "image": "shopify://shop_images/bouquet-boheme.jpg",
+        "image_position": "right",
+        "image_width": 250,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_zhzLnW": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Les accessoires floraux pour les mariés, les membres du cortège et la famille",
+        "heading_level": "h3",
+        "text": "<p>Outre le bouquet de la mariée, il ne faut pas oublier les autres éléments floraux qui complètent l'ensemble : la boutonnière du marié et celle des garçons d’honneur, les <strong>bouquets des demoiselles d’honneur</strong>, le bouquet à lancer si la mariée souhaite conserver le sien, le panier de pétales pour la bouquetière, le coussin d’alliances fleuri pour le petit page, etc.<br/><br/>Peut-être souhaiterez-vous que les mères des mariés portent un bracelet de fantaisie fleuri et que les pères apposent aussi une boutonnière à leur veston? Aurez-vous besoin d’un accessoire pour les cheveux? Couronne ou peigne fleuri? Ou de quelques fleurs sur tige à insérer dans vos cheveux? Ce ne sont là que quelques suggestions d’éléments que nous pouvons créer pour agrémenter votre tenue.<br/></p>",
+        "image": "shopify://shop_images/accessoires-mariage.jpg",
+        "image_position": "left",
+        "image_width": 400,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_kGjeHy": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Les décorations florales pour la cérémonie et la réception",
+        "heading_level": "h3",
+        "text": "<p>Les fleurs ne se limitent pas au bouquet de la mariée ni aux accessoires floraux. Elles peuvent transformer complètement l'ambiance de votre célébration et de votre réception en créant un environnement parfumé et coloré mémorable pour vous et vos invités. </p>",
+        "image_position": "left",
+        "image_width": 400,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_7ELcLe": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "L'arche nuptiale : le lieu de votre union",
+        "heading_level": "h4",
+        "text": "<p>Plusieurs mariés qui choisissent d’unir leur destinée en plein air ou dans une <strong>salle de réception</strong> le feront sous ou devant une arche nuptiale. L’arche peut déjà être présente sur le site de la réception ou encore être louée et installée pour le jour du mariage. Point focal de la cérémonie, l'arche encadre magnifiquement l'échange des vœux des mariés. L’arche peut être entièrement recouverte de fleurs et de feuillages pour un effet luxuriant ou encore être décorées de <strong>gerbes florales</strong>, de rubans, de voilages, etc. Tout est possible, avec des fleurs naturelles ou des fleurs de soie, selon vos goûts et préférences, en harmonie avec le thème et les couleurs de votre mariage.</p>",
+        "image": "shopify://shop_images/arche-floral.png",
+        "image_position": "right",
+        "image_width": 400,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_Wr3Lx4": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Les bancs d'église ou les chaises de cérémonie",
+        "heading_level": "h4",
+        "text": "<p>De jolies fleurs attachées avec des rubans aux bancs d’église ou aux chaises de cérémonie créent à merveille un chemin enchanteur vers l'autel ou l’arche nuptial. Ces petits bouquets ou gerbes florales composés de roses, hydrangées ou pivoines par exemple, agrémentés de soupir de bébé et d’un feuillage retombant, peuvent être détachés des bancs ou des chaises une fois la cérémonie terminée. On les dispose alors sur la table d’honneur des mariés de façon à former un chemin de table décoratif.</p>",
+        "image": "shopify://shop_images/chaises-fleuries.png",
+        "image_position": "left",
+        "image_width": 200,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_NmHn4i": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "La table d’honneur et les tables des invités",
+        "heading_level": "h4",
+        "text": "<p>La <strong>table d’honneur des mariés</strong> mérite une attention particulière. La décorer d’une longue guirlande florale courant le long de la table (pensons à la récupération des fleurs qui ont décoré les bancs d’église ou les chaises de cérémonie), de bouquets généreux placés aux extrémités ou de petits arrangements dispersés la rendent digne d’un conte de fées!</p><p>Pour les tables des invités, une multitude de possibilités s’offrent à vous : arrangements hauts qui créent de l'impact visuel, compositions basses et étalées qui facilitent la conversation entre convives ou un mélange des deux pour créer du dynamisme. On peut varier les hauteurs, les formes et types de contenants pour créer un effet original et naturel.<br/></p>",
+        "image": "shopify://shop_images/table-honneur-fleurie.jpg",
+        "image_position": "right",
+        "image_width": 550,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_wNHyKf": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Combien coûtent les bouquets et les fleurs pour un mariage?",
+        "heading_level": "h2",
+        "text": "<p>Les fleurs pour un mariage, tout petit ou grandiose soit-il, occasionnent des coûts comme la location de la salle, l’achat de la robe de la mariée et les services d’un photographe. Avant tout, fixez-vous un budget et validez avec la fleuriste si celui-ci est réaliste. Posez-vous des questions. Quels sont les bouquets et accessoires floraux les plus importants pour votre mariage? Est-ce que le lieu de la cérémonie et celui de la réception doivent être fleuris (<strong>arche nuptiale</strong>, <strong>centres de table</strong>, etc.)? Si oui, de fleurs naturelles ou artificielles? Est-ce possible de louer une arche nuptiale garnie de fleurs de soie et des centres de table confectionnés de fleurs artificielles? Bien sûr! Et est-ce possible de récupérer les fleurs de la cérémonie pour la réception? Bien entendu comme nous l’avons mentionné plus haut dans cet article. Il y a de multiples possibilités qui peuvent diminuer les coûts associés au fleurissement de votre mariage. <br/><br/>Mais pour avoir une petite idée des coûts, on peut faire une extrapolation. Si un bouquet simple de taille moyenne, contenant des fleurs et du feuillage, acheté pour un anniversaire par exemple, coûte une cinquantaine de dollars chez le fleuriste, celui d’un bouquet de mariée où les fleurs sont soit plus serrées les unes contre les autres, soit plus raffinées, soit en plus grand nombre, coûtera entre 150 et 300 $. Si le coût d’un bouquet de mariée se situe entre 150 et 300$, imaginez le coût pour fleurir totalement une arche nuptiale de fleurs naturelles! Certains mariés opteront alors pour le bouquet de la mariée et les fleurs du cortège (boutonnières, bouquets de demoiselles d’honneur, bracelets fleuris, etc.). Nous proposons plusieurs <a href=\"/pages/forfaits-mariage\" title=\"Forfaits Mariage\"><strong>forfaits mariages</strong></a> en ce sens sur notre site Web qui sont modifiables et peuvent être ajustés en fonction des attentes et des besoins des futurs mariés. L’important dans cet exercice de calcul des coûts, c’est de demeurer réaliste dans vos choix et d’être confortable avec votre décision, car il s’agit de votre mariage, d’un moment heureux dont le souvenir restera à jamais gravé dans votre mémoire et votre cœur. <br/></p>",
+        "image_position": "left",
+        "image_width": 400,
+        "show_conseil": false,
+        "conseil_title": "Combien coûtent les bouquets et les fleurs pour un mariage?",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "text_with_wrapped_image_K7tbE8": {
+      "type": "text-with-wrapped-image",
+      "settings": {
+        "title": "Les fleurs de votre mariage : une source de bonheur",
+        "heading_level": "h2",
+        "text": "<p>Les fleurs que vous choisirez pour votre mariage seront porteuses d’amour et de joie. Peu importe le thème et les couleurs de votre mariage, elles créeront un décor de rêve et mémorable. Elles apporteront une touche de couleur, d’élégance et de mouvement à vos tenues et votre événement. Vous les tiendrez dans vos mains, les porterez à votre veston ou à votre poignet, humerez leurs parfums et vous les admirerez lors de votre cérémonie et votre réception. Les fleurs sont magiques, car elles suscitent le sourire. Elles contribuent au bonheur, au vôtre, à celui des nouveaux mariés!<br/><br/>Chaque mariage est unique. Si certaines questions demeurent ou si vous souhaitez être accompagné(e), n’hésitez pas à <a href=\"/pages/contact\" title=\"Contact\"><strong>nous écrire</strong></a>.</p>",
+        "image": "shopify://shop_images/mariage-bonheur.jpg",
+        "image_position": "left",
+        "image_width": 300,
+        "show_conseil": false,
+        "conseil_title": "Conseil de fleuriste",
+        "conseil_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "wedding_image_overlay_AnBhYb",
+    "article_mariage_content_KenYNn",
+    "text_with_wrapped_image_p9DJKK",
+    "text_with_wrapped_image_9FUrHL",
+    "text_with_wrapped_image_Q9ipRE",
+    "text_with_wrapped_image_f3HLQm",
+    "text_with_wrapped_image_p8nGYD",
+    "text_with_wrapped_image_dWtHcV",
+    "text_with_wrapped_image_Ajxrwb",
+    "text_with_wrapped_image_eM36Rp",
+    "text_with_wrapped_image_zhzLnW",
+    "text_with_wrapped_image_kGjeHy",
+    "text_with_wrapped_image_7ELcLe",
+    "text_with_wrapped_image_Wr3Lx4",
+    "text_with_wrapped_image_NmHn4i",
+    "text_with_wrapped_image_wNHyKf",
+    "text_with_wrapped_image_K7tbE8"
+  ]
+}

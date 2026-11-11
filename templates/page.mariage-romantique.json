@@ -1,0 +1,397 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_GLaGpg": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau.jpg",
+        "title": "Mariage romantique rouge",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 25,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_overlay_BEb6id": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_BEb6id-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mariage romantique",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_BEb6id-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_package_PrXBdp": {
+      "type": "wedding-package",
+      "blocks": {
+        "include_item_XtQCic": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_d6abAM": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 bouquets de demoiselle d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_kgtNrn": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de marié",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_DefDBf": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 boutonnières de garçons d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_jKWMNF": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de petit page",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_ei463U": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 panier de pétales de bouquetière",
+            "item_icon": "✿"
+          }
+        }
+      },
+      "block_order": [
+        "include_item_XtQCic",
+        "include_item_d6abAM",
+        "include_item_kgtNrn",
+        "include_item_DefDBf",
+        "include_item_jKWMNF",
+        "include_item_ei463U"
+      ],
+      "settings": {
+        "text_position": "left",
+        "includes_title": "Ce forfait comprend:",
+        "description": "<p>Amour romantique. Du rouge écarlate au bourgogne profond. La passion dévoilée sous son plus beau jour.</p>",
+        "list_icon": "✿",
+        "price": "À partir de 625$ + taxes",
+        "note": "<p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+        "button_label": "VOIR PLUS DE PHOTOS",
+        "button_link": "shopify://pages/mariage-romantique-gallerie-1",
+        "image": "shopify://shop_images/Mariage-romantique-rouge-couple-blanc-fleuri-3.jpg",
+        "image_radius": 20,
+        "color_scheme": "scheme-1",
+        "box_color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_text_ia9kdB": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_ia9kdB-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 1 - Romantique Rouge",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_ia9kdB-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La force du rouge pour exprimer son amour. Un amour sincère et ardent.<br/>La rose au cœur d'un amour éternel. Des fleurs rouges pour dire à sa tendre moitié : <br/>\"Je t'aime\".</p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_ia9kdB-heading",
+        "featured_text_ia9kdB-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_pYVwmD-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_Qyryg4-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 625$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_Qyryg4-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-romantique-gallerie-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qyryg4-text",
+        "image_Qyryg4-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rouge-couple-blanc-fleuri-3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_JbaNwQ": {
+      "type": "gallery",
+      "blocks": {
+        "image_hFpHQr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee2.jpg"
+          }
+        },
+        "image_BHw8hH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bracelet.jpg"
+          }
+        },
+        "image_wq6KUf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-Forfait.jpg"
+          }
+        },
+        "image_eKwfB3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-gerbe-lampadaire.jpg"
+          }
+        },
+        "image_nqTcdQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-marie_5025905a-5341-41c3-a56d-5344098a9393.jpg"
+          }
+        },
+        "image_AdpRy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee-Forfait.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_hFpHQr",
+        "image_BHw8hH",
+        "image_wq6KUf",
+        "image_eKwfB3",
+        "image_nqTcdQ",
+        "image_AdpRy6"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_text_Uj3ccm": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_Uj3ccm-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 2 - Romantique Rose",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_Uj3ccm-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tendresse, douceur et affection.<br/>Une abondance de fleurs rose et violette au cœur d'un mariage romanesque. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_Uj3ccm-heading",
+        "featured_text_Uj3ccm-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_H7mNce-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_cKf4F7-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 625$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_cKf4F7-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-romantique-gallerie-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_cKf4F7-text",
+        "image_cKf4F7-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-mariee-chute-visage.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_GxMGcn": {
+      "type": "gallery",
+      "blocks": {
+        "image_TR437k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-mariee-banc-fleuri2.jpg"
+          }
+        },
+        "image_jcd83J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bracelet-demoiselle.jpg"
+          }
+        },
+        "image_4hKxGT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-Forfait.jpg"
+          }
+        },
+        "image_ybmtFq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-mariee-chute.jpg"
+          }
+        },
+        "image_tmzUpL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-marie.jpg"
+          }
+        },
+        "image_gNGm6J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-demoiselle.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_TR437k",
+        "image_jcd83J",
+        "image_4hKxGT",
+        "image_ybmtFq",
+        "image_tmzUpL",
+        "image_gNGm6J"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "wedding_image_overlay_GLaGpg",
+    "image_with_text_overlay_BEb6id",
+    "wedding_package_PrXBdp",
+    "featured_text_ia9kdB",
+    "image_text_pYVwmD-1",
+    "gallery_JbaNwQ",
+    "featured_text_Uj3ccm",
+    "image_text_H7mNce-1",
+    "gallery_GxMGcn"
+  ]
+}

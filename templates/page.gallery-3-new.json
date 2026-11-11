@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true
+      }
+    },
+    "main-gallery": {
+      "type": "gallery",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nevada2.png"
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/promo-blouse.jpg"
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flo1.jpg"
+          }
+        },
+        "a65ba00a-262a-494b-8134-1b4cf013d42b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/diamond-ringl.jpg"
+          }
+        },
+        "f4edef7a-9b8a-41f6-b078-a282abfab915": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nevada.png"
+          }
+        },
+        "7eb5952a-0f4d-45e3-97a7-5209fda4cdde": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/promo-outside_8eeedcaf-5e2c-40f3-aacb-71ef35942204.jpg"
+          }
+        },
+        "f68ce0c3-6daf-4c87-8d86-0b004479e7f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/orchids.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "a65ba00a-262a-494b-8134-1b4cf013d42b",
+        "f4edef7a-9b8a-41f6-b078-a282abfab915",
+        "7eb5952a-0f4d-45e3-97a7-5209fda4cdde",
+        "f68ce0c3-6daf-4c87-8d86-0b004479e7f2"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "main-gallery"
+  ]
+}

@@ -1,0 +1,153 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true
+      }
+    },
+    "main-gallery": {
+      "type": "gallery",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-headphones-girl.jpg"
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FP-beige.jpg"
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FP-inear.jpg"
+          }
+        },
+        "block-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/theme-feat2.jpg"
+          }
+        },
+        "block-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/woman-coffee_20c03a9a-c736-4e6d-ae4b-4f021e926bbd.jpg"
+          }
+        },
+        "block-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/NL-popup2.jpg"
+          }
+        },
+        "block-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Material_DH3.jpg"
+          }
+        },
+        "block-8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pkbuds2.jpg"
+          }
+        },
+        "block-9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/closeup2.jpg"
+          }
+        },
+        "block-10": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/snap-cu_a191bf66-0caf-4b42-8262-738c73a5f5de.jpg"
+          }
+        },
+        "a5bc15ee-9b7c-43a9-855b-09794ca431ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-S8.jpg"
+          }
+        },
+        "53d4d7b0-b768-45e2-8fce-ce8ff0e5efff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/green-round.jpg"
+          }
+        },
+        "1322e67e-f3f7-434d-af3b-f0f40a27309c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/guy-paper.jpg"
+          }
+        },
+        "154b21c4-ba39-44a9-a210-ee0ea109cfaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H6-mega.jpg"
+          }
+        },
+        "fd5fd79b-7992-4738-bf1a-c0faa458351d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/headphone-mm.jpg"
+          }
+        },
+        "d728a730-6821-48c8-a931-ace4157cea56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/grid_12f2a7c7-7171-481d-bb8e-fa4ea92615c2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6",
+        "block-7",
+        "block-8",
+        "block-9",
+        "block-10",
+        "a5bc15ee-9b7c-43a9-855b-09794ca431ff",
+        "53d4d7b0-b768-45e2-8fce-ce8ff0e5efff",
+        "1322e67e-f3f7-434d-af3b-f0f40a27309c",
+        "154b21c4-ba39-44a9-a210-ee0ea109cfaf",
+        "fd5fd79b-7992-4738-bf1a-c0faa458351d",
+        "d728a730-6821-48c8-a931-ace4157cea56"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "main-gallery"
+  ]
+}

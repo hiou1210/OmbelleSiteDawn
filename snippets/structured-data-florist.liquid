@@ -1,0 +1,150 @@
+{%- doc -%}
+  Données structurées JSON-LD de type Florist, affichées sur la page d'accueil.
+
+  @example
+  {% render 'structured-data-florist' %}
+{%- enddoc -%}
+{%- if request.page_type == 'index' -%}
+  {%- liquid
+    assign social_accounts = 'facebook,instagram,youtube,tiktok,twitter,snapchat,pinterest,tumblr,vimeo' | split: ','
+    assign same_as = ''
+    for account in social_accounts
+      assign link_key = 'social_' | append: account | append: '_link'
+      assign link = settings[link_key]
+      if link != blank
+        assign same_as = same_as | append: link | append: '|'
+      endif
+    endfor
+    assign same_as_list = same_as | split: '|'
+
+    assign area_names = 'Saint-Bruno-de-Montarville,Saint-Basile-le-Grand,Sainte-Julie,Beloeil,McMasterville,Mont-Saint-Hilaire,Chambly,Carignan,Saint-Lambert,Saint-Hubert' | split: ','
+    assign open_days = 'Tuesday,Wednesday,Thursday,Friday' | split: ','
+  -%}
+  {%- capture florist_json -%}
+    {
+      "@context": "https://schema.org",
+      "@type": "Florist",
+      "@id": "{{ shop.url }}#florist",
+      "name": {{ shop.name | json }},
+      "url": {{ shop.url | json }},
+      {%- if settings.logo != blank %}
+      "logo": {{ settings.logo | image_url: width: 600 | prepend: 'https:' | json }},
+      "image": {{ settings.logo | image_url: width: 600 | prepend: 'https:' | json }},
+      {%- endif %}
+      "email": "info@ombellefleuriste.ca",
+      "telephone": "+14503002793",
+      "priceRange": "$$",
+      "paymentAccepted": ["cash", "credit card"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "191 boul. Sir-Wilfrid-Laurier #104",
+        "addressLocality": "Saint-Basile-le-Grand",
+        "addressRegion": "QC",
+        "postalCode": "J3N1R1",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.528813",
+        "longitude": "-73.292063"
+      },
+      "areaServed": [
+        {%- for area in area_names %}
+        { "@type": "City", "name": "{{ area }}, QC, Canada" }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+14503002793",
+          "contactType": "customer service",
+          "availableLanguage": ["English", "French"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+18883002793",
+          "contactType": "customer service",
+          "contactOption": "TollFree",
+          "areaServed": ["US", "CA"],
+          "availableLanguage": ["English", "French"]
+        }
+      ],
+      "openingHoursSpecification": [
+        {%- for day in open_days %}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/{{ day }}",
+          "opens": "09:30:00",
+          "closes": "18:00:00"
+        },
+        {%- endfor %}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "09:00:00",
+          "closes": "17:00:00"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Arrangements funéraires",
+            "description": "Gerbes, arrangements pour urne, pierre tombale et plantes pour funérailles.",
+            "category": "Funeral Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Création florale sur mesure",
+            "description": "Compositions florales personnalisées pour tout type d'événement.",
+            "category": "Floral Design Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Décoration de mariage",
+            "description": "Bouquets de mariée, boutonnières, centres de table et décorations florales.",
+            "category": "Wedding Florist"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Livraison de fleurs le jour même",
+            "description": "Livraison de fleurs fraîches le jour même pour toutes occasions.",
+            "category": "Flower Delivery Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Conseils sur le choix et l'entretien",
+            "description": "Conseils professionnels pour le choix et l'entretien des fleurs.",
+            "category": "Consultation Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Paniers-cadeaux et cadeaux souvenirs",
+            "description": "Paniers-cadeaux sur mesure, chocolats artisanaux, ballons et objets décoratifs.",
+            "category": "Gift Shop"
+          }
+        }
+      ],
+      "sameAs": {{ same_as_list | json }}
+    }
+  {%- endcapture -%}
+  <script type="application/ld+json">
+    {{ florist_json }}
+  </script>
+{%- endif -%}

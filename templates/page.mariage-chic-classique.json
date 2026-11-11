@@ -1,0 +1,397 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_imnrKD": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere3-alcove-bandeau.jpg",
+        "title": "Mariage chic classique doré",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 25,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "wedding_package_NPVDTW": {
+      "type": "wedding-package",
+      "blocks": {
+        "include_item_QaJFkW": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_xnBQdQ": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 bouquets de demoiselle d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_hkKdUw": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de marié",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_WfNNGr": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 boutonnières de garçons d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_YtphHQ": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de petit page",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_AwdHz3": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 panier de pétales de bouquetière",
+            "item_icon": "✿"
+          }
+        }
+      },
+      "block_order": [
+        "include_item_QaJFkW",
+        "include_item_xnBQdQ",
+        "include_item_hkKdUw",
+        "include_item_WfNNGr",
+        "include_item_YtphHQ",
+        "include_item_AwdHz3"
+      ],
+      "settings": {
+        "text_position": "left",
+        "includes_title": "Ce forfait comprend:",
+        "description": "<p>Un bouquet romantique aux couleurs de feu. Une cascade de lierre pour exprimer la fidélité. Des rubans dorés pour un mariage sous l’étoile de la noblesse. Des fleurs raffinées pour un mariage de conte de fée.</p>",
+        "list_icon": "✿",
+        "price": "À partir de 725$ + taxes",
+        "note": "<p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+        "button_label": "VOIR PLUS DE PHOTOS",
+        "button_link": "shopify://pages/mariage-chic-classique-gallerie-1",
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-entree-pavillon.jpg",
+        "image_radius": 20,
+        "color_scheme": "scheme-1",
+        "box_color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_overlay_LzMtBn": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_LzMtBn-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mariage chic classique",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_LzMtBn-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere3-alcove-bandeau.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "featured_text_UVMFpJ": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_UVMFpJ-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 1 - Chic Classique Doré",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_UVMFpJ-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un bouquet romantique aux couleurs enflammées. Une cascade de lierre pour exprimer  la fidélité. <br/>Des rubans dorés pour un mariage empli de noblesse. Des fleurs raffinées pour un mariage de conte de fée.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_UVMFpJ-heading",
+        "featured_text_UVMFpJ-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_79Gytw-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_yEpWkb-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 725$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_yEpWkb-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-chic-classique-gallerie-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_yEpWkb-text",
+        "image_yEpWkb-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-entree-pavillon.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_CjVQFc": {
+      "type": "gallery",
+      "blocks": {
+        "image_qVBaBR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-chaises-mains2.jpg"
+          }
+        },
+        "image_8mBjRa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau1-mariage-chic-classique-orange.jpg"
+          }
+        },
+        "image_NPg77B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-bouquet-mariee.jpg"
+          }
+        },
+        "image_qQEWYg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-Forfait.jpg"
+          }
+        },
+        "image_U4pxKG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-alcove-pavillon.jpg"
+          }
+        },
+        "image_7CEbdm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-2chaises-fleuries.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_qVBaBR",
+        "image_8mBjRa",
+        "image_NPg77B",
+        "image_qQEWYg",
+        "image_U4pxKG",
+        "image_7CEbdm"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_text_HAP8Ay": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_HAP8Ay-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 2 - Chic Classique Ivoire",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_HAP8Ay-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'élégance dans sa pure simplicité. <br/>Des roses ivoire entourées de feuillage verdoyant. Un bouquet rond pour exprimer un amour éternel.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_HAP8Ay-heading",
+        "featured_text_HAP8Ay-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_Y9eNM8-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_UJCKwN-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 575$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_UJCKwN-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-chic-classique-gallerie-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_UJCKwN-text",
+        "image_UJCKwN-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-blanc-mariee-debout-cote-robe.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_zw4nz3": {
+      "type": "gallery",
+      "blocks": {
+        "image_QQM9qJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-Forfait.jpg"
+          }
+        },
+        "image_64f6nr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-bouquet-mariee.jpg"
+          }
+        },
+        "image_3xfJ7x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-couple-chaises.jpg"
+          }
+        },
+        "image_r3Jyzr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-romantique-blanc-bouquet-demoiselle.jpg"
+          }
+        },
+        "image_phFp8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-marie-bouquet.jpg"
+          }
+        },
+        "image_qLkf4L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-bracelet2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_QQM9qJ",
+        "image_64f6nr",
+        "image_3xfJ7x",
+        "image_r3Jyzr",
+        "image_phFp8N",
+        "image_qLkf4L"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "wedding_image_overlay_imnrKD",
+    "wedding_package_NPVDTW",
+    "image_with_text_overlay_LzMtBn",
+    "featured_text_UVMFpJ",
+    "image_text_79Gytw-1",
+    "gallery_CjVQFc",
+    "featured_text_HAP8Ay",
+    "image_text_Y9eNM8-1",
+    "gallery_zw4nz3"
+  ]
+}

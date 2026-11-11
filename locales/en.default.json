@@ -217,6 +217,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Page not found",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "page": "Page",
@@ -260,10 +264,6 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
-    },
-    "404": {
-      "title": "Page not found",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -274,7 +274,6 @@
       "announcement": "Announcement",
       "announcement_bar": "Announcement bar"
     },
-
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
@@ -527,6 +526,48 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "ombelle": {
+    "general": {
+      "back_to_top": "Back to top"
+    },
+    "cart": {
+      "terms_prefix": "I have read and accept the",
+      "terms_link": "terms and conditions of sale"
+    },
+    "product": {
+      "card": {
+        "legend": "Add a card (free)",
+        "yes": "Yes",
+        "no": "No",
+        "text_label": "Card message",
+        "text_hint": "Maximum 150 characters",
+        "text_required": "Please write the message for the card, or choose No."
+      },
+      "funeral": {
+        "deceased_name": "Name of the deceased",
+        "ceremony_time": "Time of the ceremony",
+        "urn_height": "Urn height",
+        "urn_diameter": "Urn diameter",
+        "urn_width": "Urn width",
+        "urn_depth": "Urn depth"
+      },
+      "vase": {
+        "legend": "Add a vase",
+        "none": "None"
+      }
+    },
+    "article": {
+      "read_time": "{{ minutes }} min read",
+      "breadcrumb_label": "Breadcrumb",
+      "home": "Home"
+    },
+    "gallery": {
+      "open_image": "Open image in full size",
+      "dialog_label": "Image viewer",
+      "previous": "Previous image",
+      "next": "Next image"
     }
   }
 }

@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "b6135d68-32eb-40fa-aa99-8aecd3f72639": {
+      "type": "image-banner",
+      "blocks": {
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Otterburn Park",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Otterburn Park<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-heading",
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-text",
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "68508802-0d6b-40fa-8f55-dc013f473efc": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "ced2c599-8381-4223-af0f-0770d6433be1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-0",
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-1",
+        "template--14815501975633__68508802-0d6b-40fa-8f55-dc013f473efc-1675134659ca61317d-2",
+        "ced2c599-8381-4223-af0f-0770d6433be1"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e4a495d5-3828-4ac0-a983-c6683398a362-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14815501975633__e4a495d5-3828-4ac0-a983-c6683398a362-1675134675a8276d82-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\">Ombelle Fleuriste</a>, <strong>Fleuriste Otterburn Park</strong>, offre une <strong>livraison rapide et efficace le jour même</strong>. Nous faisons la livraison de fleurs fraîches, de plantes et de cadeaux dans toute la ville. Soyez assuré de la qualité de notre service, de même que de l’écoute et de la courtoisie de notre personnel.</p><p>Élégance et modernité caractérisent les bouquets et arrangements floraux confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p><p>Livraison de fleurs fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\">toutes occasions</a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\">mariages</a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\">funérailles</a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14815501975633__e4a495d5-3828-4ac0-a983-c6683398a362-1675134675a8276d82-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-otterburn-park.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "e4a495d5-3828-4ac0-a983-c6683398a362-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14815501975633__e4a495d5-3828-4ac0-a983-c6683398a362-1675134675a8276d82-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels et les auberges (ex. : l’<a href=\"https://hotelrivegauche.ca/\" title=\"https://hotelrivegauche.ca/\">Hôtel Rive Gauche – Refuge Urbain</a>, l’<a href=\"https://www.lestroistilleuls.com/fr/accueil/\" title=\"https://www.lestroistilleuls.com/fr/accueil/\">Hôtel Trois Tilleuls</a>, le Manoir Rouville Campbell, et l’<a href=\"https://www.aubergehandfield.com/\" title=\"https://www.aubergehandfield.com/\">Auberge Handfield</a>), les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\">Hôpital Honoré-Mercier</a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\">Hôpital Pierre Boucher</a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\">Hôpital Charles-Le Moyne</a>) et les salons funéraires (ex. : le Salon Funéraire Demers Mont-Saint-Hilaire, le Salon Funéraire Maurice Demers Beloeil et le Salon Funéraire Maurice Demers McMasterville) situés à Otterburn Park ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14815501975633__e4a495d5-3828-4ac0-a983-c6683398a362-1675134675a8276d82-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-otterburn-park.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "e4a495d5-3828-4ac0-a983-c6683398a362-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "89959a51-a6f1-47f6-9b3b-1b33a3912963-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son service de livraison à plusieurs autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p>",
+            "text_style": "body"
+          }
+        },
+        "89959a51-a6f1-47f6-9b3b-1b33a3912963-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "89959a51-a6f1-47f6-9b3b-1b33a3912963-text",
+        "89959a51-a6f1-47f6-9b3b-1b33a3912963-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-otterburn-park.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "490919c3-9ad5-43a0-986d-62c24a060a8e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-otterburn-park-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-otterburn-park-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-otterburn-park-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-otterburn-park-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-otterburn-park-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-otterburn-park-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-0",
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-1",
+        "template--14815501975633__490919c3-9ad5-43a0-986d-62c24a060a8e-1675134710e5b073f1-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "b6135d68-32eb-40fa-aa99-8aecd3f72639",
+    "68508802-0d6b-40fa-8f55-dc013f473efc",
+    "e4a495d5-3828-4ac0-a983-c6683398a362-1",
+    "e4a495d5-3828-4ac0-a983-c6683398a362-2",
+    "e4a495d5-3828-4ac0-a983-c6683398a362-3",
+    "490919c3-9ad5-43a0-986d-62c24a060a8e"
+  ]
+}

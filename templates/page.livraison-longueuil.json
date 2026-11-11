@@ -1,0 +1,406 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "132affcb-491b-4cd3-a471-1ebc46c8758c": {
+      "type": "image-banner",
+      "blocks": {
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Longueuil",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Longueuil",
+            "text_style": "subtitle"
+          }
+        },
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-heading",
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-text",
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-longueuil-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-longueuil-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "37c06349-fb03-4d0b-a19a-ac65550e7e00": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "1fbf58f4-ae75-4992-8510-2afcdb24fdac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-0",
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-1",
+        "template--14812863266897__37c06349-fb03-4d0b-a19a-ac65550e7e00-16746141962ca3feca-2",
+        "1fbf58f4-ae75-4992-8510-2afcdb24fdac"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des fleurs d'une grande fraîcheur",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez <em>Ombelle Fleuriste</em>, <strong>fleuriste Longueuil</strong>, nous nous engageons à vous fournir des <strong>fleurs de grande qualité</strong>. Nos fleurs, soigneusement sélectionnées, sont réputées pour leur fraîcheur. Notre dévouement à la qualité signifie que chaque bouquet acheté chez nous vous apportera joie, beauté et réconfort dans votre vie.</p><h2>Une diversité de plantes pour tous les espaces<br/></h2><p>Nous sommes fiers de vous présenter notre sélection de <a href=\"/collections/plantes\" title=\"Plantes\"><strong>plantes de divers calibres</strong></a>. Nous choisissons nos plantes pour leurs belles qualités dont celle d'apporter une touche d'élégance et de calme à votre espace, créant une connexion harmonieuse avec la nature. Si vous êtes à la recherche de plantes vertes, de cactus ou de <strong>potées fleuries</strong>, nous vous proposerons parmi notre vaste choix celles qu'il vous faut pour créer un environnement verdoyant et apaisant.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-0-heading",
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-longueuil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-1-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de fleurs à Longueuil le jour même",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous comprenons l'importance de chaque moment. C'est pourquoi notre service de <strong>livraison de fleurs</strong> le jour même est conçu pour répondre à vos besoins urgents. <span style=\"text-decoration:underline\">Si vous passez votre commande avant 17h en semaine ou 16h la fin de semaine</span>, notre équipe s'efforcera de livrer vos <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>fleurs fraîches</strong></a> <strong>le jour même</strong>. Nous assurons une <strong>livraison rapide et fiable</strong> pour que vos occasions spéciales restent inoubliables, sans aucun retard. Notre objectif est de vous garantir une satisfaction totale pour chaque bouquet que vous commandez.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-1-heading",
+        "template--14812863266897__3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1674614206e72a65f0-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-longueuil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "edc4aec7-ddfe-46f1-8ed4-ff52bdf37a53-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison dans divers établissements de Longueuil",
+            "heading_size": "h1"
+          }
+        },
+        "edc4aec7-ddfe-46f1-8ed4-ff52bdf37a53-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Ombelle Fleuriste</em> Longueuil livre autant dans les résidences privées que dans les <strong>salons funéraires</strong> ainsi que dans les commerces, les hôtels, les auberges, les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé. Quand vous pensez <strong>livraison de fleurs Longueuil</strong>, pensez <em>Ombelle Fleuriste</em>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "edc4aec7-ddfe-46f1-8ed4-ff52bdf37a53-heading",
+        "edc4aec7-ddfe-46f1-8ed4-ff52bdf37a53-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-longueuil.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "c9d73c7f-f119-4f8b-802b-ba5da24761c1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15342282866769__c9d73c7f-f119-4f8b-802b-ba5da24761c1-text_block-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hopital-small.jpg",
+            "title": "Les Hôpitaux à Longueuil",
+            "text": "<ul><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><strong>Hôpital Pierre-Boucher</strong></a>, 1333 Boulevard Jacques-Cartier E, Longueuil</li><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><strong>Hôpital Charles-Le Moyne</strong></a>, 3120 Bd Taschereau, Greenfield Park</li></ul>"
+          }
+        },
+        "template--15342282866769__c9d73c7f-f119-4f8b-802b-ba5da24761c1-text_block-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hotel-small.jpg",
+            "title": "Les Hotels situés près de Longueuil",
+            "text": "<ul><li><a href=\"https://www.sandmanhotels.com/montreal-longueuil\" target=\"_blank\" title=\"https://www.sandmanhotels.com/montreal-longueuil\"><strong>Le Sandman Hôtel Montréal-Longueuil</strong></a>, 999 rue de Serigny , Longueuil</li><li><a href=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail\" target=\"_blank\" title=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail\"><strong>Le Holiday Inn Montréal-Longueuil</strong></a>, 900 Rue Saint-Charles E, Longueuil</li><li><a href=\"https://hotelmortagne.com/fr/\" target=\"_blank\" title=\"https://hotelmortagne.com/fr/\"><strong>L’Hôtel Mortagne</strong></a>, 1228 Rue Nobel, Boucherville</li></ul>"
+          }
+        },
+        "d83e8a48-cc19-4656-a0b3-2b82b6c89bef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/salon-funeraire-small.jpg",
+            "title": "Les salons funéraires à Longueuil",
+            "text": "<ul><li><a href=\"https://yveslegare.com/\" target=\"_blank\" title=\"https://yveslegare.com/\"><strong>Le Salon funéraire Yves Légaré</strong></a>, 2750 Bd Marie-Victorin, Longueuil</li><li>La Résidence funéraire Curé-Poirier, 635 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/quebec/longueuil/la-maison-darche-services-funeraires/3131\" target=\"_blank\" title=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/quebec/longueuil/la-maison-darche-services-funeraires/3131\"><strong>La Maison Darche Services funéraires</strong></a>, 505 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.urgelbourgie.com/fr/a-propos/points-de-service/cimetiere-jardin-et-complexe-funeraire-de-st-hubert\" target=\"_blank\" title=\"https://www.urgelbourgie.com/fr/a-propos/points-de-service/cimetiere-jardin-et-complexe-funeraire-de-st-hubert\"><strong>Le Salon funéraire Urgel Bourgie / Athos</strong></a>, 8145 Ch. de Chambly, Saint-Hubert</li><li>Salon Funéraire Lajeunesse Fortin Cenac, boulevard Sainte-Foy (chemin du Coteau-Rouge), Longueuil</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15342282866769__c9d73c7f-f119-4f8b-802b-ba5da24761c1-text_block-1",
+        "template--15342282866769__c9d73c7f-f119-4f8b-802b-ba5da24761c1-text_block-2",
+        "d83e8a48-cc19-4656-a0b3-2b82b6c89bef"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-longueuil-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-longueuil-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-longueuil-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-longueuil-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-longueuil-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-longueuil-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-0",
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-1",
+        "template--14812863266897__dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb-16746142255564079a-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    },
+    "40ab69d1-9c09-4b42-9b97-133eecfa0435": {
+      "type": "faq",
+      "blocks": {
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Section heading"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-2": {
+          "type": "question",
+          "settings": {
+            "question": "Quel est le prix d'une seule rose?",
+            "answer": "<p>Le prix d'une seule rose peut varier selon la variété et la saison. Pour obtenir l'information juste, communiquez avec nous par téléphone. Nos fleuristes seront ravies de vous aider à trouver la rose répondant<strong> parfaitement par sa signification ou sa couleur à chaque occasion</strong>. </p>"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-3": {
+          "type": "question",
+          "settings": {
+            "question": "Quel est le prix pour livrer des fleurs à Longueuil?",
+            "answer": "<p>Le coût pour l'envoi de fleurs à Longueuil dépend de l'<strong>adresse du destinataire</strong>. Pour obtenir l'information, nous vous recommandons de faire une simulation de commande sur notre site internet ou de nous contacter par téléphone.</p>"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-5": {
+          "type": "question",
+          "settings": {
+            "question": "Quelle est la fleur la plus populaire à Longueuil?",
+            "answer": "<p>La fleur la plus appréciée à Longueuil varie souvent selon la saison. Néanmoins, les roses demeurent un choix incontournable tout au long de l'année grâce à leur beauté intemporelle et leur large palette de couleurs. Nous vous invitons à visiter notre site web pour découvrir les<strong> tendances florales actuelles à Longueuil.</strong> 🌹</p>"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-4": {
+          "type": "question",
+          "settings": {
+            "question": "Comment faire livrer des fleurs à Longueuil?",
+            "answer": "<p>Pour bénéficier de notre <strong>service de livraison</strong>, vous pouvez nous téléphoner ou commander votre bouquet via notre site web. Si vous choisissez de commander en ligne, sélectionnez votre bouquet, ajoutez-le à votre panier et procédez au paiement. Remplissez les différentes cases dont celles nous fournissant<strong> l'adresse de livraison du destinataire et son numéro de téléphone</strong> afin que nous puissions nous assurer qu'une <strong>personne sera présente lors de la livraison</strong>. Notre équipe se chargera par la suite de préparer et de livrer votre commande.</p>"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-1": {
+          "type": "question",
+          "settings": {
+            "question": "Comment puis-je passer une commande de fleur pour Longueuil?",
+            "answer": "<p>Passer une commande chez <em>Ombelle Fleuriste</em><strong> pour Longueuil ou le Vieux-Longueuil </strong>est une expérience simple et rapide. Vous n'avez qu'à visiter notre boutique en ligne où vous pourrez naviguer à travers notre vaste sélection de bouquets de fleurs fraîches. Choisissez celui qui vous plaît et cliquez sur \"Ajouter au panier\". Ensuite, suivez les instructions à l'écran pour finaliser votre commande.</p>"
+          }
+        },
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-image-1": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-heading-1",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-2",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-3",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-5",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-4",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-content-1",
+        "template--15342282866769__40ab69d1-9c09-4b42-9b97-133eecfa0435-image-1"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes à propos de nos services de fleuriste à Longueuil",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "132affcb-491b-4cd3-a471-1ebc46c8758c",
+    "37c06349-fb03-4d0b-a19a-ac65550e7e00",
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-1",
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-2",
+    "3f07a0cf-54c1-4cad-b032-86cfb1240a3e-3",
+    "c9d73c7f-f119-4f8b-802b-ba5da24761c1",
+    "dd0fd7e3-89e5-4e4c-9a83-499d8f4f08eb",
+    "40ab69d1-9c09-4b42-9b97-133eecfa0435"
+  ]
+}

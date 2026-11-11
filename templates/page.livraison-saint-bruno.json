@@ -1,0 +1,473 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3bf5ab44-7095-48fb-b404-a725b4bd6bff": {
+      "type": "image-banner",
+      "blocks": {
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Saint-Bruno-de-Montarville",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Saint-Bruno-de-Montarville<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander Maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-heading",
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-text",
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "6d9b1553-705d-4e61-958a-647f420e0deb": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "64a000c8-5296-45a6-b327-e09c7ebe9bb7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-0",
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-1",
+        "template--14812863365201__6d9b1553-705d-4e61-958a-647f420e0deb-1674600117a0f0ac97-2",
+        "64a000c8-5296-45a6-b327-e09c7ebe9bb7"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des fleurs d'une grande fraîcheur",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Ombelle <strong>Fleuriste, Saint-Bruno-de-Montarville</strong>, nous créons de jolis bouquets avec des <strong>fleurs fraîches</strong> et de qualité. Nos experts choisissent chaque fleur avec soin. Nous aimons notre métier et mettons tout notre cœur dans <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><em>nos compositions</em></a>. Chaque bouquet que nous préparons apportera de la joie et de la beauté à votre maison.</p><h2><strong>Une diversité de plantes pour tous les espaces</strong></h2><p>Nous sommes fiers de vous offrir <a href=\"/collections/plantes\" title=\"Plantes\"><em>un large choix de plantes</em></a>. Chaque plante est choisie pour sa beauté et sa capacité à apporter calme et élégance à votre espace. Que vous cherchiez des plantes vertes, des cactus ou des fleurs en pot, nous avons ce qu’il vous faut pour créer un environnement apaisant et verdoyant.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-0-heading",
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-st-bruno.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-1-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de fleurs à Saint-Bruno-de-Montarville le jour même",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Nous comprenons l'importance de chaque moment. C'est pourquoi notre service de <a href=\"/pages/livraison-de-fleurs\" title=\"Livraison de Fleurs\"><em>livraison de fleurs</em></a> le jour même est conçu pour répondre à vos besoins urgents. <span style=\"text-decoration:underline\">Si vous passez votre commande avant 17h en semaine ou avant 16h la fin de semaine</span>, notre équipe s'efforcera de livrer vos <strong>fleurs fraîches</strong> <strong>le jour même</strong>. Nous assurons une <strong>livraison rapide et fiable</strong> pour que vos occasions spéciales restent inoubliables. </p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-1-heading",
+        "template--14812863365201__b2db9922-14ae-4964-85e3-8b3e3395280c-1674600130ef80d25d-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-st-bruno-de-montarville.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison dans divers établissements près de Saint-Bruno-de-Montarville",
+            "heading_size": "h1"
+          }
+        },
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste assure la livraison de fleurs à Saint-Bruno-de-Montarville : </p><ul><li>domicile</li><li>commerces</li><li>salons funéraires</li><li>hôtels</li><li>auberges</li><li>salles de réception</li><li>écoles</li><li>établissements de santé</li><li>etc.</li></ul><p>Peu importe l’occasion, nous veillons à ce que vos fleurs arrivent fraîches et éclatantes. Pour une livraison fiable et soignée, pensez à Ombelle Fleuriste !</p>",
+            "text_style": "body"
+          }
+        },
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous : 450 300-2793",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-heading",
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-text",
+        "69dc4431-a33d-4a6e-9153-e6f1e878a076-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-st-bruno.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "text_columns_with_images_9AKKw9": {
+      "type": "multicolumn",
+      "blocks": {
+        "text_block_bhVdXQ": {
+          "type": "column",
+          "settings": {
+            "title": "Les Hôpitaux près de St-Bruno",
+            "text": "<ul><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\"><strong>Hôpital Charles-Le Moyne</strong></a>, 3120 Bd Taschereau, Greenfield Park</li><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\"><strong>Hôpital Pierre-Boucher</strong></a>, 1333 Boulevard Jacques-Cartier E, Longueuil</li><li>Hôpital Honoré-Mercier</li></ul>"
+          }
+        },
+        "text_block_y7GnfJ": {
+          "type": "column",
+          "settings": {
+            "title": "Les Hôtels situés près de St-Bruno",
+            "text": "<ul><li><a href=\"https://www.sandmanhotels.com/montreal-longueuil\" target=\"_blank\"><strong>Le Sandman Hôtel Montréal-Longueuil</strong></a>, 999 rue de Serigny , Longueuil</li><li><a href=\"https://hotelmortagne.com/fr/\" target=\"_blank\"><strong>L’Hôtel Mortagne</strong></a>, 1228 Rue Nobel, Boucherville</li><li><a href=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail\" target=\"_blank\"><strong>Le Holiday Inn Montréal-Longueuil</strong></a>, 900 Rue Saint-Charles E, Longueuil</li></ul>"
+          }
+        },
+        "text_block_qQiCBd": {
+          "type": "column",
+          "settings": {
+            "title": "Les salons funéraires pour St-Bruno",
+            "text": "<ul><li>La Résidence funéraire Curé-Poirier, 635 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/quebec/longueuil/la-maison-darche-services-funeraires/3131\" target=\"_blank\"><strong>La Maison Darche Services funéraires</strong></a>, 505 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.urgelbourgie.com/fr/a-propos/points-de-service/cimetiere-jardin-et-complexe-funeraire-de-st-hubert\" target=\"_blank\"><strong>Le Salon funéraire Urgel Bourgie / </strong></a> St-Bruno-de-Montarville, </li><li><a href=\"https://yveslegare.com/\" target=\"_blank\"><strong>Le Salon funéraire Yves Légaré</strong></a>, 2750 Bd Marie-Victorin, Longueuil</li><li>Salon Funéraire Maurice Demers McMasterville</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bhVdXQ",
+        "text_block_y7GnfJ",
+        "text_block_qQiCBd"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    },
+    "featured_collection_ww9tPq": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "vous-pourriez-aussi-etre-interresse-a-copie",
+        "products_to_show": 6,
+        "title": "Nos Bouquets Populaires Livrés à Saint-Bruno-de-Montarville",
+        "heading_size": "h1",
+        "show_description": true,
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "show_view_all": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "columns_mobile": "2",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_text_8YBVt8": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_8YBVt8-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Découvrir Saint-Bruno-de-Montarville",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_8YBVt8-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Saint-Bruno-de-Montarville</strong> est une municipalité dynamique de la Montérégie, reconnue pour son magnifique <strong>Parc national du Mont-Saint-Bruno</strong> et son populaire centre commercial les <strong>Promenades Saint-Bruno</strong>. </p><p>Cette ville offre une qualité de vie exceptionnelle à ses résidents, avec ses quartiers résidentiels paisibles, son <strong>Club de Golf Mont Bruno</strong> de renommée, et son charmant <strong>Lac du Village</strong>. Ombelle Fleuriste est fière de desservir cette belle communauté avec nos livraisons de fleurs fraîches.</p><p>Située à seulement 5 minutes de Saint-Bruno-de-Montarville, notre boutique de Saint-Basile-le-Grand vous offre un service rapide et personnalisé pour tous vos besoins floraux dans la région.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_8YBVt8-heading",
+        "featured_text_8YBVt8-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faq_rEwDnh": {
+      "type": "faq",
+      "blocks": {
+        "content_GkjHcH": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Que se passe-t-il si personne n'est à la maison à Saint-Bruno ?",
+            "answer": "<p>Retour en boutique au frais, puis appel pour convenir d'une nouvelle livraison.</p>"
+          }
+        },
+        "content_Lnj33R": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Qui livre les fleurs à Saint-Bruno-de-Montarville ?",
+            "answer": "<p>Notre propre équipe, depuis notre boutique située à la limite de Saint-Bruno. Appel au destinataire avant la livraison, sauf avis contraire.</p>"
+          }
+        },
+        "content_QHJkaR": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Livrez-vous à Saint-Bruno-de-Montarville le jour même?",
+            "answer": "<p>Oui! Si vous passez commande avant <strong>17h en semaine</strong> ou<strong> 16h la fin de semaine</strong>, nous livrons vos <strong>fleurs fraîches le jour même</strong> partout à St-Bruno. Pour les commandes urgentes ou les occasions spéciales, n'hésitez pas à nous appeler au <strong>450-300-2793</strong>.<br/><br/></p>"
+          }
+        },
+        "content_kbYjCR": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Quels sont les frais de livraison pour St-Bruno?",
+            "answer": "<p>Les frais de livraison pour Saint-Bruno-de-Montarville sont très compétitifs. Notre tarif actuel est de 10$.</p>"
+          }
+        },
+        "content_pNatzK": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Livrez-vous aux Promenades St-Bruno?",
+            "answer": "<p>Absolument! Nous effectuons régulièrement des <strong>livraisons de fleurs aux Promenades St-Bruno</strong> et dans tous les commerces du secteur. Parfait pour surprendre un être cher au travail!<br/><br/></p>"
+          }
+        },
+        "content_jRCNry": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Puis-je commander des fleurs pour un salon funéraire à St-Bruno?",
+            "answer": "<p>Oui, nous livrons des <strong>arrangements funéraires</strong> dans tous les salons funéraires de Saint-Bruno-de-Montarville et des environs, incluant:<br/></p><ul><li>Salon funéraire Urgel Bourgie / Athos</li><li>La Maison Darche Services funéraires (Longueuil)</li><li>Résidence funéraire Curé-Poirier (Longueuil)</li></ul>"
+          }
+        },
+        "content_JzcfXr": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Proposez-vous des arrangements pour les mariages à St-Bruno?",
+            "answer": "<p>Oui! Nous sommes spécialisés dans les <strong>bouquets et arrangements floraux pour mariages</strong> à Saint-Bruno-de-Montarville. Consultez <a href=\"/pages/forfaits-mariage\" title=\"Forfaits Mariage\"><strong>notre page forfaits mariage</strong></a> ou contactez-nous pour une consultation personnalisée.<br/><br/></p>"
+          }
+        },
+        "content_iU7bkY": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Comment passer une commande pour une livraison à St-Bruno?",
+            "answer": "<p>Trois options faciles:<br/></p><ul><li><strong>En ligne</strong>: Parcourez notre boutique et commandez directement sur notre site</li><li><strong>Par téléphone</strong>: Appelez-nous au <strong>450-300-2793</strong></li><li><strong>Par courriel</strong>: Contactez-nous via notre <a href=\"/pages/contact\" title=\"Contact\"><strong>formulaire de contact</strong></a><br/><br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "content_GkjHcH",
+        "content_Lnj33R",
+        "content_QHJkaR",
+        "content_kbYjCR",
+        "content_pNatzK",
+        "content_jRCNry",
+        "content_JzcfXr",
+        "content_iU7bkY"
+      ],
+      "settings": {
+        "heading": "🌸 Questions Fréquentes – Fleuriste St-Bruno",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
+    "eca569e5-003d-4474-8841-6018dba8df31": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-st-bruno-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-st-bruno-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-bruno-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-bruno-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-saint-bruno-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-saint-bruno-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-0",
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-1",
+        "template--14812863365201__eca569e5-003d-4474-8841-6018dba8df31-167459961635317287-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "3bf5ab44-7095-48fb-b404-a725b4bd6bff",
+    "6d9b1553-705d-4e61-958a-647f420e0deb",
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-1",
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-2",
+    "b2db9922-14ae-4964-85e3-8b3e3395280c-3",
+    "text_columns_with_images_9AKKw9",
+    "featured_collection_ww9tPq",
+    "featured_text_8YBVt8",
+    "faq_rEwDnh",
+    "eca569e5-003d-4474-8841-6018dba8df31"
+  ]
+}

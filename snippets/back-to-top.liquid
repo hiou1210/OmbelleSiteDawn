@@ -1,0 +1,12 @@
+{%- doc -%}
+  Bouton flottant de retour en haut de page.
+
+  @example
+  {% render 'back-to-top' %}
+{%- enddoc -%}
+<back-to-top class="color-scheme-1">
+  <button type="button" class="back-to-top__button" aria-label="{{ 'ombelle.general.back_to_top' | t }}">
+    {{- 'icon-caret.svg' | inline_asset_content -}}
+  </button>
+</back-to-top>
+<script src="{{ 'back-to-top.js' | asset_url }}" defer="defer"></script>

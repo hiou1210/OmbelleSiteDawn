@@ -1,0 +1,28 @@
+{%- doc -%}
+  Case à cocher obligatoire d'acceptation des conditions de vente, liée au formulaire du panier.
+  La validation native du navigateur empêche l'envoi vers le paiement tant que la case n'est pas cochée.
+
+  @param {string} form_id - Identifiant du formulaire du panier (cart ou CartDrawer-Form)
+  @param {string} field_id - Identifiant unique de la case à cocher
+{%- enddoc -%}
+{%- if settings.cart_terms_enabled and settings.cart_terms_page != blank -%}
+  {%- assign terms_page = pages[settings.cart_terms_page] -%}
+  {%- if terms_page != blank and terms_page.empty? == false -%}
+    <div class="cart__terms">
+      <input
+        type="checkbox"
+        id="{{ field_id }}"
+        name="terms"
+        value="accepted"
+        form="{{ form_id }}"
+        required
+      >
+      <label for="{{ field_id }}">
+        {{ 'ombelle.cart.terms_prefix' | t }}
+        <a href="{{ terms_page.url }}" target="_blank" rel="noopener">
+          {{- 'ombelle.cart.terms_link' | t -}}
+        </a>
+      </label>
+    </div>
+  {%- endif -%}
+{%- endif -%}

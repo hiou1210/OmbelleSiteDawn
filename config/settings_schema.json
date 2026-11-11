@@ -143,6 +143,16 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
+      },
+      {
+        "type": "header",
+        "content": "Navigation"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_nav_font",
+        "default": "fira_sans_n5",
+        "label": "Police de la navigation"
       }
     ]
   },
@@ -1449,6 +1459,21 @@
         "id": "cart_color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+      },
+      {
+        "type": "header",
+        "content": "Conditions de vente"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_terms_enabled",
+        "label": "Exiger l'acceptation des conditions avant le paiement",
+        "default": false
+      },
+      {
+        "type": "page",
+        "id": "cart_terms_page",
+        "label": "Page des conditions de vente"
       }
     ]
   },

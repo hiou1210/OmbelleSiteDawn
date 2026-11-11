@@ -25,11 +25,28 @@
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:description" content="{{ og_description | escape }}">
 
-{%- if page_image -%}
-  <meta property="og:image" content="http:{{ page_image | image_url }}">
-  <meta property="og:image:secure_url" content="https:{{ page_image | image_url }}">
-  <meta property="og:image:width" content="{{ page_image.width }}">
-  <meta property="og:image:height" content="{{ page_image.height }}">
+{%- liquid
+  # L'image sociale peut être remplacée par la métadonnée custom.facebook_image (produit, article ou page).
+  assign og_image = page_image
+  assign custom_og_image = blank
+  case request.page_type
+    when 'product'
+      assign custom_og_image = product.metafields.custom.facebook_image.value
+    when 'article'
+      assign custom_og_image = article.metafields.custom.facebook_image.value
+    when 'page'
+      assign custom_og_image = page.metafields.custom.facebook_image.value
+  endcase
+  if custom_og_image != blank
+    assign og_image = custom_og_image
+  endif
+-%}
+
+{%- if og_image -%}
+  <meta property="og:image" content="http:{{ og_image | image_url }}">
+  <meta property="og:image:secure_url" content="https:{{ og_image | image_url }}">
+  <meta property="og:image:width" content="{{ og_image.width }}">
+  <meta property="og:image:height" content="{{ og_image.height }}">
 {%- endif -%}
 
 {%- if request.page_type == 'product' -%}

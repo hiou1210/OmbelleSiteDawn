@@ -9,76 +9,546 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "417c6329-9f07-424d-af16-36b50beeee3c": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_yGHV8A": {
+          "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify://shop_images/bandeau-bal-finissant-2.png",
+            "mobile_image": "shopify://shop_images/bandeau-bal-finissant-mobile.png",
+            "image_overlay_opacity": 0,
+            "heading": "Les bals de finissants arrivent",
+            "heading_size": "h1",
+            "button_label": "Voyez notre sélection d'accessoires",
+            "link": "shopify://collections/bal-de-finissant",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         },
-        "button": {
-          "type": "buttons",
+        "image_M737rz": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/woman-day.png",
+            "image_overlay_opacity": 0,
+            "heading": "Journée internationale des droits des femmes",
+            "heading_size": "h1",
+            "button_label": "Voir nos suggestions cadeaux",
+            "link": "shopify://collections/journee-de-la-femme",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "image_DBinQX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-paques.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-paques-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Besoin d'idées cadeaux ?",
+            "heading_size": "h1",
+            "subheading": "Pâques approche!",
+            "button_label": "Voir notre section Pâques",
+            "link": "shopify://collections/paques",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "8f8ffa35-56b8-4f1a-96c1-d74d359330fe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-st-valentin.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-st-valentin-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Avez-vous commandé votre bouquet ?",
+            "heading_size": "h1",
+            "subheading": "La Saint-Valentin approche!",
+            "button_label": "Voir notre section St-Valentin",
+            "link": "shopify://collections/saint-valentin",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "image_ERTEDE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/semaine-des-secretaires.jpg",
+            "mobile_image": "shopify://shop_images/id_es-cadeaux-semaine-des-secretaires-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Semaine des secrétaires",
+            "heading_size": "h1",
+            "subheading": "du 20 au 26 avril",
+            "button_label": "Voir notre liste d'idées cadeaux",
+            "link": "shopify://collections/semaine-des-secretaires",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "image_nMpgdw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bandeau-fete-des-meres_e8437d24-8f6f-4f4e-a5fa-15723a9d5efe.jpg",
+            "mobile_image": "shopify://shop_images/accueil-fete-des-meres-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "La fête des mères approche",
+            "heading_size": "h1",
+            "button_label": "Voir nos idées cadeaux",
+            "link": "shopify://collections/fete-des-meres",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "image_NFDGyT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bandeau-noel.jpg",
+            "mobile_image": "shopify://shop_images/bandeau-noel-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Vous cherchez le cadeau de Noël idéal?",
+            "heading_size": "h1",
+            "button_label": "Voir nos idées-cadeaux",
+            "link": "shopify://collections/noel",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-right",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "template--14802453463121__417c6329-9f07-424d-af16-36b50beeee3c-1672875523a936bcb3-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-bandeau1-slim_811011e6-4b5d-4d9f-871a-0fa96a76d011.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Bouquets",
+            "heading_size": "h1",
+            "subheading": "pour toutes les occasions",
+            "button_label": "Voir nos bouquets",
+            "link": "shopify://collections/bouquets-et-creations",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "template--14802453463121__417c6329-9f07-424d-af16-36b50beeee3c-1672875523a936bcb3-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-bandeau2_ea44b7ad-9342-48eb-affc-6f2f2de75546.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-bandeau2-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Plantes",
+            "heading_size": "h1",
+            "subheading": "pour tous les espaces",
+            "button_label": "Voir nos plantes",
+            "link": "shopify://collections/plantes",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "274b2d3b-dbf4-46e0-b7f9-e02ccfbb6ebe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-bandeau3_18900604-8f12-4074-bc00-99d1eb861d15.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-bandeau3-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Fleurs fraîches",
+            "heading_size": "h1",
+            "subheading": "pour tous les goûts",
+            "button_label": "Voir nos bouquets",
+            "link": "shopify://collections/bouquets-et-creations",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-right",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "image_yGHV8A",
+        "image_M737rz",
+        "image_DBinQX",
+        "8f8ffa35-56b8-4f1a-96c1-d74d359330fe",
+        "image_ERTEDE",
+        "image_nMpgdw",
+        "image_NFDGyT",
+        "template--14802453463121__417c6329-9f07-424d-af16-36b50beeee3c-1672875523a936bcb3-1",
+        "template--14802453463121__417c6329-9f07-424d-af16-36b50beeee3c-1672875523a936bcb3-0",
+        "274b2d3b-dbf4-46e0-b7f9-e02ccfbb6ebe"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Diaporama"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "7ce4fe07-3b89-42a7-bdce-9ced547c733f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bouquets-et-creations"
+          }
+        },
+        "collection_74PrgC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bal-de-finissant"
+          }
+        },
+        "collection_dCWxQA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paques"
+          }
+        },
+        "collection_gHRPCY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "saint-valentin"
+          }
+        },
+        "collection_xiNRFM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fete-des-meres"
+          }
+        },
+        "79198667-e334-46a8-bf27-6f16992d24ee": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fleurs-pour-funerailles"
+          }
+        },
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plaisirs-gourmands"
+          }
+        },
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plantes"
+          }
+        }
+      },
+      "block_order": [
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-0",
+        "collection_74PrgC",
+        "collection_dCWxQA",
+        "collection_gHRPCY",
+        "collection_xiNRFM",
+        "79198667-e334-46a8-bf27-6f16992d24ee",
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-1",
+        "template--14802453463121__7ce4fe07-3b89-42a7-bdce-9ced547c733f-1672805264c96cc70f-2"
+      ],
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-e7acc8af-8666-4064-9524-30ba1336c06e",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image-text-1-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-1-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bienvenue chez Ombelle Fleuriste!",
+            "heading_size": "h1"
+          }
+        },
+        "block-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste, c'est une jolie boutique située à Saint-Basile-le-Grand, à la limite de <a href=\"/pages/fleuriste-saint-bruno-de-montarville\" title=\"Fleuriste Saint-Bruno-de-Montarville | Livraison Fleurs | Ombelle Fleuriste\"><strong>Saint-Bruno-de-Montarville</strong></a>, où l'on confectionne des <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>bouquets</strong></a>, arrangements, accessoires et <strong>objets décoratifs floraux</strong> charmants, inspirants et originaux. C'est aussi un lieu convivial où l'on partage notre passion pour les fleurs et les <a href=\"/collections/plantes\" title=\"Plantes\"><strong>plantes</strong></a>.<br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "block-1-heading",
+        "block-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ombelle-fleuriste-nadia.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image-text-1-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "e39dcf95-055a-4b22-a689-1cb94a3d0837-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Ombelle Fleuriste, nous privilégions les <strong>végétaux locaux</strong> et nous avons le bonheur de vous faire découvrir des <a href=\"/pages/nos-artistes\" title=\"Nos artistes\"><strong>créations d'artistes et d'artisans</strong></a> d'ici. </p><p>Vous trouverez chez nous un service courtois et accueillant, des <strong>fleuristes d'expérience</strong> et des conseils judicieux. <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>Fleurs coupées</strong></a>, <a href=\"/collections/plantes\" title=\"Plantes\"><strong>plantes</strong></a>, <a href=\"/collections/plaisirs-gourmands\" title=\"Plaisirs Gourmands\"><strong>chocolats</strong></a>, décos et cadeaux : à vous de choisir ce qui vous fera plaisir!</p><p>En boutique ou par le Web, soyez les bienvenus! </p><p>Nadia </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e39dcf95-055a-4b22-a689-1cb94a3d0837-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-boutique-st-basile-le-grand.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_overlay_67B6gQ": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_67B6gQ-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Faites une visite virtuelle de notre boutique!",
+            "heading_size": "h1",
+            "heading_is_h1": false
+          }
+        },
+        "image_with_text_overlay_67B6gQ-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commencer la visite",
+            "button_link_1": "https://maps.app.goo.gl/Py16EtAZD2UctHr28",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_67B6gQ-heading",
+        "image_with_text_overlay_67B6gQ-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Ombelle-360-sm_3ecdcf07-1926-46d0-b285-576573aca63e.jpg",
+        "mobile_image": "shopify://shop_images/Ombelle-360-mobile_cf6d0db7-9561-4cb1-a6be-124361dd9a13.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "c2dc6f10-4b06-4207-a2f2-0579ee1daf2a": {
+      "type": "multicolumn",
+      "blocks": {
+        "text_block_aVJya4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/elegant-wedding-2026-cover.jpg",
+            "title": "Nous faisons la couverture de Mariage Élégant!!!",
+            "text": "<p>Quelle belle surprise de voir nos fleurs de mariage sur la couverture de la revue Mariage Élégant 2026. Vous pouvez voir plusieurs autres de nos créations sur notre page mariage.</p>",
+            "link_label": "Visiter notre page mariage",
+            "link": "shopify://pages/fleuriste-mariage"
+          }
+        },
+        "text_block_ByNAyH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/section-forfaits-mariage.jpg",
+            "title": "Nouveaux forfaits mariage",
+            "text": "<p>Nous sommes très heureux de vous présenter nos forfaits mariages, maintenant disponibles sur notre site Internet! Avec l'aide de nos partenaires, nous avons créé différents styles de mariage que nous avons photographiés lors d'une séance photos tenue le 2 septembre dernier.</p><p>Mariage poétique, romantique, chic classique, exotique et même baroque: il y en a pour tous les goûts! Lequel préférez-vous?</p>",
+            "link_label": "Visiter la section forfaits mariage",
+            "link": "shopify://pages/forfaits-mariage"
+          }
+        },
+        "text_block_fcx78J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Camille2.jpg",
+            "title": "Journée de la femme",
+            "text": "<p>Le 8 mars - Journée internationale des droits des femmes. Célébrons les femmes de nos vies! Faisons leur honneur, car leur énergie et leur détermination nous inspirent! Suivez le lien pour découvrir quelques suggestions de bouquets et de présents à leur offrir. Ces petits cadeaux imprévus apportent toujours bonheur à leur journée! </p>",
+            "link_label": "Se rendre à la boutique en ligne",
+            "link": "shopify://collections/journee-de-la-femme"
+          }
+        },
+        "text_block_NghCdx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trio-sirop-erable-lapointe-et-fils2.jpg",
+            "title": "Nouvelle arrivée en magasin : Le sirop d'érable vieilli en fut",
+            "text": "<p>Venez découvrir les savoureux sirops d'érable authentique et vieillis en fût de bourbon et de rhum de l'Érablière Lapointe et fils de St-Marc-sur-Richelieu. Hum... Quels parfums! Quels goûts! Quels beaux cadeaux à s'offrir ou à offrir! </p>",
+            "link_label": "Pour plus d'informations",
+            "link": "shopify://products/sirop-derable-classique-et-aromatise-du-quebec"
+          }
+        },
+        "61c9dc49-5c07-49d5-8ac1-1c4816ee392d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vox-et-oz.png",
+            "title": "Vox & Oz: des bijoux québécois à découvrir!",
+            "text": "<p>Nous sommes ravis de vous présenter nos nouveaux bijoux en boutique : les boucles d'oreilles Vox & Oz. Ces boucles d'oreilles sont conçues et fabriquées avec soin au Québec, en utilisant des matériaux durables et respectueux de l'environnement.<br/><br/>Avec leur design original et leur couleurs festives, elles apporteront légèreté et raffinement à votre look cet été! Trouvez-les dans notre boutique et sur notre site web.</p>",
+            "link_label": "Voir les bijoux Vox & Oz offerts dans notre boutique en ligne",
+            "link": "shopify://collections/bijoux"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_aVJya4",
+        "text_block_ByNAyH",
+        "text_block_fcx78J",
+        "text_block_NghCdx",
+        "61c9dc49-5c07-49d5-8ac1-1c4816ee392d"
+      ],
+      "settings": {
+        "title": "Dernières nouvelles",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f4e2ed0b-7eed-47fc-9559-9bc08ddb8408": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-testemonial2-slim_87e33347-dbf5-45e1-ad2a-1cd5bfcf0a07.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-testemonial2-mobile_5050fcde-b9c2-465a-909f-eb009b8968c8.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-testemonial.slim.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ombelle-fleuriste-testemonial3-slim.jpg",
+            "mobile_image": "shopify://shop_images/ombelle-fleuriste-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-0",
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-1",
+        "template--14802453463121__f4e2ed0b-7eed-47fc-9559-9bc08ddb8408-1672804869ea6c0971-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "417c6329-9f07-424d-af16-36b50beeee3c",
+    "7ce4fe07-3b89-42a7-bdce-9ced547c733f",
+    "image-text-1-1",
+    "image-text-1-2",
+    "image_with_text_overlay_67B6gQ",
+    "c2dc6f10-4b06-4207-a2f2-0579ee1daf2a",
+    "f4e2ed0b-7eed-47fc-9559-9bc08ddb8408"
   ]
 }

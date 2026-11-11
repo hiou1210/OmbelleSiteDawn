@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Blocs d'article : texte avec image intégrée, contenu d'article mariage, boîtes de conseil
+   ========================================================================== */
+
+/* ---------- Boîte de conseil ---------- */
+
+.conseil-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 2.4rem;
+  border: 0.1rem solid rgb(var(--color-link));
+  border-radius: 0.8rem;
+  color: rgb(var(--color-foreground));
+  clear: both;
+}
+
+.conseil-box__icon {
+  flex-shrink: 0;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.conseil-box__title {
+  margin: 0 0 1rem;
+}
+
+.conseil-box__content > :last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Texte avec image intégrée ---------- */
+
+.wrapped-text__media {
+  margin: 0 0 2rem;
+  line-height: 0;
+}
+
+.wrapped-text__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+}
+
+.wrapped-text__title {
+  margin: 0 0 2rem;
+}
+
+.wrapped-text__content::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.wrapped-text__text > p {
+  margin: 0 0 1.6em;
+}
+
+@media screen and (min-width: 750px) {
+  .wrapped-text__media {
+    width: var(--wrapped-image-width, 400px);
+    max-width: 50%;
+  }
+
+  .wrapped-text__content--image-left .wrapped-text__media {
+    float: left;
+    margin: 0 4rem 2rem 0;
+  }
+
+  .wrapped-text__content--image-right .wrapped-text__media {
+    float: right;
+    margin: 0 0 2rem 4rem;
+  }
+}
+
+/* ---------- Contenu d'article mariage ---------- */
+
+.article-intro__layout {
+  display: grid;
+  gap: 4rem;
+  align-items: start;
+}
+
+.article-intro__breadcrumb {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+
+.article-intro__breadcrumb a {
+  color: inherit;
+}
+
+.article-intro__lead {
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.article-intro__lead p {
+  font-style: italic;
+}
+
+.article-intro__text {
+  line-height: 1.8;
+}
+
+.retain-box {
+  margin-bottom: 3rem;
+  padding: 3rem;
+  border-radius: 0.8rem;
+  color: rgb(var(--color-foreground));
+}
+
+.retain-box__title {
+  margin: 0 0 2rem;
+}
+
+.retain-box__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.retain-box__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.retain-box__list li::before {
+  content: '✓';
+  flex-shrink: 0;
+  color: rgb(var(--color-link));
+  font-weight: 700;
+}
+
+.retain-box__list li > * {
+  margin: 0;
+}
+
+.style-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 3rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.style-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  line-height: 0;
+}
+
+.style-card__image {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.style-card__label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: #1a1a1a;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 750px) {
+  .style-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .article-intro__layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+  }
+}

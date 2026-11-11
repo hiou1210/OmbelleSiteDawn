@@ -1,0 +1,263 @@
+{{ 'section-wedding.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  #WeddingBanner-{{ section.id }} .wedding-banner__overlay {
+    opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign loading = 'lazy'
+  if section.index <= 2
+    assign loading = 'eager'
+  endif
+  assign has_mobile_image = false
+  if section.settings.mobile_image != blank
+    assign has_mobile_image = true
+  endif
+  assign has_content = false
+  if section.settings.pretext != blank or section.settings.title != blank or section.settings.subtitle != blank or section.settings.button_1_label != blank or section.settings.button_2_label != blank
+    assign has_content = true
+  endif
+-%}
+
+<div
+  id="WeddingBanner-{{ section.id }}"
+  class="wedding-banner isolate gradient color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding wedding-banner--{{ section.settings.text_position }}{% if section.settings.stack_on_mobile %} wedding-banner--stack-mobile{% endif %}{% if has_mobile_image %} wedding-banner--has-mobile{% endif %}"
+>
+  <div class="wedding-banner__media">
+    {%- if section.settings.image != blank -%}
+      {{
+        section.settings.image
+        | image_url: width: 3840
+        | image_tag:
+          loading: loading,
+          sizes: '100vw',
+          widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+          class: 'wedding-banner__image wedding-banner__image--desktop',
+          alt: section.settings.image.alt
+      }}
+    {%- else -%}
+      {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg placeholder wedding-banner__placeholder' }}
+    {%- endif -%}
+    {%- if has_mobile_image -%}
+      {{
+        section.settings.mobile_image
+        | image_url: width: 1500
+        | image_tag:
+          loading: loading,
+          sizes: '100vw',
+          widths: '375, 750, 1100, 1500',
+          class: 'wedding-banner__image wedding-banner__image--mobile',
+          alt: section.settings.mobile_image.alt
+      }}
+    {%- endif -%}
+    <div class="wedding-banner__overlay"></div>
+  </div>
+
+  {%- if has_content -%}
+    <div class="wedding-banner__content wedding-banner__content--{{ section.settings.text_align }}">
+      <div class="wedding-banner__box page-width">
+        {%- if section.settings.pretext != blank -%}
+          <div class="wedding-banner__pretext font-script rte">{{ section.settings.pretext }}</div>
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          {%- if section.settings.title_is_h1 -%}
+            <h1 class="wedding-banner__title font-script">{{ section.settings.title | escape }}</h1>
+          {%- else -%}
+            <h2 class="wedding-banner__title font-script">{{ section.settings.title | escape }}</h2>
+          {%- endif -%}
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <div class="wedding-banner__subtitle font-script rte">{{ section.settings.subtitle }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_1_label != blank or section.settings.button_2_label != blank -%}
+          <div class="wedding-banner__buttons">
+            {%- if section.settings.button_1_label != blank -%}
+              <a
+                class="button button--primary"
+                {% if section.settings.button_1_link != blank %}
+                  href="{{ section.settings.button_1_link }}"
+                {% else %}
+                  role="link" aria-disabled="true"
+                {% endif %}
+              >
+                {{- section.settings.button_1_label | escape -}}
+              </a>
+            {%- endif -%}
+            {%- if section.settings.button_2_label != blank -%}
+              <a
+                class="button button--secondary"
+                {% if section.settings.button_2_link != blank %}
+                  href="{{ section.settings.button_2_link }}"
+                {% else %}
+                  role="link" aria-disabled="true"
+                {% endif %}
+              >
+                {{- section.settings.button_2_label | escape -}}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Bannière mariage",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1800 x 1000 px recommandé"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Image pour mobile",
+      "info": "Remplace l'image sur les petits écrans."
+    },
+    {
+      "type": "richtext",
+      "id": "pretext",
+      "label": "Texte au-dessus du titre"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Votre mariage de rêve"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_is_h1",
+      "label": "Utiliser un titre de niveau 1",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Sous-titre",
+      "default": "<p>Une célébration unique qui vous ressemble</p>"
+    },
+    {
+      "type": "header",
+      "content": "Boutons"
+    },
+    {
+      "type": "text",
+      "id": "button_1_label",
+      "label": "Texte du premier bouton"
+    },
+    {
+      "type": "url",
+      "id": "button_1_link",
+      "label": "Lien du premier bouton"
+    },
+    {
+      "type": "text",
+      "id": "button_2_label",
+      "label": "Texte du deuxième bouton"
+    },
+    {
+      "type": "url",
+      "id": "button_2_link",
+      "label": "Lien du deuxième bouton"
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Position du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centre" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centre" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Opacité du voile sombre sur l'image",
+      "default": 40
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Placer le texte sous l'image sur mobile",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bannière mariage"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,899 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "198a45ce-cf83-4ddc-ad29-b0e48684b309": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14810660438097__198a45ce-cf83-4ddc-ad29-b0e48684b309-16744360625f1b0bb1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Atelier-floral-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/Atelier-floral-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Nos ateliers floraux",
+            "heading_size": "h1",
+            "subheading": "<strong>pour tous les âges et tous les goûts!</strong>",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "template--14810660438097__198a45ce-cf83-4ddc-ad29-b0e48684b309-16744360625f1b0bb1-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Atelier-floral-bandeau2.jpg",
+            "mobile_image": "shopify://shop_images/Atelier-floral-bandeau2-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Activité créative",
+            "heading_size": "h1",
+            "subheading": "pour apprendre tout en s'amusant!",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660438097__198a45ce-cf83-4ddc-ad29-b0e48684b309-16744360625f1b0bb1-0",
+        "template--14810660438097__198a45ce-cf83-4ddc-ad29-b0e48684b309-16744360625f1b0bb1-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Diaporama"
+      }
+    },
+    "00da2970-91ac-4c7a-8bf2-68c88c5ee2ca": {
+      "type": "rich-text",
+      "blocks": {
+        "00da2970-91ac-4c7a-8bf2-68c88c5ee2ca-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Programmation Automne 2024 - Printemps 2025",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "00da2970-91ac-4c7a-8bf2-68c88c5ee2ca-heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_mdxtp9-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'automne et ses couleurs vives s'invitent à votre table! (7 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "image_mdxtp9-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une activité instructive, créative et amusante qui initie les petits et les grands à la fleuristerie. Fleurs fraîches aux couleurs et textures variées, vase coloré et éléments décoratifs seront assemblés pour créer un joli centre de table aux couleurs automnales!</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée approx. : 1,5 heure à 2 heures</p><p>Âge requis : 7 ans et +<br/>(L’enfant âgé entre 7 et 12 ans doit être accompagné d’un adulte.)</p><p>Date :<br/>- 19 octobre 2024 (10h à 12h) - Période d'inscription terminée</p><p>Coût : 60,00$ + taxes</p><p>Information : 450 300-2793 </p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_mdxtp9-heading",
+        "image_mdxtp9-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/atelier-automne-2024-3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_FxECDm-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Découvrez le secret des tillandsias (16 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "image_FxECDm-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Connaissez-vous les tillandsias? Leur forme variée piquera votre curiosité, tout autant que leur environnement qui ne demande aucun substrat. </p><p>Sous la supervision d’une fleuriste, les participants en apprendront davantage sur ces plantes dites « d’air » tout en confectionnant un joli jardin dans une bulle de verre.</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée approx. : 1,5 à 2 heures</p><p>Âge requis : 16 ans et +</p><p>Date :<br/>- 22 novembre 2024 (19h à 21h)</p><p>Coût : 80,00$ + taxes</p><p>Information : 450 300-2793</p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "image_FxECDm-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/decouvrez-le-secret-des-tillandsias-16-ans-et-22-novembre-2024"
+          }
+        }
+      },
+      "block_order": [
+        "image_FxECDm-heading",
+        "image_FxECDm-text",
+        "image_FxECDm-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Tillandsia-bulle-verre.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_GakCzJ-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Création d'un centre de table pour Noël! (7 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "image_GakCzJ-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les petits comme les grands sont invités à créer un joli centre de table pour Noël. Réalisez toutes les étapes, de la confection à la décoration, pour faire de cet arrangement floral l'élément vedette de votre table de Noël!</p><p>Matériel et outils fournis. Les participants repartent avec leur centre de table.</p><p>Durée approx. : 1,5 à 2 heures<br/><br/>Âge requis : 7 ans et +<br/>(L’enfant âgé entre 7 et 12 ans doit être accompagné d’un adulte.)</p><p>Date : 21 décembre (10h à 12h)</p><p>Coût : 60,00 $ + taxes<br/><br/>Information : 450 300-2793</p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "image_GakCzJ-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/creation-dun-centre-de-table-pour-noel-7-ans-et-21-decembre-2025"
+          }
+        }
+      },
+      "block_order": [
+        "image_GakCzJ-heading",
+        "image_GakCzJ-text",
+        "image_GakCzJ-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Noel-chez-nous.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-4": {
+      "type": "image-with-text",
+      "blocks": {
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Réalisation d’un jardin de plantes : lesquelles préférez-vous? (16 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apprenez les bases de la confection d’un jardin de plantes réussi : choix des végétaux, types de substrat, solutions de drainage et entretien. Apportez votre touche personnelle en décorant votre jardin d’éléments naturels tels que roches, branches et mousses décoratives.</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée approx. : 1,5 à 2 heures</p><p>Âge requis : 16 ans et +</p><p>Date : <br/>- 28 février 2025 (19h à 21h)</p><p>Coût : 100,00$ + taxes</p><p>Information : 450 300-2793</p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/atelier-floral-realisation-d-un-jardin-de-plantes"
+          }
+        }
+      },
+      "block_order": [
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-heading",
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-text",
+        "c15274ce-e5fb-432c-9fc8-a8a7dacc170e-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/creation-jardint-plantes.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-5": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_bNe8dL-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confection d'un arbre de vie : une activité de bien-être artistique (16 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "image_bNe8dL-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plongez au cœur de vos racines, de votre personnalité et de vos goûts dans la création d’un arbre de vie. Cette couronne d’ornement intérieur symbolise la vitalité, la sagesse et la spiritualité de l’homme dans son environnement. </p><p>Développez et affichez vos talents artistiques en choisissant les mousses, fleurs de soie et éléments décoratifs qui composeront votre création!  </p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée : 2,5 à 3 heures </p><p>Âge requis : 16 ans et +</p><p>Date :<br/>- 21 mars 2025 (19h à 22h)</p><p>Coût : 100,00$ + taxes</p><p>Information : 450 300-2793</p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "image_bNe8dL-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/creation-dun-centre-de-table-pour-noel-7-ans-et-21-decembre-2024"
+          }
+        }
+      },
+      "block_order": [
+        "image_bNe8dL-heading",
+        "image_bNe8dL-text",
+        "image_bNe8dL-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20230905_173458_HDR.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-6": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_LErEQe-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pâques : accueillez le printemps à votre table avec le chant des oiseaux!",
+            "heading_size": "h1"
+          }
+        },
+        "image_LErEQe-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apprenez à créer un centre de table stylisé pour Pâques! Sous la supervision d'une fleuriste, vous confectionnerez le contenant dans lequel vous insérerez les fleurs, feuillages et décorations qui apporteront joie et bonheur à votre tablée pour Pâques!</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p></p><p>Durée : 2,5 heures</p><p>Âge requis : 16 ans et +</p><p>Date : 28 mars 2024 (19h à 21h30) - Période d'inscription terminée</p><p>Coût : 85,00$ + taxes</p><p>Information : 450 300-2793</p><p><strong>Note importante : </strong>L'atelier doit compter un minimum de 3 participants pour avoir lieu. Dans le cas contraire, nous nous réservons le droit de l'annuler. Si nous annulons l'atelier, nous communiquerons avec vous et vous rembourserons.</p><p><strong>Date limite des inscriptions :</strong> <strong>24 mars 2024, 16h</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_LErEQe-heading",
+        "image_LErEQe-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Arrangement-floral-paques-oiseaux_3dbb9103-8c1a-4df2-bf7d-f88558071fbe.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660438097__dc0c658e-7888-4c56-bab0-d70a2dfb734e-1674703933d9fd9ccb-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Création d’un arrangement floral moderne",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660438097__dc0c658e-7888-4c56-bab0-d70a2dfb734e-1674703933d9fd9ccb-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Développez votre créativité tout en découvrant divers matériaux et outils utilisés par les fleuristes pour créer des compositions florales séchées et des arrangements de fleurs de soie.</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée : 3 heures<br/>Âge requis : 16 ans et +</p><p>Dates :<br/>- 17 janvier 2023 (13h à16h) - Période d'inscription terminée<br/>- 25 janvier 2023 (19h à 22h) - Période d'inscription terminée</p><p>Coût : 90,00$ + taxes</p><p>Information : 450 300-2793 </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660438097__dc0c658e-7888-4c56-bab0-d70a2dfb734e-1674703933d9fd9ccb-0-heading",
+        "template--14810660438097__dc0c658e-7888-4c56-bab0-d70a2dfb734e-1674703933d9fd9ccb-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/creation-arrangement-floral-moderne.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-8": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_KPVBz4-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un lapin dans un jardin pour Pâques (7 ans et +)",
+            "heading_size": "h1"
+          }
+        },
+        "image_KPVBz4-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En prévision de la fête de Pâques, les petits et les grands sont invités à confectionner un mignon petit jardin de plantes!</p><p>On relève ses manches, on met les mains dans la terre et on s'amuse!</p><p>Matériel et outils fournis. Les participants repartent avec<br/>leur création.</p><p>Durée approx. : 1,5 à 2 heures<br/><br/>Âge requis : 7 ans et +<br/>(L’enfant âgé entre 7 et 12 ans doit être accompagné d’un adulte.)</p><p>Date : <br/>- 12 avril 2025 (10h à 12h)</p><p>Coût : 60,00 $ + taxes</p><p>Information : 450 300-2793</p><p><em>* La photo présentée est à titre indicatif.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "image_KPVBz4-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/un-lapin-dans-un-jardin-pour-paques-7-ans-et-12-avril-2025"
+          }
+        }
+      },
+      "block_order": [
+        "image_KPVBz4-heading",
+        "image_KPVBz4-text",
+        "image_KPVBz4-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/atelier-floral-jardin-lantes-enfants.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "1bb7474c-1bff-49ab-8822-498cce10caab-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Les plantes « cailloux » vous donnent rendez-vous!",
+            "heading_size": "h1"
+          }
+        },
+        "1bb7474c-1bff-49ab-8822-498cce10caab-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Connaissez-vous les lithops? Ces petites merveilles botaniques, originaires d’Afrique, sont de véritables trésors, tant par leur forme, leur couleur et leur texture! </p><p>Communément appelées plantes « cailloux », ces succulentes<br/>sont aussi précieuses que des bijoux, tant il faut être aux petits soins avec elles! Partez à la découverte de ces plantes fascinantes en créant votre mignon petit jardin de lithops! </p><p>Matériel et outils fournis. Les participants repartent avec leur jardin de lithops.</p><p>Durée : 1,5 heure<br/>Âge requis : 14 ans et +</p><p>Date :<br/>- 30 septembre (10h à 11h30) - Période d'inscription terminée</p><p>Coût : 90,00$ + taxes</p><p>Information : 450 300-2793</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1bb7474c-1bff-49ab-8822-498cce10caab-heading",
+        "1bb7474c-1bff-49ab-8822-498cce10caab-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Jardin-plantes-cailloux-double.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "25fe3fd0-9115-4420-8843-ad244c4fa668-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des fleurs séchées pour perdurer le bonheur!",
+            "heading_size": "h1"
+          }
+        },
+        "25fe3fd0-9115-4420-8843-ad244c4fa668-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si la saison des fleurs coupées tire à sa fin au Québec, celle des fleurs séchées prend son envol. Après la belle saison, voilà venu le temps de perdurer le bonheur d’avoir des fleurs au centre de votre table. Couleurs, formes et textures sont autant d’attributs qui font d’un centre de table de fleurs séchées un élément attractif qui embellit votre quotidien. Apprenez les techniques de base pour créer un centre de table à la fois champêtre et élégant en utilisant divers éléments naturels et décoratifs.</p><p>Matériel et outils fournis. Les participants repartent avec leur centre de table.</p><p>Durée : 2 heures<br/><br/>Âge requis : 14 ans et +.</p><p>Date :<br/>- 14 octobre 2023 (10h à 12h) - Période d'inscription terminée</p><p>Coût : 70,00$ + taxes</p><p>Information : 450 300-2793</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "25fe3fd0-9115-4420-8843-ad244c4fa668-heading",
+        "25fe3fd0-9115-4420-8843-ad244c4fa668-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/centre-table-fleurs-sechees1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'automne et ses couleurs vives s'invitent à votre table!",
+            "heading_size": "h1"
+          }
+        },
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une activité instructive, créative et amusante qui initie les enfants et les adolescents à la fleuristerie lors du weekend précédant l’Halloween. Fleurs fraîches, pot en céramique, éléments décoratifs et figurine seront assemblés pour créer un joli jardin de fleurs aux couleurs d’automne!  </p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Durée : 1,5 heure</p><p>Âge requis : 7 ans et +. * L’enfant âgé entre 7 et 12 ans doit être accompagné d’un adulte.</p><p>Date :<br/>- 28 octobre 2023 (10h à 11h30)<br/><br/>Coût : 65,00$ + taxes</p><p>Information : 450 300-2793 </p>",
+            "text_style": "body"
+          }
+        },
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/potiron-de-citrouille-qui-voila-dans-mon-jardin-de-fleurs-atelier-pour-enfant-et-adolescent-octobre-2023"
+          }
+        }
+      },
+      "block_order": [
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-heading",
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-text",
+        "85838d59-a4d8-43fb-94e7-f281377b6aad-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/atelier-automne-2024-3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-4": {
+      "type": "image-with-text",
+      "blocks": {
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confection d’un arbre de vie : une activité de bien-être artistique",
+            "heading_size": "h1"
+          }
+        },
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plongez au cœur de vos racines, de votre personnalité et de vos goûts dans la création d’un arbre de vie. Cette couronne d’ornement intérieur symbolise la vitalité, la sagesse et la spiritualité de l’homme dans son environnement. Développez et affichez vos talents artistiques en choisissant les mousses, fleurs de soie et éléments décoratifs qui composeront votre création!  </p><p>Matériel et outils fournis. Les participants repartent avec leur arbre de vie.</p><p>Durée : 2 heures<br/><br/>Âge requis : 16 ans et +</p><p>Date :<br/>- 20 avril 2023 (10h à 12h)</p><p>Coût : 75,00$ + taxes</p><p>Information : 450 300-2793</p>",
+            "text_style": "body"
+          }
+        },
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscription",
+            "button_link": "shopify://products/confection-d-un-arbre-de-vie-une-activite-de-bien-etre-artistique-novembre-2023"
+          }
+        }
+      },
+      "block_order": [
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-heading",
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-text",
+        "0c8a66c1-771f-4a42-b1d4-8ab1869ca6fe-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Arbre-de-vie-bleu_f5c52dba-e22f-4092-9a7d-976865b90002.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-5": {
+      "type": "image-with-text",
+      "blocks": {
+        "d46f059d-1960-413b-9252-4e6d8103981c-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confection d'une couronne de l'Avent : source de rassemblement",
+            "heading_size": "h1"
+          }
+        },
+        "d46f059d-1960-413b-9252-4e6d8103981c-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si la couronne de l'Avent tire ses  origines de fêtes païennes et de la religion chrétienne, elle est à notre époque une source de rassemblement autour d'une même table. Comme toutes les couronnes, on y associe le cycle de vie, la santé et la prospérité. Tous des voeux que nous souhaitons à nos proches pendant le temps des fêtes! </p><p>En prévision des célébrations de Noël, confectionnez à l'aide de matériaux naturels, séchés et de soie une couronne de l'Avent que vous admirerez jusqu'au jour tant attendu! Vous pourrez, telle que le dicte la tradition, allumer une bougie à la fois, chaque semaine, en commençant par le 4e dimanche qui précède le jour de Noël! </p><p>Matériel et outils fournis. Les participants repartent avec leur couronne de l'Avent.</p><p>Durée : 2 heures</p><p>Âge requis : 14 ans et +</p><p>Date :<br/>- 2 décembre 2023 (10h à 12h) - Période d'inscription terminée</p><p>Coût : 90,00$ + taxes</p><p>Information : 450 300-2793<br/><br/><strong>Note importante : </strong>L'atelier doit compter un minimum de 4 participants pour avoir lieu. Dans le cas contraire, il sera annulé. Nous communiquerons alors avec vous et vous rembourserons.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "d46f059d-1960-413b-9252-4e6d8103981c-heading",
+        "d46f059d-1960-413b-9252-4e6d8103981c-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Couronne-de-lavent-2023.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-6": {
+      "type": "image-with-text",
+      "blocks": {
+        "710011aa-d68f-493c-83e0-33932dc941b8-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fabrication de décos de Noël (atelier en duo)",
+            "heading_size": "h1"
+          }
+        },
+        "710011aa-d68f-493c-83e0-33932dc941b8-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un atelier pour deux personnes, ça vous intéresse? Avec votre amie, votre maman ou votre enfant, apprenez à fabriquer de jolies décorations pour Noël :</p><p>1. Une boucle à l'aide de rubans festifs. Idéal pour garnir votre sapin ou apporter une touche emballante à l'un de vos  cadeaux de Noël. </p><p>2. Un ornement de Noël artisanal en forme de sapin alliant fleurs de soie et séchées. Une belle déco à suspendre dans votre arbre ou pouvant servir de marque-place lors de votre souper des fêtes!</p><p>3. Un ornement décoré de fleurs de soie dévoilant toute votre créativité. Un cadeau unique à offrir à un parent, un professeur ou un ami!</p><p>Matériel et outils fournis pour deux personnes. Chaque participant repart avec une boucle et deux ornements de Noël.</p><p>Durée : 2 heures<br/><br/>Âge requis : 8 ans et +<br/>L'enfant âgé entre 8 et 12 ans doit être accompagné d'un adulte.</p><p>Date :<br/>- 9 décembre 2023 (10h à 12h) - Période d'inscription terminée<br/><br/>Coût pour deux personnes : 70,00 $ + taxes<br/><br/>Information : 450 300-2793</p><p><strong>Note importante : </strong>L'atelier doit compter un minimum de 4 participants pour avoir lieu. Dans le cas contraire, il sera annulé. Nous communiquerons alors avec vous et vous rembourserons.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "710011aa-d68f-493c-83e0-33932dc941b8-heading",
+        "710011aa-d68f-493c-83e0-33932dc941b8-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Atelier-floral-decos-noel2023.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-7": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_BCFwgL-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Création d'un sushi-fleurs",
+            "heading_size": "h1"
+          }
+        },
+        "image_BCFwgL-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Activité instructive, créative et amusante qui initie les petits comme les grands à la fleuristerie. Réalisez toutes les étapes de la création d’un sushi-fleurs (un joli petit centre de table fleuri).</p><p>Matériel et outils fournis. Les participants repartent avec leur création.</p><p>Âge requis : 7 ans et + *<br/>* L'enfant âgé entre 7 et 12 ans doit être accompagné d'un adulte.</p><p>Durée : 2 heures</p><p>Date : <br/>- 5 mars 2024 (13h à 15h) - Période d'inscription terminée</p><p>Coût : 45,00$ + taxes</p><p>Information : 450 300-2793</p><p><strong>Note importante : </strong>L'atelier doit compter un minimum de 3 participants pour avoir lieu. Dans le cas contraire, nous nous réservons le droit de l'annuler. Si nous annulons l'atelier, nous communiquerons avec vous et vous rembourserons.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_BCFwgL-heading",
+        "image_BCFwgL-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/creation-sushi-fleurs_77609c38-4faa-4d8b-927f-b63cd3ddefd0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-8": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_bBN9Kt-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Création d’un petit jardin de cactus et succulentes",
+            "heading_size": "h1"
+          }
+        },
+        "image_bBN9Kt-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les cactus et les succulentes ont la côte! Ils demandent que très peu d’entretien, mais pour bien vivre, certaines conditions climatiques leur sont essentielles. Lesquelles et comment bien prendre soin de ces plantes? Confectionnez un jardin de plantes désertiques tout en apprenant à l’entretenir.<br/><br/>Matériel et outils fournis. Les participants repartent avec leur création. <br/><br/>Âge requis : 7 ans et + *<br/>* L'enfant âgé entre 7 et 12 ans doit être accompagné d'un adulte.</p><p>Durée : 1,5 heure</p><p>Date : 6 mars 2024 (13h à 14h30) - Période d'inscription terminée</p><p>Coût : 55,00$ + taxes</p><p>Information : 450 300-2793<br/><br/><strong>Note importante : </strong>L'atelier doit compter un minimum de 3 participants pour avoir lieu. Dans le cas contraire, nous nous réservons le droit de l'annuler.  Si nous annulons l'atelier, nous communiquerons avec vous et vous rembourserons.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_bBN9Kt-heading",
+        "image_bBN9Kt-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/atelier-jardin-cactus-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-9": {
+      "type": "image-with-text",
+      "blocks": {
+        "5304fae2-c8c4-4f30-bc1f-7f41de932cf8-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une rose éternelle - Plus qu'une fleur : un trésor!",
+            "heading_size": "h1"
+          }
+        },
+        "5304fae2-c8c4-4f30-bc1f-7f41de932cf8-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La rose éternelle est étonnante! Ses différents coloris et sa longévité sont remarquables. Vous êtes curieux d'en savoir plus ce petit bijou floral? Participez à l'atelier de confection d'un arrangement de rose éternelle dans un contenant de verre.  </p><p>Matériel et outils fournis. Les participants repartent avec leur création. </p><p>Âge requis : 7 ans et + *<br/>* L'enfant âgé entre 7 et 12 ans doit être accompagné d'un adulte. </p><p>Durée : 1,5 heure<br/><br/>Date :<br/>- 7 mars 2024 (13h à 14h30) - Période d'inscription terminée</p><p>Coût : 40,00$ + taxes</p><p>Information : 450 300-2793 </p><p><strong>Note importante : </strong>L'atelier doit compter un minimum de 3 participants pour avoir lieu. Dans le cas contraire, nous nous réservons le droit de l'annuler. Si nous annulons l'atelier, nous communiquerons avec vous et vous rembourserons.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5304fae2-c8c4-4f30-bc1f-7f41de932cf8-heading",
+        "5304fae2-c8c4-4f30-bc1f-7f41de932cf8-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rose-eternelle-atelier-floral.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "35251835-eb67-4796-8a5e-684f75854b6e": {
+      "type": "rich-text",
+      "blocks": {
+        "35251835-eb67-4796-8a5e-684f75854b6e-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ateliers pour les fêtes d'enfants (7 à 12 ans)",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "35251835-eb67-4796-8a5e-684f75854b6e-heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "24fbb248-fc72-461b-b7d3-7e111198228d-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660438097__24fbb248-fc72-461b-b7d3-7e111198228d-1674436548476ce5b6-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "À la recherche d'une activité originale pour la fête de votre enfant?",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660438097__24fbb248-fc72-461b-b7d3-7e111198228d-1674436548476ce5b6-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste vous propose l'Atelier floral pour jeunes fleuristes en herbe!</p><p>Au choix :<br/>- confection d'un petit jardin de plantes<br/>- création d'un centre de table fleuri<br/>- confection d'une gerbe florale en fleurs de soie</p><p>Matériel et outils fournis sur place. Les enfants repartent avec leur création.</p><p>Durée approx. :  2,5 heures.</p><p>Nombre minimal de participants: 6<br/>Nombre maximal de participants: 10 </p><p>*La présence d'un parent accompagnateur est exigée. Le parent accompagnateur peut faire partie du groupe de participants.</p><p>Coût : À partir de 300$ + taxes  pour un groupe de 6 participants.  45,00$ + taxes pour chaque participant supplémentaire.</p><p>Pour information et réservation : 450 300-2793</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660438097__24fbb248-fc72-461b-b7d3-7e111198228d-1674436548476ce5b6-0-heading",
+        "template--14810660438097__24fbb248-fc72-461b-b7d3-7e111198228d-1674436548476ce5b6-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Atelier-enfant_2efca3e9-c537-4a52-a6ca-5fb6de9c93db.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "576991a6-9568-4a6d-b847-7ef155b62fc4": {
+      "type": "rich-text",
+      "blocks": {
+        "576991a6-9568-4a6d-b847-7ef155b62fc4-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ateliers pour les groupes",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "576991a6-9568-4a6d-b847-7ef155b62fc4-heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "8d4d4166-3e3a-480a-a3ad-906572a71346-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660438097__8d4d4166-3e3a-480a-a3ad-906572a71346-1674436548476ce5b6-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Activité à la carte",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660438097__8d4d4166-3e3a-480a-a3ad-906572a71346-1674436548476ce5b6-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Activité familiale, fête entre amis, bachelorette party, événement corporatif : toutes les occasions sont bonnes pour s'initier à l'art floral. </p><p>Pour connaître notre offre d'ateliers à la carte, appelez-nous : 450 300-2793. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660438097__8d4d4166-3e3a-480a-a3ad-906572a71346-1674436548476ce5b6-0-heading",
+        "template--14810660438097__8d4d4166-3e3a-480a-a3ad-906572a71346-1674436548476ce5b6-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Atelier-floral-evenementiel_445c788e-97e7-4155-a422-0fd728f8aefe.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "198a45ce-cf83-4ddc-ad29-b0e48684b309",
+    "00da2970-91ac-4c7a-8bf2-68c88c5ee2ca",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-1",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-2",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-3",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-4",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-5",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-6",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-7",
+    "dc0c658e-7888-4c56-bab0-d70a2dfb734e-8",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-1",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-2",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-3",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-4",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-5",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-6",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-7",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-8",
+    "d135d2d3-c26d-4026-9ca1-a094f6bc9b40-9",
+    "35251835-eb67-4796-8a5e-684f75854b6e",
+    "24fbb248-fc72-461b-b7d3-7e111198228d-1",
+    "576991a6-9568-4a6d-b847-7ef155b62fc4",
+    "8d4d4166-3e3a-480a-a3ad-906572a71346-1"
+  ]
+}

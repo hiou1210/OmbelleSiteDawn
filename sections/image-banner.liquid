@@ -1,5 +1,13 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
+{%- if section.settings.hide_without_image and section.settings.image == blank -%}
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'heading' and block.settings.heading_is_h1 and block.settings.heading != blank -%}
+      <h1 class="visually-hidden" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h1>
+    {%- endif -%}
+  {%- endfor -%}
+{%- else -%}
+
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -53,7 +61,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.mobile_image != blank and section.settings.image != blank %} banner--has-mobile-image{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -81,6 +89,17 @@
           widths: widths,
           fetchpriority: fetch_priority
       }}
+      {%- if section.settings.mobile_image != blank -%}
+        {{
+          section.settings.mobile_image
+          | image_url: width: 1500
+          | image_tag:
+            class: 'banner__media-image--mobile',
+            sizes: '100vw',
+            widths: '375, 550, 750, 1100, 1500',
+            fetchpriority: fetch_priority
+        }}
+      {%- endif -%}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -120,12 +139,16 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2
+            {%- assign heading_tag = 'h2' -%}
+            {%- if block.settings.heading_is_h1 -%}
+              {%- assign heading_tag = 'h1' -%}
+            {%- endif -%}
+            <{{ heading_tag }}
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
-            </h2>
+            </{{ heading_tag }}>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
@@ -166,6 +189,8 @@
   </div>
 </div>
 
+{%- endif -%}
+
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
@@ -179,6 +204,19 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_without_image",
+      "label": "Masquer la bannière s'il n'y a pas d'image",
+      "info": "Utile quand l'image provient d'une métafield. Le titre de niveau 1 reste présent pour le référencement.",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Image pour mobile",
+      "info": "Remplace l'image principale sur les petits écrans. Utilisez une hauteur d'image autre que « Adapter à la première image »."
     },
     {
       "type": "image_picker",
@@ -399,6 +437,13 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_is_h1",
+          "label": "Utiliser un titre de niveau 1",
+          "info": "À activer sur une seule section par page, pour le référencement.",
+          "default": false
         }
       ]
     },

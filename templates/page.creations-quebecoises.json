@@ -1,0 +1,500 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dad25ede-d734-42f6-b37b-9617a12144f9": {
+      "type": "image-banner",
+      "blocks": {
+        "dad25ede-d734-42f6-b37b-9617a12144f9-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Créations québécoises",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "dad25ede-d734-42f6-b37b-9617a12144f9-text": {
+          "type": "text",
+          "settings": {
+            "text": "pour faire découvrir les talents d'ici",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "dad25ede-d734-42f6-b37b-9617a12144f9-heading",
+        "dad25ede-d734-42f6-b37b-9617a12144f9-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Entete-nos-artistes.jpg",
+        "mobile_image": "shopify://shop_images/Entete-nos-artistes-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "35b0a954-f4ce-424b-9b19-fcb998045dbd-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__35b0a954-f4ce-424b-9b19-fcb998045dbd-1674013608875c0c9b-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mettre à l'avant-scène le savoir-faire, les réalisations et les créations des artistes et artisans d'ici, fait partie des valeurs d'Ombelle Fleuriste. Car du talent, de l'originalité et des produits de grande qualité, il y en a au Québec. </p><p>Soyez inspirés et conquis par quelques-unes des créations québécoises que nous retrouvons en boutique. Venez nous voir ou appelez-nous pour connaître les disponibilités ou obtenir plus d'informations sur nos nouveautés!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__35b0a954-f4ce-424b-9b19-fcb998045dbd-1674013608875c0c9b-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/meuble-ta-touche.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d7fd4b8c-a256-4537-b148-3f83879e9bb2": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "Catherine Plante : Illustrations, impressions d'art et cartes de souhaits",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "3c848308-6bf7-46e2-8bd8-da395a404aea-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Au cœur de la nature!",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Son inspiration : la nature. Catherine Plante, artiste d'Upton, respire à travers la beauté sauvage, les lignes et le mouvement de la vie. </p><p>Au centre de ses créations : l'animal et le végétal. Ses illustrations de plantes, réalisées à la main avec les encres, sont empreints de détails. C'est une véritable ode à la pureté et à la richesse de la flore du Québec!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-0-heading",
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/385427858_792809629439587_1851686235755402477_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c848308-6bf7-46e2-8bd8-da395a404aea-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Que ce soit dans son atelier ou en plein air, elle puise son inspiration de la nature et des espèces sauvages qui font la beauté de notre terre.</p><p>Sensible de par son expérience professionnelle et ses études en environnement, Catherine Plante est en constante communion avec la fraîcheur de ce qui nous entoure. Elle peint avec détails et délicatesse la vie.</p><p>À la boutique, on retrouve notamment quelques-unes de ses giclées d'art numérotées et de jolies cartes de souhaits, fidèles impressions des œuvres originales. </p><p>Une artiste engagée, des œuvres qui nous transportent dans un monde paisible et vibrant de beauté!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__3c848308-6bf7-46e2-8bd8-da395a404aea-1674184657dd8d29b8-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/carte-lapin.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "808ebe1c-cc83-4410-925e-fdbcb42dc257": {
+      "type": "gallery",
+      "blocks": {
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mesanges-bicolores.webp"
+          }
+        },
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mesanges-pommier.webp"
+          }
+        },
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nuit-boreale.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-1",
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-2",
+        "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-3"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "classic",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4b6d9dc9-98b2-4ff7-a94e-116604bba35d": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "Joseeincolors : Bijoux, foulards et toiles",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a9c11558-61d8-41c9-8726-a835da056110-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__a9c11558-61d8-41c9-8726-a835da056110-1674013608875c0c9b-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un joyau de créativité!",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660405329__a9c11558-61d8-41c9-8726-a835da056110-1674013608875c0c9b-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>On pourrait comparer ses œuvres à une explosion de couleurs, à une tornade d'idées et à un déluge de médiums. Josée Morin, artiste autodidacte de Chambly, explore l'art de multiples façons. </p><p>Tantôt, elle peint, tantôt, elle teint. Les encres à l'alcool, les acryliques et les aquarelles font partie des mediums qu'elle privilégie. Mais dans sa démarche qu'elle qualifie parfois de  chaotique, elle se projette au delà de sa zone de confort.  </p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__a9c11558-61d8-41c9-8726-a835da056110-1674013608875c0c9b-0-heading",
+        "template--14810660405329__a9c11558-61d8-41c9-8726-a835da056110-1674013608875c0c9b-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/josee-in-colors-avec-ses-oeuvres.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "a9c11558-61d8-41c9-8726-a835da056110-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "479450d0-6be8-46a9-aa44-e2985db234c4-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les textures la fascinent, c'est pourquoi, elle s'intéresse à divers papiers à intégrer à ses œuvres. Elle choisit avec soin les feuillages qu'elle utilise pour créer ses toiles selon la technique du cyanotype et les fleurs qui apportent une touche de couleur ou de jolis motifs aux foulards qu'elle teint par impression botanique.</p><p>Toujours en ébullition, son processus créatif roule à fond de train! Admirer les œuvres d'art de Joseeincolors, c'est se perdre dans un dédale de couleurs, de formes et de textures. Porter ses bijoux et ses foulards, c'est respirer la vie et le bonheur! </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "479450d0-6be8-46a9-aa44-e2985db234c4-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/foulard.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "0f2915ad-a048-4735-9c2e-3b999ff796c2": {
+      "type": "gallery",
+      "blocks": {
+        "template--15027010207825__0f2915ad-a048-4735-9c2e-3b999ff796c2-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/toile-courant-marin_9549fb1f-f50e-44e4-ad71-319aa9fdb9ba.webp"
+          }
+        },
+        "template--15027010207825__0f2915ad-a048-4735-9c2e-3b999ff796c2-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cyanotype.webp"
+          }
+        },
+        "d328f2ac-b4d9-4699-ba04-cffaa4ab9173": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/azurin.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--15027010207825__0f2915ad-a048-4735-9c2e-3b999ff796c2-image-2",
+        "template--15027010207825__0f2915ad-a048-4735-9c2e-3b999ff796c2-image-3",
+        "d328f2ac-b4d9-4699-ba04-cffaa4ab9173"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "classic",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "805e4bc7-21de-4e50-be6a-88a2cdfc6209": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "Anne-Marie Chagnon : Bijoux",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le chic intemporel!",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Depuis plus de 20 ans, Anne-Marie Chagnon gagne le cœur des femmes partout dans le monde. Faits d'étain, de verre, de résine et de perles irrégulières, les bijoux d'Anne-Marie Chagnon révèlent la beauté intérieure des femmes qui portent ses créations. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-0-heading",
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/am-chagnon2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Porter l'art au quotidien, c'est exprimer sa personnalité, que l'on soit du style classique ou moderne à l'ère contemporaine! </p><p>À toutes les femmes, son bijou Anne-Marie-Chagnon. Trouvez le vôtre parmi les magnifiques boucles d'oreilles, colliers et bracelets présentés dans la vitrine d'Ombelle.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1674013608875c0c9b-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bracelet-am-chagnon.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "5e2fb4b2-da93-4440-8229-9b13789e6c1b": {
+      "type": "gallery",
+      "blocks": {
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/239814_AnneMarieChagnon_2018_BouclesOreilles-Earrings_Naja_Noir_Etain-Black_Pewter_Argente-Sylvery.jpg"
+          }
+        },
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/383673_AnneMarieChagnon_2018_BouclesOreilles-Earrings_Vio_Trio_Argente-Sylvery_Bronze_Or-Gold.jpg"
+          }
+        },
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/479325_AnneMarieChagnon_2018_Colliers-Necklaces_Kisha_PerleIrisee-IridescentPearl_PVC.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-0",
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-1",
+        "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-2"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "classic",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2cc3301e-10e9-4f3d-8636-492116cde141-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Louise Forget : vivacité, contrastes et mouvements",
+            "heading_size": "h1"
+          }
+        },
+        "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De son regard clair et vif, l'artiste-peintre montarvilloise Louise Forget arrive à vous communiquer sa vivacité et son amour pour l’art. Ses œuvres colorées aux contrastes étonnants donnent vie aux fleurs qu’elle peint, sujet qu’elle affectionne tout particulièrement, car il symbolise pour elle l'exploration de la féminité et les émotions.</p><p>Quelques-unes de ses magnifiques toiles sont exposées chez Ombelle Fleuriste, dont Reine Dalhia. Certaines de ses créations sont appliquées à d’autres médias. Ainsi, vous trouverez en boutique des cartes de souhait, colliers et livrets d’écriture arborant ses créations.</p><p>Cette artiste passionnée offre des ateliers pour adultes et enfants. Très communicative, elle aime parler aux gens, connaître leur histoire et partager la sienne. Découvrez Louise Forget, artiste-peintre, chez Ombelle Fleuriste!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-heading",
+        "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/louise-forget-artiste-peintre_3a7561da-a369-40e8-a7cd-c18fa84f5e57.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "98144298-e0ed-4304-a017-9cb665ea25aa": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Membre de <a href=\"https://galerie-creation.com/creer_un_site_artiste/\">Galerie-Creation</a>",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "dad25ede-d734-42f6-b37b-9617a12144f9",
+    "35b0a954-f4ce-424b-9b19-fcb998045dbd-1",
+    "d7fd4b8c-a256-4537-b148-3f83879e9bb2",
+    "3c848308-6bf7-46e2-8bd8-da395a404aea-1",
+    "3c848308-6bf7-46e2-8bd8-da395a404aea-2",
+    "808ebe1c-cc83-4410-925e-fdbcb42dc257",
+    "4b6d9dc9-98b2-4ff7-a94e-116604bba35d",
+    "a9c11558-61d8-41c9-8726-a835da056110-1",
+    "a9c11558-61d8-41c9-8726-a835da056110-2",
+    "0f2915ad-a048-4735-9c2e-3b999ff796c2",
+    "805e4bc7-21de-4e50-be6a-88a2cdfc6209",
+    "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-1",
+    "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-2",
+    "5e2fb4b2-da93-4440-8229-9b13789e6c1b",
+    "2cc3301e-10e9-4f3d-8636-492116cde141-1",
+    "98144298-e0ed-4304-a017-9cb665ea25aa"
+  ]
+}

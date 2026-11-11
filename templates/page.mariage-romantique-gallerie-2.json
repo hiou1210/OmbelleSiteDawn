@@ -1,0 +1,179 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_VB3Q8c": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_VB3Q8c-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage romantique rose",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_VB3Q8c-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau-original_-_galerie-rose.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_pmwKrm": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-romantique-rose-gerbe-banc-fleuri-rapproche-bandeau-original_-_galerie-rose.jpg",
+        "title": "Photos mariage romantique rose",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 25,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_G3gqHW": {
+      "type": "gallery",
+      "blocks": {
+        "image_pGPK6t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-mariee-banc-fleuri.jpg"
+          }
+        },
+        "image_6H98DH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-mariee-debout-face.jpg"
+          }
+        },
+        "image_9C8new": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-mariee-chute-visage.jpg"
+          }
+        },
+        "image_MEBcnP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-Forfait.jpg"
+          }
+        },
+        "image_yKFEqT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bracelet-demoiselle.jpg"
+          }
+        },
+        "image_RUCPpQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-mariee1-carre_828be33d-c149-4fd1-b654-c9f852e7aad8.jpg"
+          }
+        },
+        "image_FhVPdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-mariee-chute.jpg"
+          }
+        },
+        "image_JhcVkb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-boutonnieres-garcon-marie.jpg"
+          }
+        },
+        "image_fTp4mA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-boutonniere-marieetgarcon.jpg"
+          }
+        },
+        "image_6G86Tm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-mariee-chute-visage-profil.jpg"
+          }
+        },
+        "image_ETaPGp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bracelet.jpg"
+          }
+        },
+        "image_qz7ydg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-demoiselle.jpg"
+          }
+        },
+        "image_CyDDbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-banc-original.jpg"
+          }
+        },
+        "image_iHzXPB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rose-marie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_pGPK6t",
+        "image_6H98DH",
+        "image_9C8new",
+        "image_MEBcnP",
+        "image_yKFEqT",
+        "image_RUCPpQ",
+        "image_FhVPdb",
+        "image_JhcVkb",
+        "image_fTp4mA",
+        "image_6G86Tm",
+        "image_ETaPGp",
+        "image_qz7ydg",
+        "image_CyDDbV",
+        "image_iHzXPB"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 5,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_VB3Q8c",
+    "wedding_image_overlay_pmwKrm",
+    "gallery_G3gqHW"
+  ]
+}

@@ -1,0 +1,463 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d5208351-62e8-4aae-89fb-54f716e2164a": {
+      "type": "image-banner",
+      "blocks": {
+        "d5208351-62e8-4aae-89fb-54f716e2164a-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sortes de fleurs",
+            "heading_size": "h1",
+            "heading_is_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "d5208351-62e8-4aae-89fb-54f716e2164a-heading"
+      ],
+      "settings": {
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "d266463e-c918-4f3b-9f06-7b8b4d1e8f60-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14846283874385__d266463e-c918-4f3b-9f06-7b8b4d1e8f60-16817838146301e6ae-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Il existe une grande variété de fleurs dans le monde, chacune avec sa beauté et son charme uniques. Des roses romantiques aux tulipes vibrantes, en passant par les délicates pivoines et les vibrantes gerberas, il y a une fleur pour chaque occasion, chaque humeur et chaque style de vie.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14846283874385__d266463e-c918-4f3b-9f06-7b8b4d1e8f60-16817838146301e6ae-0-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d266463e-c918-4f3b-9f06-7b8b4d1e8f60-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14846283874385__d266463e-c918-4f3b-9f06-7b8b4d1e8f60-16817838146301e6ae-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les fleurs ont été utilisées pour exprimer des émotions depuis des siècles. Que ce soit pour célébrer un mariage, pour exprimer des condoléances lors de funérailles, ou simplement pour égayer une pièce, les fleurs ont le pouvoir de transmettre des sentiments sans même dire un mot. Les différentes variétés de fleurs offrent une gamme de couleurs, de formes et de parfums pour tous les goûts. Les amateurs de fleurs peuvent choisir des fleurs classiques comme les roses et les lys, ou opter pour des fleurs exotiques comme les orchidées et les anthuriums. Quelle que soit la variété choisie, les fleurs sont un cadeau parfait pour toute occasion, ajoutant une touche de beauté et de fraîcheur à n'importe quel espace.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14846283874385__d266463e-c918-4f3b-9f06-7b8b4d1e8f60-16817838146301e6ae-1-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alstroemeria",
+            "heading_size": "h1"
+          }
+        },
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'Alstroemeria, également connue sous le nom de lys des Incas ou lis péruvien, est originaire des Andes en Amérique du Sud. Cette fleur peut également être trouvée dans d'autres pays d'Amérique du Sud tels que le Chili et le Brésil. La signification de l'Alstroemeria varie selon les cultures, mais en général, elle est associée à la prospérité, à la fortune et à l'amitié. Cette fleur appartient à la famille des Alstroemeriaceae et est souvent utilisée dans les bouquets pour sa longue durée de vie et sa variété de couleurs.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-0-heading",
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alstro.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-1-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amaryllis",
+            "heading_size": "h1"
+          }
+        },
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'Amaryllis, également connue sous le nom de lis de Noël, est originaire d'Afrique du Sud. Cette fleur est maintenant cultivée dans de nombreux pays, notamment aux Pays-Bas et en Israël. L'Amaryllis est souvent associée à la fierté, à la beauté et à la réussite. Elle appartient à la famille des Amaryllidaceae et est populaire comme plante d'intérieur pour ses grandes fleurs éclatantes.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-1-heading",
+        "template--14846283874385__3c0e759d-de04-4d92-b655-7b0e198f9853-16817838146301e6ae-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/amaryllis.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "120fa755-0c9a-4cfa-8e67-88bd3af07617-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lis Asiatique",
+            "heading_size": "h1"
+          }
+        },
+        "120fa755-0c9a-4cfa-8e67-88bd3af07617-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le Lis asiatique, également connu sous le nom de lis oriental, est originaire du Japon et de la Chine. Cette fleur peut maintenant être trouvée dans de nombreux pays, notamment aux États-Unis et en Europe. Le Lis asiatique symbolise la passion, l'amour et la prospérité. Cette fleur appartient à la famille des Liliaceae et est populaire pour ses grandes fleurs voyantes et ses couleurs vives.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "120fa755-0c9a-4cfa-8e67-88bd3af07617-heading",
+        "120fa755-0c9a-4cfa-8e67-88bd3af07617-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lis-asiatique.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-4": {
+      "type": "image-with-text",
+      "blocks": {
+        "14a7e03c-231c-480c-931e-3001a20deac9-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aster",
+            "heading_size": "h1"
+          }
+        },
+        "14a7e03c-231c-480c-931e-3001a20deac9-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'Aster est originaire d'Amérique du Nord, bien qu'elle puisse également être trouvée en Europe et en Asie. Cette fleur est souvent associée à la patience, à la sagesse et à la grâce. Elle appartient à la famille des Asteraceae et est populaire pour ses fleurs en forme d'étoile et sa grande variété de couleurs.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "14a7e03c-231c-480c-931e-3001a20deac9-heading",
+        "14a7e03c-231c-480c-931e-3001a20deac9-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-5": {
+      "type": "image-with-text",
+      "blocks": {
+        "8e1ab0be-7714-4b51-b787-e1c5b6be8bb2-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "8e1ab0be-7714-4b51-b787-e1c5b6be8bb2-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "8e1ab0be-7714-4b51-b787-e1c5b6be8bb2-heading",
+        "8e1ab0be-7714-4b51-b787-e1c5b6be8bb2-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-6": {
+      "type": "image-with-text",
+      "blocks": {
+        "25038b5c-e938-4e95-a6d2-3b5bbb2c9885-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "25038b5c-e938-4e95-a6d2-3b5bbb2c9885-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "25038b5c-e938-4e95-a6d2-3b5bbb2c9885-heading",
+        "25038b5c-e938-4e95-a6d2-3b5bbb2c9885-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-7": {
+      "type": "image-with-text",
+      "blocks": {
+        "e8e1cdef-d515-487f-8a8d-b70f6df20226-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "e8e1cdef-d515-487f-8a8d-b70f6df20226-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e8e1cdef-d515-487f-8a8d-b70f6df20226-heading",
+        "e8e1cdef-d515-487f-8a8d-b70f6df20226-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-8": {
+      "type": "image-with-text",
+      "blocks": {
+        "fe27c281-6e8d-42bf-bf46-326eed5c239e-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "fe27c281-6e8d-42bf-bf46-326eed5c239e-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "fe27c281-6e8d-42bf-bf46-326eed5c239e-heading",
+        "fe27c281-6e8d-42bf-bf46-326eed5c239e-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-9": {
+      "type": "image-with-text",
+      "blocks": {
+        "c90c635f-962d-48dc-a60c-0c6ac8e284a7-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "c90c635f-962d-48dc-a60c-0c6ac8e284a7-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "c90c635f-962d-48dc-a60c-0c6ac8e284a7-heading",
+        "c90c635f-962d-48dc-a60c-0c6ac8e284a7-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-10": {
+      "type": "image-with-text",
+      "blocks": {
+        "b91443d2-41d8-4204-865a-940945e0e29f-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your headline",
+            "heading_size": "h1"
+          }
+        },
+        "b91443d2-41d8-4204-865a-940945e0e29f-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotion description appears here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "b91443d2-41d8-4204-865a-940945e0e29f-heading",
+        "b91443d2-41d8-4204-865a-940945e0e29f-text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "d5208351-62e8-4aae-89fb-54f716e2164a",
+    "d266463e-c918-4f3b-9f06-7b8b4d1e8f60-1",
+    "d266463e-c918-4f3b-9f06-7b8b4d1e8f60-2",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-1",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-2",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-3",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-4",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-5",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-6",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-7",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-8",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-9",
+    "3c0e759d-de04-4d92-b655-7b0e198f9853-10"
+  ]
+}

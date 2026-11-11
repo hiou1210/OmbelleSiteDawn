@@ -1,0 +1,330 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5": {
+      "type": "image-banner",
+      "blocks": {
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste McMasterville",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison McMasterville<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-heading",
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-text",
+        "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-mcmasterville-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-mcmasterville-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "d18927e4-f456-4ad5-bba8-6cfd91e4e3e4": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "d1228f3b-434c-4787-b8d2-83842b96161f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-0",
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-1",
+        "template--14812863299665__d18927e4-f456-4ad5-bba8-6cfd91e4e3e4-1674600117a0f0ac97-2",
+        "d1228f3b-434c-4787-b8d2-83842b96161f"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de fleurs à McMasterville",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste, <strong>Fleuriste McMasterville</strong>, offre une <strong>livraison rapide et efficace le jour même</strong>. Nous faisons la livraison de <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>fleurs fraîches</strong></a>, de plantes et de cadeaux dans toute la ville. Soyez assuré de la qualité de notre service, de même que de l’écoute et de la courtoisie de notre personnel.</p><p>Élégance et modernité caractérisent les bouquets et arrangements floraux confectionnés par l’équipe expérimentée d’<em>Ombelle Fleuriste</em>. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au <strong>vaste choix de fleurs et de feuillages</strong> que l’on retrouve en boutique. <br/><br/>Nous effectuons la livraison de fleurs fraîches pour toutes occasions : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\"><strong>mariages</strong></a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\"><strong>funérailles</strong></a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-0-heading",
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-mcmasterville.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-1-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison dans divers établissements",
+            "heading_size": "h1"
+          }
+        },
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Ombelle Fleuriste</em> livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels et les auberges (ex. : l’<a href=\"https://hotelrivegauche.ca/\"><em>Hôtel Rive Gauche – Refuge Urbain</em></a>, le Manoir Rouville Campbell, l’<a href=\"https://www.lestroistilleuls.com/fr/accueil/\"><em>Hôtel Trois Tilleuls</em></a> et l’<a href=\"https://www.aubergehandfield.com/\" title=\"https://www.aubergehandfield.com/\"><em>Auberge Handfield</em></a>), les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\"><em>Hôpital Honoré-Mercier</em></a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><em>Hôpital Pierre Boucher</em></a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><em>Hôpital Charles-Le Moyne</em></a>) et les salons funéraires (ex. : le Salon Funéraire Maurice Demers McMasterville, le Salon Funéraire Maurice Demers Beloeil, le Salon Funéraire Demers Mont-Saint-Hilaire et le Salon funéraire Urgel Bourgie de St-Bruno-de-Montarville) situés à McMasterville ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-1-heading",
+        "template--14812863299665__251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1674600130ef80d25d-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-mcmasterville.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison en périphérie de McMasterville",
+            "heading_size": "h1"
+          }
+        },
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste élargit son rayon de livraison pour inclure plusieurs autres municipalités de la Rive-Sud. Pour une touche florale unique, que vous soyez à <strong>McMasterville</strong> ou dans  d'autres endroits prisés de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a>.</p>",
+            "text_style": "body"
+          }
+        },
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous: 450 300-2793",
+            "button_link": "tel: +14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-heading",
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-text",
+        "5f59c1be-a867-4d45-84e3-f132badfa1e8-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-mcmasterville.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d93be64d-47fc-4e65-a6ee-7a7bb9109472": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-mcmasterville-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-mcmasterville-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-mcmasterville-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-mcmasterville-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-mcmasterville-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-mcmasterville-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-0",
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-1",
+        "template--14812863299665__d93be64d-47fc-4e65-a6ee-7a7bb9109472-167459961635317287-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    },
+    "faq_ER7WpP": {
+      "type": "faq",
+      "blocks": {
+        "content_UEbgKX": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Les fleurs livrées à McMasterville sont-elles remises en main propre ?",
+            "answer": "<p>Oui : notre boutique est sur le même boulevard Sir-Wilfrid-Laurier, à quelques minutes. Vos fleurs quittent notre chambre froide et vous sont remises directement par notre équipe, jamais laissées à la porte.</p>"
+          }
+        },
+        "content_QEjQcz": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Livrez-vous les arrangements directement au Salon funéraire Demers de McMasterville ?",
+            "answer": "<p>Oui, par notre équipe, en coordination avec le salon (heure d'exposition, nom du défunt).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_UEbgKX",
+        "content_QEjQcz"
+      ],
+      "settings": {
+        "heading": "Questions Fréquentes – Fleuriste McMasterville",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "bd5ff578-a638-43c3-bef5-1e7e5c40f7a5",
+    "d18927e4-f456-4ad5-bba8-6cfd91e4e3e4",
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-1",
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-2",
+    "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-3",
+    "d93be64d-47fc-4e65-a6ee-7a7bb9109472",
+    "faq_ER7WpP"
+  ]
+}

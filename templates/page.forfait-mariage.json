@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_arGEwM": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/forfaits-mariage.jpg",
+        "title": "Forfaits Mariage",
+        "title_is_h1": true,
+        "button_1_label": "Appelez-nous pour prendre un rendez-vous",
+        "button_1_link": "tel:+14503002793",
+        "button_2_label": "Remplir le formulaire de mariage",
+        "button_2_link": "shopify://pages/formulaire-mariage",
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 0,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "wedding_header_PQzwQf": {
+      "type": "wedding-intro",
+      "settings": {
+        "title": "Votre mariage - Votre style",
+        "content": "<p><strong>Voici quelques propositions de forfait mariage. <br/></strong>Trouvez votre style et appelez-nous! Une rencontre avec nos fleuristes vous permettra de bien choisir les fleurs et accessoires pour votre mariage.<strong><br/></strong><a href=\"tel:+14503002793\" title=\"tel:+14503002793\"><strong>450 300-2793</strong></a></p>",
+        "text_alignment": "left",
+        "color_scheme": "scheme-1",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "wedding_packages_hub_L7pNbe": {
+      "type": "wedding-packages-hub",
+      "blocks": {
+        "package_block_H3U93C": {
+          "type": "package_block",
+          "settings": {
+            "title": "Poétique Blanc",
+            "description": "<p>Fleurs blanches, érigées et en cascades déploient leur beauté bohémienne dans un élan<br/>romanesque.</p>",
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bouquet-mariee2.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-poetique"
+          }
+        },
+        "package_block_tHRLEy": {
+          "type": "package_block",
+          "settings": {
+            "title": "Poétique Pastel",
+            "description": "<p>Fleurs bleues, fleurs pastel : délicates dentelles. Tout est douceur, galanterie et complicité secrète.</p>",
+            "image": "shopify://shop_images/Mariage-poetique-pastel-couple-profil-2_e217f791-27a9-4b50-95ea-ef2029db2f8f.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-poetique-pastel"
+          }
+        },
+        "package_block_FPKAra": {
+          "type": "package_block",
+          "settings": {
+            "title": "Chic Classique Doré",
+            "description": "<p>Fleurs dorées, des crèmes aux orangés, et bouquet en cascade pour un amour enflammé.</p>",
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-chaises-mains2.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-chic-classique"
+          }
+        },
+        "package_block_Ve4BFT": {
+          "type": "package_block",
+          "settings": {
+            "title": "Chic Classique Ivoire",
+            "description": "<p>Fleurs ivoires, au ton sur ton. Des bouquets élégants et distingués pour un mariage chic et raffiné.</p>",
+            "image": "shopify://shop_images/Mariage-chic-classique-blanc-mariee-debout-cote-robe-carre.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-chic-classique-ivoire"
+          }
+        },
+        "package_block_HQzKcM": {
+          "type": "package_block",
+          "settings": {
+            "title": "Romantique rouge",
+            "description": "<p>La force du rouge pour exprimer son amour. Un amour sincère et ardent. La rose au cœur d'un amour éternel. Des fleurs rouges pour dire à sa tendre moitié : \"Je t'aime\".</p>",
+            "image": "shopify://shop_images/Mariage-romantique-rouge-couple-gerbe-lampadaire.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-romantique"
+          }
+        },
+        "package_block_bcha96": {
+          "type": "package_block",
+          "settings": {
+            "title": "Romantique rose",
+            "description": "<p>Douce romance et grande noblesse. Bouquets et jardinières des grands jardins. De tout pour créer une ambiance de château.</p>",
+            "image": "shopify://shop_images/Mariage-romantique-rose-bouquet-mariee-banc-fleuri2-carre.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-romantique-rose"
+          }
+        },
+        "package_block_URPM37": {
+          "type": "package_block",
+          "settings": {
+            "title": "Exotique Soleil du Sud",
+            "description": "<p>Mariage aux couleurs ensoleillées. Du jaune, rouge et orangé pour une touche paradisiaque.</p>",
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-profil-escalier.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-exotique"
+          }
+        },
+        "package_block_7xU4aQ": {
+          "type": "package_block",
+          "settings": {
+            "title": "Exotique Sous les Tropiques",
+            "description": "<p>Mariage festif composé de fleurs aux formes et couleurs vibrantes de beauté.</p>",
+            "image": "shopify://shop_images/Mariage-exotique-colore-couple-table.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-exotique-sous-les-tropiques"
+          }
+        },
+        "package_block_cLY9FY": {
+          "type": "package_block",
+          "settings": {
+            "title": "Mariage Baroque",
+            "description": "<p>Sophistiqué et grandiose, le mariage baroque nous transporte vers une autre époque.</p>",
+            "image": "shopify://shop_images/Mariage-baroque-couple3.jpg",
+            "button_label": "VOIR LE FORFAIT",
+            "button_link": "shopify://pages/mariage-baroque"
+          }
+        }
+      },
+      "block_order": [
+        "package_block_H3U93C",
+        "package_block_tHRLEy",
+        "package_block_FPKAra",
+        "package_block_Ve4BFT",
+        "package_block_HQzKcM",
+        "package_block_bcha96",
+        "package_block_URPM37",
+        "package_block_7xU4aQ",
+        "package_block_cLY9FY"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "card_color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "wedding_image_overlay_arGEwM",
+    "wedding_header_PQzwQf",
+    "wedding_packages_hub_L7pNbe"
+  ]
+}

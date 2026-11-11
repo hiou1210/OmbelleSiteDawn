@@ -1,0 +1,160 @@
+/* Personnalisations Ombelle Fleuriste : polices, navigation, utilitaires partagés. */
+
+/* Police de la navigation */
+.header__menu-item,
+.header__inline-menu .list-menu__item,
+.menu-drawer__menu-item,
+.mega-menu__link {
+  font-family: var(--font-nav-family);
+  font-style: var(--font-nav-style);
+  font-weight: var(--font-nav-weight);
+}
+
+/* Police script réservée aux titres décoratifs (pages mariage) */
+.font-script {
+  font-family: var(--font-script-family);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* Liens dans le contenu riche : couleur d'accent du schéma, soulignés */
+.rte a {
+  color: rgb(var(--color-link));
+  text-underline-offset: 0.3rem;
+}
+
+.rte a:hover {
+  text-decoration-thickness: 0.2rem;
+}
+
+/* Bouton de retour en haut de page */
+back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(1rem);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.back-to-top__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  padding: 0;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.2);
+  border-radius: 50%;
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  cursor: pointer;
+}
+
+.back-to-top__button svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  back-to-top {
+    transition: none;
+  }
+}
+
+/* Propriétés de ligne produit (carte, informations funéraires) et choix d'un vase */
+.line-properties,
+.vase-picker {
+  display: block;
+  margin: 0 0 2rem;
+  padding: 0;
+  border: 0;
+}
+
+.line-properties__group {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  border: 0;
+}
+
+.line-properties__group[hidden] {
+  display: none;
+}
+
+.line-properties__hint {
+  margin: 0.5rem 0 0;
+}
+
+.vase-picker__price {
+  margin-left: 0.5rem;
+  opacity: 0.75;
+}
+
+.line-properties [aria-invalid='true'] {
+  outline: 0.2rem solid rgb(var(--color-foreground));
+}
+
+/* Conditions de vente dans le panier */
+.cart__terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  text-align: left;
+}
+
+.cart__terms input[type='checkbox'] {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.1rem 0 0;
+  accent-color: rgb(var(--color-button));
+}
+
+.cart__terms label {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.cart__terms a {
+  color: inherit;
+}
+
+/* Image de bannière pour mobile (extension de la section Dawn image-banner) */
+.banner__media-image--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 749px) {
+  .banner--has-mobile-image .banner__media > img:not(.banner__media-image--mobile) {
+    display: none;
+  }
+
+  .banner--has-mobile-image .banner__media-image--mobile {
+    display: block;
+  }
+}
+
+/* Image de diapositive pour mobile (extension de la section Dawn slideshow) */
+.slideshow__media-image--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow__slide--has-mobile-image .slideshow__media > img:not(.slideshow__media-image--mobile) {
+    display: none;
+  }
+
+  .slideshow__slide--has-mobile-image .slideshow__media-image--mobile {
+    display: block;
+  }
+}

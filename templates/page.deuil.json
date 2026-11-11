@@ -1,0 +1,419 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "6d9afc84-280f-4079-bb93-a27bdefe0d3a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14808045650001__6d9afc84-280f-4079-bb93-a27bdefe0d3a-1673580329dd44c2c6-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bandeau-fleuriste-funeraire2.jpg",
+            "mobile_image": "shopify://shop_images/Bandeau-fleuriste-funeraire2-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Fleurs de Deuil et Funéraires",
+            "heading_size": "h1",
+            "subheading": "Arrangements floraux pour funérailles - Livraison Rive-Sud",
+            "link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "template--14808045650001__6d9afc84-280f-4079-bb93-a27bdefe0d3a-1673580329dd44c2c6-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bandeau-fleuriste-funeraire.jpg",
+            "mobile_image": "shopify://shop_images/Bandeau-fleuriste-funeraire-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Hommage floral",
+            "heading_size": "h1",
+            "subheading": "à la mémoire du défunt",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045650001__6d9afc84-280f-4079-bb93-a27bdefe0d3a-1673580329dd44c2c6-1",
+        "template--14808045650001__6d9afc84-280f-4079-bb93-a27bdefe0d3a-1673580329dd44c2c6-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Diaporama"
+      }
+    },
+    "da6d4dda-c4e7-43da-b451-9a684f62a7f3-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14808045650001__da6d4dda-c4e7-43da-b451-9a684f62a7f3-1673580318b4d46d3f-0-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arrangements Floraux Funéraires - Livraison aux Salons de la Rive-Sud",
+            "heading_size": "h1"
+          }
+        },
+        "template--14808045650001__da6d4dda-c4e7-43da-b451-9a684f62a7f3-1673580318b4d46d3f-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ombelle Fleuriste</strong> vous accompagne dans ces moments difficiles en créant des <strong>arrangements floraux funéraires</strong> personnalisés et livrés avec soin. Notre équipe de fleuristes expérimentés comprend l'importance de chaque détail pour rendre un dernier hommage à vos êtres chers.</p><h3>Nos Types d'Arrangements Funéraires</h3><ul><li><strong>Corbeilles funéraires</strong> – Arrangements élégants sur support, parfaits pour exposition</li><li><strong>Coussins de cercueil</strong> - Compositions reposant sur le cercueil fermé</li><li><strong>Gerbes et sprays</strong> - Arrangements verticaux traditionnels</li><li><strong>Arrangements pour urne</strong> - Compositions délicates entourant l'urne</li><li><strong>Bouquets de sympathie</strong> - Pour témoigner votre soutien à la famille</li><li><strong>Couronnes mortuaires</strong> - Symbole classique de respect</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045650001__da6d4dda-c4e7-43da-b451-9a684f62a7f3-1673580318b4d46d3f-0-heading",
+        "template--14808045650001__da6d4dda-c4e7-43da-b451-9a684f62a7f3-1673580318b4d46d3f-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-funeraire.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "da6d4dda-c4e7-43da-b451-9a684f62a7f3-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_cXmXA7-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Livraison aux Salons Funéraires de la Rive-Sud</h3><p>Nous livrons vos <strong>fleurs de deuil</strong> directement aux principaux <strong>salons funéraires</strong> de la région, incluant:</p><ul><li>📍 <strong>Complexe funéraire Urgel Bourgie</strong> – St-Hubert</li><li>📍<strong> Coopérative funéraire du Grand Montréal</strong> – St-Hubert, Longueuil</li><li>📍<strong> Résidences funéraires Collins Clarke MacGillvray White</strong> – St-Lambert</li><li>📍 <strong>Centre funéraire Demers</strong> – McMasterville, Beloeil, Ste-Julie</li><li>📍 <strong>Maison Darche</strong> – St-Hubert, Brossard, Longueuil, Chambly</li><li>📍 <strong>Complexe Funéraire Pierre Tétreault</strong> – Boucherville</li><li>📍 <strong>Complexes funéraires Yves Légaré</strong> – Longueuil</li><li>📍 <strong>Et tous les autres salons</strong> de Beloeil, Chambly, Ste-Julie, Brossard...<br/><br/><strong>Commandez avant 17h en semaine ou avant 16h la fin de semaine</strong> pour une livraison le jour même aux salons funéraires. <br/>Pour les urgences, appelez-nous au <a href=\"tel:+14503002793\" title=\"tel:+14503002793\"><strong>450-300-2793</strong></a>.</li></ul><p><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_cXmXA7-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/arrangement-funeraire-avec-urne-saint-bruno.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "f90c6ece-df4a-49ea-9ff7-3ae195e35d2b": {
+      "type": "gallery",
+      "blocks": {
+        "image_mXDNrE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sincerite-grand-mcmasterville.jpg"
+          }
+        },
+        "image_iGpJ4p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coussin-de-cercueil-eternel-beloeil.jpg"
+          }
+        },
+        "image_YHm74i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Repos-eternel-Couronne-fleurie-st-bruno.jpg"
+          }
+        },
+        "image_bqWPJh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/arrangement-urne-olympe-saint-basile-le-grand.jpg"
+          }
+        },
+        "image_nyRjnz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/arrangement-urne-saint-bruno.jpg"
+          }
+        },
+        "48244386-e6a1-4cc2-be39-c917a9f50af2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-mum-lisianthus-muflier_ed08bc31-09e8-4a08-994f-0bbab42f7f21.jpg"
+          }
+        },
+        "image_MbmUB6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/arrangement-urne-celeste-mcmasterville.jpg"
+          }
+        },
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquet-funeraire-lys-callas-gerberas-blancs_473ae2d2-7e87-4f8e-94ee-183c7f07ff3c.jpg"
+          }
+        },
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bouquets-roses-funeraires.jpg"
+          }
+        },
+        "image_xtgyC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coussin-de-cercueil-grace-saint-bruno-de-montarville.jpg"
+          }
+        },
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/corbeille-arrangement-funeraire-roses-muflier-lys-rouge-blanc-vert-champetre_4143ead1-b70a-4151-aa28-fcfb0542f5d8.jpg"
+          }
+        },
+        "0e7b8422-b92d-4dc3-bbfd-f43ece2b767b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-bleu_362aa751-38ff-4cc8-b1d1-0371d8dfd808.jpg"
+          }
+        },
+        "66e79b32-997d-4be7-bd4f-2efe16af8c27": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-coussin-cercueil-roses-rouges_096bc4c2-3271-49c9-8d8d-fe4d2e1f6cde.jpg"
+          }
+        },
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/corbeille-funeraire-jardin-rose-plectranthus.jpg"
+          }
+        },
+        "c94ac7ec-30ee-4d90-8818-cb303fb29cdd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-orchidee-blanche-rose_76b1e613-b03a-4af0-8b93-bf47da6ab05e.jpg"
+          }
+        },
+        "0c067fd3-7719-4258-a322-d94a6da9a8bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-orchidee-rose-rose_39f9b29a-1b1a-4215-bf3d-59955cb2f785.jpg"
+          }
+        },
+        "21d6a627-7e96-48b9-8cda-9e797b950ceb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Corbeille-funeraire-roses-astilbe-lys_a6b41b84-1bc8-450e-a63d-f53f38e07a2c.jpg"
+          }
+        },
+        "8e5422bf-f71b-457f-810a-1d089a288b73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funeraire-corbeille-calla-orchidee-vert-blanc.jpg"
+          }
+        },
+        "e5c86958-5b7e-48be-862c-a8bf3cbf77b4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gerbe-funeraire-rouge-blanc-stylise.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_mXDNrE",
+        "image_iGpJ4p",
+        "image_YHm74i",
+        "image_bqWPJh",
+        "image_nyRjnz",
+        "48244386-e6a1-4cc2-be39-c917a9f50af2",
+        "image_MbmUB6",
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-3",
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-4",
+        "image_xtgyC4",
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-5",
+        "0e7b8422-b92d-4dc3-bbfd-f43ece2b767b",
+        "66e79b32-997d-4be7-bd4f-2efe16af8c27",
+        "template--14808045650001__f90c6ece-df4a-49ea-9ff7-3ae195e35d2b-1673827232fddfdcaa-7",
+        "c94ac7ec-30ee-4d90-8818-cb303fb29cdd",
+        "0c067fd3-7719-4258-a322-d94a6da9a8bb",
+        "21d6a627-7e96-48b9-8cda-9e797b950ceb",
+        "8e5422bf-f71b-457f-810a-1d089a288b73",
+        "e5c86958-5b7e-48be-862c-a8bf3cbf77b4"
+      ],
+      "settings": {
+        "heading": "Quelques exemples de nos réalisations",
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "faq_JMC6cD": {
+      "type": "faq",
+      "blocks": {
+        "content_CfMcHw": {
+          "type": "question",
+          "settings": {
+            "question": "Quel est le délai de livraison pour des fleurs funéraires?",
+            "answer": "<p>Pour les <strong>fleurs de deuil</strong>, nous offrons une livraison le jour même si vous commandez avant 17h la semaine ou 16h la fin de semaine. Pour les funérailles du lendemain, nous recommandons de commander la veille pour garantir une livraison à temps. En cas d'urgence, appelez-nous au 450-300-2793.<br/><br/></p>"
+          }
+        },
+        "content_axxMy8": {
+          "type": "question",
+          "settings": {
+            "question": "Combien coûte un arrangement funéraire?",
+            "answer": "<p>Nos <strong>arrangements funéraires</strong> débutent à partir de 75$ pour un bouquet de sympathie et vont jusqu'à 300$+ pour les grandes corbeilles et coussins de cercueil. Nous adaptons chaque création à votre budget tout en maintenant la qualité. Consultez notre <a href=\"/collections/fleurs-pour-funerailles\" title=\"Fleurs pour funérailles\"><strong>boutique en ligne</strong></a> pour voir les prix.<br/><br/></p>"
+          }
+        },
+        "content_iwWNjx": {
+          "type": "question",
+          "settings": {
+            "question": "Livrez-vous dans tous les salons funéraires de la Rive-Sud?",
+            "answer": "<p>Oui! Nous livrons des <strong>fleurs funéraires</strong> dans tous les salons funéraires de la Rive-Sud de Montréal: Longueuil, St-Bruno, Boucherville, Brossard, St-Hubert, Chambly, Beloeil, McMasterville, Ste-Julie, et plus encore. Contactez-nous pour confirmer.<br/><br/></p>"
+          }
+        },
+        "content_rQjxFD": {
+          "type": "question",
+          "settings": {
+            "question": "Que écrire sur une carte de condoléances avec des fleurs?",
+            "answer": "<p>Pour accompagner vos <strong>fleurs de deuil</strong>, vous pouvez écrire: \"Nos plus sincères condoléances\", \"En souvenir de [nom]\", \"Avec toute notre sympathie\", ou \"Nos pensées vous accompagnent\". Lors de votre commande, indiquez-nous le message et nous l'ajouterons sur une carte.<br/><br/></p>"
+          }
+        },
+        "content_ty3tCd": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je commander des fleurs funéraires en ligne?",
+            "answer": "<p>Absolument! Vous pouvez commander vos <strong>arrangements funéraires</strong> directement sur notre site web 24h/24. Sélectionnez l'arrangement, indiquez le salon funéraire et la date de livraison, et nous nous occupons du reste. Vous pouvez aussi appeler au 450-300-2793 pour un service personnalisé.<br/><br/></p>"
+          }
+        },
+        "content_iTUdMU": {
+          "type": "question",
+          "settings": {
+            "question": "Livrez-vous le dimanche ?",
+            "answer": "<p>Oui, nous assurons les livraisons pour les événements du dimanche. Comme c'est la pratique standard dans le secteur floral, nous effectuons ces livraisons le samedi en fin de journée ou en soirée. Cela garantit que vos <strong>arrangements floraux</strong> arrivent frais et dans un état optimal pour votre cérémonie ou événement du dimanche matin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_CfMcHw",
+        "content_axxMy8",
+        "content_iwWNjx",
+        "content_rQjxFD",
+        "content_ty3tCd",
+        "content_iTUdMU"
+      ],
+      "settings": {
+        "heading": "Questions Fréquentes - Fleurs Funéraires",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "59f68ffd-fa84-4f10-8b8c-da29597df2e7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14808045650001__59f68ffd-fa84-4f10-8b8c-da29597df2e7-1673834391a468500c-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_69149618-7d08-4b9e-87ab-80b6150a85f3.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je voulais prendre quelques minutes ce matin pour vous remercier pour la qualité de la corbeille funéraire que j’ai achetée chez vous samedi. Elle était magnifique. Cet arrangement floral était très important pour moi et je suis vraiment ravie d’avoir commandé chez vous.\"<br/>",
+            "heading_size": "h2",
+            "subheading": "Judith N.",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "a5e94766-67d5-440b-8b4f-9e0f06b9ff92": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_69149618-7d08-4b9e-87ab-80b6150a85f3.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Wow et wow. Nous avons commandé un funéraire, il était encore plus beau que sur la photo, les fleurs superbes et le montage réalisé par une artiste. Très satisfaits, nous reviendrons assurément et vous ferons de la publicité. Merci mille fois.\"",
+            "heading_size": "h2",
+            "subheading": "Manon Tremblay",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "9eb4a49d-ed80-40e5-9d65-4fc03a7ecde4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Testemonial-deuil_69149618-7d08-4b9e-87ab-80b6150a85f3.jpg",
+            "mobile_image": "shopify://shop_images/Testemonial-deuil-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Superbe arrangement de corbeille funéraire !\"",
+            "heading_size": "h2",
+            "subheading": "Danielle Béland",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045650001__59f68ffd-fa84-4f10-8b8c-da29597df2e7-1673834391a468500c-0",
+        "a5e94766-67d5-440b-8b4f-9e0f06b9ff92",
+        "9eb4a49d-ed80-40e5-9d65-4fc03a7ecde4"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 9,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "6d9afc84-280f-4079-bb93-a27bdefe0d3a",
+    "da6d4dda-c4e7-43da-b451-9a684f62a7f3-1",
+    "da6d4dda-c4e7-43da-b451-9a684f62a7f3-2",
+    "f90c6ece-df4a-49ea-9ff7-3ae195e35d2b",
+    "faq_JMC6cD",
+    "59f68ffd-fa84-4f10-8b8c-da29597df2e7"
+  ]
+}

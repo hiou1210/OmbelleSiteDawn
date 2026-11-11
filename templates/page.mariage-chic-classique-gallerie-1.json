@@ -1,0 +1,179 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_XQPntE": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_XQPntE-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photos mariage chic classique doré",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_XQPntE-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere3-alcove-bandeau_-_galerie-dore.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_H8FrTJ": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere3-alcove-bandeau_-_galerie-dore.jpg",
+        "title": "Photos mariage chic classique doré",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 60,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gallery_Jkk4RP": {
+      "type": "gallery",
+      "blocks": {
+        "image_Nhmfmp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-chaises-mains2.jpg"
+          }
+        },
+        "image_CJtCVU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-bouquet-mariee.jpg"
+          }
+        },
+        "image_AiqwGG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau1-mariage-chic-classique-orange.jpg"
+          }
+        },
+        "image_pURAmD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-alcove-pavillon.jpg"
+          }
+        },
+        "image_UrtjMp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-couple-entree-pavillon.jpg"
+          }
+        },
+        "image_hLwxYB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-Forfait.jpg"
+          }
+        },
+        "image_Qy3w9A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-2chaises-fleuries.jpg"
+          }
+        },
+        "image_DkhAxg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere1-alcove.jpg"
+          }
+        },
+        "image_AxbA8h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere3-alcove..jpg"
+          }
+        },
+        "image_4Ey9iB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-pavillon-chaises-fleuries.jpg"
+          }
+        },
+        "image_kgQdzU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-marie_901d9e10-6b56-4520-bd97-229362dd3aeb.jpg"
+          }
+        },
+        "image_KymTRX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere2-alcove.jpg"
+          }
+        },
+        "image_tkE3yH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariage-chic-classique-orange-couple-entree-regard-pavillon.jpg"
+          }
+        },
+        "image_tKpkWg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-jardiniere-lierre.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_Nhmfmp",
+        "image_CJtCVU",
+        "image_AiqwGG",
+        "image_pURAmD",
+        "image_UrtjMp",
+        "image_hLwxYB",
+        "image_Qy3w9A",
+        "image_DkhAxg",
+        "image_AxbA8h",
+        "image_4Ey9iB",
+        "image_kgQdzU",
+        "image_KymTRX",
+        "image_tkE3yH",
+        "image_tKpkWg"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 5,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_XQPntE",
+    "wedding_image_overlay_H8FrTJ",
+    "gallery_Jkk4RP"
+  ]
+}

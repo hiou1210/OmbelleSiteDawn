@@ -1,0 +1,253 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'section-wedding.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'wedding-form.js' | asset_url }}" defer="defer"></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  # Les noms des champs (contact[...]) alimentent le courriel envoyé à la boutique : ne pas les modifier.
+  assign needs = "besoin_bouquet_de_mariee|Bouquet de marié(e)~besoin_botonniere_de_mariee|Boutonnière de marié(e)~besoin_bouquet_de_demoiselle_honneur|Bouquet de demoiselle d'honneur~besoin_boutonniere_garcon_honneur|Boutonnière de garçon d'honneur~besoin_panier_petales_bouquetiere|Panier de pétales de bouquetière~besoin_boutonniere_petit_page|Boutonnière de petit page~bracelet_fleuri|Bracelet fleuri~besoin_couronne_fleurie|Couronne fleurie~besoin_centres_table|Centres de table~besoin_gerbe_arche_nuptiale|Gerbes d'arche nuptiale~besoin_gerbes_chaise_banc_eglise|Gerbes de chaise / Bancs d'église~besoin_fleurs_table_signature_cadeaux|Fleurs pour table de signatures / Cadeaux~besoin_fleurs_pour_table_gateau_ou_decorer_gateau|Fleurs pour table à gâteau / Pour décorer le gâteau" | split: "~"
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="wedding-form contact page-width page-width--narrow section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    {%- if section.settings.show_page_content and page.content != blank -%}
+      <div class="wedding-form__intro rte">{{ page.content }}</div>
+    {%- endif -%}
+
+    {%- if section.settings.intro_text != blank -%}
+      <div class="wedding-form__intro rte">{{ section.settings.intro_text }}</div>
+    {%- endif -%}
+
+    {%- form 'contact', id: 'WeddingForm', class: 'isolate' -%}
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {{- 'icon-success.svg' | inline_asset_content -}}
+          Merci de nous avoir contacté. Au plaisir de vous rencontrer prochainement!
+        </h2>
+      {%- else -%}
+        {%- if form.errors -%}
+          <div class="form__message">
+            <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+              {{- 'icon-error.svg' | inline_asset_content -}}
+              {{ 'templates.contact.form.error_heading' | t }}
+            </h2>
+          </div>
+          <ul class="form-status-list caption-large" role="list">
+            {%- for field in form.errors -%}
+              <li>
+                {%- if field == 'form' -%}
+                  {{ form.errors.messages[field] }}
+                {%- else -%}
+                  {{ form.errors.translated_fields[field] | capitalize }} {{ form.errors.messages[field] }}
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+
+        <fieldset class="wedding-form__group">
+          <legend class="wedding-form__legend">Noms des marié(e)s</legend>
+          <div class="wedding-form__row">
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-marie_1_prenom" name="contact[marie_1_prenom]" placeholder="Prénom" autocapitalize="words" autocomplete="off" required>
+              <label class="field__label" for="WeddingForm-marie_1_prenom">Prénom <span aria-hidden="true">*</span></label>
+            </div>
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-marie_1_nom" name="contact[marie_1_nom]" placeholder="Nom" autocapitalize="words" autocomplete="off" required>
+              <label class="field__label" for="WeddingForm-marie_1_nom">Nom <span aria-hidden="true">*</span></label>
+            </div>
+          </div>
+          <div class="wedding-form__row">
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-marie_2_prenom" name="contact[marie_2_prenom]" placeholder="Prénom" autocapitalize="words" autocomplete="off" required>
+              <label class="field__label" for="WeddingForm-marie_2_prenom">Prénom <span aria-hidden="true">*</span></label>
+            </div>
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-marie_2_nom" name="contact[marie_2_nom]" placeholder="Nom" autocapitalize="words" autocomplete="off" required>
+              <label class="field__label" for="WeddingForm-marie_2_nom">Nom <span aria-hidden="true">*</span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="wedding-form__group">
+          <legend class="wedding-form__legend">Coordonnées</legend>
+          <div class="wedding-form__row">
+            <div class="field">
+              <input class="field__input" type="email" id="WeddingForm-email" name="contact[email]" placeholder="Courriel" autocomplete="email" spellcheck="false" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" required>
+              <label class="field__label" for="WeddingForm-email">Courriel <span aria-hidden="true">*</span></label>
+            </div>
+            <div class="field">
+              <input class="field__input" type="tel" id="WeddingForm-telephone" name="contact[telephone]" placeholder="Téléphone" autocomplete="tel" value="{% if customer %}{{ customer.phone }}{% endif %}">
+              <label class="field__label" for="WeddingForm-telephone">Téléphone</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="wedding-form__group">
+          <legend class="wedding-form__legend">Informations sur le mariage</legend>
+          <div class="wedding-form__row">
+            <div class="field">
+              <input class="field__input" type="date" id="WeddingForm-date_de_mariage" name="contact[date_de_mariage]" placeholder="Date du mariage" required>
+              <label class="field__label" for="WeddingForm-date_de_mariage">Date du mariage <span aria-hidden="true">*</span></label>
+            </div>
+            <div class="field">
+              <input class="field__input" type="number" min="0" inputmode="numeric" id="WeddingForm-nombre_invites" name="contact[nombre_invites]" placeholder="Nombre d'invités">
+              <label class="field__label" for="WeddingForm-nombre_invites">Nombre d'invités</label>
+            </div>
+          </div>
+          <div class="wedding-form__row">
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-lieu_de_ceremonie" name="contact[lieu_de_ceremonie]" placeholder="Lieu de la cérémonie" required>
+              <label class="field__label" for="WeddingForm-lieu_de_ceremonie">Lieu de la cérémonie <span aria-hidden="true">*</span></label>
+            </div>
+            <div class="field">
+              <input class="field__input" type="text" id="WeddingForm-lieu_de_reception" name="contact[lieu_de_reception]" placeholder="Lieu de la réception">
+              <label class="field__label" for="WeddingForm-lieu_de_reception">Lieu de la réception</label>
+            </div>
+          </div>
+          <div class="field">
+            <textarea class="text-area field__input" rows="5" id="WeddingForm-theme_couleur" name="contact[theme_couleur]" placeholder="Thème / Couleurs" required></textarea>
+            <label class="field__label" for="WeddingForm-theme_couleur">Thème / Couleurs <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input class="field__input" type="text" id="WeddingForm-lien_pinterest" name="contact[lien_pinterest]" placeholder="Lien Pinterest / Mood Board" autocapitalize="off">
+            <label class="field__label" for="WeddingForm-lien_pinterest">Lien Pinterest / Mood Board (optionnel)</label>
+          </div>
+          <p class="wedding-form__note">
+            Pour vos photos d'inspiration, s'il vous plaît les envoyer à
+            <strong><a href="mailto:info@ombellefleuriste.ca">info@ombellefleuriste.ca</a></strong>
+          </p>
+        </fieldset>
+
+        <fieldset class="wedding-form__group wedding-form__needs" data-requires-one>
+          <legend class="wedding-form__legend">Vos besoins <span aria-hidden="true">*</span></legend>
+          <ul class="wedding-form__checkboxes" role="list">
+            {%- for need in needs -%}
+              {%- assign need_parts = need | split: '|' -%}
+              <li>
+                <input class="wedding-form__checkbox" type="checkbox" id="WeddingForm-{{ need_parts[0] }}" name="contact[{{ need_parts[0] }}]">
+                <label for="WeddingForm-{{ need_parts[0] }}">{{ need_parts[1] }}</label>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </fieldset>
+
+        <div class="field">
+          <input class="field__input" type="text" id="WeddingForm-budget" name="contact[budget]" placeholder="Budget envisagé" autocapitalize="off" required>
+          <label class="field__label" for="WeddingForm-budget">Budget envisagé <span aria-hidden="true">*</span></label>
+        </div>
+
+        <div class="field">
+          <textarea class="text-area field__input" rows="5" id="WeddingForm-precision_des_besoins" name="contact[precision_des_besoins]" placeholder="Précision des besoins"></textarea>
+          <label class="field__label" for="WeddingForm-precision_des_besoins">Précision des besoins (optionnel)</label>
+        </div>
+        <p class="wedding-form__note">
+          Veuillez décrire vos attentes en termes de nombre de bouquets, boutonnières, centres de table, etc. que vous souhaitez avoir. Précisez-nous tout autre besoin mentionné ou non précédemment dans le formulaire.
+        </p>
+
+        {%- if section.settings.closing_text != blank -%}
+          <div class="wedding-form__closing rte">{{ section.settings.closing_text }}</div>
+        {%- endif -%}
+
+        <div class="contact__button">
+          <button type="submit" class="button">{{ 'templates.contact.form.send' | t }}</button>
+        </div>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Formulaire de mariage",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Taille du titre",
+      "options": [
+        { "value": "h2", "label": "Moyen" },
+        { "value": "h1", "label": "Grand" },
+        { "value": "h0", "label": "Très grand" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_page_content",
+      "label": "Afficher le contenu de la page au-dessus du formulaire",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "intro_text",
+      "label": "Texte d'introduction"
+    },
+    {
+      "type": "richtext",
+      "id": "closing_text",
+      "label": "Texte avant le bouton d'envoi",
+      "default": "<p>Une fois le formulaire envoyé, une fleuriste communiquera avec vous afin de planifier une rencontre dans notre boutique.</p>"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Formulaire de mariage"
+    }
+  ]
+}
+{% endschema %}

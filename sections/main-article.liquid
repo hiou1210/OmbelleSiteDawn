@@ -61,6 +61,13 @@
               <span>{{ article.author }}</span>
             </span>
           {%- endif -%}
+          {%- if block.settings.show_read_time -%}
+            {%- assign word_count = article.content | strip_html | split: ' ' | size -%}
+            {%- assign read_minutes = word_count | divided_by: 270.0 | ceil | at_least: 1 -%}
+            <span class="caption-with-letter-spacing">
+              {{ 'ombelle.article.read_time' | t: minutes: read_minutes }}
+            </span>
+          {%- endif -%}
         </header>
 
       {%- when 'content' -%}
@@ -348,6 +355,12 @@
           "id": "blog_show_author",
           "default": false,
           "label": "t:sections.main-article.blocks.title.settings.blog_show_author.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_read_time",
+          "default": true,
+          "label": "Afficher le temps de lecture"
         }
       ]
     },

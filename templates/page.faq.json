@@ -1,0 +1,366 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40": {
+      "type": "image-banner",
+      "blocks": {
+        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Foire aux questions",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/faq-bandeau_84c7bc2c-6173-4c9e-9d83-23630b4d33a9.jpg",
+        "mobile_image": "shopify://shop_images/faq-bandeau-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "bc607cb2-80a7-483e-ba1a-325d94ff4dbd": {
+      "type": "faq",
+      "blocks": {
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/faq-side.jpg"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison"
+          }
+        },
+        "content_3GeRcN": {
+          "type": "question",
+          "settings": {
+            "question": "Quelle est la différence entre commander chez un fleuriste local et sur un site national de livraison de fleurs ?",
+            "answer": "<p>Chez Ombelle Fleuriste, vous parlez directement à l'équipe qui choisit les fleurs, compose votre bouquet dans notre boutique de Saint-Basile-le-Grand et le livre en main propre. Votre commande n'est relayée à aucun intermédiaire. Vous pouvez nous appeler pour ajuster une couleur, un message ou une heure de livraison, et nous connaissons bien les résidences, hôpitaux et salons funéraires de la Rive-Sud. Vous savez qui prépare vos fleurs et comment elles ont été traitées.</p>"
+          }
+        },
+        "content_XxCGeC": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je faire une surprise sans que vous appeliez le destinataire ?",
+            "answer": "<p>Oui. Indiquez-le dans les notes de commande ou par téléphone. Nous livrerons alors dans la plage horaire convenue avec vous, toujours en main propre. Si personne n'est présent, nous ne laissons pas les fleurs à la porte : nous les rapportons à la boutique et nous vous appelons pour convenir de la suite.</p>"
+          }
+        },
+        "content_fExtxQ": {
+          "type": "question",
+          "settings": {
+            "question": "Laissez-vous les fleurs devant la porte si personne ne répond ?",
+            "answer": "<p>Non, jamais. Nos fleurs sont livrées en main propre par l'équipe d'Ombelle Fleuriste. À moins d'avis contraire de votre part, nous appelons le destinataire avant la livraison pour nous assurer que quelqu'un sera présent. Si personne ne répond sur place, nous rapportons les fleurs à la boutique, où elles retournent au frais, et nous communiquons avec vous pour convenir d'une nouvelle livraison (des frais de livraison s'appliquent alors de nouveau). Un bouquet laissé sur un perron au soleil, au froid ou sous la pluie peut s'abîmer en quelques heures : nous ne prenons pas ce risque avec vos fleurs.</p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-1": {
+          "type": "question",
+          "settings": {
+            "question": "Avez-vous un service de livraison ?",
+            "answer": "<p>Ombelle Fleuriste offre un service de livraison de qualité dans plusieurs villes situées sur la rive sud de Montréal. Les frais de livraison varient selon la municipalité. Pour les événements, comme les mariages, nous nous déplaçons souvent à Montréal, et plus loin.</p>"
+          }
+        },
+        "content_VVJBRT": {
+          "type": "question",
+          "settings": {
+            "question": "Qui livre les fleurs commandées chez Ombelle Fleuriste ?",
+            "answer": "<p>Notre propre équipe. Vos fleurs ne sont confiées ni à un transporteur ni à un sous-traitant, et elles ne voyagent pas dans une boîte de carton. Elles sont composées dans notre boutique de Saint-Basile-le-Grand, puis livrées directement par nous à Saint-Basile-le-Grand, Saint-Bruno-de-Montarville, McMasterville et dans nos autres villes desservies de la Rive-Sud. C'est le service personnalisé d'un fleuriste local : la personne qui livre connaît votre commande et la remet en main propre. Les livraisons courantes se font sur la Rive-Sud ; pour les événements, comme les mariages, nous nous déplaçons souvent à Montréal, et plus loin.</p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-2": {
+          "type": "question",
+          "settings": {
+            "question": "Pouvez-vous livrer le jour même ?",
+            "answer": "<p>Oui, sur le territoire que nous couvrons. Par contre, la commande doit avoir été effectuée avant 17h en semaine et 16h la fin de semaine.</p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-3": {
+          "type": "question",
+          "settings": {
+            "question": "Pouvez-vous livrer à une heure précise ?",
+            "answer": "<p>Oui, seulement si votre commande de fleurs se fait par téléphone et que nous avons convenu de l'heure avec vous lors de votre appel.</p><p>Pour les commandes Web, la livraison se fait dans une plage horaire que vous sélectionnez (par exemple: 9h30 à 12h, 12h à 16h ou 16h à 19h). &nbsp;</p><p>Nous ne pouvons pas offrir le service de livraison à une heure précise lors des grands événements tels que la Saint-Valentin ou la Fête des mères, ou encore lors d'une tempête de neige.&nbsp;</p><p>Pour toute demande exceptionnelle (par exemple pour des funérailles, un mariage ou tout autre événement), veuillez communiquer avec nous.</p>"
+          }
+        },
+        "8b5ca4b0-9f96-4133-8581-323548968097": {
+          "type": "question",
+          "settings": {
+            "question": "Pouvez-vous livrer le dimanche?",
+            "answer": "<p>Oui, nous offrons le service de livraison le dimanche matin entre 9h et 12h à condition que la commande ait été complétée au plus tard la veille, avant 16h.</p>"
+          }
+        },
+        "b3590b7f-dd6c-43d7-a2b6-c64537340529": {
+          "type": "question",
+          "settings": {
+            "question": "Comment s’organise la livraison ?",
+            "answer": "<p>Au moment de la livraison, sauf si nous recevons des instructions contraires de votre part, nous communiquons avec le destinataire afin de nous assurer qu'une personne sera présente pour recevoir les fleurs ou le colis. Nous vérifions au même moment que l'adresse de livraison fournie est exacte. Nous procédons ensuite à la livraison.</p>"
+          }
+        },
+        "9589861a-7f12-4db6-85cd-647d90108943": {
+          "type": "question",
+          "settings": {
+            "question": "Que se passe-t-il si le destinataire est absent au moment de la livraison ?",
+            "answer": "<p>Chez Ombelle Fleuriste, à moins d'avis contraire de votre part, nous appelons toujours le destinataire avant d'effectuer la livraison afin de nous assurer qu'une personne sera présente pour recevoir les fleurs ou le colis. Nous convenons avec le destinataire du meilleur moment pour effectuer la livraison.</p><p>Si vous ne souhaitez pas que nous appelions le destinataire avant la livraison afin de créer un effet de surprise, nous livrerons au moment convenu avec vous. Par contre, si personne ne répond à l'adresse de livraison que vous nous avez fournie, nous rapporterons les fleurs ou le colis à la boutique. Nous communiquerons alors avec vous et nous vous informerons que les frais de livraison seront chargés de nouveau pour effectuer une deuxième livraison. &nbsp;</p><p>De plus, des frais supplémentaires pourront être ajoutés à votre facture si la livraison doit avoir lieu à un autre endroit que celui indiqué lors de votre commande.</p>"
+          }
+        },
+        "b36aca9c-068d-4f12-b18d-bfabe67d9847": {
+          "type": "question",
+          "settings": {
+            "question": "Comment puis-je connaître les frais de livraison?",
+            "answer": "<p>Vous pouvez nous téléphoner pendant nos heures d'ouverture pour connaître les frais de livraison associés à une municipalité donnée.</p><p>Si vous décidez de commander via notre site Internet, les frais de livraison vous seront communiqués dès que aurez entré toutes les informations demandées dans notre formulaire, notamment les coordonnées de la personne qui recevra le bouquet ou le colis.</p><p></p><p></p>"
+          }
+        },
+        "b9926f1a-9cc2-4cad-a7ee-0fd4d96344bc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Achat en ligne"
+          }
+        },
+        "4ab111ed-f217-4ecf-b7a2-7e0378c88d63": {
+          "type": "question",
+          "settings": {
+            "question": "À quelle vitesse ma commande faite en ligne sera traitée?",
+            "answer": "<p>Votre commande sera traitée dès que nous la recevrons. Nous nous engageons à respecter la plage horaire de livraison ou de ramassage en boutique que vous aurez choisie lors de votre commande.</p><p>Si pour une raison majeure nous ne sommes pas en mesure de respecter cette plage horaire, nous communiquerons avec vous.</p>"
+          }
+        },
+        "33263ae1-5d54-4543-aa66-2e5dd418c529": {
+          "type": "question",
+          "settings": {
+            "question": "Je n'ai pas reçu le courriel de confirmation de la réception de ma commande.",
+            "answer": "<p>Si vous n'avez pas reçu la confirmation de votre commande par courriel, vérifiez dans votre boîte de courriels indésirables. Si la confirmation ne s'y trouve pas, envoyez-nous un courriel avec votre nom et le nom de la personne à qui vous souhaitez faire parvenir des fleurs ou un colis. Nous vous renverrons la confirmation par courriel sans tarder.</p>"
+          }
+        },
+        "b9e1c44f-5c59-442e-a4cc-7ba93db107a1": {
+          "type": "question",
+          "settings": {
+            "question": "Je dois changer mon adresse de livraison. Comment puis-je faire?",
+            "answer": "<p>Si vous devez changer l'adresse de livraison, il est important de nous en informer le plus tôt possible.</p><p>À noter que des frais de livraison supplémentaires pourront vous être chargés si le livreur s'est rendu à l'adresse d'expédition avant que vous nous informiez du changement. </p><p>De plus, les frais de livraison seront ajustés selon la municipalité. Ainsi, si les frais de livraison sont plus élevés que ceux convenus à l'origine, vous devrez défrayer la différence.</p><p></p>"
+          }
+        },
+        "c535137c-72e6-49f7-a60c-f1273e5fe386": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je modifier le message de ma carte?",
+            "answer": "<p>Si vous désirez modifier votre message, veuillez communiquer avec nous le plus tôt possible. Nous ferons de notre mieux pour réaliser ce changement si le livreur n'est pas encore parti avec la commande.</p>"
+          }
+        },
+        "fafa2477-9f88-44f5-b9d2-6a2682fc70e8": {
+          "type": "question",
+          "settings": {
+            "question": "Les paiements sur votre site sont-ils sécurisés ?",
+            "answer": "<p>Les paiements sont faits au moyen de la plateforme Shopify. Les paiements effectués en ligne au moyen de Shopify sont sécurisés et protégés par la technologie SSL (Secure Sockets Layer). Cette technologie crypte vos informations pour un niveau optimal de sécurité. De plus, Shopify a mis en place des mesures supplémentaires visant à protéger vos informations personnelles et bancaires contre le vol et la fraude.</p>"
+          }
+        },
+        "b7a94bd8-e593-4fca-ab6a-2be5651f5e60": {
+          "type": "heading",
+          "settings": {
+            "heading": "Services"
+          }
+        },
+        "bcf708c6-57ea-4a88-9e8c-6968f61a8416": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je commander un bouquet de fleurs sur mesure ou d'autres items que vous avez en boutique, mais que je ne vois pas sur votre site Internet?",
+            "answer": "<p>Oui, bien sûr. Nous avons beaucoup d'autres choix de fleurs, plantes et items cadeaux à vous proposer. Vous pouvez nous appeler pendant nos heures d’ouverture. Il nous fera plaisir de vous conseiller et de prendre en note votre commande. Celle-ci ainsi que son paiement au moyen d'une carte de crédit pourront se faire par téléphone.</p>"
+          }
+        },
+        "8c504d18-e93b-4b60-ae00-55bd407981b0": {
+          "type": "question",
+          "settings": {
+            "question": "Avez-vous un service de ramassage en magasin ?",
+            "answer": "<p>Oui, nous disposons d'un service de cueillette en boutique. Vous pouvez nous appeler pour passer votre commande, puis la ramasser à l'heure que nous aurons convenu lors de votre appel. <br/><br/>À noter qu'un délai raisonnable en fonction de la complexité de votre demande doit être donné à nos fleuristes pour réaliser votre commande.</p><p></p><p></p>"
+          }
+        },
+        "961d2320-9ed0-4095-968f-1dc7a6b38e47": {
+          "type": "question",
+          "settings": {
+            "question": "Je suis une entreprise et j’aimerais commander une grande quantité de plantes et/ou fleurs. Est-ce possible d’avoir une soumission ?",
+            "answer": "<p>Oui. Veuillez nous appeler. Il nous fera plaisir de vous conseiller, de prendre en note votre demande et de vous proposer une soumission dans un délai raisonnable.</p>"
+          }
+        },
+        "483f4ebd-281f-4e10-af1b-9f518e2c3f84": {
+          "type": "question",
+          "settings": {
+            "question": "Proposez-vous des cartes cadeaux ?",
+            "answer": "<p>Oui. Vous pouvez vous procurer un certificat-cadeau via notre boutique en ligne en cliquant sur l'onglet « Certificats-cadeaux ». Par la suite, vous pourrez sélectionner la valeur du certificat-cadeau que vous souhaitez offrir. Différents montants vous sont proposés. Vous pouvez également vous rendre à notre boutique pour acheter votre certificat-cadeau. Nos certificats-cadeaux sont seulement échangeables en boutique. Ils ne peuvent pas être employés pour faire des achats via notre boutique en ligne.</p>"
+          }
+        },
+        "164cc995-df86-4fdd-9e6a-7f2ba1399262": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je vous contacter au moyen d’un numéro sans frais?",
+            "answer": "<p>Oui, tout à fait. De n’importe quel endroit au Canada et aux États-Unis, vous pouvez nous joindre sans frais en composant le 1-888-300-2793.</p>"
+          }
+        },
+        "16839d67-dd65-4787-a09c-2cff9597e14b": {
+          "type": "question",
+          "settings": {
+            "question": "Comment emballez-vous vos bouquets de fleurs coupées?",
+            "answer": "<p>Chez Ombelle Fleuriste, nous emballons nos fleurs avec délicatesse dans des emballages conçus pour conserver leur fraîcheur, leur qualité et les protéger du froid, du vent et des intempéries. Il est donc important de bien les emballer, même par temps beau et chaud, pour préserver leur beauté.</p><p></p>"
+          }
+        },
+        "6a87e874-af9a-42c3-ae19-0029936c1a9c": {
+          "type": "question",
+          "settings": {
+            "question": "Je me marie bientôt et je souhaiterais discuter des prix avec vous, comment dois-je faire?",
+            "answer": "<p>Nous vous invitons à consulter la rubrique <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\">Mariage</a> de notre site Internet et à nous appeler pour prendre un rendez-vous. Suite à une rencontre en boutique, il nous sera possible de vous proposer une soumission pour fleurir votre mariage en fonction de vos goûts et attentes.</p>"
+          }
+        },
+        "2dc4cee5-38b2-4ec3-93a4-96dc41d9d98d": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je me faire rembourser ?",
+            "answer": "<p>Aucun remboursement  ou annulation de commande ne pourra être effectué moins de 24 heures avant la date de livraison. Si vous souhaitez modifier votre commande, veuillez nous appeler le plus tôt possible.</p>"
+          }
+        },
+        "09401272-a900-4246-939f-d705d07512b7": {
+          "type": "question",
+          "settings": {
+            "question": "Quels modes de paiement acceptez-vous ?",
+            "answer": "<p>En boutique, nous acceptons les cartes de crédit Visa, Mastercard et American Express. Les paiements par carte débit sont également acceptés et payer avec Apple Pay ou Android Pay est possible grâce à nos terminaux. </p><p>Pour les achats en ligne, nous acceptons seulement Paypal ainsi que les cartes de crédit Visa, Mastercard et American Express.</p>"
+          }
+        },
+        "3c096ce6-18e0-4c56-b980-03e2f5b1df08": {
+          "type": "heading",
+          "settings": {
+            "heading": "Produits et fraîcheur"
+          }
+        },
+        "content_CPpaFJ": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps vos fleurs coupées vont-elles durer ?",
+            "answer": "<p>Cela dépend de la variété et de la saison : certaines fleurs sont naturellement plus éphémères que d'autres. Comme nos fleurs sont conditionnées dès leur réception et gardées au frais jusqu'à la livraison, elles arrivent chez vous prêtes à durer. Pour les garder belles le plus longtemps possible, suivez nos conseils d'entretien dans la page foire aux questions. Au moment de commander, demandez-nous quelles fleurs de saison tiennent le mieux.</p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-5": {
+          "type": "question",
+          "settings": {
+            "question": "Comment faire pour conserver mes fleurs le plus longtemps possible ?",
+            "answer": "<p>Voici les meilleurs conseils pour conserver la beauté et la fraîcheur de vos fleurs coupées le plus longtemps possible : </p><p>- Déposez vos fleurs coupées dans un vase bien propre et rempli d'eau fraîche. </p><p>- Assurez-vous que toutes les tiges touchent à l'eau dans votre vase.</p><p>- Évitez que votre bouquet soit déposé dans un endroit chaud ou  directement au soleil. Vous augmenterez ainsi la longévité de vos fleurs.</p><p>- Tous les deux jours, videz l'eau du vase, lavez votre vase avec de l'eau savonneuse, rincez-le et remplissez-le de nouveau d'eau fraîche. Déposez-y votre bouquet de fleurs dont vous aurez préalablement coupé le bout des tiges en biseau (environ 2,5 cm), </p><p>- Au cours de la semaine, supprimez les fleurs défraîchies et reconfectionnez votre bouquet avec les fleurs qui sont toujours jolies.</p><p>- Si vous avez de la place au frigo, vous pouvez y entreposer votre bouquet de fleurs pendant la nuit, avec le vase bien entendu pour que les tiges soient toujours bien hydratées. La température fraîche (4 degrés celcius et plus) permettra aux fleurs de ralentir leur épanouissement. Mais attention! Une température sous 4 degrés celcius pourrait leut être fatale. Il faut donc vous assurer de la température de votre frigo avant d'y entreposer vos fleurs.</p><p><br/><br/></p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-6": {
+          "type": "question",
+          "settings": {
+            "question": "D’où proviennent vos fleurs ?",
+            "answer": "<p>Tout au long de l’année, nous nous  efforçons d'avoir des fleurs locales. </p><p>Du printemps à l’automne, nous nous procurons plusieurs variétés de fleurs auprès de producteurs québécois et canadiens.</p><p>De l'automne au printemps, nos fleurs proviennent principalement du Canada, d’Amérique du Sud et d'Hollande. </p>"
+          }
+        },
+        "content_9McYEX": {
+          "type": "question",
+          "settings": {
+            "question": "Pourquoi recoupez-vous chaque tige une à une plutôt qu'en paquet ?",
+            "answer": "<p>Parce qu'une fleur boit par sa tige. Une coupe nette, faite avec une lame affûtée et propre, garde les canaux de la tige ouverts. Couper tout un paquet d'un coup avec une lame émoussée écrase les tiges, et une lame malpropre y introduit des bactéries qui bloquent l'absorption de l'eau : la fleur fane alors beaucoup plus vite. Chez Ombelle Fleuriste, chaque tige reçoit sa propre coupe.</p>"
+          }
+        },
+        "content_PUqRxN": {
+          "type": "question",
+          "settings": {
+            "question": "Comment prenez-vous soin de vos fleurs dès leur arrivée en boutique ?",
+            "answer": "<p>Dès la réception, chaque fleur passe par les mêmes étapes avant d'entrer dans un bouquet :</p><ul><li>chaque tige est recoupée individuellement, en biseau, avec une lame bien affûtée et propre ;</li><li>les feuilles qui toucheraient l'eau sont retirées pour éviter les bactéries ;</li><li>les fleurs se réhydratent plusieurs heures dans une eau propre, avec le nutritif floral adapté à leur variété ;</li><li>nos seaux et nos vases sont nettoyés et désinfectés ;</li><li>les fleurs reposent ensuite dans notre chambre froide, à température contrôlée.<br/>Elles ne sont jamais gardées au sec en attendant d'être travaillées. C'est ce conditionnement qui permet à un bouquet de bien durer une fois chez vous.</li></ul>"
+          }
+        },
+        "content_HGnjjN": {
+          "type": "question",
+          "settings": {
+            "question": "Toutes les fleurs reçoivent-elles le même traitement ?",
+            "answer": "<p>Non. Chaque variété a ses besoins : certaines demandent une eau plus fraîche ou un niveau d'eau différent, d'autres une coupe particulière ou un nutritif spécifique, et certaines doivent être conditionnées à part avant d'être mélangées aux autres. Nos fleuristes adaptent le traitement à chaque variété pour lui donner la meilleure longévité possible.</p>"
+          }
+        },
+        "bf3c3a44-f8b2-42e8-bd9e-53d76639f578": {
+          "type": "question",
+          "settings": {
+            "question": "Pourquoi ma plante ne ressemble pas exactement à celle de la photo sur le site Internet ?",
+            "answer": "<p>Les plantes sont des êtres vivants en constante évolution. </p><p>Selon leur croissance et les environnements dans lesquels elles ont été cultivées, elles peuvent présenter des différences légères. </p><p>Lorsque vous commandez l'une de nos plantes, nous nous engageons à vous envoyer la variété de plante et le calibre que vous avez choisis. De plus, nous nous assurons que la plante est en bonne santé.</p>"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entretient"
+          }
+        },
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-7": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Provide the answer to the question here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-8",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-0",
+        "content_3GeRcN",
+        "content_XxCGeC",
+        "content_fExtxQ",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-1",
+        "content_VVJBRT",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-2",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-3",
+        "8b5ca4b0-9f96-4133-8581-323548968097",
+        "b3590b7f-dd6c-43d7-a2b6-c64537340529",
+        "9589861a-7f12-4db6-85cd-647d90108943",
+        "b36aca9c-068d-4f12-b18d-bfabe67d9847",
+        "b9926f1a-9cc2-4cad-a7ee-0fd4d96344bc",
+        "4ab111ed-f217-4ecf-b7a2-7e0378c88d63",
+        "33263ae1-5d54-4543-aa66-2e5dd418c529",
+        "b9e1c44f-5c59-442e-a4cc-7ba93db107a1",
+        "c535137c-72e6-49f7-a60c-f1273e5fe386",
+        "fafa2477-9f88-44f5-b9d2-6a2682fc70e8",
+        "b7a94bd8-e593-4fca-ab6a-2be5651f5e60",
+        "bcf708c6-57ea-4a88-9e8c-6968f61a8416",
+        "8c504d18-e93b-4b60-ae00-55bd407981b0",
+        "961d2320-9ed0-4095-968f-1dc7a6b38e47",
+        "483f4ebd-281f-4e10-af1b-9f518e2c3f84",
+        "164cc995-df86-4fdd-9e6a-7f2ba1399262",
+        "16839d67-dd65-4787-a09c-2cff9597e14b",
+        "6a87e874-af9a-42c3-ae19-0029936c1a9c",
+        "2dc4cee5-38b2-4ec3-93a4-96dc41d9d98d",
+        "09401272-a900-4246-939f-d705d07512b7",
+        "3c096ce6-18e0-4c56-b980-03e2f5b1df08",
+        "content_CPpaFJ",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-5",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-6",
+        "content_9McYEX",
+        "content_PUqRxN",
+        "content_HGnjjN",
+        "bf3c3a44-f8b2-42e8-bd9e-53d76639f578",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-4",
+        "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-7"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40",
+    "bc607cb2-80a7-483e-ba1a-325d94ff4dbd"
+  ]
+}

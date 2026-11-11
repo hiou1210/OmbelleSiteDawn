@@ -247,6 +247,10 @@
                             {%- endif -%}
                             <quantity-input class="quantity cart-quantity">
                               {% assign can_update_quantity = item.instructions.can_update_quantity | default: true %}
+                              {%- comment -%} La quantité d'une ligne enfant (vase) suit celle de son parent. {%- endcomment -%}
+                              {% if item.parent_relationship.parent != null %}
+                                {% assign can_update_quantity = false %}
+                              {% endif %}
                               <button
                                 class="quantity__button"
                                 name="minus"
@@ -304,6 +308,9 @@
                             id="Remove-{{ item.index | plus: 1 }}"
                             data-index="{{ item.index | plus: 1 }}"
                             {% assign can_remove = item.instructions.can_remove | default: true %}
+                            {% if item.parent_relationship.parent != null %}
+                              {% assign can_remove = false %}
+                            {% endif %}
                             {% if can_remove == false %}
                               class="hidden"
                             {% endif %}

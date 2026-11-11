@@ -1,0 +1,267 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de": {
+      "type": "image-banner",
+      "blocks": {
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Mont-Saint-Hilaire",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Mont-Saint-Hilaire",
+            "text_style": "subtitle"
+          }
+        },
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-heading",
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-text",
+        "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-mont-saint-hilaire-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-mont-saint-hilaire-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "ef611171-3a40-4100-b10b-33f528dd59fa": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "d74c1da6-ebed-488a-82cf-7a7e8251d0f9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-0",
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-1",
+        "template--14812863332433__ef611171-3a40-4100-b10b-33f528dd59fa-1674648859efa6c4eb-2",
+        "d74c1da6-ebed-488a-82cf-7a7e8251d0f9"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863332433__80700ca4-ac7d-40fa-9221-a9cfba114faa-167464886455297af6-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\">Ombelle Fleuriste</a> offre un service rapide et efficace pour la livraison de fleurs fraîches, de plantes et de cadeaux à Mont-Saint-Hilaire. Soyez assuré de la qualité de son service, de même que de l’écoute et de la courtoisie de son personnel.</p><p>Élégance et modernité caractérisent les bouquets et arrangements floraux confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p><p>Livraison de fleurs fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\">toutes occasions</a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\">mariages</a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\">funérailles</a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863332433__80700ca4-ac7d-40fa-9221-a9cfba114faa-167464886455297af6-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-st-hilaire.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863332433__80700ca4-ac7d-40fa-9221-a9cfba114faa-167464886455297af6-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels et les auberges (ex. : l’<a href=\"https://hotelrivegauche.ca/\" title=\"https://hotelrivegauche.ca/\">Hôtel Rive Gauche – Refuge Urbain</a>, le Manoir Rouville Campbell, l’<a href=\"https://www.lestroistilleuls.com/fr/accueil/\" title=\"https://www.lestroistilleuls.com/fr/accueil/\">Hôtel Trois Tilleuls</a> et l’<a href=\"https://www.aubergehandfield.com/\" title=\"https://www.aubergehandfield.com/\">Auberge Handfield</a>), les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\">Hôpital Honoré-Mercier</a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\">Hôpital Pierre Boucher</a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\">Hôpital Charles-Le Moyne</a>) et les salons funéraires (ex. : le Salon Funéraire Demers Mont-Saint-Hilaire, le Salon Funéraire Maurice Demers Beloeil et le Salon Funéraire Maurice Demers McMasterville) situés à Mont-Saint-Hilaire ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863332433__80700ca4-ac7d-40fa-9221-a9cfba114faa-167464886455297af6-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-mont-st-hilaire.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "6346286c-5a95-40e9-927f-6643bee66411-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son service de livraison à plusieurs autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p><p>Appelez-nous : <a href=\"tel:+14503002793\" title=\"tel:+14503002793\">450 300-2793</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "6346286c-5a95-40e9-927f-6643bee66411-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-st-hilaire.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "be2a05c6-8e75-452d-a3b7-8d851b8e128b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-st-hilaire-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-st-hilaire-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-hilaire-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-hilaire-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-mont-st-hilaire-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-mont-st-hilaire-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-0",
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-1",
+        "template--14812863332433__be2a05c6-8e75-452d-a3b7-8d851b8e128b-1674648880324bfe4b-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "d7ac2e6b-a5ff-4b28-8670-05e03fd9e0de",
+    "ef611171-3a40-4100-b10b-33f528dd59fa",
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-1",
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-2",
+    "80700ca4-ac7d-40fa-9221-a9cfba114faa-3",
+    "be2a05c6-8e75-452d-a3b7-8d851b8e128b"
+  ]
+}

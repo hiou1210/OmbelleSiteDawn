@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850": {
+      "type": "image-banner",
+      "blocks": {
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Saint-Basile-le-Grand",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Saint-Basile-le-Grand",
+            "text_style": "subtitle"
+          }
+        },
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-heading",
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-text",
+        "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-st-basile-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-st-basile-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "f221b728-d578-4e0a-8726-199e697e183d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "7c6104cd-2140-4c33-87e2-d679b2228d3a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-0",
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-1",
+        "template--14807467753553__f221b728-d578-4e0a-8726-199e697e183d-16733059435fca0b7d-2",
+        "7c6104cd-2140-4c33-87e2-d679b2228d3a"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14807467753553__008002d7-ca82-4050-a2e8-bbaabd126c0e-1673305943d68f3c91-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\"><em>Ombelle Fleuriste</em></a> offre un service rapide et efficace pour la <strong>livraison de fleurs</strong> fraîches, de <strong>plantes</strong> et de <strong>cadeaux</strong> à Saint-Basile-le-Grand. Soyez assuré de la qualité de son service, de même que de l’écoute et de la courtoisie de son personnel.</p><p>Élégance et modernité caractérisent les bouquets et arrangements floraux confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p><p><strong>Livraison de fleurs</strong> fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><em>toutes occasions</em></a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\"><em>mariages</em></a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\"><em>funérailles</em></a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14807467753553__008002d7-ca82-4050-a2e8-bbaabd126c0e-1673305943d68f3c91-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-st-basile.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14807467753553__008002d7-ca82-4050-a2e8-bbaabd126c0e-1673305943d68f3c91-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste livre autant dans les résidences privées et les commerces que dans les hôtels, les salles de réception, les établissements municipaux (ex. : l’<a href=\"https://www.villesblg.ca/carte-interactive/hotel-ville/\" title=\"Hôtel de ville de Saint-Basile-le-Grand\"><em>Hôtel de ville de Saint-Basile-le-Grand</em></a>, le <a href=\"https://www.ville.saint-basile-le-grand.qc.ca/carte-interactive/centre-civique-bernard-gagnon/\" title=\"https://www.ville.saint-basile-le-grand.qc.ca/carte-interactive/centre-civique-bernard-gagnon/\"><em>Centre civique Bernard-Gagnon</em></a> et le <a href=\"https://www.ville.saint-basile-le-grand.qc.ca/carte-interactive/centre-communautaire-lise-b-boisvert/\" title=\"https://www.ville.saint-basile-le-grand.qc.ca/carte-interactive/centre-communautaire-lise-b-boisvert/\"><em>Centre Communautaire Lise. B.-Boisvert</em></a>), les écoles primaires et secondaires (ex. : l’<a href=\"http://delamosaique.csp.qc.ca/\" title=\"http://delamosaique.csp.qc.ca/\"><em>École de la Mosaïque</em></a>, l’<a href=\"http://delachanterelle.csp.qc.ca/\" title=\"http://delachanterelle.csp.qc.ca/\"><em>École de La Chanterelle</em></a>, l’<a href=\"http://jacquesrocheleau.csp.qc.ca/\" title=\"http://jacquesrocheleau.csp.qc.ca/\"><em>École Jacques-Rocheleau</em></a>, l’<a href=\"http://academiedessacrescoeurs.ca/\" title=\"http://academiedessacrescoeurs.ca/\"><em>Académie des Sacrés-Cœurs</em></a>, l’<a href=\"http://dumontbruno.csp.qc.ca/\" title=\"http://dumontbruno.csp.qc.ca/\"><em>École secondaire Mont-Bruno</em></a> et le <a href=\"http://collegetrinite.ca/\" title=\"http://collegetrinite.ca/\"><em>Collège Trinité</em></a>), les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\"><em>Hôpital Honoré-Mercier</em></a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><em>Hôpital Pierre Boucher</em></a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><em>Hôpital Charles-Le Moyne</em></a>) et les salons funéraires (ex. : le Salon Funéraire Maurice Demers Beloeil, le Salon Funéraire Maurice Demers McMasterville, le Salon Funéraire Demers Mont-Saint-Hilaire et le <a href=\"https://www.urgelbourgie.com/fr/salon-funeraire-montreal/salon-funeraire-st-bruno\" title=\"https://www.urgelbourgie.com/fr/salon-funeraire-montreal/salon-funeraire-st-bruno\"><em>Salon funéraire Urgel Bourgie de St-Bruno-de-Montarville</em></a>) situés à Saint-Basile-le-Grand ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14807467753553__008002d7-ca82-4050-a2e8-bbaabd126c0e-1673305943d68f3c91-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison_10ee099e-0524-489a-b975-200046d811a7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "3a14d912-086d-4647-ae8c-f47b035c529e-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son service de livraison à plusieurs autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p>",
+            "text_style": "body"
+          }
+        },
+        "3a14d912-086d-4647-ae8c-f47b035c529e-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "3a14d912-086d-4647-ae8c-f47b035c529e-text",
+        "3a14d912-086d-4647-ae8c-f47b035c529e-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-st-basile.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "737476e3-0fda-40b9-aa45-a2b7787fe9ef": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-st-basile-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-st-basile-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-basile-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-basile-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-saint-basile-le-grand-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-saint-basile-le-grand-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-0",
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-1",
+        "template--14807467753553__737476e3-0fda-40b9-aa45-a2b7787fe9ef-167459961635317287-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    },
+    "faq_ALfzyt": {
+      "type": "faq",
+      "blocks": {
+        "content_RCbfyC": {
+          "type": "question",
+          "settings": {
+            "question": "🌸 Puis-je venir choisir mes fleurs en boutique avant la livraison ?",
+            "answer": "<p>Oui, et cueillette en boutique possible.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_RCbfyC"
+      ],
+      "settings": {
+        "heading": "Questions Fréquentes – Fleuriste Saint-Basile-le-Grand",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "b8bf4a14-73a0-4de4-92e3-7dba6c4cc850",
+    "f221b728-d578-4e0a-8726-199e697e183d",
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-1",
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-2",
+    "008002d7-ca82-4050-a2e8-bbaabd126c0e-3",
+    "737476e3-0fda-40b9-aa45-a2b7787fe9ef",
+    "faq_ALfzyt"
+  ]
+}

@@ -1,0 +1,386 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_K6QCUE": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_K6QCUE-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Rive Sud",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "image_with_text_overlay_K6QCUE-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Rive Sud",
+            "text_style": "subtitle"
+          }
+        },
+        "image_with_text_overlay_K6QCUE-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_K6QCUE-heading",
+        "image_with_text_overlay_K6QCUE-text",
+        "image_with_text_overlay_K6QCUE-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-rive-sud-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-rive-sud-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "collection_list_FjE9K8": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pVFDdV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "collection_LmcKtP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "collection_CUpjeq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "collection_433hnf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection_pVFDdV",
+        "collection_LmcKtP",
+        "collection_CUpjeq",
+        "collection_433hnf"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_text_kBgARt-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_WYqVHR-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des fleurs d'une grande fraîcheur",
+            "heading_size": "h1"
+          }
+        },
+        "image_WYqVHR-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez <em>Ombelle Fleuriste</em>, <strong>fleuriste Rive Sud</strong>, nous nous engageons à vous fournir des <strong>fleurs de grande qualité</strong>. Nos fleurs, soigneusement sélectionnées, sont réputées pour leur fraîcheur. Notre dévouement à la qualité signifie que chaque bouquet acheté chez nous vous apportera joie, beauté et réconfort dans votre vie.</p><h2><strong>Une diversité de plantes pour tous les espaces</strong></h2><p>Nous sommes fiers de vous présenter notre sélection de <a href=\"/collections/plantes\" target=\"_blank\" title=\"Plantes\"><strong>plantes de divers calibres</strong></a>. Nous choisissons nos plantes pour leurs belles qualités dont celle d'apporter une touche d'élégance et de calme à votre espace, créant une connexion harmonieuse avec la nature. Si vous êtes à la recherche de plantes vertes, de cactus ou de <strong>potées fleuries</strong>, nous vous proposerons parmi notre vaste choix celles qu'il vous faut pour créer un environnement verdoyant et apaisant.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_WYqVHR-heading",
+        "image_WYqVHR-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-rive-sud.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_text_kBgARt-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_rHQ4Gw-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de fleurs sur la rive sud le jour même",
+            "heading_size": "h1"
+          }
+        },
+        "image_rHQ4Gw-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous comprenons l'importance de chaque moment. C'est pourquoi notre service de <strong>livraison de fleurs</strong> le jour même est conçu pour répondre à vos besoins urgents. <span style=\"text-decoration:underline\">Si vous passez votre commande avant 17h en semaine ou avant 16h la fin de semaine</span>, notre équipe s'efforcera de livrer vos <a href=\"/collections/bouquets-et-creations\" target=\"_blank\" title=\"Bouquets et créations\"><strong>fleurs fraîches</strong></a> <strong>le jour même</strong>. Nous assurons une <strong>livraison rapide et fiable</strong> pour que vos occasions spéciales restent inoubliables, sans aucun retard. Notre objectif est de vous garantir une satisfaction totale pour chaque bouquet que vous commandez.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_rHQ4Gw-heading",
+        "image_rHQ4Gw-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/pot-fleuri-pour-livraison-sur-la-rive-sud.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_text_kBgARt-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_39QRJK-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison dans divers établissements de la rive sud",
+            "heading_size": "h1"
+          }
+        },
+        "image_39QRJK-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Ombelle Fleuriste</em> livre autant dans les résidences privées que dans les <strong>salons funéraires</strong> ainsi que dans les commerces, les hôtels, les auberges, les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé. Quand vous pensez <strong>livraison de fleurs sur la rive sud</strong>, pensez <em>Ombelle Fleuriste</em>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image_39QRJK-heading",
+        "image_39QRJK-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-rive-sud.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "text_columns_with_images_i4HprB": {
+      "type": "multicolumn",
+      "blocks": {
+        "text_block_W4yT9L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icone-hopital-rive-sud.jpg",
+            "title": "Les Hôpitaux sur la rive sud",
+            "text": "<ul><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\"><strong>Hôpital Charles-Le Moyne</strong></a>, 3120 Bd Taschereau, Greenfield Park</li><li><a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\"><strong>Hôpital Pierre-Boucher</strong></a>, 1333 Boulevard Jacques-Cartier E, Longueuil</li></ul>"
+          }
+        },
+        "text_block_RQG4Ab": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icone-hotels-rive-sud.jpg",
+            "title": "Les Hotels situés sur la rive sud",
+            "text": "<ul><li><a href=\"https://www.sandmanhotels.com/montreal-longueuil\" target=\"_blank\"><strong>Le Sandman Hôtel Montréal-Longueuil</strong></a>, 999 rue de Serigny , Longueuil</li><li><a href=\"https://hotelmortagne.com/fr/\" target=\"_blank\"><strong>L’Hôtel Mortagne</strong></a>, 1228 Rue Nobel, Boucherville</li><li><a href=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail\" target=\"_blank\"><strong>Le Holiday Inn Montréal-Longueuil</strong></a>, 900 Rue Saint-Charles E, Longueuil</li></ul>"
+          }
+        },
+        "text_block_H8x43k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icone-salon-funeraire-rive-sud.jpg",
+            "title": "Les salons funéraires sur la rive sud",
+            "text": "<ul><li>La Résidence funéraire Curé-Poirier, 635 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/quebec/longueuil/la-maison-darche-services-funeraires/3131\" target=\"_blank\"><strong>La Maison Darche Services funéraires</strong></a>, 505 Boulevard Curé-Poirier O, Longueuil</li><li><a href=\"https://www.urgelbourgie.com/fr/a-propos/points-de-service/cimetiere-jardin-et-complexe-funeraire-de-st-hubert\" target=\"_blank\"><strong>Le Salon funéraire Urgel Bourgie / Athos</strong></a>, 8145 Ch. de Chambly, Saint-Hubert</li><li>Salon Funéraire Lajeunesse Fortin Cenac, boulevard Sainte-Foy (chemin du Coteau-Rouge), Longueuil</li><li><a href=\"https://yveslegare.com/\" target=\"_blank\"><strong>Le Salon funéraire Yves Légaré</strong></a>, 2750 Bd Marie-Victorin, Longueuil</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_W4yT9L",
+        "text_block_RQG4Ab",
+        "text_block_H8x43k"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "testimonial_WtQGb8": {
+      "type": "slideshow",
+      "blocks": {
+        "image_k7MhFC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-rive-sud-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-rive-sud-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "image_MTwNRL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-rive-sud-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-rive-sud-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Belle boutique. Moderne épuré, pleine de belle idées cadeaux, fleurs fraîches. Et des fleuristes accueillantes et à l’écoute de nos besoins.\"",
+            "heading_size": "h2",
+            "subheading": "Marthe Arcand",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "image_gKepFa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-rive-sud-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-rive-sud-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "image_k7MhFC",
+        "image_MTwNRL",
+        "image_gKepFa"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    },
+    "faq_n3Jygz": {
+      "type": "faq",
+      "blocks": {
+        "content_yVxmBT": {
+          "type": "question",
+          "settings": {
+            "question": "Comment puis-je passer une commande de fleur pour la rive-sud?",
+            "answer": "<p>Passer une commande chez Ombelle Fleuriste pour la rive-sud est une expérience simple et rapide. Vous n'avez qu'à visiter notre boutique en ligne où vous pourrez naviguer à travers notre vaste sélection de bouquets de fleurs fraîches. Choisissez celui qui vous plaît et cliquez sur \"Ajouter au panier\". Ensuite, suivez les instructions à l'écran pour finaliser votre commande.</p>"
+          }
+        },
+        "content_EpBQH9": {
+          "type": "question",
+          "settings": {
+            "question": "Quel est le prix pour livrer des fleurs sur la rive sud?",
+            "answer": "<p>Le coût pour l'envoi de fleurs sur la rive sud dépend de l'adresse du destinataire. Pour obtenir l'information, nous vous recommandons de faire une simulation de commande sur notre site internet ou de nous contacter par téléphone.</p>"
+          }
+        },
+        "content_6zdmR8": {
+          "type": "question",
+          "settings": {
+            "question": "Quelle est la fleur la plus populaire sur la rive sud?",
+            "answer": "<p>La fleur la plus appréciée sur la rive sud varie souvent selon la saison. Néanmoins, les roses demeurent un choix incontournable tout au long de l'année grâce à leur beauté intemporelle et leur large palette de couleurs. Nous vous invitons à visiter notre site web pour découvrir les tendances florales actuelles sur la rive sud de Montréal. 🌹</p>"
+          }
+        },
+        "content_qgDbTN": {
+          "type": "question",
+          "settings": {
+            "question": "Comment faire livrer des fleurs sur la rive sud?",
+            "answer": "<p>Pour bénéficier de notre service de livraison, vous pouvez nous téléphoner ou commander votre bouquet via notre site web. Si vous choisissez de commander en ligne, sélectionnez votre bouquet, ajoutez-le à votre panier et procédez au paiement. Remplissez les différentes cases dont celles nous fournissant l'adresse de livraison du destinataire et son numéro de téléphone afin que nous puissions nous assurer qu'une personne sera présente lors de la livraison. Notre équipe se chargera par la suite de préparer et de livrer votre commande.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_yVxmBT",
+        "content_EpBQH9",
+        "content_6zdmR8",
+        "content_qgDbTN"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes à propos de nos services de fleuriste sur la rive sud",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "image_with_text_overlay_K6QCUE",
+    "collection_list_FjE9K8",
+    "image_text_kBgARt-1",
+    "image_text_kBgARt-2",
+    "image_text_kBgARt-3",
+    "text_columns_with_images_i4HprB",
+    "testimonial_WtQGb8",
+    "faq_n3Jygz"
+  ]
+}

@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-intro": {
+      "type": "rich-text",
+      "blocks": {
+        "main-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "An amazing group of people are the heart and soul of this phenomenal brand!",
+            "heading_size": "h1"
+          }
+        },
+        "main-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(plus Lily, our office pug :))</p>"
+          }
+        }
+      },
+      "block_order": [
+        "main-heading",
+        "main-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "multicolumn",
+      "blocks": {
+        "block-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic3.jpg",
+            "title": "Austin Soto",
+            "text": "<p><strong>Founder and CEO</strong></p><p>Entrepreneur hooked on design, tech and heavy metal.</p>"
+          }
+        },
+        "block-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic4.jpg",
+            "title": "Monica Marshal",
+            "text": "<p><strong>Engineering Lead</strong></p><p>Problem solver who loves anything from the 90s.</p>"
+          }
+        },
+        "block-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic8_6854c2eb-765c-40e2-8a4c-983341b2d8be.jpg",
+            "title": "Flora Ross",
+            "text": "<p><strong>Marketing Director</strong></p><p>Business minded, can't resist classic rock. </p>"
+          }
+        },
+        "c2916d79-10e0-4d88-9073-3c9809417554": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic2.jpg",
+            "title": "Camille Phillips",
+            "text": "<p><strong>Senior Developer</strong></p><p>Usually coding, always listening to upbeat pop.</p>"
+          }
+        },
+        "981c65f1-389a-4509-98d2-bb0003946441": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic5.jpg",
+            "title": "Alvin Ford",
+            "text": "<p><strong>Product Specialist</strong></p><p>Powered by research and lots of rock and roll.</p>"
+          }
+        },
+        "2a321c82-8102-4eae-886c-6ddaf5514153": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic6.jpg",
+            "title": "Sylvia Hart",
+            "text": "<p><strong>Retail Manager</strong></p><p>Experience creator obsessed with everything indie.</p>"
+          }
+        },
+        "7582eb3a-7e31-459b-92e1-9f42ae5d049c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic7.jpg",
+            "title": "Lynne Romero",
+            "text": "<p><strong>Social Media Expert</strong></p><p>Creative strategist, R&B enthusiast.</p>"
+          }
+        },
+        "d031c886-9de6-41ef-a54a-51ce8af51640": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pic1.jpg",
+            "title": "Lily",
+            "text": "<p><strong>Chief Dog</strong></p><p>Loves neck scratches, milk bones and reggae.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "c2916d79-10e0-4d88-9073-3c9809417554",
+        "981c65f1-389a-4509-98d2-bb0003946441",
+        "2a321c82-8102-4eae-886c-6ddaf5514153",
+        "7582eb3a-7e31-459b-92e1-9f42ae5d049c",
+        "d031c886-9de6-41ef-a54a-51ce8af51640"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main-intro",
+    "main"
+  ]
+}

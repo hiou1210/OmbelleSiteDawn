@@ -252,14 +252,12 @@ class CartItems extends window.StandardEvents.createViewEventElement(HTMLElement
     // Cache sections before the fetch so we read dataset.id while elements still exist in the DOM
     const sectionsToRender = this.getSectionsToRender();
 
-    const body = JSON.stringify({
-      line,
-      quantity,
+    const sectionsPayload = {
       sections: sectionsToRender.map((section) => section.section),
       sections_url: window.location.pathname,
-    });
+    };
 
-    const save = fetch(`${routes.cart_change_url}`, { ...fetchConfig(), ...{ body } })
+    const save = this.changeLineWithNested(line, quantity, sectionsPayload)
       .then((response) => {
         saved = response.ok;
         return response.text();
@@ -350,6 +348,38 @@ class CartItems extends window.StandardEvents.createViewEventElement(HTMLElement
         console.error(e);
       });
     CartItems.pendingQuantitySaves.add(save);
+  }
+
+  // Une ligne parent peut avoir une ligne enfant (ajout d'un vase). L'enfant suit toujours la quantité du parent.
+  getNestedChildLine(line) {
+    const childLine = Number(line) + 1;
+    const childRow = this.querySelector(`#CartItem-${childLine}, #CartDrawer-Item-${childLine}`);
+    return childRow?.classList.contains('cart-item__nested-line') ? childLine : null;
+  }
+
+  postLineChange(line, quantity, extra = {}) {
+    const body = JSON.stringify({ line, quantity, ...extra });
+    return fetch(`${routes.cart_change_url}`, { ...fetchConfig(), ...{ body } });
+  }
+
+  async changeLineWithNested(line, quantity, sectionsPayload) {
+    const childLine = this.getNestedChildLine(line);
+    if (!childLine) return this.postLineChange(line, quantity, sectionsPayload);
+
+    // Suppression : on retire l'enfant d'abord, puis le parent.
+    if (quantity === 0) {
+      await this.postLineChange(childLine, 0);
+      return this.postLineChange(line, 0, sectionsPayload);
+    }
+
+    // Changement de quantité : on met à jour le parent, puis l'enfant avec la même quantité.
+    const parentResponse = await this.postLineChange(line, quantity);
+    const parentState = await parentResponse
+      .clone()
+      .json()
+      .catch(() => ({}));
+    if (!parentResponse.ok || parentState.errors) return parentResponse;
+    return this.postLineChange(childLine, quantity, sectionsPayload);
   }
 
   createCartLinesUpdateEvent(action, variantId, quantity, lineKey) {

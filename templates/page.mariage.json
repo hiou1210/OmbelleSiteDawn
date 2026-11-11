@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c046bb12-2088-436d-a6bd-0e6baee04b83": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14808045617233__c046bb12-2088-436d-a6bd-0e6baee04b83-1673406690dcebce16-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mariage-bandeau2.jpg",
+            "mobile_image": "shopify://shop_images/mariage-bandeau2-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Fleuriste Mariage",
+            "heading_size": "h1",
+            "button_label": "Appelez-nous pour prendre un rendez-vous",
+            "link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "template--14808045617233__c046bb12-2088-436d-a6bd-0e6baee04b83-1673406690dcebce16-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mariage-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/mariage-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Bouquet de mariée",
+            "heading_size": "h1",
+            "subheading": "confectionné selon vos préférences",
+            "button_label": "Appelez-nous",
+            "link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045617233__c046bb12-2088-436d-a6bd-0e6baee04b83-1673406690dcebce16-0",
+        "template--14808045617233__c046bb12-2088-436d-a6bd-0e6baee04b83-1673406690dcebce16-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Diaporama"
+      },
+      "disabled": true
+    },
+    "wedding_image_overlay_xxpMdU": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/mariage-bandeau3.jpg",
+        "title": "Fleuriste Mariage",
+        "title_is_h1": true,
+        "button_1_label": "Appelez-nous pour prendre un rendez-vous",
+        "button_1_link": "shopify://pages/contact",
+        "button_2_label": "Remplissez notre formulaire de mariage",
+        "button_2_link": "shopify://pages/formulaire-mariage",
+        "text_position": "left",
+        "text_align": "center",
+        "overlay_opacity": 0,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "wedding_header_xCaFAw": {
+      "type": "wedding-intro",
+      "settings": {
+        "title": "Notre engagement",
+        "subtitle": "Vous offrir une expérience florale de qualité, diversifiée et en harmonie avec votre personnalité.",
+        "text_alignment": "center",
+        "color_scheme": "scheme-1",
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "d97aaf30-fa62-4150-8044-dc6bf4b93180-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14808045617233__d97aaf30-fa62-4150-8044-dc6bf4b93180-1673410972aa2b01c0-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour cette promesse d’amour, laissez-nous le soin de vous proposer fleurs et jardins qui correspondent à vos plus grands souhaits. Mariage intime ou de grande envergure, chaque couple se reconnaît dans l’ambiance que nous créons pour eux. Les livraisons courantes se font sur la Rive-Sud. Pour les mariages, nous nous déplaçons souvent à Montréal, et plus loin. </p><ul><li><strong>Partagez-nous</strong> votre rêve en remplissant notre <a href=\"/pages/formulaire-mariage\" title=\"Formulaire Mariage\"><strong>Formulaire Mariage</strong></a> et en nous faisant parvenir vos photos d’inspiration.</li><li><strong>Nous communiquerons</strong> avec vous pour planifier une rencontre à notre boutique. Cette rencontre nous permettra de discuter du thème de votre mariage, des fleurs que vous préférez, de leur disponibilité selon la saison et des divers éléments floraux qui créeront l’ambiance de votre mariage.</li><li><strong>Visualisez</strong> <a href=\"#gallerie\" title=\"#gallerie\"><strong>quelques-unes de nos réalisations</strong></a> pour vous inspirer des bouquets, arrangements et accessoires floraux qui font de chaque mariage un moment unique!</li><li><strong>Visitez</strong> notre section <a href=\"/pages/forfaits-mariage\" title=\"Forfaits Mariage\"><strong>Forfaits Mariage</strong></a> pour découvrir des créations florales poétiques, classiques, romantiques et même exotiques!</li><li><strong>Orientez-vous</strong> dans vos choix, référez-vous à notre guide <a href=\"https://www.ombellefleuriste.ca/blogs/nouveautes-trucs-astuces/vous-revez-d-un-mariage-fleuri-par-ou-commencer\"><strong>\"Vous rêvez d'un mariage fleuri? Par où commencer?\"</strong></a> qui aborde tous les aspects importants de la planification florale de votre mariage.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045617233__d97aaf30-fa62-4150-8044-dc6bf4b93180-1673410972aa2b01c0-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/couple-mariage.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "wedding_gallery_WrizaU": {
+      "type": "gallery",
+      "blocks": {
+        "image_waafVX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariee-et-son-cortege-feminin-avec-bouquets-sur-rive-sud-montreal.jpg"
+          }
+        },
+        "image_Ty8QpD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/centre-de-table-mariage_008f80c5-0f8b-4ad3-a5fa-57b3ea0779e9.jpg"
+          }
+        },
+        "image_mU3xGR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariee-avec-bouquet.jpg"
+          }
+        },
+        "image_yMM7VT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mariage-elegant-arche-et_table.jpg"
+          }
+        },
+        "image_nh7UDm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/le-marie-et-les-demoiselles.jpg"
+          }
+        },
+        "image_ertbeW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-boutonniere_0112b739-bdcd-4c23-809d-7ea9692a4af0.jpg"
+          }
+        },
+        "image_LgDHb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-bracelet.jpg"
+          }
+        },
+        "image_QeHG7K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-2.jpg"
+          }
+        },
+        "image_wR3gkg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-mariee_97ebbf4c-9bc4-4422-b416-b6fd597efa00.jpg"
+          }
+        },
+        "image_HEifFD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-poetique-blanc-bouquet-mariee-copyright.jpg"
+          }
+        },
+        "image_MWTipc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-chic-classique-orange-2chaises-fleuries.jpg"
+          }
+        },
+        "image_RbcFWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-Daphne.jpg"
+          }
+        },
+        "image_JV73gG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet-3_80d14d41-1415-43b3-a69e-dbbf21d98391.jpg"
+          }
+        },
+        "image_gKNyNQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet4.jpg"
+          }
+        },
+        "image_hG89yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-mariee-2.jpg"
+          }
+        },
+        "image_dyApNi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-boutonniere-marie.jpg"
+          }
+        },
+        "image_jBxgnM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-romantique-rouge-bouquet-mariee-Forfait.jpg"
+          }
+        },
+        "image_p8FtMa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elegant-wedding-2026-cover.jpg"
+          }
+        },
+        "image_GmGDQn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet.jpg"
+          }
+        },
+        "image_xzXD3j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/arche-de-mariage.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_waafVX",
+        "image_Ty8QpD",
+        "image_mU3xGR",
+        "image_yMM7VT",
+        "image_nh7UDm",
+        "image_ertbeW",
+        "image_LgDHb4",
+        "image_QeHG7K",
+        "image_wR3gkg",
+        "image_HEifFD",
+        "image_MWTipc",
+        "image_RbcFWD",
+        "image_JV73gG",
+        "image_gKNyNQ",
+        "image_hG89yh",
+        "image_dyApNi",
+        "image_jBxgnM",
+        "image_p8FtMa",
+        "image_GmGDQn",
+        "image_xzXD3j"
+      ],
+      "settings": {
+        "heading": "Quelques exemples de nos réalisations",
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "anchor_id": "gallerie",
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c3a9c4eb-6c44-4309-8e9c-de446eaf0622": {
+      "type": "gallery",
+      "blocks": {
+        "image_4Upxr7": {
+          "type": "image",
+          "settings": {}
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-bouquet-mariee.jpg"
+          }
+        },
+        "980411fc-2710-41c3-8b21-c5df1e69a834": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariee-avec-bouquet.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/le-marie-et-les-demoiselles.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-boutonniere_0112b739-bdcd-4c23-809d-7ea9692a4af0.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-bracelet.jpg"
+          }
+        },
+        "4a2e46d4-45e3-4f56-89fa-9af60bf67828": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet4.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-2.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-bouquet-eglise.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-mariee_97ebbf4c-9bc4-4422-b416-b6fd597efa00.jpg"
+          }
+        },
+        "3121200a-a6ee-45fd-ac91-6eabfa3e1c59": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet-3_80d14d41-1415-43b3-a69e-dbbf21d98391.jpg"
+          }
+        },
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-couple-mariee-2.jpg"
+          }
+        },
+        "7f14f370-4193-4c59-a002-e02b3e7ee2ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-demoiselles.jpg"
+          }
+        },
+        "ef453fac-37c4-4866-bc4b-ec452e7a735d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gallery-mariage-mariee-bouquet.jpg"
+          }
+        },
+        "611ffdc7-f750-48bc-a1f5-e70bcb8792f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/arche-de-mariage.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_4Upxr7",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-1",
+        "980411fc-2710-41c3-8b21-c5df1e69a834",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-2",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-3",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-4",
+        "4a2e46d4-45e3-4f56-89fa-9af60bf67828",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-5",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-0",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-6",
+        "3121200a-a6ee-45fd-ac91-6eabfa3e1c59",
+        "template--14808045617233__c3a9c4eb-6c44-4309-8e9c-de446eaf0622-1673406862cace2278-7",
+        "7f14f370-4193-4c59-a002-e02b3e7ee2ac",
+        "ef453fac-37c4-4866-bc4b-ec452e7a735d",
+        "611ffdc7-f750-48bc-a1f5-e70bcb8792f9"
+      ],
+      "settings": {
+        "heading": "Quelques exemples de nos réalisations",
+        "heading_size": "h1",
+        "gallery_type": "horizontal",
+        "columns_desktop": 4,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    },
+    "3f580678-90ac-406f-bcd6-a4f907a5ebfe": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14808045617233__3f580678-90ac-406f-bcd6-a4f907a5ebfe-1673411077c738e32e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mariage-testemonial_68d9555d-8e45-4a49-b660-367a63bb2750.jpg",
+            "mobile_image": "shopify://shop_images/mariage-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "Service absolument exemplaire! Nadia a été patiente avec moi et m'a accompagnée du début à la fin pour déterminer mes besoins et créer le bouquet de mes rêves pour mon mariage. Je recommande chaudement Ombelle Fleuriste à toutes les futures mariées, mon bouquet était absolument magnifique!",
+            "heading_size": "h2",
+            "subheading": "Rosalie Guilmain-Bilodeau",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "a54679b3-5846-498a-8de3-2bc0ba768d50": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mariage-testemonial_68d9555d-8e45-4a49-b660-367a63bb2750.jpg",
+            "mobile_image": "shopify://shop_images/mariage-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "Nous avons eu un excellent service pour la planification de nos fleurs pour notre mariage cet été. Le résultat a été magnifique mon bouquet et ainsi que celle de mes demoiselles d'honneur ont été plus qu'à la hauteur de nos attentes. Merci beaucoup 😊",
+            "heading_size": "h2",
+            "subheading": "Evelyne Bridger",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14808045617233__3f580678-90ac-406f-bcd6-a4f907a5ebfe-1673411077c738e32e-0",
+        "a54679b3-5846-498a-8de3-2bc0ba768d50"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "c046bb12-2088-436d-a6bd-0e6baee04b83",
+    "wedding_image_overlay_xxpMdU",
+    "wedding_header_xCaFAw",
+    "d97aaf30-fa62-4150-8044-dc6bf4b93180-1",
+    "wedding_gallery_WrizaU",
+    "c3a9c4eb-6c44-4309-8e9c-de446eaf0622",
+    "3f580678-90ac-406f-bcd6-a4f907a5ebfe"
+  ]
+}

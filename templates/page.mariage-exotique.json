@@ -1,0 +1,397 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_9cEfgm": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion2-bandeau-original.jpg",
+        "title": "Mariage exotique soleil du sud",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 20,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "wedding_package_kazhra": {
+      "type": "wedding-package",
+      "blocks": {
+        "include_item_JMHhrD": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_QCRtk9": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 bouquets de demoiselle d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_BHJzYQ": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de marié",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_bHcVNW": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 boutonnières de garçons d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_WfDJNj": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de petit page",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_zQ9PRW": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 panier de pétales de bouquetière",
+            "item_icon": "✿"
+          }
+        }
+      },
+      "block_order": [
+        "include_item_JMHhrD",
+        "include_item_QCRtk9",
+        "include_item_BHJzYQ",
+        "include_item_bHcVNW",
+        "include_item_WfDJNj",
+        "include_item_zQ9PRW"
+      ],
+      "settings": {
+        "text_position": "left",
+        "includes_title": "Ce forfait comprend:",
+        "description": "<p>Tel un soleil étoilé, le bouquet de la mariée se compose de magnifiques fleurs d'orchidées, de baies rouges et de feuillages luxuriants. Un bouquet original, rayonnant de beauté.</p>",
+        "list_icon": "✿",
+        "price": "À partir de 625$ + taxes",
+        "note": "<p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+        "button_label": "VOIR PLUS DE PHOTOS",
+        "button_link": "shopify://pages/mariage-exotique-gallerie-1",
+        "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-profil-escalier.jpg",
+        "image_radius": 20,
+        "color_scheme": "scheme-1",
+        "box_color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_overlay_igwjUt": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_igwjUt-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mariage exotique",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_igwjUt-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion2-bandeau-original.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "featured_text_WP9UPy": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_WP9UPy-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 1 - Soleil du Sud",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_WP9UPy-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tel un soleil étoilé, le bouquet de la mariée se compose de magnifiques fleurs d'orchidées,<br/> de baies rouges et de feuillages luxuriants. Un bouquet original, rayonnant de beauté. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_WP9UPy-heading",
+        "featured_text_WP9UPy-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_nVtcgU-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_Gm6YTq-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 625$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_Gm6YTq-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-exotique-gallerie-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_Gm6YTq-text",
+        "image_Gm6YTq-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-profil-escalier.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_MXTm9j": {
+      "type": "gallery",
+      "blocks": {
+        "image_8Jqfzk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-bouquet-mariee.jpg"
+          }
+        },
+        "image_dXWRME": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jardiniere-lion3.jpg"
+          }
+        },
+        "image_bKhfkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-couple-dos-escalier.jpg"
+          }
+        },
+        "image_yFLfXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-bracelet.jpg"
+          }
+        },
+        "image_HrVdci": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-marie2.jpg"
+          }
+        },
+        "image_KpUM6w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-jaune-rouge-bouquet-demoiselle.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_8Jqfzk",
+        "image_dXWRME",
+        "image_bKhfkw",
+        "image_yFLfXm",
+        "image_HrVdci",
+        "image_KpUM6w"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_text_ccPRfN": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_ccPRfN-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait 2 - Sous les Tropiques",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_ccPRfN-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des fleurs aux textures et couleurs vibrantes. Des feuillages exotiques dentelés et courbés.<br/>Un bouquet éclatant, vif et joyeux. Pour créer l'univers d'un mariage sous les tropiques.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_ccPRfN-heading",
+        "featured_text_ccPRfN-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_UHC8wK-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_m4bxhM-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 575$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_m4bxhM-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-exotique-gallerie-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_m4bxhM-text",
+        "image_m4bxhM-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-exotique-colore-bouquet-mariee.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_m3a9xw": {
+      "type": "gallery",
+      "blocks": {
+        "image_VLipK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-colore-couple-table.jpg"
+          }
+        },
+        "image_XcY3hn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-decor-terrasse.jpg"
+          }
+        },
+        "image_PkmcwX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-colore-Forfait.jpg"
+          }
+        },
+        "image_tFpYcJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-exotique-colore-marie3-table.jpg"
+          }
+        },
+        "image_7teJm8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gateau-mariage-exotique-colore.jpg"
+          }
+        },
+        "image_ji4AUE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Coiffure-chignon-bas-dos-exotique.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_VLipK4",
+        "image_XcY3hn",
+        "image_PkmcwX",
+        "image_tFpYcJ",
+        "image_7teJm8",
+        "image_ji4AUE"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    }
+  },
+  "order": [
+    "wedding_image_overlay_9cEfgm",
+    "wedding_package_kazhra",
+    "image_with_text_overlay_igwjUt",
+    "featured_text_WP9UPy",
+    "image_text_nVtcgU-1",
+    "gallery_MXTm9j",
+    "featured_text_ccPRfN",
+    "image_text_UHC8wK-1",
+    "gallery_m3a9xw"
+  ]
+}

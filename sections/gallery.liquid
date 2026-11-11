@@ -1,0 +1,231 @@
+{{ 'section-gallery.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  #Gallery-{{ section.id }} {
+    --gallery-columns: {{ section.settings.columns_desktop }};
+    --gallery-gap: {{ section.settings.gap }}px;
+  }
+{%- endstyle -%}
+
+{%- if section.settings.enable_lightbox -%}
+  <script src="{{ 'gallery-lightbox.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+{%- capture sizes -%}
+  (min-width: 990px) calc(100vw / {{ section.settings.columns_desktop }}), 50vw
+{%- endcapture -%}
+
+<div class="gradient color-{{ section.settings.color_scheme }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="gallery-section{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="gallery-section__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+    {%- endif -%}
+
+    <gallery-lightbox>
+      <ul
+        id="Gallery-{{ section.id }}"
+        class="gallery-section__list gallery-section__list--{{ section.settings.gallery_type }}"
+        role="list"
+      >
+        {%- for block in section.blocks -%}
+          <li class="gallery-section__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.image != blank -%}
+              {%- capture gallery_image -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 1100
+                  | image_tag:
+                    loading: 'lazy',
+                    sizes: sizes,
+                    widths: '275, 375, 550, 750, 1100',
+                    class: 'gallery-section__image',
+                    alt: block.settings.image.alt
+                }}
+              {%- endcapture -%}
+
+              {%- if section.settings.enable_lightbox -%}
+                <button
+                  type="button"
+                  class="gallery-section__trigger"
+                  data-lightbox-src="{{ block.settings.image | image_url: width: 2000 }}"
+                  data-lightbox-alt="{{ block.settings.image.alt | escape }}"
+                  aria-label="{{ 'ombelle.gallery.open_image' | t }}"
+                >
+                  {{ gallery_image }}
+                </button>
+              {%- else -%}
+                {{ gallery_image }}
+              {%- endif -%}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder gallery-section__image' }}
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {%- if section.settings.enable_lightbox -%}
+        <dialog class="gallery-lightbox" data-lightbox-dialog aria-label="{{ 'ombelle.gallery.dialog_label' | t }}">
+          <button type="button" class="gallery-lightbox__button gallery-lightbox__close" data-lightbox-close aria-label="{{ 'accessibility.close' | t }}">
+            {{- 'icon-close.svg' | inline_asset_content -}}
+          </button>
+          <button type="button" class="gallery-lightbox__button gallery-lightbox__prev" data-lightbox-prev aria-label="{{ 'ombelle.gallery.previous' | t }}">
+            {{- 'icon-caret.svg' | inline_asset_content -}}
+          </button>
+          <img class="gallery-lightbox__image" data-lightbox-image alt="" width="2000" height="2000">
+          <button type="button" class="gallery-lightbox__button gallery-lightbox__next" data-lightbox-next aria-label="{{ 'ombelle.gallery.next' | t }}">
+            {{- 'icon-caret.svg' | inline_asset_content -}}
+          </button>
+          <p class="gallery-lightbox__counter" data-lightbox-counter aria-live="polite"></p>
+        </dialog>
+      {%- endif -%}
+    </gallery-lightbox>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Galerie",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 24,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Galerie"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Taille du titre",
+      "options": [
+        { "value": "h2", "label": "Moyen" },
+        { "value": "h1", "label": "Grand" },
+        { "value": "h0", "label": "Très grand" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "select",
+      "id": "gallery_type",
+      "label": "Style de galerie",
+      "options": [
+        { "value": "classic", "label": "Classique" },
+        { "value": "horizontal", "label": "Mosaïque horizontale" },
+        { "value": "masonry", "label": "Mosaïque verticale" }
+      ],
+      "default": "classic"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Nombre de colonnes",
+      "info": "Styles classique et mosaïque verticale seulement.",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Espacement entre les images",
+      "default": 10
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_lightbox",
+      "label": "Agrandir les images au clic",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Pleine largeur",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Ancre",
+      "info": "Permet de créer un lien vers cette galerie (ex. : « galerie » donne /pages/exemple#galerie)."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "800 x 800 px recommandé"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Galerie",
+      "blocks": [
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" }
+      ]
+    }
+  ]
+}
+{% endschema %}

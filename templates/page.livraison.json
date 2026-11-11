@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "06ae56a3-2234-457d-8435-0fe562175b12": {
+      "type": "image-banner",
+      "blocks": {
+        "06ae56a3-2234-457d-8435-0fe562175b12-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Livraison de Fleurs",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "06ae56a3-2234-457d-8435-0fe562175b12-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "06ae56a3-2234-457d-8435-0fe562175b12-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "06ae56a3-2234-457d-8435-0fe562175b12-heading",
+        "06ae56a3-2234-457d-8435-0fe562175b12-text",
+        "06ae56a3-2234-457d-8435-0fe562175b12-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/livraison-de-fleurs-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/livraison-de-fleurs-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "9452f8a7-addf-410f-8001-cb2fc7f00f57": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "7469610b-3054-4353-ac07-51be2132c4fe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-0",
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-1",
+        "template--14812863103057__9452f8a7-addf-410f-8001-cb2fc7f00f57-16745638856048d21a-2",
+        "7469610b-3054-4353-ac07-51be2132c4fe"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863103057__ccd90632-255f-487e-b8e8-f4d963eecf67-167456376728a170ee-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Ombelle Fleuriste</em> offre la livraison de fleurs fraîches, de plantes et de cadeaux dans les municipalités suivantes : <a href=\"/pages/fleuriste-beloeil\" title=\"Ombelle Fleuriste  |  Beloeil | Livraison de fleurs Beloeil\"><em><strong>Beloeil</strong></em></a>, <a href=\"/pages/fleuriste-boucherville\" title=\"Fleuriste Boucherville | Ombelle Fleuriste\"><em><strong>Boucherville</strong></em></a>, Brossard, <a href=\"/pages/fleuriste-carignan\" title=\"Fleuriste Carignan | Ombelle Fleuriste\"><em><strong>Carignan</strong></em></a>, <a href=\"/pages/fleuriste-chambly\" title=\"Fleuriste Chambly | Ombelle Fleuriste\"><em><strong>Chambly</strong></em></a>, Greenfield Park, <a href=\"/pages/fleuriste-longueuil\" title=\"Fleuriste Longueuil | Livraison de fleurs Longueuil\"><em><strong>Longueuil</strong></em></a>, <a href=\"/pages/fleuriste-mcmasterville\" title=\"Fleuriste McMasterville | Ombelle Fleuriste\"><em><strong>McMasterville</strong></em></a>, <a href=\"/pages/fleuriste-mont-saint-hilaire\" title=\"Ombelle Fleuriste  |  Mont-Saint-Hilaire | Livraison de fleurs Mont-Saint-Hilaire\"><em><strong>Mont-Saint-Hilaire</strong></em></a>, <a href=\"/pages/fleuriste-otterburn-park\" title=\"Fleuriste Otterburn Park | Ombelle Fleuriste\"><em><strong>Otterburn Park</strong></em></a>, Saint-Amable, <a href=\"/pages/fleuriste-saint-basile-le-grand\" title=\"Ombelle Fleuriste  |  Saint-Basile-le-Grand | Livraison de fleurs Saint-Basile-le-Grand\"><em><strong>Saint-Basile-le-Grand</strong></em></a>, <a href=\"/pages/fleuriste-saint-bruno-de-montarville\" title=\"Fleuriste Saint-Bruno-de-Montarville | Livraison Fleurs | Ombelle Fleuriste\"><em><strong>Saint-Bruno</strong></em><strong>-de-Montarville</strong></a>, Saint-Charles-sur-Richelieu, <a href=\"/pages/fleuriste-saint-hubert\" title=\"Fleuriste Saint-Hubert | Ombelle Fleuriste\"><em><strong>Saint-Hubert</strong></em></a>, <a href=\"/pages/fleuriste-saint-lambert\" title=\"Fleuriste Saint-Lambert | Ombelle Fleuriste\"><em><strong>Saint-Lambert</strong></em></a>, Saint-Mathieu-de-Beloeil, <a href=\"/pages/fleuriste-sainte-julie\" title=\"Ombelle Fleuriste  |  Sainte-Julie | Livraison de fleurs Sainte-Julie\"><em><strong>Sainte-Julie</strong></em></a> et Saint-Marc-sur-Richelieu.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863103057__ccd90632-255f-487e-b8e8-f4d963eecf67-167456376728a170ee-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-pour-livraison.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863103057__ccd90632-255f-487e-b8e8-f4d963eecf67-167456376728a170ee-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La livraison a généralement lieu <strong>le jour même</strong>, en avant-midi (9h30 à 12h), en après-midi (12h à 16h) ou en soirée (16h à 19h), selon l’horaire d’ouverture de la boutique.&nbsp;<br/><br/>Pour une livraison le jour même, <strong>passez votre commande avant 17h en semaine ou avant 16h la fin de semaine</strong>. Nos fleurs sont remises en main propre par notre équipe.&nbsp;<br/><br/>Les tarifs de livraison varient selon les municipalités.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863103057__ccd90632-255f-487e-b8e8-f4d963eecf67-167456376728a170ee-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "6067f3b2-3132-408f-8e66-80fddbbcecd4-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les livraisons courantes se font sur la Rive-Sud. Pour les événements, comme les mariages, nous nous déplaçons souvent à Montréal, et plus loin. La livraison peut aussi avoir lieu le dimanche.</p>",
+            "text_style": "body"
+          }
+        },
+        "6067f3b2-3132-408f-8e66-80fddbbcecd4-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous: 450-300-2793",
+            "button_link": "tel: +14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "6067f3b2-3132-408f-8e66-80fddbbcecd4-text",
+        "6067f3b2-3132-408f-8e66-80fddbbcecd4-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-pour-livraison.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "c9ded3a8-46cc-44e9-a691-b818d9c254ba": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"J’ai eu un service impeccable (commande par téléphone et livraison à la porte)….  ils ont livré un bouquet magnifique en une heure! Personnel courtois, efficace, attentionné et sympathique :-)\"",
+            "heading_size": "h2",
+            "subheading": "Véronique Fleury",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-0",
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-1",
+        "template--14812863103057__c9ded3a8-46cc-44e9-a691-b818d9c254ba-1674563817dd7ba5f2-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "06ae56a3-2234-457d-8435-0fe562175b12",
+    "9452f8a7-addf-410f-8001-cb2fc7f00f57",
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-1",
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-2",
+    "ccd90632-255f-487e-b8e8-f4d963eecf67-3",
+    "c9ded3a8-46cc-44e9-a691-b818d9c254ba"
+  ]
+}

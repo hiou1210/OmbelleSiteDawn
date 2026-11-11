@@ -1,0 +1,265 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wedding_image_overlay_tRXbkq": {
+      "type": "wedding-banner",
+      "settings": {
+        "image": "shopify://shop_images/Mariage-baroque-bouquet-mariee-Bandeau-original.jpg",
+        "title": "Mariage baroque",
+        "title_is_h1": true,
+        "text_position": "center",
+        "text_align": "center",
+        "overlay_opacity": 20,
+        "stack_on_mobile": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_overlay_7BBtLL": {
+      "type": "image-banner",
+      "blocks": {
+        "image_with_text_overlay_7BBtLL-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mariage baroque",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_overlay_7BBtLL-heading"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-baroque-bouquet-mariee-Bandeau-original.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      },
+      "disabled": true
+    },
+    "wedding_package_mqEpi8": {
+      "type": "wedding-package",
+      "blocks": {
+        "include_item_9rkfDB": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 bouquet de mariée",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_qrbNVW": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 bouquets de demoiselle d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_TVe4Pg": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de marié",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_fhEfND": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "3 boutonnières de garçons d'honneur",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_XB6QGJ": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 boutonnière de petit page",
+            "item_icon": "✿"
+          }
+        },
+        "include_item_3L6WDy": {
+          "type": "include_item",
+          "settings": {
+            "item_text": "1 panier de pétales de bouquetière",
+            "item_icon": "✿"
+          }
+        }
+      },
+      "block_order": [
+        "include_item_9rkfDB",
+        "include_item_qrbNVW",
+        "include_item_TVe4Pg",
+        "include_item_fhEfND",
+        "include_item_XB6QGJ",
+        "include_item_3L6WDy"
+      ],
+      "settings": {
+        "text_position": "left",
+        "includes_title": "Ce forfait comprend:",
+        "description": "<p>Une combinaison harmonieuse de fleurs de couleur pourpre, rouge ardent, rose fuchsia, orangé et doré. Des textures variées, parfois douces, parfois piquantes. Une abondance de fleurs aux contrastes saisissants pour un mariage grandiose.</p>",
+        "list_icon": "✿",
+        "price": "À partir de 875$ + taxes",
+        "note": "<p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+        "button_label": "VOIR PLUS DE PHOTOS",
+        "button_link": "shopify://pages/mariage-baroque-gallerie-1",
+        "image": "shopify://shop_images/Mariage-baroque-couple3.jpg",
+        "image_radius": 20,
+        "color_scheme": "scheme-1",
+        "box_color_scheme": "scheme-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_text_7Xebbn": {
+      "type": "rich-text",
+      "blocks": {
+        "featured_text_7Xebbn-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forfait - Baroque",
+            "heading_size": "h2"
+          }
+        },
+        "featured_text_7Xebbn-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une<br/>combinaison harmonieuse de fleurs de couleur pourpre, rouge ardent, rose fuchsia, orangé et doré. Des textures variées, parfois douces, parfois piquantes. Une abondance de fleurs aux contrastes saisissants pour un mariage<br/>grandiose.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_text_7Xebbn-heading",
+        "featured_text_7Xebbn-text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "image_text_6mh3xN-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_Xqr8dW-text": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Ce forfait comprend :</strong></h5><p>- 1 bouquet de mariée<br/>- 3 bouquets de demoiselle d'honneur<br/>- 1 boutonnière de marié<br/>- 3 boutonnières de garçons d'honneur<br/>- 1 boutonnière de petit page<br/>- 1 panier de pétales de bouquetière</p><p>PRIX  : À partir de 875$ + taxes</p><p>À noter qu'il est possible d'ajuster le forfait en fonction de vos besoins. Que ce soit les couleurs des fleurs ou l'ajout de bouquets, boutonnières, bracelets, centres de table, gerbes florales ou tout autre élément floral que vous souhaiteriez avoir.</p>",
+            "text_style": "body"
+          }
+        },
+        "image_Xqr8dW-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir plus de photos",
+            "button_link": "shopify://pages/mariage-baroque-gallerie-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_Xqr8dW-text",
+        "image_Xqr8dW-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mariage-baroque-couple3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      },
+      "disabled": true
+    },
+    "gallery_BiL3GT": {
+      "type": "gallery",
+      "blocks": {
+        "image_npmFb3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-baroque-bouquet-mariee.jpg"
+          }
+        },
+        "image_qWW6b9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/original.jpg"
+          }
+        },
+        "image_8UMFWJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-baroque-bracelet.jpg"
+          }
+        },
+        "image_GKL9F9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-baroque-bouquet-demoiselle.jpg"
+          }
+        },
+        "image_arLgdH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-baroque-marie.jpg"
+          }
+        },
+        "image_cWbjVG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mariage-baroque-Forfait.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_npmFb3",
+        "image_qWW6b9",
+        "image_8UMFWJ",
+        "image_GKL9F9",
+        "image_arLgdH",
+        "image_cWbjVG"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "gallery_type": "masonry",
+        "columns_desktop": 3,
+        "gap": 10,
+        "enable_lightbox": true,
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "wedding_image_overlay_tRXbkq",
+    "image_with_text_overlay_7BBtLL",
+    "wedding_package_mqEpi8",
+    "featured_text_7Xebbn",
+    "image_text_6mh3xN-1",
+    "gallery_BiL3GT"
+  ]
+}

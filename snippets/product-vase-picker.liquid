@@ -1,0 +1,56 @@
+{%- doc -%}
+  Choix d'un vase optionnel, lu dans la métadonnée de produit custom.vases_disponibles (liste de produits).
+  Les boutons radio ne sont pas envoyés avec le formulaire : assets/product-form.js lit le vase choisi
+  et l'ajoute au panier comme ligne enfant du produit.
+
+  @param {product} product - Le produit affiché
+  @param {string} product_form_id - Identifiant du formulaire produit
+
+  @example
+  {% render 'product-vase-picker', product: product, product_form_id: product_form_id %}
+{%- enddoc -%}
+{%- assign vases = product.metafields.custom.vases_disponibles.value -%}
+{%- if vases != blank and vases.size > 0 -%}
+  {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
+  <fieldset class="vase-picker product-form__input product-form__input--pill">
+    <legend class="form__label">{{ 'ombelle.product.vase.legend' | t }}</legend>
+    <input
+      type="radio"
+      id="{{ product_form_id }}-vase-none"
+      name="vase-{{ product_form_id }}"
+      value="none"
+      data-vase-input
+      data-vase-form="{{ product_form_id }}"
+      checked
+    >
+    <label for="{{ product_form_id }}-vase-none">{{ 'ombelle.product.vase.none' | t }}</label>
+
+    {%- for vase in vases -%}
+      {%- assign vase_variant = vase.selected_or_first_available_variant -%}
+      {%- if vase_variant != blank -%}
+        {%- liquid
+          assign vase_label = vase.description | strip_html | strip | truncate: 60
+          if vase_label == blank
+            assign vase_label = vase.title
+          endif
+        -%}
+        <input
+          type="radio"
+          id="{{ product_form_id }}-vase-{{ vase.id }}"
+          name="vase-{{ product_form_id }}"
+          value="{{ vase_variant.id }}"
+          data-vase-input
+          data-vase-form="{{ product_form_id }}"
+          {% unless vase_variant.available %}
+            class="disabled"
+            disabled
+          {% endunless %}
+        >
+        <label for="{{ product_form_id }}-vase-{{ vase.id }}">
+          {{ vase_label | escape }}
+          <span class="vase-picker__price">+ {{ vase_variant.price | money }}</span>
+        </label>
+      {%- endif -%}
+    {%- endfor -%}
+  </fieldset>
+{%- endif -%}

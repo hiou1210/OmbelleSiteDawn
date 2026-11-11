@@ -22,6 +22,7 @@ if (!customElements.get('product-form')) {
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
         this.handleErrorMessage();
+        if (!this.validateRequiredProperties()) return;
 
         this.submitButton.setAttribute('aria-disabled', true);
         this.submitButton.classList.add('loading');
@@ -40,15 +41,22 @@ if (!customElements.get('product-form')) {
           formData.append('sections_url', window.location.pathname);
           this.cart.setActiveElement(document.activeElement);
         }
-        config.body = formData;
 
         const variantId = formData.get('id');
         const quantity = parseInt(formData.get('quantity')) || 1;
         const linesUpdateDeferred = this.createCartLinesUpdateEvent(variantId, quantity);
 
+        // Un vase choisi s'ajoute comme ligne enfant du produit (ligne imbriquée du panier).
+        const vaseVariantId = this.selectedVaseVariantId;
+        config.body = vaseVariantId ? this.buildNestedItemsFormData(formData, vaseVariantId) : formData;
+
         fetch(`${routes.cart_add_url}`, config)
           .then((response) => response.json())
           .then((response) => {
+            // Avec plusieurs lignes, la réponse regroupe les lignes dans `items` : on garde la première (le produit).
+            if (Array.isArray(response.items) && response.items.length && !response.key) {
+              response = { ...response.items[0], ...response };
+            }
             if (response.status) {
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',
@@ -118,6 +126,51 @@ if (!customElements.get('product-form')) {
 
             CartPerformance.measureFromEvent("add:user-action", evt);
           });
+      }
+
+      // Champs de propriétés obligatoires (liés au formulaire par l'attribut `form`) : le formulaire est en
+      // `novalidate`, la vérification se fait ici. Les champs masqués ou désactivés sont ignorés.
+      validateRequiredProperties() {
+        if (!this.form.id) return true;
+        const fields = document.querySelectorAll(`[data-required-property][form="${this.form.id}"]`);
+        for (const field of fields) {
+          if (field.disabled || field.closest('[hidden]')) continue;
+          if (field.value.trim()) {
+            field.removeAttribute('aria-invalid');
+            continue;
+          }
+          field.setAttribute('aria-invalid', 'true');
+          this.handleErrorMessage(field.dataset.requiredMessage);
+          field.focus();
+          return false;
+        }
+        return true;
+      }
+
+      get selectedVaseVariantId() {
+        if (!this.form.id) return null;
+        const selected = document.querySelector(
+          `[data-vase-input][data-vase-form="${this.form.id}"]:checked`
+        );
+        return selected && selected.value !== 'none' ? selected.value : null;
+      }
+
+      buildNestedItemsFormData(formData, vaseVariantId) {
+        const nested = new FormData();
+        const quantity = formData.get('quantity') || 1;
+        for (const [key, value] of formData.entries()) {
+          if (key === 'id' || key === 'quantity' || key === 'selling_plan') {
+            nested.append(`items[0][${key}]`, value);
+          } else if (key.startsWith('properties[')) {
+            nested.append(`items[0][properties][${key.slice('properties['.length, -1)}]`, value);
+          } else {
+            nested.append(key, value);
+          }
+        }
+        nested.append('items[1][id]', vaseVariantId);
+        nested.append('items[1][quantity]', quantity);
+        nested.append('items[1][parent_id]', formData.get('id'));
+        return nested;
       }
 
       handleErrorMessage(errorMessage = false) {

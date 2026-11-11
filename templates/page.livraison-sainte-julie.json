@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "8dda9d84-d940-4721-b75b-6ab0a0da94a2": {
+      "type": "image-banner",
+      "blocks": {
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste Sainte-Julie",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Sainte-Julie<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-heading",
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-text",
+        "8dda9d84-d940-4721-b75b-6ab0a0da94a2-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-sainte-julie-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-sainte-julie-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "2ca53aca-449f-4e6d-a891-60473eeaeeab": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "8f37d6f1-d508-42dd-97eb-2b2700f0eccf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-0",
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-1",
+        "template--14812863430737__2ca53aca-449f-4e6d-a891-60473eeaeeab-1674686488e9fc2ade-2",
+        "8f37d6f1-d508-42dd-97eb-2b2700f0eccf"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863430737__f2fc1adf-d73e-4a39-998d-8b2270978646-1674686499e11ed221-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\"><em>Ombelle Fleuriste</em></a>, <strong>Fleuriste Sainte-Julie</strong>, offre une <strong>livraison rapide et efficace le jour même</strong>. Nous faisons la <strong>livraison de fleurs fraîches</strong>, de plantes et de cadeaux dans toute la ville. Soyez assuré de la qualité de notre service, de même que de l’écoute et de la courtoisie de notre personnel.</p><p>Élégance et modernité caractérisent les <strong>bouquets et arrangements floraux</strong> confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863430737__f2fc1adf-d73e-4a39-998d-8b2270978646-1674686499e11ed221-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-ste-julie.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863430737__f2fc1adf-d73e-4a39-998d-8b2270978646-1674686499e11ed221-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livraison de fleurs fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><em>toutes occasions</em></a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\"><em>mariages</em></a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\"><em>funérailles</em></a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p><p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels (ex. : <a href=\"https://www.sandmanhotels.com/montreal-longueuil\" target=\"_blank\" title=\"https://www.sandmanhotels.com/montreal-longueuil\"><em>le Sandman Hôtel Montréal-Longueuil</em></a>, le <a href=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-CA-_-YULLN\" target=\"_blank\" title=\"https://www.ihg.com/holidayinn/hotels/us/en/longueuil/yulln/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-CA-_-YULLN\"><em>Holiday Inn Montréal-Longueuil</em></a> et l’<a href=\"https://hotelmortagne.com/fr/\" target=\"_blank\" title=\"https://hotelmortagne.com/fr/\"><em>Hôtel Mortagne</em></a>), les auberges, les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-honore-mercier\"><em>Hôpital Honoré-Mercier</em></a>, l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><em>Hôpital Pierre Boucher</em></a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><em>Hôpital Charles-Le Moyne</em></a>) et les salons funéraires (ex. : le Salon Funéraire Maurice Demers Ste-Julie,  le Salon funéraire Urgel Bourgie de St-Bruno-de-Montarville, le Complexe funéraire Pierre Tétreault et le <a href=\"https://yveslegare.com/complexe/complexe-rive-sud/\" target=\"_blank\" title=\"https://yveslegare.com/complexe/complexe-rive-sud/\"><em>Salon funéraire Yves Légaré</em></a>) situés à Sainte-Julie ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863430737__f2fc1adf-d73e-4a39-998d-8b2270978646-1674686499e11ed221-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-sainte-julie.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "2c1e4ed5-b04c-48fa-8011-b8d7573965e3-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son service de livraison à plusieurs autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p>",
+            "text_style": "body"
+          }
+        },
+        "2c1e4ed5-b04c-48fa-8011-b8d7573965e3-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "2c1e4ed5-b04c-48fa-8011-b8d7573965e3-text",
+        "2c1e4ed5-b04c-48fa-8011-b8d7573965e3-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-ste-julie.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "dabbfafa-29f1-4767-8f14-93d5a2a70328": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-ste-julie-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-ste-julie-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-ste-julie-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-ste-julie-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-sainte-julie-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-sainte-julie-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-0",
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-1",
+        "template--14812863430737__dabbfafa-29f1-4767-8f14-93d5a2a70328-167468651089ee06c9-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "8dda9d84-d940-4721-b75b-6ab0a0da94a2",
+    "2ca53aca-449f-4e6d-a891-60473eeaeeab",
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-1",
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-2",
+    "f2fc1adf-d73e-4a39-998d-8b2270978646-3",
+    "dabbfafa-29f1-4767-8f14-93d5a2a70328"
+  ]
+}

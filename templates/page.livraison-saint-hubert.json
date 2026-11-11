@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "755e8ee9-774c-4797-83c1-89555078ae26": {
+      "type": "image-banner",
+      "blocks": {
+        "755e8ee9-774c-4797-83c1-89555078ae26-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fleuriste St-Hubert",
+            "heading_size": "h1",
+            "heading_is_h1": true
+          }
+        },
+        "755e8ee9-774c-4797-83c1-89555078ae26-text": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Saint-Hubert<br>Livraison le jour même",
+            "text_style": "subtitle"
+          }
+        },
+        "755e8ee9-774c-4797-83c1-89555078ae26-buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "755e8ee9-774c-4797-83c1-89555078ae26-heading",
+        "755e8ee9-774c-4797-83c1-89555078ae26-text",
+        "755e8ee9-774c-4797-83c1-89555078ae26-buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fleuriste-st-hubert-bandeau1.jpg",
+        "mobile_image": "shopify://shop_images/fleuriste-st-hubert-bandeau1-mobile.jpg",
+        "hide_without_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "39598c10-b55d-4e0c-a7a2-01f496594a76": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_1.value }}"
+          }
+        },
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_2.value }}"
+          }
+        },
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_3.value }}"
+          }
+        },
+        "edc52422-9f4d-413b-aed9-c4da23d03cb8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "{{ page.metafields.custom.city_definition.value.main_categories.value.collection_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-0",
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-1",
+        "template--14812863397969__39598c10-b55d-4e0c-a7a2-01f496594a76-1674686488e9fc2ade-2",
+        "edc52422-9f4d-413b-aed9-c4da23d03cb8"
+      ],
+      "settings": {
+        "title": "Nos catégories principales",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863397969__faca265b-9aa5-4d47-a033-a3ec55df1db9-1674686499e11ed221-0-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ombellefleuriste.ca\" title=\"https://www.ombellefleuriste.ca\"><em>Ombelle Fleuriste</em></a> offre un service rapide et efficace pour <strong>la livraison de fleurs fraîches</strong>, de plantes et de cadeaux à <strong>St-Hubert</strong>. Soyez assuré de la qualité de son service, de même que de l’écoute et de la courtoisie de son personnel.</p><p>Élégance et modernité caractérisent les <strong>bouquets</strong> et <strong>arrangements floraux</strong> confectionnés par l’équipe expérimentée d’Ombelle Fleuriste. Contemporains, européens, exotiques, classiques ou champêtres, tous les styles sont possibles grâce au vaste choix de fleurs et de feuillages que l’on retrouve en boutique.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863397969__faca265b-9aa5-4d47-a033-a3ec55df1db9-1674686499e11ed221-0-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bouquet-de-roses-fleuriste-st-hubert.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14812863397969__faca265b-9aa5-4d47-a033-a3ec55df1db9-1674686499e11ed221-1-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livraison de fleurs fraîches pour <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><em>toutes occasions</em></a> : <a href=\"/pages/fleuriste-mariage\" title=\"Fleurs Mariage | Fleuriste mariage\"><em>mariages</em></a>, <a href=\"/pages/fleurs-deuil\" title=\"Fleurs Deuil | Décès | Funérailles\"><em>funérailles</em></a>, événements corporatifs, naissances, anniversaires, Saint-Valentin, Pâques, Fête des mères, Fête des pères, Noël, Jour de l’An, Fête des secrétaires, Journée de la femme, etc.</p><p>Ombelle Fleuriste livre autant dans les résidences privées que dans les commerces ainsi que dans les hôtels, les auberges, les salles de réception, les établissements municipaux, les écoles primaires et secondaires, les établissements de santé (ex. : l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-pierre-boucher\"><em>Hôpital Pierre Boucher</em></a> et l’<a href=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\" target=\"_blank\" title=\"https://www.santemonteregie.qc.ca/installations/hopital-charles-le-moyne\"><em>Hôpital Charles-Le Moyne</em></a>) et les salons funéraires (ex. : la <a href=\"https://www.cfgrandmontreal.com/\" target=\"_blank\" title=\"https://www.cfgrandmontreal.com/\"><em>Coopérative funéraire du Grand Montréal</em></a>, <a href=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/saint-hubert-qc/la-maison-darche-services-funeraires/3134\" target=\"_blank\" title=\"https://www.dignitymemorial.com/fr-ca/funeral-homes/saint-hubert-qc/la-maison-darche-services-funeraires/3134\"><em>La Maison Darche</em></a>, Urgel Bourgie / Athos) situés à St-Hubert ou au pourtour de la ville.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863397969__faca265b-9aa5-4d47-a033-a3ec55df1db9-1674686499e11ed221-1-text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lys-oriental-rose-pour-livraison-st-hubert.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "ee8166d5-e782-4b8b-82b4-25388a2a1fb2-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ombelle Fleuriste étend son <strong>service de livraison</strong> à plusieurs autres municipalités de la <a href=\"/pages/fleuriste-rive-sud\" title=\"Fleuriste Rive Sud | Ombelle Fleuriste\"><strong>Rive-Sud</strong></a> et à quelques secteurs de la ville de Montréal, quelle que soit la destination : résidences privées, écoles, collèges, commerces, boutiques, salles de réception, hôtels, résidences pour personnes âgées, hôpitaux, salons funéraires, etc.</p>",
+            "text_style": "body"
+          }
+        },
+        "ee8166d5-e782-4b8b-82b4-25388a2a1fb2-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Appelez-nous",
+            "button_link": "tel:+14503002793"
+          }
+        }
+      },
+      "block_order": [
+        "ee8166d5-e782-4b8b-82b4-25388a2a1fb2-text",
+        "ee8166d5-e782-4b8b-82b4-25388a2a1fb2-button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nadia-tient-bouquet-de-rose-fleuriste-st-hubert.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "be33806e-3a2e-4685-b3d5-933697e17075": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/livraison-fleurs-st-hubert-testemonial.jpg",
+            "mobile_image": "shopify://shop_images/livraison-fleurs-st-hubert-testemonial-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Je recommande fortement ce fleuriste. Une belle équipe agréable. J’y vais régulièrement pour de petits bouquets ou des compositions qui embellissent la maison et qui rendent heureuse ma compagne.\"",
+            "heading_size": "h2",
+            "subheading": "Franz Vanoosthuyse",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-hubert-testemonial2.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-hubert-testemonial2-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Commandé via leur boutique en ligne et demandé de faire livrer les fleurs deux jours plus tard dans l'après-midi. Ils ont confirmé le délai de livraison avant de passer. La commande a été simple, la livraison a été efficace et surtout les fleurs ont fière allure.\"",
+            "heading_size": "h2",
+            "subheading": "Olivier Kaija",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fleuriste-st-hubert-testemonial3.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-hubert-testemonial3-mobile.jpg",
+            "image_overlay_opacity": 40,
+            "heading": "\"Super service très humain! Bouquet magnifique, impeccable emballage pour la livraison, produits cadeaux succulents. Recommandes très fortement, je commanderais à nouveau sans hésitation :)\"",
+            "heading_size": "h2",
+            "subheading": "Marie Eve Bourassa",
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-0",
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-1",
+        "template--14812863397969__be33806e-3a2e-4685-b3d5-933697e17075-167468651089ee06c9-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "show_text_below": true,
+        "accessibility_info": "Témoignages de nos clients"
+      }
+    }
+  },
+  "order": [
+    "755e8ee9-774c-4797-83c1-89555078ae26",
+    "39598c10-b55d-4e0c-a7a2-01f496594a76",
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-1",
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-2",
+    "faca265b-9aa5-4d47-a033-a3ec55df1db9-3",
+    "be33806e-3a2e-4685-b3d5-933697e17075"
+  ]
+}
