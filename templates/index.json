@@ -445,6 +445,7 @@
         },
         "text_block_fcx78J": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Camille2.jpg",
             "title": "Journée de la femme",
@@ -465,6 +466,7 @@
         },
         "61c9dc49-5c07-49d5-8ac1-1c4816ee392d": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/vox-et-oz.png",
             "title": "Vox & Oz: des bijoux québécois à découvrir!",
