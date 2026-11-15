@@ -142,6 +142,7 @@
       }
     },
     "content_for_index": [],
+    "text_opacity": 75,
     "color_schemes": {
       "scheme-1": {
         "settings": {

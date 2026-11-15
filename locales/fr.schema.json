@@ -13,6 +13,10 @@
         "text": {
           "label": "Texte"
         },
+        "text_opacity": {
+          "label": "Opacité du texte",
+          "info": "S’applique au texte courant. Les titres restent à pleine opacité."
+        },
         "button_background": {
           "label": "Arrière-plan plein du bouton"
         },

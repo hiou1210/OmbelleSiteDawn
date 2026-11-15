@@ -98,6 +98,17 @@
           "on_secondary_button": "secondary_button_label",
           "secondary_button_border": "secondary_button_label"
         }
+      },
+      {
+        "type": "range",
+        "id": "text_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.colors.settings.text_opacity.label",
+        "info": "t:settings_schema.colors.settings.text_opacity.info",
+        "default": 75
       }
     ]
   },

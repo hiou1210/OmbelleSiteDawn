@@ -124,6 +124,10 @@
         "text": {
           "label": "Text"
         },
+        "text_opacity": {
+          "label": "Text opacity",
+          "info": "Applies to body text. Headings stay at full opacity."
+        },
         "button_background": {
           "label": "Solid button background"
         },
