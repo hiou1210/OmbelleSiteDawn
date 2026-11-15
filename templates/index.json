@@ -394,7 +394,7 @@
             "button_label_1": "Commencer la visite",
             "button_link_1": "https://maps.app.goo.gl/Py16EtAZD2UctHr28",
             "button_style_secondary_1": true,
-            "button_label_2": "Texte du bouton",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": true
           }
