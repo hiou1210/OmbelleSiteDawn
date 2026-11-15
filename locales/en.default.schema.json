@@ -122,11 +122,8 @@
           "info": "Background gradient replaces background where possible."
         },
         "text": {
-          "label": "Text"
-        },
-        "text_opacity": {
-          "label": "Text opacity",
-          "info": "Applies to body text. Headings stay at full opacity."
+          "label": "Text",
+          "info": "The opacity of this color applies to body text. Headings stay fully opaque."
         },
         "button_background": {
           "label": "Solid button background"

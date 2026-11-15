@@ -11,11 +11,8 @@
           "info": "Le dégradé de l’arrière-plan remplace l’arrière-plan là où c’est possible."
         },
         "text": {
-          "label": "Texte"
-        },
-        "text_opacity": {
-          "label": "Opacité du texte",
-          "info": "S’applique au texte courant. Les titres restent à pleine opacité."
+          "label": "Texte",
+          "info": "L’opacité de cette couleur s’applique au texte courant. Les titres restent opaques."
         },
         "button_background": {
           "label": "Arrière-plan plein du bouton"
