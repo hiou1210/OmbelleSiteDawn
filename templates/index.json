@@ -409,7 +409,7 @@
         "hide_without_image": false,
         "mobile_image": "shopify://shop_images/Ombelle-360-mobile_cf6d0db7-9561-4cb1-a6be-124361dd9a13.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
