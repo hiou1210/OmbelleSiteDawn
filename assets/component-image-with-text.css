@@ -415,3 +415,27 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+/* Variante sans recadrage : l'image garde son format, même si le texte est plus haut. */
+.image-with-text--natural .image-with-text__media-item {
+  align-self: start;
+}
+
+.image-with-text--natural .image-with-text__media,
+.image-with-text--natural .image-with-text__media--small,
+.image-with-text--natural .image-with-text__media--medium,
+.image-with-text--natural .image-with-text__media--large {
+  min-height: 0;
+  height: auto;
+}
+
+.image-with-text--natural .image-with-text__media.media {
+  padding-bottom: 0 !important;
+}
+
+.image-with-text.image-with-text--natural .image-with-text__media.media > img {
+  position: static;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

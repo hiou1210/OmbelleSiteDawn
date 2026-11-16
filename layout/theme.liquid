@@ -10,10 +10,10 @@
     <meta name="p:domain_verify" content="8f5efe6cd3d5aa3569a8c504d772989f">
     <link rel="canonical" href="{{ canonical_url }}">
 
-    {%- if request.page_type == 'collection' and collection.handle == 'all' -%}
+    {%- if template.name == 'collection' and collection.handle == 'all' -%}
       <meta name="robots" content="noindex,nofollow">
       <script>
-        window.location.replace('/collections');
+        window.location.replace({{ routes.collections_url | json }} + window.location.search + window.location.hash);
       </script>
     {%- endif -%}
 

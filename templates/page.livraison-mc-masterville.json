@@ -137,7 +137,8 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "crop_image": false
       }
     },
     "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-2": {
@@ -173,7 +174,8 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "crop_image": false
       }
     },
     "251d69d9-60ca-4e5c-b18f-b11cf4526cf3-3": {
@@ -217,7 +219,8 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "crop_image": false
       }
     },
     "d93be64d-47fc-4e65-a6ee-7a7bb9109472": {

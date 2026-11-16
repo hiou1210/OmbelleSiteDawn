@@ -95,7 +95,8 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "crop_image": false
       }
     },
     "da6d4dda-c4e7-43da-b451-9a684f62a7f3-2": {
@@ -123,7 +124,8 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 20,
+        "crop_image": false
       }
     },
     "f90c6ece-df4a-49ea-9ff7-3ae195e35d2b": {
