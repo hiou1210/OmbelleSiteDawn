@@ -334,6 +334,7 @@
       "settings": {
         "image": "shopify://shop_images/ombelle-fleuriste-nadia.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "text_first",
         "image_behavior": "none",
@@ -344,8 +345,7 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "image-text-1-2": {
@@ -354,7 +354,7 @@
         "e39dcf95-055a-4b22-a689-1cb94a3d0837-text": {
           "type": "text",
           "settings": {
-            "text": "<p>Chez Ombelle Fleuriste, nous privilégions les <strong>végétaux locaux</strong> et nous avons le bonheur de vous faire découvrir des <a href=\"/pages/nos-artistes\" title=\"Nos artistes\"><strong>créations d'artistes et d'artisans</strong></a> d'ici. </p><p>Vous trouverez chez nous un service courtois et accueillant, des <strong>fleuristes d'expérience</strong> et des conseils judicieux. <a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>Fleurs coupées</strong></a>, <a href=\"/collections/plantes\" title=\"Plantes\"><strong>plantes</strong></a>, <a href=\"/collections/plaisirs-gourmands\" title=\"Plaisirs Gourmands\"><strong>chocolats</strong></a>, décos et cadeaux : à vous de choisir ce qui vous fera plaisir!</p><p>En boutique ou par le Web, soyez les bienvenus! </p><p>Nadia </p>",
+            "text": "<p>Chez Ombelle Fleuriste, nous privilégions les <strong>végétaux locaux</strong> et nous avons le bonheur de vous faire découvrir des <a href=\"/pages/nos-artistes\" title=\"Nos artistes\"><strong>créations d'artistes et d'artisans</strong></a> d'ici.&nbsp;</p><p>Vous trouverez chez nous un service courtois et accueillant, des <strong>fleuristes d'expérience</strong> et des conseils judicieux.&nbsp;<a href=\"/collections/bouquets-et-creations\" title=\"Bouquets et créations\"><strong>Fleurs coupées</strong></a>, <a href=\"/collections/plantes\" title=\"Plantes\"><strong>plantes</strong></a>, <a href=\"/collections/plaisirs-gourmands\" title=\"Plaisirs Gourmands\"><strong>chocolats</strong></a>, décos et cadeaux : à vous de choisir ce qui vous fera plaisir!</p><p>En boutique ou par le Web, soyez les bienvenus!&nbsp;</p><p>Nadia&nbsp;</p>",
             "text_style": "body"
           }
         }
@@ -365,18 +365,18 @@
       "settings": {
         "image": "shopify://shop_images/fleuriste-boutique-st-basile-le-grand.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "image_with_text_overlay_67B6gQ": {
