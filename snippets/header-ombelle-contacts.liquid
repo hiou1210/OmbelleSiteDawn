@@ -1,0 +1,53 @@
+{% doc %}
+  Renders the contact row of the Ombelle header: email, social profiles and phone number.
+
+  @param {string} [email] - Email address. The envelope icon is hidden when blank.
+  @param {string} [phone] - Phone number as displayed (for example `450-300-2793`). Hidden when blank.
+
+  @example
+  {% render 'header-ombelle-contacts', email: section.settings.contact_email, phone: section.settings.contact_phone %}
+{% enddoc %}
+
+{%- liquid
+  assign social_keys = 'facebook,instagram,linkedin,pinterest,youtube,tiktok,twitter,snapchat,tumblr,vimeo' | split: ','
+  assign phone_href = phone | strip | remove: ' ' | remove: '-' | remove: '.' | remove: '(' | remove: ')'
+-%}
+
+<div class="ombelle-top-bar">
+  <ul class="ombelle-top-bar__list list-unstyled" role="list">
+    {%- if email != blank -%}
+      <li class="ombelle-top-bar__item">
+        <a href="mailto:{{ email | strip }}" class="ombelle-top-bar__link" aria-label="{{ email | strip | escape }}">
+          <span class="svg-wrapper">
+            {{- 'icon-email.svg' | inline_asset_content -}}
+          </span>
+        </a>
+      </li>
+    {%- endif -%}
+
+    {%- for key in social_keys -%}
+      {%- liquid
+        assign setting_key = 'social_' | append: key | append: '_link'
+        assign social_url = settings[setting_key]
+      -%}
+      {%- if social_url != blank -%}
+        {%- liquid
+          assign icon_name = 'icon-' | append: key | append: '.svg'
+          assign label_key = 'general.social.links.' | append: key
+        -%}
+        <li class="ombelle-top-bar__item">
+          <a href="{{ social_url }}" class="ombelle-top-bar__link" rel="me">
+            <span class="svg-wrapper">
+              {{- icon_name | inline_asset_content -}}
+            </span>
+            <span class="visually-hidden">{{ label_key | t }}</span>
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+
+  {%- if phone != blank -%}
+    <a href="tel:{{ phone_href }}" class="ombelle-top-bar__phone">{{ phone | strip | escape }}</a>
+  {%- endif -%}
+</div>

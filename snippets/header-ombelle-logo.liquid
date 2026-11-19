@@ -1,0 +1,60 @@
+{% doc %}
+  Renders the logo of the Ombelle header.
+
+  The logo is displayed at a fixed width and served from the original file with
+  1x, 2x and 3x candidates (never above the real width of the uploaded image),
+  so it stays sharp on high-density screens.
+
+  @example
+  {% render 'header-ombelle-logo' %}
+{% enddoc %}
+
+{%- if request.page_type == 'index' -%}
+  <h1 class="header__heading">
+{%- endif -%}
+<a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+  {%- if settings.logo != blank -%}
+    <div class="header__heading-logo-wrapper">
+      {%- liquid
+        assign logo_alt = settings.logo.alt | default: shop.name | escape
+        assign display_width = settings.logo_width
+        assign source_width = settings.logo.width
+        assign display_height = display_width | divided_by: settings.logo.aspect_ratio | round
+        assign logo_sizes = display_width | append: 'px'
+
+        assign width_1x = display_width | at_most: source_width
+        assign width_2x = display_width | times: 2 | at_most: source_width
+        assign width_3x = display_width | times: 3 | at_most: source_width
+
+        capture logo_widths
+          echo width_1x
+          if width_2x > width_1x
+            echo ', '
+            echo width_2x
+          endif
+          if width_3x > width_2x
+            echo ', '
+            echo width_3x
+          endif
+        endcapture
+      -%}
+      {{
+        settings.logo
+        | image_url: width: source_width
+        | image_tag:
+          class: 'header__heading-logo motion-reduce',
+          widths: logo_widths,
+          height: display_height,
+          width: display_width,
+          alt: logo_alt,
+          sizes: logo_sizes,
+          preload: true
+      }}
+    </div>
+  {%- else -%}
+    <span class="h2">{{ shop.name }}</span>
+  {%- endif -%}
+</a>
+{%- if request.page_type == 'index' -%}
+  </h1>
+{%- endif -%}
