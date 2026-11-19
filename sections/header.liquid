@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
+{%- if section.settings.menu_type_desktop == 'ombelle' -%}
+  {%- comment -%} The layout of this header depends on these files, so they are not loaded lazily. {%- endcomment -%}
+  <link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'component-header-ombelle.css' | asset_url }}">
+{%- endif -%}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -149,9 +155,22 @@
   class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}"
 >
   {%- liquid
+    assign is_ombelle = false
+    if section.settings.menu_type_desktop == 'ombelle'
+      assign is_ombelle = true
+    endif
+
     assign social_links = false
     if settings.social_twitter_link != blank or settings.social_facebook_link != blank or settings.social_pinterest_link != blank or settings.social_instagram_link != blank or settings.social_youtube_link != blank or settings.social_vimeo_link != blank or settings.social_tiktok_link != blank or settings.social_tumblr_link != blank or settings.social_snapchat_link != blank
       assign social_links = true
+    endif
+
+    if is_ombelle
+      assign ombelle_logo_width = settings.logo_width
+      assign ombelle_logo_width_scrolled = settings.logo_width
+      if section.settings.sticky_header_type == 'reduce-logo-size'
+        assign ombelle_logo_width_scrolled = settings.logo_width | times: 0.75 | round
+      endif
     endif
 
     assign country_selector = false
@@ -164,11 +183,23 @@
       assign language_selector = true
     endif
   -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if country_selector or language_selector %} header--has-localizations{% endif %}">
+  <header
+    class="header{% if is_ombelle %} header--ombelle{% else %} header--{{ section.settings.logo_position }}{% endif %} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled and is_ombelle == false %} header--has-account{% endif %}{% if country_selector or language_selector %} header--has-localizations{% endif %}"
+    {% if is_ombelle %}
+      style="--ombelle-logo-width: {{ ombelle_logo_width }}px; --ombelle-logo-width-scrolled: {{ ombelle_logo_width_scrolled }}px;"
+    {% endif %}
+  >
     {%- liquid
       assign render_search_left = false
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank or shop.customer_accounts_enabled
         assign render_search_left = true
+      endif
+
+      comment
+        The Ombelle header keeps the search with the other icons on the top row.
+      endcomment
+      if is_ombelle
+        assign render_search_left = false
       endif
 
       if section.settings.menu != blank
@@ -180,7 +211,15 @@
       endif
     -%}
 
-    {%- if section.settings.logo_position != 'middle-center' -%}
+    {%- if is_ombelle -%}
+      {%- render 'header-ombelle-contacts',
+        email: section.settings.contact_email,
+        phone: section.settings.contact_phone
+      -%}
+      {%- render 'header-ombelle-logo' -%}
+    {%- endif -%}
+
+    {%- if section.settings.logo_position != 'middle-center' and is_ombelle == false -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
@@ -215,7 +254,7 @@
 
     {%- liquid
       if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown'
+        if section.settings.menu_type_desktop == 'dropdown' or is_ombelle
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
           render 'header-mega-menu'
@@ -223,7 +262,7 @@
       endif
     %}
 
-    {%- if section.settings.logo_position == 'middle-center' -%}
+    {%- if section.settings.logo_position == 'middle-center' and is_ombelle == false -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
@@ -535,7 +574,8 @@
       ],
       "default": "middle-left",
       "label": "t:sections.header.settings.logo_position.label",
-      "info": "t:sections.header.settings.logo_help.content"
+      "info": "t:sections.header.settings.logo_help.content",
+      "visible_if": "{{ section.settings.menu_type_desktop != 'ombelle' }}"
     },
     {
       "type": "select",
@@ -574,10 +614,28 @@
         {
           "value": "drawer",
           "label": "t:sections.header.settings.menu_type_desktop.options__3.label"
+        },
+        {
+          "value": "ombelle",
+          "label": "Ombelle (pleine largeur)"
         }
       ],
       "default": "dropdown",
       "label": "t:sections.header.settings.menu_type_desktop.label"
+    },
+    {
+      "type": "text",
+      "id": "contact_email",
+      "label": "Courriel (menu Ombelle)",
+      "info": "Affiche l’icône courriel dans la barre du haut. Laissez vide pour la masquer.",
+      "visible_if": "{{ section.settings.menu_type_desktop == 'ombelle' }}"
+    },
+    {
+      "type": "text",
+      "id": "contact_phone",
+      "label": "Téléphone (menu Ombelle)",
+      "info": "Affiché dans la barre du haut, à côté des réseaux sociaux. Laissez vide pour le masquer.",
+      "visible_if": "{{ section.settings.menu_type_desktop == 'ombelle' }}"
     },
     {
       "type": "select",

@@ -1,0 +1,159 @@
+/*
+ * En-tête « Ombelle (pleine largeur) », quatrième type de menu de la section header.
+ * Chargé seulement quand ce type est choisi. Tout est préfixé .header--ombelle
+ * ou .ombelle-top-bar : les menus Dawn (déroulant, méga, tiroir) ne sont pas touchés.
+ *
+ * Bureau  : [contacts ........................ recherche compte panier]
+ *           [logo  menu ...........................................]
+ * Mobile  : [contacts centrés]
+ *           [tiroir  logo  recherche compte panier]
+ */
+
+/* Grille et pleine largeur */
+.section-header .header.header--ombelle.page-width {
+  max-width: none;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  grid-template-areas:
+    'contacts contacts contacts'
+    'left-icons heading icons';
+  grid-template-columns: auto 1fr auto;
+  row-gap: 0;
+}
+
+.header--ombelle header-drawer {
+  grid-area: left-icons;
+}
+
+/* La recherche reste avec les icônes, sur la rangée du haut */
+.header--ombelle .header__icons > .header__search {
+  display: inline-flex;
+}
+
+/* Logo : largeur fixe en pixels entiers, sans étirement */
+.header--ombelle .header__heading-logo-wrapper {
+  width: var(--ombelle-logo-width, 210px);
+  max-width: 100%;
+}
+
+.scrolled-past-header .header--ombelle .header__heading-logo-wrapper {
+  width: var(--ombelle-logo-width-scrolled, var(--ombelle-logo-width, 210px));
+}
+
+.header--ombelle .header__heading-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Barre de contacts : courriel, réseaux, téléphone */
+.ombelle-top-bar {
+  grid-area: contacts;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.4rem;
+  min-height: 3.6rem;
+}
+
+.ombelle-top-bar__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ombelle-top-bar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.6rem;
+  padding: 0 0.7rem;
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+}
+
+.ombelle-top-bar__link .svg-wrapper {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.ombelle-top-bar__link .icon {
+  transition: transform 0.15s ease;
+}
+
+.ombelle-top-bar__link:hover .icon {
+  transform: scale(1.12);
+}
+
+.ombelle-top-bar__phone {
+  padding: 0 0.7rem;
+  font-family: var(--font-nav-family);
+  font-style: var(--font-nav-style);
+  font-weight: var(--font-nav-weight);
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  line-height: 3.6rem;
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ombelle-top-bar__phone:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .section-header .header.header--ombelle.page-width {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .section-header .header.header--ombelle.page-width {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    grid-template-areas:
+      'contacts contacts icons'
+      'heading navigation navigation';
+    column-gap: 1.6rem;
+  }
+
+  .ombelle-top-bar {
+    justify-self: start;
+    justify-content: flex-start;
+    min-height: 4.4rem;
+    margin-left: -0.7rem;
+  }
+
+  .ombelle-top-bar__list {
+    justify-content: flex-start;
+  }
+
+  .ombelle-top-bar__link {
+    height: 4.4rem;
+  }
+
+  .ombelle-top-bar__phone {
+    line-height: 4.4rem;
+  }
+
+  .header--ombelle .header__heading,
+  .header--ombelle .header__heading-link {
+    justify-self: start;
+    text-align: left;
+  }
+
+  .header--ombelle .header__heading-link {
+    margin-left: -0.75rem;
+  }
+
+  .header.header--ombelle .header__inline-menu {
+    margin: 0;
+    justify-self: start;
+  }
+}
