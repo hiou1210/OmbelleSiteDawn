@@ -20,6 +20,7 @@
   {%- comment -%} The layout of this header depends on these files, so they are not loaded lazily. {%- endcomment -%}
   <link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}">
   <link rel="stylesheet" href="{{ 'component-header-ombelle.css' | asset_url }}">
+  <script src="{{ 'header-ombelle.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 <style>
@@ -254,7 +255,9 @@
 
     {%- liquid
       if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown' or is_ombelle
+        if is_ombelle
+          render 'header-ombelle-menu'
+        elsif section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
           render 'header-mega-menu'

@@ -1,0 +1,132 @@
+{% doc %}
+  Renders the desktop menu of the Ombelle header.
+
+  Differences with the default dropdown menu:
+  - sub-menus open on hover (and with the keyboard or a tap on the arrow button),
+  - a parent item is a real link: clicking its title goes to the configured URL,
+  - up to three levels, the third level opens as a fly-out to the right.
+
+  @param {object} [section] - The current header section context, supplied implicitly when rendered from that section and used for menu settings.
+
+  @example
+  {% render 'header-ombelle-menu' %}
+{% enddoc %}
+
+<nav class="header__inline-menu ombelle-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      <li class="ombelle-menu__item{% if link.links != blank %} ombelle-menu__item--parent{% endif %}">
+        {%- if link.links != blank -%}
+          <div class="ombelle-menu__row">
+            <a
+              id="HeaderMenu-{{ link.handle }}"
+              href="{{ link.url }}"
+              class="header__menu-item list-menu__item link focus-inset"
+              {% if link.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <span
+                {%- if link.current or link.child_active %}
+                  class="header__active-menu-item"
+                {% endif %}
+              >
+                {{- link.title | escape -}}
+              </span>
+            </a>
+            <button
+              type="button"
+              class="ombelle-menu__toggle focus-inset"
+              aria-expanded="false"
+              aria-controls="HeaderMenu-MenuList-{{ forloop.index }}"
+              aria-label="{{ link.title | escape }}"
+            >
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </button>
+          </div>
+          <ul
+            id="HeaderMenu-MenuList-{{ forloop.index }}"
+            class="ombelle-menu__submenu header__submenu list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large global-settings-popup"
+            role="list"
+          >
+            {%- for childlink in link.links -%}
+              <li class="ombelle-menu__item{% if childlink.links != blank %} ombelle-menu__item--parent{% endif %}">
+                {%- if childlink.links == blank -%}
+                  <a
+                    id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                    href="{{ childlink.url }}"
+                    class="header__menu-item list-menu__item link focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
+                    {% if childlink.current %}
+                      aria-current="page"
+                    {% endif %}
+                  >
+                    {{ childlink.title | escape }}
+                  </a>
+                {%- else -%}
+                  <div class="ombelle-menu__row">
+                    <a
+                      id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                      href="{{ childlink.url }}"
+                      class="header__menu-item list-menu__item link focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
+                      {% if childlink.current %}
+                        aria-current="page"
+                      {% endif %}
+                    >
+                      {{ childlink.title | escape }}
+                    </a>
+                    <button
+                      type="button"
+                      class="ombelle-menu__toggle focus-inset"
+                      aria-expanded="false"
+                      aria-controls="HeaderMenu-SubMenuList-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                      aria-label="{{ childlink.title | escape }}"
+                    >
+                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                    </button>
+                  </div>
+                  <ul
+                    id="HeaderMenu-SubMenuList-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                    class="ombelle-menu__submenu ombelle-menu__submenu--flyout list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large global-settings-popup"
+                    role="list"
+                  >
+                    {%- for grandchildlink in childlink.links -%}
+                      <li>
+                        <a
+                          id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                          href="{{ grandchildlink.url }}"
+                          class="header__menu-item list-menu__item link focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"
+                          {% if grandchildlink.current %}
+                            aria-current="page"
+                          {% endif %}
+                        >
+                          {{ grandchildlink.title | escape }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

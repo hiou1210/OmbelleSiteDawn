@@ -163,3 +163,141 @@
     justify-content: center;
   }
 }
+
+/*
+ * Menu du bureau (snippet header-ombelle-menu)
+ * Texte en pleine opacité, sous-menus au survol, titre parent cliquable.
+ */
+
+/* Pleine opacité, y compris au survol et dans les sous-menus */
+.header--ombelle .header__menu-item,
+.header--ombelle .header__menu-item:hover,
+.header--ombelle .ombelle-menu__toggle {
+  color: rgb(var(--color-foreground));
+}
+
+.ombelle-menu__item {
+  position: relative;
+}
+
+.ombelle-menu__row {
+  display: flex;
+  align-items: stretch;
+}
+
+.ombelle-menu__row > .header__menu-item {
+  flex: 1 1 auto;
+}
+
+.ombelle-menu .ombelle-menu__item--parent > .ombelle-menu__row > .header__menu-item {
+  padding-right: 0.2rem;
+}
+
+/* Flèche : bouton séparé du lien, pour le clavier et le tactile */
+.ombelle-menu__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 1.2rem 0 0.4rem;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.header--ombelle .ombelle-menu__toggle .icon-caret {
+  width: 1rem;
+  height: 0.6rem;
+  margin: 0;
+  position: static;
+  transition: transform var(--duration-default) ease;
+}
+
+.header--ombelle .ombelle-menu__submenu .ombelle-menu__toggle {
+  padding-right: 2rem;
+}
+
+/* Sous-menus : cachés par défaut, ouverts au survol, au clavier ou avec la flèche */
+.header--ombelle .ombelle-menu__submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: max-content;
+  min-width: 22rem;
+  max-width: 34rem;
+  padding: 1rem 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-0.8rem);
+  transition: opacity var(--duration-default) ease, transform var(--duration-default) ease,
+    visibility 0s linear var(--duration-default);
+}
+
+/* Troisième niveau : s'ouvre à droite, aligné sur son parent */
+.header--ombelle .ombelle-menu__submenu--flyout {
+  top: -1rem;
+  left: 100%;
+}
+
+/* Ajouté par le script quand le sous-menu dépasserait du bord droit de l'écran */
+.header--ombelle .ombelle-menu__submenu--flip {
+  left: auto;
+  right: 0;
+}
+
+.header--ombelle .ombelle-menu__submenu--flyout.ombelle-menu__submenu--flip {
+  left: auto;
+  right: 100%;
+}
+
+.header--ombelle .ombelle-menu__item--parent.is-open > .ombelle-menu__submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  transition-delay: 0s;
+}
+
+@media (hover: hover) {
+  .header--ombelle .ombelle-menu__item--parent:hover > .ombelle-menu__submenu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: none;
+    transition-delay: 0s;
+  }
+}
+
+/* Navigation au clavier (règle séparée : :has() n'est pas reconnu par tous les navigateurs) */
+.header--ombelle .ombelle-menu__item--parent:has(:focus-visible) > .ombelle-menu__submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  transition-delay: 0s;
+}
+
+/* Flèche : vers le bas au premier niveau (retournée à l'ouverture), vers la droite dans les sous-menus */
+.header--ombelle .ombelle-menu__submenu .ombelle-menu__toggle .icon-caret {
+  transform: rotate(-90deg);
+}
+
+.header--ombelle .ombelle-menu > .list-menu > .ombelle-menu__item--parent.is-open > .ombelle-menu__row .icon-caret {
+  transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+  .header--ombelle .ombelle-menu > .list-menu > .ombelle-menu__item--parent:hover > .ombelle-menu__row .icon-caret {
+    transform: rotate(180deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header--ombelle .ombelle-menu__submenu,
+  .header--ombelle .ombelle-menu__toggle .icon-caret {
+    transition: none;
+  }
+}
