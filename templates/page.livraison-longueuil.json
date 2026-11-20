@@ -10,51 +10,39 @@
 {
   "sections": {
     "132affcb-491b-4cd3-a471-1ebc46c8758c": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-heading": {
-          "type": "heading",
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/fleuriste-longueuil-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-longueuil-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Fleuriste Longueuil",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
-          }
-        },
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-text": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison Longueuil",
-            "text_style": "subtitle"
-          }
-        },
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commander maintenant",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": true,
-            "button_style_secondary_2": true
+            "subheading": "Livraison Longueuil",
+            "subheading_style": "subtitle",
+            "button_label": "Commander maintenant",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-heading",
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-text",
-        "132affcb-491b-4cd3-a471-1ebc46c8758c-buttons"
+        "132affcb-491b-4cd3-a471-1ebc46c8758c-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/fleuriste-longueuil-bandeau1.jpg",
-        "mobile_image": "shopify://shop_images/fleuriste-longueuil-bandeau1-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "37c06349-fb03-4d0b-a19a-ac65550e7e00": {

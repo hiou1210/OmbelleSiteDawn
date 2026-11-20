@@ -10,41 +10,36 @@
 {
   "sections": {
     "e629e3bc-80d7-4257-8917-d9f501b406e8": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "e629e3bc-80d7-4257-8917-d9f501b406e8-heading": {
-          "type": "heading",
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/naissance.bandeau_92ec4c22-4c60-4ea5-87cb-f13468072580.jpg",
+            "mobile_image": "shopify://shop_images/naissance-bandeau-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Fleurs et cadeaux",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
-          }
-        },
-        "e629e3bc-80d7-4257-8917-d9f501b406e8-text": {
-          "type": "text",
-          "settings": {
-            "text": "pour célébrer l'arrivée du nouveau-né",
-            "text_style": "subtitle"
+            "subheading": "pour célébrer l'arrivée du nouveau-né",
+            "subheading_style": "subtitle",
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "e629e3bc-80d7-4257-8917-d9f501b406e8-heading",
-        "e629e3bc-80d7-4257-8917-d9f501b406e8-text"
+        "e629e3bc-80d7-4257-8917-d9f501b406e8-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/naissance.bandeau_92ec4c22-4c60-4ea5-87cb-f13468072580.jpg",
-        "mobile_image": "shopify://shop_images/naissance-bandeau-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "029ac15e-7865-4c8b-80fa-0e72bcddf27f-1": {

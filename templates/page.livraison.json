@@ -10,51 +10,39 @@
 {
   "sections": {
     "06ae56a3-2234-457d-8435-0fe562175b12": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "06ae56a3-2234-457d-8435-0fe562175b12-heading": {
-          "type": "heading",
+        "06ae56a3-2234-457d-8435-0fe562175b12-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/livraison-de-fleurs-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/livraison-de-fleurs-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Livraison de Fleurs",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
-          }
-        },
-        "06ae56a3-2234-457d-8435-0fe562175b12-text": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison le jour même",
-            "text_style": "subtitle"
-          }
-        },
-        "06ae56a3-2234-457d-8435-0fe562175b12-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commander maintenant",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": true,
-            "button_style_secondary_2": true
+            "subheading": "Livraison le jour même",
+            "subheading_style": "subtitle",
+            "button_label": "Commander maintenant",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "06ae56a3-2234-457d-8435-0fe562175b12-heading",
-        "06ae56a3-2234-457d-8435-0fe562175b12-text",
-        "06ae56a3-2234-457d-8435-0fe562175b12-buttons"
+        "06ae56a3-2234-457d-8435-0fe562175b12-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/livraison-de-fleurs-bandeau1.jpg",
-        "mobile_image": "shopify://shop_images/livraison-de-fleurs-bandeau1-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "9452f8a7-addf-410f-8001-cb2fc7f00f57": {

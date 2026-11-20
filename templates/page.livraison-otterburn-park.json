@@ -10,51 +10,39 @@
 {
   "sections": {
     "b6135d68-32eb-40fa-aa99-8aecd3f72639": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-heading": {
-          "type": "heading",
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Fleuriste Otterburn Park",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
-          }
-        },
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-text": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison Otterburn Park<br>Livraison le jour même",
-            "text_style": "subtitle"
-          }
-        },
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commander maintenant",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": true,
-            "button_style_secondary_2": true
+            "subheading": "Livraison Otterburn Park<br>Livraison le jour même",
+            "subheading_style": "subtitle",
+            "button_label": "Commander maintenant",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-heading",
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-text",
-        "b6135d68-32eb-40fa-aa99-8aecd3f72639-buttons"
+        "b6135d68-32eb-40fa-aa99-8aecd3f72639-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1.jpg",
-        "mobile_image": "shopify://shop_images/fleuriste-otterburn-park-bandeau1-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "68508802-0d6b-40fa-8f55-dc013f473efc": {

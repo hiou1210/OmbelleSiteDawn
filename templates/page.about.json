@@ -182,50 +182,38 @@
       }
     },
     "1631282815c3d5aa5f": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "1631282815c3d5aa5f-heading": {
-          "type": "heading",
+        "1631282815c3d5aa5f-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/about-banner.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Feel the difference",
+            "heading_is_h1": false,
             "heading_size": "h1",
-            "heading_is_h1": false
-          }
-        },
-        "1631282815c3d5aa5f-text": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Your mind & body will surely thank you later.</strong>",
-            "text_style": "subtitle"
-          }
-        },
-        "1631282815c3d5aa5f-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Explore CBD",
-            "button_link_1": "shopify://collections/calm-balms",
-            "button_style_secondary_1": false,
-            "button_style_secondary_2": true
+            "subheading": "<strong>Your mind & body will surely thank you later.</strong>",
+            "subheading_style": "subtitle",
+            "button_label": "Explore CBD",
+            "link": "shopify://collections/calm-balms",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "1631282815c3d5aa5f-heading",
-        "1631282815c3d5aa5f-text",
-        "1631282815c3d5aa5f-buttons"
+        "1631282815c3d5aa5f-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/about-banner.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": true,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "left",
-        "show_text_below": true
+        "accessibility_info": "Bandeau"
       }
     }
   },

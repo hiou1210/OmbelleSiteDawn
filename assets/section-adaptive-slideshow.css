@@ -1,0 +1,283 @@
+/* ==========================================================================
+   Bannière adaptative
+   L'image garde ses proportions (height auto) : c'est elle qui donne la hauteur
+   du bandeau. Le texte est empilé sur l'image avec une grille CSS.
+   Le défilement, les boutons et les points viennent de component-slider.css et
+   component-slideshow.css, et le comportement de <slideshow-component> (global.js).
+   ========================================================================== */
+
+.adaptive-slideshow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Piste de défilement ---------- */
+
+.adaptive-slideshow__slider.slider.slider--everywhere {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
+  column-gap: 0;
+  row-gap: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+/* ---------- Diapositive : image et texte dans la même cellule ---------- */
+
+.adaptive-slideshow__slide.slideshow__slide.slider__slide {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 1fr;
+  min-width: 0;
+  padding: 0;
+}
+
+.adaptive-slideshow__media {
+  position: relative;
+  grid-area: 1 / 1;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.adaptive-slideshow__picture {
+  display: block;
+  height: 100%;
+}
+
+.adaptive-slideshow__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.adaptive-slideshow__placeholder {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 20rem;
+}
+
+.adaptive-slideshow__overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: var(--adaptive-overlay-opacity, 0);
+  pointer-events: none;
+}
+
+/* ---------- Texte ---------- */
+
+.adaptive-slideshow__content.page-width {
+  position: relative;
+  z-index: 2;
+  grid-area: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  pointer-events: none;
+}
+
+.adaptive-slideshow__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  word-wrap: break-word;
+  pointer-events: auto;
+}
+
+.adaptive-slideshow__box > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.adaptive-slideshow__box > * + * {
+  margin-top: 1rem;
+}
+
+.adaptive-slideshow__box > * + .adaptive-slideshow__text {
+  margin-top: 1.5rem;
+}
+
+.adaptive-slideshow__box > * + .adaptive-slideshow__buttons {
+  margin-top: 2rem;
+}
+
+.adaptive-slideshow__text p {
+  margin: 0;
+}
+
+.adaptive-slideshow__buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 45rem;
+  word-break: break-word;
+}
+
+.adaptive-slideshow__buttons--multiple > * {
+  flex-grow: 1;
+  min-width: 22rem;
+}
+
+/* ---------- Mobile (moins de 750px) ---------- */
+
+@media screen and (max-width: 749px) {
+  .adaptive-slideshow__box--mobile-text-left {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .adaptive-slideshow__box--mobile-text-right {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  /* Texte superposé à l'image : pas de boîte, comme le bandeau Dawn */
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box:after {
+    display: none;
+  }
+
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box .button--secondary {
+    --alpha-button-background: 0;
+  }
+
+  /* Texte sous l'image : la boîte occupe toute la largeur, sous l'image */
+  .adaptive-slideshow--stack-mobile .adaptive-slideshow__slide.slideshow__slide.slider__slide {
+    grid-template-rows: auto 1fr;
+  }
+
+  .adaptive-slideshow--stack-mobile .adaptive-slideshow__overlay {
+    display: none;
+  }
+
+  .adaptive-slideshow--stack-mobile .adaptive-slideshow__content.page-width {
+    grid-area: 2 / 1;
+    align-items: stretch;
+    justify-content: stretch;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .adaptive-slideshow--stack-mobile .adaptive-slideshow__box {
+    padding: 4rem 3.5rem;
+  }
+}
+
+/* ---------- Ordinateur (750px et plus) ---------- */
+
+@media screen and (min-width: 750px) {
+  .adaptive-slideshow__content.page-width {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .adaptive-slideshow__content--top-left,
+  .adaptive-slideshow__content--top-center,
+  .adaptive-slideshow__content--top-right {
+    align-items: flex-start;
+  }
+
+  .adaptive-slideshow__content--bottom-left,
+  .adaptive-slideshow__content--bottom-center,
+  .adaptive-slideshow__content--bottom-right {
+    align-items: flex-end;
+  }
+
+  .adaptive-slideshow__content--top-left,
+  .adaptive-slideshow__content--middle-left,
+  .adaptive-slideshow__content--bottom-left {
+    justify-content: flex-start;
+  }
+
+  .adaptive-slideshow__content--top-right,
+  .adaptive-slideshow__content--middle-right,
+  .adaptive-slideshow__content--bottom-right {
+    justify-content: flex-end;
+  }
+
+  .adaptive-slideshow__box {
+    width: auto;
+    min-width: 45rem;
+    max-width: 54.5rem;
+    padding: 4rem 3.5rem;
+  }
+
+  .adaptive-slideshow__box--text-left {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .adaptive-slideshow__box--text-right {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .adaptive-slideshow__box > * + .adaptive-slideshow__text {
+    margin-top: 2rem;
+  }
+
+  /* Boîte plus ou moins transparente (opacité réglable par diapositive) */
+  .adaptive-slideshow__box.adaptive-slideshow__box--translucent {
+    background: rgba(var(--color-background), var(--adaptive-box-opacity, 1));
+  }
+
+  /* Boîte masquée : décochée, ou opacité à 0 % */
+  .adaptive-slideshow__box.adaptive-slideshow__box--transparent {
+    max-width: 89rem;
+    padding: 4rem 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .adaptive-slideshow__box--transparent:after {
+    display: none;
+  }
+
+  .adaptive-slideshow__box--transparent .button--secondary {
+    --alpha-button-background: 0;
+  }
+}
+
+/* Fenêtres moyennes : un bandeau moins haut, on réduit la boîte pour que le texte reste dans l'image */
+@media screen and (min-width: 750px) and (max-width: 1099px) {
+  .adaptive-slideshow__content.page-width {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .adaptive-slideshow__box {
+    min-width: 0;
+    padding: clamp(1.6rem, 3vw, 4rem) clamp(2rem, 4vw, 3.5rem);
+  }
+
+  .adaptive-slideshow__box.adaptive-slideshow__box--transparent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .adaptive-slideshow__box > * + .adaptive-slideshow__buttons {
+    margin-top: 1.4rem;
+  }
+}

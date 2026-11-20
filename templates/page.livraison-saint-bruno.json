@@ -10,51 +10,39 @@
 {
   "sections": {
     "3bf5ab44-7095-48fb-b404-a725b4bd6bff": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-heading": {
-          "type": "heading",
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1.jpg",
+            "mobile_image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Fleuriste Saint-Bruno-de-Montarville",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
-          }
-        },
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-text": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison Saint-Bruno-de-Montarville<br>Livraison le jour même",
-            "text_style": "subtitle"
-          }
-        },
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commander Maintenant",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": true,
-            "button_style_secondary_2": true
+            "subheading": "Livraison Saint-Bruno-de-Montarville<br>Livraison le jour même",
+            "subheading_style": "subtitle",
+            "button_label": "Commander Maintenant",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-heading",
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-text",
-        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-buttons"
+        "3bf5ab44-7095-48fb-b404-a725b4bd6bff-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1.jpg",
-        "mobile_image": "shopify://shop_images/fleuriste-st-bruno-de-montarville-bandeau1-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "6d9b1553-705d-4e61-958a-647f420e0deb": {

@@ -10,51 +10,39 @@
 {
   "sections": {
     "10520057-03cf-4cf8-bbfd-ec8a8af4e786": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-heading": {
-          "type": "heading",
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-slide": {
+          "type": "slide",
           "settings": {
+            "image": "{{ page.metafields.custom.city_definition.value.banner.value }}",
+            "mobile_image": "{{ page.metafields.custom.city_definition.value.mobile_banner.value }}",
+            "image_overlay_opacity": 0,
             "heading": "Fleuriste {{ page.metafields.custom.city_definition.value.city_name.value }}",
+            "heading_is_h1": false,
             "heading_size": "h1",
-            "heading_is_h1": false
-          }
-        },
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-text": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison le jour même",
-            "text_style": "subtitle"
-          }
-        },
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commander Maintenant",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": true,
-            "button_style_secondary_2": true
+            "subheading": "Livraison le jour même",
+            "subheading_style": "subtitle",
+            "button_label": "Commander Maintenant",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-heading",
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-text",
-        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-buttons"
+        "10520057-03cf-4cf8-bbfd-ec8a8af4e786-slide"
       ],
       "settings": {
-        "image": "{{ page.metafields.custom.city_definition.value.banner.value }}",
-        "mobile_image": "{{ page.metafields.custom.city_definition.value.mobile_banner.value }}",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": true,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "001fbcdb-2c63-4ae1-b5eb-aab3d132ff43": {

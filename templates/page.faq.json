@@ -10,33 +10,34 @@
 {
   "sections": {
     "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40": {
-      "type": "image-banner",
+      "type": "adaptive-slideshow",
       "blocks": {
-        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-heading": {
-          "type": "heading",
+        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-slide": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/faq-bandeau_84c7bc2c-6173-4c9e-9d83-23630b4d33a9.jpg",
+            "mobile_image": "shopify://shop_images/faq-bandeau-mobile.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Foire aux questions",
+            "heading_is_h1": true,
             "heading_size": "h1",
-            "heading_is_h1": true
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-heading"
+        "f8ce7d82-e01a-4c84-a4e9-0bb07029ac40-slide"
       ],
       "settings": {
-        "image": "shopify://shop_images/faq-bandeau_84c7bc2c-6173-4c9e-9d83-23630b4d33a9.jpg",
-        "mobile_image": "shopify://shop_images/faq-bandeau-mobile.jpg",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "stack_on_mobile": false,
         "hide_without_image": false,
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "accessibility_info": "Bandeau"
       }
     },
     "bc607cb2-80a7-483e-ba1a-325d94ff4dbd": {
