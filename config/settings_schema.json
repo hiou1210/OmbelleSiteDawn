@@ -248,6 +248,27 @@
     "settings": [
       {
         "type": "header",
+        "content": "Apparence"
+      },
+      {
+        "type": "select",
+        "id": "buttons_style",
+        "label": "Style des boutons",
+        "info": "Transparent : pas de fond, le texte et le contour prennent la couleur du bouton. Le contour doit rester visible (opacité du contour au-dessus de 0 %).",
+        "options": [
+          { "value": "solid", "label": "Plein" },
+          { "value": "transparent", "label": "Transparent" }
+        ],
+        "default": "transparent"
+      },
+      {
+        "type": "checkbox",
+        "id": "buttons_uppercase",
+        "label": "Texte des boutons en majuscules",
+        "default": true
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
       },
       {

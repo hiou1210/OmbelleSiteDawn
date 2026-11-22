@@ -158,3 +158,29 @@ back-to-top.is-visible {
     display: block;
   }
 }
+
+/* Style des boutons (réglages du thème > Boutons) */
+
+/* Majuscules */
+.buttons-uppercase .button,
+.buttons-uppercase .button-label,
+.buttons-uppercase .customer button,
+.buttons-uppercase .shopify-challenge__button,
+.buttons-uppercase button.shopify-payment-button__button--unbranded {
+  text-transform: uppercase;
+}
+
+/* Fond transparent : seul le contour et le texte restent visibles */
+.buttons-transparent .button:not(.button--tertiary) {
+  --alpha-button-background: 0;
+}
+
+/* Le bouton principal prend sa couleur d'accent pour le texte, et affiche un contour
+   (plein, son contour est de la même couleur que son fond et ne se voit pas) */
+.buttons-transparent .button:not(.button--secondary):not(.button--tertiary) {
+  --color-button-text: var(--color-button);
+}
+
+.buttons-transparent .button:not(.button--secondary):not(.button--tertiary):after {
+  --border-opacity: var(--buttons-border-opacity);
+}

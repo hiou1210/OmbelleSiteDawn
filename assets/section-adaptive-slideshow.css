@@ -191,27 +191,29 @@
     padding-bottom: 5rem;
   }
 
-  .adaptive-slideshow__content--top-left,
-  .adaptive-slideshow__content--top-center,
-  .adaptive-slideshow__content--top-right {
+  /* Le sélecteur doit avoir au moins la spécificité de .adaptive-slideshow__content.page-width,
+     sinon la position choisie est ignorée et la boîte reste au centre. */
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--top-left,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--top-center,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--top-right {
     align-items: flex-start;
   }
 
-  .adaptive-slideshow__content--bottom-left,
-  .adaptive-slideshow__content--bottom-center,
-  .adaptive-slideshow__content--bottom-right {
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--bottom-left,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--bottom-center,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--bottom-right {
     align-items: flex-end;
   }
 
-  .adaptive-slideshow__content--top-left,
-  .adaptive-slideshow__content--middle-left,
-  .adaptive-slideshow__content--bottom-left {
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--top-left,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--middle-left,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--bottom-left {
     justify-content: flex-start;
   }
 
-  .adaptive-slideshow__content--top-right,
-  .adaptive-slideshow__content--middle-right,
-  .adaptive-slideshow__content--bottom-right {
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--top-right,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--middle-right,
+  .adaptive-slideshow__content.page-width.adaptive-slideshow__content--bottom-right {
     justify-content: flex-end;
   }
 
