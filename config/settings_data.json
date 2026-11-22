@@ -164,6 +164,10 @@
           "button": "#93c954",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "#FFFFFF",
+          "secondary_button_hover_label": "#193E6B",
           "shadow": "#0f2a4a"
         }
       },
@@ -175,6 +179,10 @@
           "button": "#93c954",
           "button_label": "#ffffff",
           "secondary_button_label": "#5f8032",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#193e6b"
         }
       },
@@ -186,6 +194,10 @@
           "button": "#ffffff",
           "button_label": "#5f8032",
           "secondary_button_label": "#ffffff",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#0f2a4a"
         }
       },
@@ -197,6 +209,10 @@
           "button": "#ffffff",
           "button_label": "#5f8032",
           "secondary_button_label": "#ffffff",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#0f2a4a"
         }
       },
@@ -208,6 +224,10 @@
           "button": "#ffffff",
           "button_label": "#ae3333",
           "secondary_button_label": "#ffffff",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#0f2a4a"
         }
       },
@@ -219,6 +239,10 @@
           "button": "#ffffff",
           "button_label": "#193e6b",
           "secondary_button_label": "#ffffff",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#0f2a4a"
         }
       },
@@ -230,6 +254,10 @@
           "button": "#96b256",
           "button_label": "#ffffff",
           "secondary_button_label": "#6a9462",
+          "button_hover": "",
+          "button_hover_label": "",
+          "secondary_button_hover": "",
+          "secondary_button_hover_label": "",
           "shadow": "#ffffff"
         }
       }
