@@ -23,6 +23,7 @@
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
+    "buttons_size": "small",
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -164,8 +165,8 @@
           "button": "#93c954",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "button_hover": "#193E6B",
-          "button_hover_label": "#FFFFFF",
+          "button_hover": "#193e6b",
+          "button_hover_label": "#ffffff",
           "secondary_button_hover": "#ffffff",
           "secondary_button_hover_label": "#193e6b",
           "shadow": "#0f2a4a"
