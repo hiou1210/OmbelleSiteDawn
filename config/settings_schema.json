@@ -292,6 +292,18 @@
         "default": true
       },
       {
+        "type": "select",
+        "id": "buttons_size",
+        "label": "Taille des boutons",
+        "info": "Règle la hauteur, la largeur minimale, les marges intérieures et la taille du texte.",
+        "options": [
+          { "value": "small", "label": "Petit" },
+          { "value": "medium", "label": "Moyen" },
+          { "value": "large", "label": "Grand (taille d'origine du thème)" }
+        ],
+        "default": "medium"
+      },
+      {
         "type": "checkbox",
         "id": "buttons_bold",
         "label": "Texte des boutons en gras",

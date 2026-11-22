@@ -223,3 +223,40 @@ body.buttons-hover-invert .button--secondary:not([disabled]):hover {
 body.buttons-hover-invert .button--secondary:not([disabled]):hover:after {
   --border-opacity: 0;
 }
+
+/* Taille des boutons (réglage Boutons > Taille). "Grand" = valeurs d'origine du thème. */
+body.buttons-size-medium {
+  --button-font-size: 1.3rem;
+  --button-min-height: 4rem;
+  --button-min-width: 10rem;
+  --button-padding-x: 2.4rem;
+}
+
+body.buttons-size-small {
+  --button-font-size: 1.2rem;
+  --button-min-height: 3.4rem;
+  --button-min-width: 8rem;
+  --button-padding-x: 1.8rem;
+}
+
+body.buttons-size-medium .button,
+body.buttons-size-medium .shopify-challenge__button,
+body.buttons-size-medium .customer button,
+body.buttons-size-medium button.shopify-payment-button__button--unbranded,
+body.buttons-size-small .button,
+body.buttons-size-small .shopify-challenge__button,
+body.buttons-size-small .customer button,
+body.buttons-size-small button.shopify-payment-button__button--unbranded {
+  min-width: calc(var(--button-min-width) + var(--buttons-border-width) * 2);
+  min-height: calc(var(--button-min-height) + var(--buttons-border-width) * 2);
+}
+
+body.buttons-size-medium .button,
+body.buttons-size-medium .shopify-challenge__button,
+body.buttons-size-medium .customer button,
+body.buttons-size-small .button,
+body.buttons-size-small .shopify-challenge__button,
+body.buttons-size-small .customer button {
+  padding: 0 var(--button-padding-x);
+  font-size: var(--button-font-size);
+}
