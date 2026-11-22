@@ -171,6 +171,13 @@
   text-align: center;
 }
 
+/* Texte blanc sur le bouton bleu « Suivre sur Shop » (lisibilité) */
+.footer__follow-on-shop,
+.footer__follow-on-shop shop-follow-button,
+.footer__follow-on-shop shop-follow-button * {
+  color: #fff;
+}
+
 .footer__list-social.list-social:only-child {
   justify-content: center;
 }
