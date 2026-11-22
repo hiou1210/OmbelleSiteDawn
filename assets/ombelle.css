@@ -184,3 +184,42 @@ back-to-top.is-visible {
 .buttons-transparent .button:not(.button--secondary):not(.button--tertiary):after {
   --border-opacity: var(--buttons-border-opacity);
 }
+
+/* Gras */
+.buttons-bold .button,
+.buttons-bold .button-label,
+.buttons-bold .customer button,
+.buttons-bold .shopify-challenge__button,
+.buttons-bold button.shopify-payment-button__button--unbranded {
+  font-weight: var(--font-body-weight-bold);
+}
+
+/* Changement de couleurs au survol.
+   Les valeurs (--button-hover-*, --secondary-button-hover-*) sont calculées par jeu de couleurs
+   dans layout/theme.liquid : couleurs choisies dans les réglages, sinon inversion automatique. */
+.buttons-hover-invert .button:not(.button--tertiary) {
+  transition: box-shadow var(--duration-short) ease, background-color var(--duration-short) ease,
+    color var(--duration-short) ease;
+}
+
+/* Bouton principal */
+body.buttons-hover-invert .button:not(.button--secondary):not(.button--tertiary):not([disabled]):hover {
+  --color-button: var(--button-hover-bg);
+  --alpha-button-background: var(--button-hover-alpha);
+  --color-button-text: var(--button-hover-text);
+}
+
+body.buttons-hover-invert .button:not(.button--secondary):not(.button--tertiary):not([disabled]):hover:after {
+  --border-opacity: var(--button-hover-ring);
+}
+
+/* Bouton secondaire */
+body.buttons-hover-invert .button--secondary:not([disabled]):hover {
+  --color-button: var(--secondary-button-hover-bg);
+  --alpha-button-background: 1;
+  --color-button-text: var(--secondary-button-hover-text);
+}
+
+body.buttons-hover-invert .button--secondary:not([disabled]):hover:after {
+  --border-opacity: 0;
+}

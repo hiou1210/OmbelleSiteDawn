@@ -119,6 +119,10 @@
           --gradient-background: {{ scheme.settings.background }};
         {% endif %}
 
+        {% comment %}
+          Les couleurs de survol des boutons (réglage "Changer les couleurs au survol") sont calculées
+          plus bas, à la fin du bloc liquid, pour que le CSS n'ait pas de repli circulaire.
+        {% endcomment %}
         {% liquid
           assign background_color = scheme.settings.background
           assign background_color_brightness = background_color | color_brightness
@@ -128,6 +132,39 @@
             assign background_color_contrast = background_color | color_lighten: 5
           else
             assign background_color_contrast = background_color | color_darken: 25
+          endif
+
+          if scheme.settings.button_hover != blank
+            assign hover_primary_bg = scheme.settings.button_hover
+            assign hover_primary_alpha = 1
+            assign hover_primary_ring = 0
+            if scheme.settings.button_hover_label != blank
+              assign hover_primary_text = scheme.settings.button_hover_label
+            else
+              assign hover_primary_text = scheme.settings.button_label
+            endif
+          elsif settings.buttons_style == 'transparent'
+            assign hover_primary_bg = scheme.settings.button
+            assign hover_primary_alpha = 1
+            assign hover_primary_ring = 0
+            assign hover_primary_text = scheme.settings.button_label
+          else
+            assign hover_primary_bg = scheme.settings.button
+            assign hover_primary_alpha = 0
+            assign hover_primary_ring = 'var(--buttons-border-opacity)'
+            assign hover_primary_text = scheme.settings.button
+          endif
+
+          if scheme.settings.secondary_button_hover != blank
+            assign hover_secondary_bg = scheme.settings.secondary_button_hover
+            if scheme.settings.secondary_button_hover_label != blank
+              assign hover_secondary_text = scheme.settings.secondary_button_hover_label
+            else
+              assign hover_secondary_text = scheme.settings.background
+            endif
+          else
+            assign hover_secondary_bg = scheme.settings.secondary_button_label
+            assign hover_secondary_text = scheme.settings.background
           endif
         %}
 
@@ -143,6 +180,12 @@
         --color-badge-foreground: {{ scheme.settings.text.red }},{{ scheme.settings.text.green }},{{ scheme.settings.text.blue }};
         --color-badge-background: {{ scheme.settings.background.red }},{{ scheme.settings.background.green }},{{ scheme.settings.background.blue }};
         --color-badge-border: {{ scheme.settings.text.red }},{{ scheme.settings.text.green }},{{ scheme.settings.text.blue }};
+        --button-hover-bg: {{ hover_primary_bg.red }},{{ hover_primary_bg.green }},{{ hover_primary_bg.blue }};
+        --button-hover-alpha: {{ hover_primary_alpha }};
+        --button-hover-text: {{ hover_primary_text.red }},{{ hover_primary_text.green }},{{ hover_primary_text.blue }};
+        --button-hover-ring: {{ hover_primary_ring }};
+        --secondary-button-hover-bg: {{ hover_secondary_bg.red }},{{ hover_secondary_bg.green }},{{ hover_secondary_bg.blue }};
+        --secondary-button-hover-text: {{ hover_secondary_text.red }},{{ hover_secondary_text.green }},{{ hover_secondary_text.blue }};
         --payment-terms-background-color: rgb({{ scheme.settings.background.rgb }});
       }
       {% endfor %}
@@ -357,7 +400,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}{% if settings.buttons_bold %} buttons-bold{% endif %}{% if settings.buttons_hover_invert %} buttons-hover-invert{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

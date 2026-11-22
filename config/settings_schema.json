@@ -80,6 +80,30 @@
           },
           {
             "type": "color",
+            "id": "button_hover",
+            "label": "Bouton principal : fond au survol",
+            "info": "Optionnel. Utilisé avec « Changer les couleurs au survol » (Boutons). Vide : inversion automatique."
+          },
+          {
+            "type": "color",
+            "id": "button_hover_label",
+            "label": "Bouton principal : texte au survol",
+            "info": "Optionnel. Vide : couleur du libellé du bouton."
+          },
+          {
+            "type": "color",
+            "id": "secondary_button_hover",
+            "label": "Bouton secondaire : fond au survol",
+            "info": "Optionnel. Vide : couleur du libellé du bouton secondaire."
+          },
+          {
+            "type": "color",
+            "id": "secondary_button_hover_label",
+            "label": "Bouton secondaire : texte au survol",
+            "info": "Optionnel. Vide : couleur de fond."
+          },
+          {
+            "type": "color",
             "id": "shadow",
             "label": "t:settings_schema.colors.settings.shadow.label",
             "default": "#121212"
@@ -266,6 +290,19 @@
         "id": "buttons_uppercase",
         "label": "Texte des boutons en majuscules",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "buttons_bold",
+        "label": "Texte des boutons en gras",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "buttons_hover_invert",
+        "label": "Changer les couleurs au survol",
+        "info": "Inversion automatique des couleurs du bouton. Les couleurs de survol se choisissent par jeu de couleurs (Paramètres du thème > Couleurs).",
+        "default": false
       },
       {
         "type": "header",
