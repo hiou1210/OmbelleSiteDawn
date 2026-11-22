@@ -23,7 +23,7 @@
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
@@ -160,10 +160,10 @@
         "settings": {
           "background": "#193e6b",
           "background_gradient": "",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "button": "#93c954",
           "button_label": "#ffffff",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_label": "#ffffff",
           "shadow": "#0f2a4a"
         }
       },
