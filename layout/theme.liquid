@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
     <meta charset="utf-8">
@@ -400,7 +400,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}{% if settings.buttons_bold %} buttons-bold{% endif %}{% if settings.buttons_hover_invert %} buttons-hover-invert{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}{% unless settings.buttons_bold == false %} buttons-bold{% endunless %}{% if settings.buttons_hover_invert %} buttons-hover-invert{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

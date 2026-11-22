@@ -302,7 +302,7 @@
         "id": "buttons_hover_invert",
         "label": "Changer les couleurs au survol",
         "info": "Inversion automatique des couleurs du bouton. Les couleurs de survol se choisissent par jeu de couleurs (Paramètres du thème > Couleurs).",
-        "default": false
+        "default": true
       },
       {
         "type": "header",
