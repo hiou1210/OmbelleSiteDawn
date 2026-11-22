@@ -303,6 +303,7 @@
         },
         "collection_74PrgC": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "bal-de-finissant"
           }
@@ -315,18 +316,21 @@
         },
         "collection_gHRPCY": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "saint-valentin"
           }
         },
         "collection_xiNRFM": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "fete-des-meres"
           }
         },
         "79198667-e334-46a8-bf27-6f16992d24ee": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "fleurs-pour-funerailles"
           }
