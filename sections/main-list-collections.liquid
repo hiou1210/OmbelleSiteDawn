@@ -5,6 +5,36 @@
   <h1 class="title title--primary inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ section.settings.title }}
   </h1>
+  {%- comment -%}
+    Page maître /collections : si le menu « All-Collections » (handle : all-collections) existe,
+    seules les collections de ce menu sont affichées, dans l'ordre du menu.
+    Sinon, on retombe sur la liste de toutes les collections.
+  {%- endcomment -%}
+  {%- assign master_menu = linklists['all-collections'] -%}
+  {%- if master_menu != blank and master_menu.links.size > 0 -%}
+    <ul
+      class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+      role="list"
+    >
+      {%- for link in master_menu.links -%}
+        {%- if link.type == 'collection_link' and link.object != blank -%}
+          <li
+            class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {% render 'card-collection',
+              card_collection: link.object,
+              media_aspect_ratio: section.settings.image_ratio,
+              columns: 3
+            %}
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  {%- else -%}
   {%- liquid
     case section.settings.sort
       when 'products_high', 'products_low'
@@ -46,6 +76,7 @@
     </ul>
     {% render 'pagination', paginate: paginate %}
   {%- endpaginate -%}
+  {%- endif -%}
 </div>
 {% schema %}
 {
