@@ -442,46 +442,30 @@
       }
     },
     "image_with_text_overlay_67B6gQ": {
-      "type": "image-banner",
-      "blocks": {
-        "image_with_text_overlay_67B6gQ-heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Faites une visite virtuelle de notre boutique!",
-            "heading_size": "h1",
-            "heading_is_h1": false
-          }
-        },
-        "image_with_text_overlay_67B6gQ-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Commencer la visite",
-            "button_link_1": "https://maps.app.goo.gl/Py16EtAZD2UctHr28",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "image_with_text_overlay_67B6gQ-heading",
-        "image_with_text_overlay_67B6gQ-buttons"
-      ],
+      "type": "adaptive-banner",
       "settings": {
         "image": "shopify://shop_images/Ombelle-360-sm_3ecdcf07-1926-46d0-b285-576573aca63e.jpg",
-        "hide_without_image": false,
         "mobile_image": "shopify://shop_images/Ombelle-360-mobile_cf6d0db7-9561-4cb1-a6be-124361dd9a13.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
+        "stack_on_mobile": true,
+        "hide_without_image": false,
+        "heading": "Faites une visite virtuelle de notre boutique!",
+        "heading_is_h1": false,
+        "heading_size": "h1",
+        "subheading": "",
+        "subheading_style": "body",
+        "button_label": "Commencer la visite",
+        "link": "https://maps.app.goo.gl/Py16EtAZD2UctHr28",
+        "button_style_secondary": true,
+        "button_label_2": "",
+        "link_2": "",
+        "button_style_secondary_2": true,
         "show_text_box": false,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "box_opacity": 100,
+        "box_align": "middle-center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "color_scheme": "scheme-1"
       }
     },
     "c2dc6f10-4b06-4207-a2f2-0579ee1daf2a": {
