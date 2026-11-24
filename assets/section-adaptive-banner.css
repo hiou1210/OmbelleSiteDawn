@@ -144,10 +144,6 @@
     grid-template-rows: auto 1fr;
   }
 
-  .adaptive-banner--stack-mobile .adaptive-banner__overlay {
-    display: none;
-  }
-
   .adaptive-banner--stack-mobile .adaptive-banner__content.page-width {
     grid-area: 2 / 1;
     align-items: stretch;
