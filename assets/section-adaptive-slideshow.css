@@ -61,7 +61,10 @@
   min-height: 20rem;
 }
 
-.adaptive-slideshow__overlay {
+/* Le thème cache les div vides (base.css : div:empty { display: none }) :
+   le sélecteur doit être plus spécifique pour que le voile reste affiché. */
+.adaptive-slideshow__media > .adaptive-slideshow__overlay {
+  display: block;
   position: absolute;
   inset: 0;
   background: #000;

@@ -40,7 +40,10 @@
   min-height: 20rem;
 }
 
-.adaptive-banner__overlay {
+/* Le thème cache les div vides (base.css : div:empty { display: none }) :
+   le sélecteur doit être plus spécifique pour que le voile reste affiché. */
+.adaptive-banner__media > .adaptive-banner__overlay {
+  display: block;
   position: absolute;
   inset: 0;
   background: #000;
@@ -142,6 +145,10 @@
   /* Texte sous l'image : la boîte occupe toute la largeur, sous l'image */
   .adaptive-banner--stack-mobile {
     grid-template-rows: auto 1fr;
+  }
+
+  .adaptive-banner--stack-mobile .adaptive-banner__overlay {
+    display: none;
   }
 
   .adaptive-banner--stack-mobile .adaptive-banner__content.page-width {
