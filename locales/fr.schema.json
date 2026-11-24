@@ -1494,6 +1494,13 @@
             "label": "Carré"
           }
         },
+        "align_height": {
+          "label": "Aligner la hauteur des médias de produit",
+          "info": "Remplace le rapport d'image : tous les médias ont la même hauteur."
+        },
+        "collection_height": {
+          "label": "Hauteur des médias de produit"
+        },
         "show_secondary_image": {
           "label": "Afficher la deuxième image en survol"
         },

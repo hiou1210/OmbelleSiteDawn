@@ -1813,6 +1813,13 @@
             "label": "Square"
           }
         },
+        "align_height": {
+          "label": "Align height of product media",
+          "info": "Overrides the image ratio: all media get the same height."
+        },
+        "collection_height": {
+          "label": "Product media height"
+        },
         "show_secondary_image": {
           "label": "Show second image on hover"
         },

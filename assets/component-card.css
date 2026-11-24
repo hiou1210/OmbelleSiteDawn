@@ -300,6 +300,16 @@
   height: 100%;
 }
 
+/* Hauteur de média alignée (réglage « Aligner la hauteur des médias de produit ») */
+.card--fixed-height .card__inner.ratio::before {
+  padding-bottom: 0;
+  height: var(--card-media-height);
+}
+
+.card--fixed-height .card__media .media img {
+  object-fit: contain;
+}
+
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;

@@ -156,6 +156,10 @@
                 "
               >
                 {% assign skip_card_product_styles = false %}
+                {%- assign media_height = nil -%}
+                {%- if section.settings.align_height -%}
+                  {%- assign media_height = section.settings.collection_height -%}
+                {%- endif -%}
                 {%- for product in collection.products -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -171,6 +175,7 @@
                     {% render 'card-product',
                       card_product: product,
                       media_aspect_ratio: section.settings.image_ratio,
+                      media_height: media_height,
                       image_shape: section.settings.image_shape,
                       show_secondary_image: section.settings.show_secondary_image,
                       show_vendor: section.settings.show_vendor,
@@ -269,6 +274,23 @@
       ],
       "default": "adapt",
       "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "align_height",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.align_height.label",
+      "info": "t:sections.main-collection-product-grid.settings.align_height.info"
+    },
+    {
+      "type": "range",
+      "id": "collection_height",
+      "min": 150,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "default": 280,
+      "label": "t:sections.main-collection-product-grid.settings.collection_height.label"
     },
     {
       "type": "select",

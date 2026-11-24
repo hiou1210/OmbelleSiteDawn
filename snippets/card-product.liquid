@@ -3,6 +3,7 @@
 
   @param {product} [card_product] - The product to display. When blank, a placeholder card is rendered.
   @param {string} [media_aspect_ratio] - The product image aspect ratio. Allowed values are `adapt`, `portrait`, and `square`. Defaults to `square`.
+  @param {number} [media_height] - Fixed media height in px. When set, it overrides `media_aspect_ratio` and all product media get the same height.
   @param {string} [image_shape] - The product image mask. Allowed values are `default`, `arch`, `blob`, `chevronleft`, `chevronright`, `diamond`, `parallelogram`, and `round`. Defaults to `default`.
   @param {boolean} [show_secondary_image] - Whether to show the second product image on hover. Defaults to `false`.
   @param {boolean} [show_vendor] - Whether to show the product vendor. Defaults to `false`.
@@ -52,10 +53,11 @@
           {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
           {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
           {% if extend_height %} card--extend-height{% endif %}
+          {% if media_height and card_product.featured_media %} card--fixed-height{% endif %}
           {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
           {% if horizontal_class %} card--horizontal{% endif %}
         "
-        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
+        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;{% if media_height and card_product.featured_media %} --card-media-height: {{ media_height }}px;{% endif %}"
       >
         <div
           class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
