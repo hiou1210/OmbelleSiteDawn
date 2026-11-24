@@ -287,7 +287,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 7,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "hide_without_image": false,
         "accessibility_info": "Diaporama"
       }
