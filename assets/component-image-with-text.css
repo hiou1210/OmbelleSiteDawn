@@ -439,3 +439,14 @@
   height: auto;
   object-fit: contain;
 }
+
+/* Variante sans recadrage : le haut du texte (titre) s'aligne avec le haut de l'image. */
+@media screen and (min-width: 750px) {
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--middle {
+    justify-content: flex-start;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content.background-transparent {
+    padding-top: 0;
+  }
+}
