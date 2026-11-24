@@ -440,13 +440,47 @@
   object-fit: contain;
 }
 
-/* Variante sans recadrage : le haut du texte (titre) s'aligne avec le haut de l'image. */
+/*
+  Variante sans recadrage : le réglage « Position du contenu sur ordinateur » aligne
+  l'image ET le bloc de texte (titre inclus) ensemble : haut avec haut, milieu avec milieu, bas avec bas.
+*/
 @media screen and (min-width: 750px) {
-  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--middle {
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__media-item--top {
+    align-self: flex-start;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__media-item--middle {
+    align-self: center;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__media-item--bottom {
+    align-self: flex-end;
+  }
+
+  /* Le texte occupe toute la hauteur de la rangée et se répartit selon la position choisie. */
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--top {
     justify-content: flex-start;
   }
 
-  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content.background-transparent {
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--middle {
+    justify-content: center;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--bottom {
+    justify-content: flex-end;
+  }
+
+  /* Sans fond visible, on retire l'espace intérieur côté alignement pour un alignement précis. */
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--top.background-transparent {
     padding-top: 0;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--middle.background-transparent {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .image-with-text--natural:not(.image-with-text--overlap) .image-with-text__content--bottom.background-transparent {
+    padding-bottom: 0;
   }
 }
