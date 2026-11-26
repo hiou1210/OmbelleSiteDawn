@@ -23,7 +23,14 @@
             "heading_size": "h1",
             "subheading": "pour faire découvrir les talents d'ici",
             "subheading_style": "subtitle",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "show_text_box": true,
+            "box_opacity": 85,
             "box_align": "middle-left",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -37,6 +44,7 @@
       "settings": {
         "slider_visual": "dots",
         "auto_rotate": false,
+        "change_slides_speed": 5,
         "stack_on_mobile": false,
         "hide_without_image": false,
         "accessibility_info": "Bandeau"
@@ -59,16 +67,18 @@
       "settings": {
         "image": "shopify://shop_images/meuble-ta-touche.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "d7fd4b8c-a256-4537-b148-3f83879e9bb2": {
@@ -78,11 +88,14 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
         "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -112,16 +125,18 @@
       "settings": {
         "image": "shopify://shop_images/385427858_792809629439587_1851686235755402477_n.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "3c848308-6bf7-46e2-8bd8-da395a404aea-2": {
@@ -141,16 +156,18 @@
       "settings": {
         "image": "shopify://shop_images/carte-lapin.webp",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "808ebe1c-cc83-4410-925e-fdbcb42dc257": {
@@ -181,12 +198,14 @@
         "template--15027010207825__808ebe1c-cc83-4410-925e-fdbcb42dc257-image-3"
       ],
       "settings": {
+        "heading": "Galerie",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
         "gap": 10,
         "enable_lightbox": true,
         "full_width": false,
+        "anchor_id": "",
         "color_scheme": "scheme-1",
         "padding_top": 28,
         "padding_bottom": 28
@@ -199,11 +218,14 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
         "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -233,16 +255,18 @@
       "settings": {
         "image": "shopify://shop_images/josee-in-colors-avec-ses-oeuvres.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "a9c11558-61d8-41c9-8726-a835da056110-2": {
@@ -262,16 +286,18 @@
       "settings": {
         "image": "shopify://shop_images/foulard.webp",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "0f2915ad-a048-4735-9c2e-3b999ff796c2": {
@@ -302,12 +328,14 @@
         "d328f2ac-b4d9-4699-ba04-cffaa4ab9173"
       ],
       "settings": {
+        "heading": "Galerie",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
         "gap": 10,
         "enable_lightbox": true,
         "full_width": false,
+        "anchor_id": "",
         "color_scheme": "scheme-1",
         "padding_top": 28,
         "padding_bottom": 28
@@ -320,11 +348,14 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
         "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -354,16 +385,18 @@
       "settings": {
         "image": "shopify://shop_images/am-chagnon2.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-2": {
@@ -383,16 +416,18 @@
       "settings": {
         "image": "shopify://shop_images/bracelet-am-chagnon.jpg",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
+        "padding_bottom": 20
       }
     },
     "5e2fb4b2-da93-4440-8229-9b13789e6c1b": {
@@ -423,12 +458,14 @@
         "template--14810660405329__5e2fb4b2-da93-4440-8229-9b13789e6c1b-1674013608503f63d0-2"
       ],
       "settings": {
+        "heading": "Galerie",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
         "gap": 10,
         "enable_lightbox": true,
         "full_width": false,
+        "anchor_id": "",
         "color_scheme": "scheme-1",
         "padding_top": 28,
         "padding_bottom": 28
@@ -456,21 +493,23 @@
         "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-heading",
         "template--14810660405329__2cc3301e-10e9-4f3d-8636-492116cde141-1674184657dd8d29b8-0-text"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/louise-forget-artiste-peintre_3a7561da-a369-40e8-a7cd-c18fa84f5e57.png",
         "height": "adapt",
+        "crop_image": false,
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
-        "padding_bottom": 20,
-        "crop_image": false
-      },
-      "disabled": true
+        "padding_bottom": 20
+      }
     },
     "98144298-e0ed-4304-a017-9cb665ea25aa": {
       "type": "custom-liquid",
