@@ -246,11 +246,11 @@
           "button": "#FFFFFF",
           "button_label": "#193E6B",
           "secondary_button_label": "#ffffff",
-          "button_hover": "#193e6b",
+          "button_hover": "#FFFFFF",
           "button_hover_label": "#ffffff",
           "secondary_button_hover": "#ffffff",
           "secondary_button_hover_label": "#193e6b",
-          "shadow": "#0f2a4a"
+          "shadow": "rgba(0,0,0,0)"
         }
       }
     }
