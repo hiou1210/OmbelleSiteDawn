@@ -22,7 +22,7 @@
     "type_nav_font": "fira_sans_n5",
     "links_color": "#93C954",
     "links_underline": "hover",
-    "links_bold": true,
+    "links_bold": false,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
