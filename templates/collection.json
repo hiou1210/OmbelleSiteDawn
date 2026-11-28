@@ -30,7 +30,7 @@
             "link_2": "",
             "button_style_secondary_2": false,
             "show_text_box": true,
-            "box_opacity": 100,
+            "box_opacity": 65,
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -47,6 +47,7 @@
         "change_slides_speed": 5,
         "stack_on_mobile": true,
         "hide_without_image": true,
+        "heading_tag": "h2",
         "accessibility_info": "Bandeau"
       }
     },
