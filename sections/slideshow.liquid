@@ -168,9 +168,17 @@
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+              {%- comment -%}
+                Seule la première diapositive peut avoir un niveau de titre.
+                Les autres sont du texte simple (p), avec la même apparence.
+              {%- endcomment -%}
+              {%- assign heading_tag = 'p' -%}
+              {%- if forloop.first -%}
+                {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+              {%- endif -%}
+              <{{ heading_tag }} class="banner__heading inline-richtext {{ block.settings.heading_size }}">
                 {{ block.settings.heading }}
-              </h2>
+              </{{ heading_tag }}>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
               <div class="banner__text rte">
@@ -368,6 +376,21 @@
       ],
       "default": "none",
       "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre de la première diapositive (référencement)",
+      "info": "Seule la première diapositive a un niveau de titre. Les autres sont du texte simple, avec la même apparence.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "header",

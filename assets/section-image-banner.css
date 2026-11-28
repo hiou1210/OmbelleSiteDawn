@@ -228,17 +228,22 @@
     height: auto;
   }
 
-  .banner:not(.banner--mobile-bottom):not(.email-signup-banner) .banner__box {
+  /* Texte superposé à l'image : la boîte n'est retirée que si "Afficher la boîte derrière le texte"
+     est décoché (classe banner--desktop-transparent, valable aussi sur mobile malgré son nom). */
+  .banner.banner--desktop-transparent:not(.banner--mobile-bottom):not(.email-signup-banner) .banner__box,
+  .banner:not(.banner--mobile-bottom) .banner--desktop-transparent .banner__box {
     background: transparent;
   }
 
-  .banner:not(.banner--mobile-bottom) .banner__box {
+  .banner.banner--desktop-transparent:not(.banner--mobile-bottom) .banner__box,
+  .banner:not(.banner--mobile-bottom) .banner--desktop-transparent .banner__box {
     border: none;
     border-radius: 0;
     box-shadow: none;
   }
 
-  .banner:not(.banner--mobile-bottom) .button--secondary {
+  .banner.banner--desktop-transparent:not(.banner--mobile-bottom) .button--secondary,
+  .banner:not(.banner--mobile-bottom) .banner--desktop-transparent .button--secondary {
     --alpha-button-background: 0;
   }
 

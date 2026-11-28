@@ -12,11 +12,11 @@
 {%- if request.page_type == 'index' -%}
   <h1 class="header__heading">
 {%- endif -%}
-<a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+<a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset" title="{{ shop.name | escape }}">
   {%- if settings.logo != blank -%}
     <div class="header__heading-logo-wrapper">
       {%- liquid
-        assign logo_alt = settings.logo.alt | default: shop.name | escape
+        assign logo_alt = shop.name | escape
         assign display_width = settings.logo_width
         assign source_width = settings.logo.width
         assign display_height = display_width | divided_by: settings.logo.aspect_ratio | round

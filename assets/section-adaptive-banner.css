@@ -126,19 +126,24 @@
     text-align: right;
   }
 
-  /* Texte superposé à l'image : pas de boîte, comme le bandeau Dawn */
-  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box {
+  /* Texte superposé à l'image : la boîte suit les réglages "Afficher la boîte derrière le texte"
+     et "Opacité de la boîte", comme sur grand écran. */
+  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box.adaptive-banner__box--translucent {
+    background: rgba(var(--color-background), var(--adaptive-box-opacity, 1));
+  }
+
+  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box.adaptive-banner__box--transparent {
     background: transparent;
     border: none;
     border-radius: 0;
     box-shadow: none;
   }
 
-  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box:after {
+  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box--transparent:after {
     display: none;
   }
 
-  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box .button--secondary {
+  .adaptive-banner:not(.adaptive-banner--stack-mobile) .adaptive-banner__box--transparent .button--secondary {
     --alpha-button-background: 0;
   }
 

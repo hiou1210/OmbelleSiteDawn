@@ -1,0 +1,27 @@
+{% doc %}
+  Outputs the CSS variables holding the size of each heading level (in rem, 1rem = 10px),
+  for large screens (desktop) and phones (mobile). They come from the theme settings
+  "Taille des titres" and are used by assets/base.css, multiplied by --font-heading-scale.
+
+  @example
+  :root {
+    {% render 'heading-size-variables' %}
+  }
+{% enddoc %}
+{%- liquid
+  assign heading_levels = 'hxxl,hxl,h0,h1,h2,h3' | split: ','
+  for level in heading_levels
+    assign desktop_key = 'heading_' | append: level | append: '_desktop'
+    assign mobile_key = 'heading_' | append: level | append: '_mobile'
+    assign desktop_px = settings[desktop_key]
+    assign mobile_px = settings[mobile_key]
+    if desktop_px != blank
+      assign desktop_rem = desktop_px | divided_by: 10.0
+      echo '--heading-' | append: level | append: '-desktop: ' | append: desktop_rem | append: 'rem;'
+    endif
+    if mobile_px != blank
+      assign mobile_rem = mobile_px | divided_by: 10.0
+      echo '--heading-' | append: level | append: '-mobile: ' | append: mobile_rem | append: 'rem;'
+    endif
+  endfor
+-%}

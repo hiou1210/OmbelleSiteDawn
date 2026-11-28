@@ -152,6 +152,155 @@
       },
       {
         "type": "header",
+        "content": "Taille des titres",
+        "info": "Taille de chaque niveau de titre en pixels, sur grand écran (750 px et plus) et sur mobile. Elle est multipliée par l'échelle des titres ci-dessus : à 100 %, la valeur entrée est la taille affichée."
+      },
+      {
+        "type": "paragraph",
+        "content": "Très très grand (hxxl)"
+      },
+      {
+        "type": "range",
+        "id": "heading_hxxl_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 72
+      },
+      {
+        "type": "range",
+        "id": "heading_hxxl_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 56
+      },
+      {
+        "type": "paragraph",
+        "content": "Très grand (hxl)"
+      },
+      {
+        "type": "range",
+        "id": "heading_hxl_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 62
+      },
+      {
+        "type": "range",
+        "id": "heading_hxl_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 50
+      },
+      {
+        "type": "paragraph",
+        "content": "Grand (h0)"
+      },
+      {
+        "type": "range",
+        "id": "heading_h0_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 52
+      },
+      {
+        "type": "range",
+        "id": "heading_h0_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 40
+      },
+      {
+        "type": "paragraph",
+        "content": "Moyenne (h1)"
+      },
+      {
+        "type": "range",
+        "id": "heading_h1_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "heading_h1_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 30
+      },
+      {
+        "type": "paragraph",
+        "content": "Petit (h2)"
+      },
+      {
+        "type": "range",
+        "id": "heading_h2_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 24
+      },
+      {
+        "type": "range",
+        "id": "heading_h2_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 20
+      },
+      {
+        "type": "paragraph",
+        "content": "Sous-titre (h3)"
+      },
+      {
+        "type": "range",
+        "id": "heading_h3_desktop",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Grand écran",
+        "default": 18
+      },
+      {
+        "type": "range",
+        "id": "heading_h3_mobile",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile",
+        "default": 17
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
       {
@@ -179,6 +328,34 @@
         "id": "type_nav_font",
         "default": "fira_sans_n5",
         "label": "Police de la navigation"
+      },
+      {
+        "type": "header",
+        "content": "Liens dans le texte",
+        "info": "S'applique aux liens placés dans les textes (pages, descriptions, FAQ, colonnes). Le menu n'est pas touché."
+      },
+      {
+        "type": "color",
+        "id": "links_color",
+        "label": "Couleur des liens",
+        "info": "Laisser vide pour garder la couleur du jeu de couleurs."
+      },
+      {
+        "type": "select",
+        "id": "links_underline",
+        "label": "Soulignement des liens",
+        "options": [
+          { "value": "always", "label": "Toujours souligné" },
+          { "value": "hover", "label": "Souligné au survol seulement" },
+          { "value": "never", "label": "Jamais souligné" }
+        ],
+        "default": "always"
+      },
+      {
+        "type": "checkbox",
+        "id": "links_bold",
+        "label": "Liens en gras",
+        "default": false
       }
     ]
   },

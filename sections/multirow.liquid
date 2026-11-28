@@ -80,9 +80,10 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.heading -%}
-                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
+                {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+                <{{ heading_tag }} class="image-with-text__heading {{ section.settings.heading_size }} rte">
                   {{ block.settings.heading }}
-                </h2>
+                </{{ heading_tag }}>
               {%- endif -%}
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
@@ -190,6 +191,21 @@
     {
       "type": "header",
       "content": "t:sections.multirow.settings.header_2.content"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre (référencement)",
+      "info": "N'change pas la taille du titre, réglée plus bas.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "select",

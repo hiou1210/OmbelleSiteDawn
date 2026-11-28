@@ -24,7 +24,8 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="wedding-form contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+      {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+      <{{ heading_tag }} class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</{{ heading_tag }}>
     {%- endif -%}
 
     {%- if section.settings.show_page_content and page.content != blank -%}
@@ -184,6 +185,21 @@
       "type": "text",
       "id": "heading",
       "label": "Titre"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre (référencement)",
+      "info": "N'change pas la taille du titre, réglée plus bas.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "select",

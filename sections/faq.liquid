@@ -27,7 +27,8 @@
 <div class="faq gradient color-{{ section.settings.color_scheme }}">
   <div class="page-width{% unless has_image %} page-width--narrow{% endunless %} section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="faq__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+      <{{ heading_tag }} class="faq__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ heading_tag }}>
     {%- endif -%}
 
     <div class="faq__layout{% if has_image %} faq__layout--with-image{% endif %}">
@@ -107,6 +108,21 @@
       "id": "heading",
       "label": "Titre",
       "default": "Questions fréquentes"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre (référencement)",
+      "info": "N'change pas la taille du titre, réglée plus bas.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "select",

@@ -185,9 +185,16 @@
                 class="adaptive-slideshow__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient adaptive-slideshow__box--text-{{ block.settings.text_alignment }} adaptive-slideshow__box--mobile-text-{{ block.settings.text_alignment_mobile }}{% if box_is_transparent %} adaptive-slideshow__box--transparent{% elsif block.settings.box_opacity < 100 %} adaptive-slideshow__box--translucent{% endif %}"
               >
                 {%- if block.settings.heading != blank -%}
-                  {%- assign heading_tag = 'h2' -%}
-                  {%- if block.settings.heading_is_h1 -%}
-                    {%- assign heading_tag = 'h1' -%}
+                  {%- comment -%}
+                    Seule la première diapositive peut avoir un niveau de titre.
+                    Les autres sont du texte simple (p), avec la même apparence.
+                  {%- endcomment -%}
+                  {%- assign heading_tag = 'p' -%}
+                  {%- if forloop.first -%}
+                    {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+                    {%- if block.settings.heading_is_h1 -%}
+                      {%- assign heading_tag = 'h1' -%}
+                    {%- endif -%}
                   {%- endif -%}
                   <{{ heading_tag }} class="adaptive-slideshow__heading inline-richtext {{ block.settings.heading_size }}">
                     {{ block.settings.heading }}
@@ -293,7 +300,7 @@
       "type": "checkbox",
       "id": "stack_on_mobile",
       "label": "Placer le texte sous l'image sur mobile",
-      "info": "Désactivé, le texte est superposé à l'image sur mobile, sans boîte.",
+      "info": "Désactivé, le texte est superposé à l'image sur mobile, avec ou sans boîte selon le réglage de chaque diapositive.",
       "default": true
     },
     {
@@ -302,6 +309,21 @@
       "label": "Masquer la section si la première diapositive n'a pas d'image",
       "info": "Utile pour les images provenant d'un métachamp. Le titre de niveau 1 reste présent pour le référencement.",
       "default": false
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre de la première diapositive (référencement)",
+      "info": "Seule la première diapositive a un niveau de titre. Les autres sont du texte simple, avec la même apparence. La case « Utiliser un titre de niveau 1 » de la première diapositive remplace ce choix.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "header",
@@ -357,7 +379,7 @@
           "type": "checkbox",
           "id": "heading_is_h1",
           "label": "Utiliser un titre de niveau 1",
-          "info": "À activer sur une seule section par page, pour le référencement.",
+          "info": "Première diapositive seulement. À activer sur une seule section par page, pour le référencement.",
           "default": false
         },
         {

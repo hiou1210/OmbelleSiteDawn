@@ -47,7 +47,8 @@
     >
       {%- unless section.settings.heading == blank -%}
         <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+          {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
+          <{{ heading_tag }} class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</{{ heading_tag }}>
         </div>
       {%- endunless -%}
     </div>
@@ -134,6 +135,21 @@
       "id": "heading",
       "default": "t:sections.video.settings.heading.default",
       "label": "t:sections.video.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Niveau du titre (référencement)",
+      "info": "N'change pas la taille du titre, réglée plus bas.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "h2"
     },
     {
       "type": "select",

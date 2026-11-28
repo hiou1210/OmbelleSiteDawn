@@ -17,14 +17,32 @@
   letter-spacing: 0;
 }
 
-/* Liens dans le contenu riche : couleur d'accent du schéma, soulignés */
+/* Liens dans le contenu riche : couleur d'accent du schéma, soulignés par défaut.
+   Réglages du thème (Typographie > Liens dans le texte) : couleur (--rte-link-color),
+   soulignement (classes links-no-underline / links-hover-underline) et gras (links-bold).
+   Le menu n'utilise pas .rte : il n'est pas touché. */
 .rte a {
-  color: rgb(var(--color-link));
+  color: rgb(var(--rte-link-color, var(--color-link)));
   text-underline-offset: 0.3rem;
 }
 
 .rte a:hover {
+  color: rgb(var(--rte-link-color, var(--color-link)));
   text-decoration-thickness: 0.2rem;
+}
+
+.links-bold .rte a {
+  font-weight: var(--font-body-weight-bold);
+}
+
+.links-no-underline .rte a,
+.links-hover-underline .rte a {
+  text-decoration: none;
+}
+
+.links-hover-underline .rte a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
 }
 
 /* Bouton de retour en haut de page */

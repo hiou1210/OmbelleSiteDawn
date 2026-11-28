@@ -213,6 +213,10 @@
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        {%- render 'heading-size-variables' %}
+        {%- if settings.links_color != blank and settings.links_color.alpha > 0 %}
+        --rte-link-color: {{ settings.links_color.red }}, {{ settings.links_color.green }}, {{ settings.links_color.blue }};
+        {%- endif %}
 
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
@@ -400,7 +404,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_size == 'small' or settings.buttons_size == 'large' %} buttons-size-{{ settings.buttons_size }}{% else %} buttons-size-medium{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}{% unless settings.buttons_bold == false %} buttons-bold{% endunless %}{% if settings.buttons_hover_invert %} buttons-hover-invert{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if settings.buttons_style == 'transparent' %} buttons-transparent{% endif %}{% if settings.buttons_size == 'small' or settings.buttons_size == 'large' %} buttons-size-{{ settings.buttons_size }}{% else %} buttons-size-medium{% endif %}{% if settings.buttons_uppercase %} buttons-uppercase{% endif %}{% unless settings.buttons_bold == false %} buttons-bold{% endunless %}{% if settings.buttons_hover_invert %} buttons-hover-invert{% endif %}{% if settings.links_underline == 'never' %} links-no-underline{% elsif settings.links_underline == 'hover' %} links-hover-underline{% endif %}{% if settings.links_bold %} links-bold{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

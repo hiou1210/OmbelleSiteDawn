@@ -76,7 +76,8 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                  {%- assign block_heading_tag = block.settings.heading_tag | default: 'p' -%}
+                  <{{ block_heading_tag }} class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</{{ block_heading_tag }}>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -123,7 +124,8 @@
                         </div>
                       {%- endif -%}
                       {%- if settings.brand_headline != blank -%}
-                        <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
+                        {%- assign brand_heading_tag = block.settings.heading_tag | default: 'p' -%}
+                        <{{ brand_heading_tag }} class="footer-block__heading rte">{{ settings.brand_headline }}</{{ brand_heading_tag }}>
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
                         <div class="rte">{{ settings.brand_description }}</div>
@@ -168,7 +170,8 @@
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
-                <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
+                {%- assign newsletter_heading_tag = section.settings.newsletter_heading_tag | default: 'p' -%}
+                <{{ newsletter_heading_tag }} class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</{{ newsletter_heading_tag }}>
               {%- endif -%}
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
@@ -262,7 +265,7 @@
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
               <div>
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                <p class="localization-label caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</p>
                 {%- render 'country-localization', localPosition: 'FooterCountry' -%}
               </div>
             {%- endform -%}
@@ -273,9 +276,9 @@
           <localization-form>
             {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
               <div>
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">
+                <p class="localization-label caption-large text-body" id="FooterLanguageLabel">
                   {{ 'localization.language_label' | t }}
-                </h2>
+                </p>
                 {%- render 'language-localization', localPosition: 'FooterLanguage' -%}
               </div>
             {%- endform -%}
@@ -339,6 +342,21 @@
           "label": "t:sections.footer.blocks.link_list.settings.heading.label"
         },
         {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Niveau du titre (référencement)",
+          "info": "N'change pas l'apparence du titre.",
+          "options": [
+            { "value": "p", "label": "Texte simple (sans niveau)" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" },
+            { "value": "h4", "label": "H4" },
+            { "value": "h5", "label": "H5" },
+            { "value": "h6", "label": "H6" }
+          ],
+          "default": "p"
+        },
+        {
           "type": "link_list",
           "id": "menu",
           "default": "footer",
@@ -360,6 +378,21 @@
           "default": true,
           "label": "t:sections.footer.blocks.brand_information.settings.show_social.label",
           "info": "t:sections.footer.blocks.brand_information.settings.show_social.info"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Niveau du titre (référencement)",
+          "info": "N'change pas l'apparence du titre.",
+          "options": [
+            { "value": "p", "label": "Texte simple (sans niveau)" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" },
+            { "value": "h4", "label": "H4" },
+            { "value": "h5", "label": "H5" },
+            { "value": "h6", "label": "H6" }
+          ],
+          "default": "p"
         }
       ]
     },
@@ -372,6 +405,21 @@
           "id": "heading",
           "default": "t:sections.footer.blocks.text.settings.heading.default",
           "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Niveau du titre (référencement)",
+          "info": "N'change pas l'apparence du titre.",
+          "options": [
+            { "value": "p", "label": "Texte simple (sans niveau)" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" },
+            { "value": "h4", "label": "H4" },
+            { "value": "h5", "label": "H5" },
+            { "value": "h6", "label": "H6" }
+          ],
+          "default": "p"
         },
         {
           "type": "richtext",
@@ -446,6 +494,21 @@
       "id": "newsletter_heading",
       "default": "t:sections.footer.settings.newsletter_heading.default",
       "label": "t:sections.footer.settings.newsletter_heading.label"
+    },
+    {
+      "type": "select",
+      "id": "newsletter_heading_tag",
+      "label": "Niveau du titre de l'infolettre (référencement)",
+      "info": "N'change pas l'apparence du titre.",
+      "options": [
+        { "value": "p", "label": "Texte simple (sans niveau)" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ],
+      "default": "p"
     },
     {
       "type": "header",

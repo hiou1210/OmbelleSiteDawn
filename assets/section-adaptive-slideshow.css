@@ -147,19 +147,24 @@
     text-align: right;
   }
 
-  /* Texte superposé à l'image : pas de boîte, comme le bandeau Dawn */
-  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box {
+  /* Texte superposé à l'image : la boîte suit les réglages "Afficher la boîte derrière le texte"
+     et "Opacité de la boîte", comme sur grand écran. */
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box.adaptive-slideshow__box--translucent {
+    background: rgba(var(--color-background), var(--adaptive-box-opacity, 1));
+  }
+
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box.adaptive-slideshow__box--transparent {
     background: transparent;
     border: none;
     border-radius: 0;
     box-shadow: none;
   }
 
-  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box:after {
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box--transparent:after {
     display: none;
   }
 
-  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box .button--secondary {
+  .adaptive-slideshow:not(.adaptive-slideshow--stack-mobile) .adaptive-slideshow__box--transparent .button--secondary {
     --alpha-button-background: 0;
   }
 
