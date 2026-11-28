@@ -522,13 +522,50 @@
         "padding_bottom": 20
       }
     },
-    "98144298-e0ed-4304-a017-9cb665ea25aa": {
-      "type": "custom-liquid",
+    "rich_text_XC8PEq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cMFwT4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Parler de sa marque",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_GW3XhY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Membre de <a href=\"https://galerie-creation.com/creer_un_site_artiste/\">Galerie-Creation</a></p>"
+          }
+        },
+        "button_LhkPdB": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cMFwT4",
+        "text_GW3XhY",
+        "button_LhkPdB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "custom_liquid": "Membre de <a href=\"https://galerie-creation.com/creer_un_site_artiste/\">Galerie-Creation</a>",
-        "color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -548,6 +585,6 @@
     "b1cc8c93-b7df-44f1-8e81-7e5f48bbbcd7-2",
     "5e2fb4b2-da93-4440-8229-9b13789e6c1b",
     "2cc3301e-10e9-4f3d-8636-492116cde141-1",
-    "98144298-e0ed-4304-a017-9cb665ea25aa"
+    "rich_text_XC8PEq"
   ]
 }
