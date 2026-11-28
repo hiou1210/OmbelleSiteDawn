@@ -14,6 +14,8 @@
     "favicon": "shopify://shop_images/favicon-32x32.png",
     "type_header_font": "poppins_n6",
     "heading_scale": 100,
+    "heading_h0_desktop": 40,
+    "heading_h1_desktop": 39,
     "heading_h2_desktop": 24,
     "type_body_font": "poppins_n4",
     "body_scale": 100,

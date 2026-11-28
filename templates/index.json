@@ -289,6 +289,7 @@
         "change_slides_speed": 7,
         "stack_on_mobile": false,
         "hide_without_image": false,
+        "heading_tag": "h2",
         "accessibility_info": "Diaporama"
       }
     },
@@ -360,6 +361,7 @@
       ],
       "settings": {
         "title": "Nos catégories principales",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -378,6 +380,7 @@
           "type": "heading",
           "settings": {
             "heading": "Bienvenue chez Ombelle Fleuriste!",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -451,7 +454,7 @@
         "hide_without_image": false,
         "heading": "Faites une visite virtuelle de notre boutique!",
         "heading_is_h1": false,
-        "heading_size": "h1",
+        "heading_size": "h0",
         "subheading": "",
         "subheading_style": "body",
         "button_label": "Commencer la visite",
@@ -533,6 +536,7 @@
       ],
       "settings": {
         "title": "Dernières nouvelles",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -621,6 +625,7 @@
         "auto_rotate": true,
         "change_slides_speed": 7,
         "image_behavior": "none",
+        "heading_tag": "h2",
         "show_text_below": true,
         "accessibility_info": "Témoignages de nos clients"
       }
