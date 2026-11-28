@@ -25,7 +25,7 @@
 -%}
 
 <div class="faq gradient color-{{ section.settings.color_scheme }}">
-  <div class="page-width{% unless has_image %} page-width--narrow{% endunless %} section-{{ section.id }}-padding">
+  <div class="page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       {%- assign heading_tag = section.settings.heading_tag | default: 'h2' -%}
       <{{ heading_tag }} class="faq__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ heading_tag }}>
