@@ -47,6 +47,7 @@
         "change_slides_speed": 5,
         "stack_on_mobile": false,
         "hide_without_image": false,
+        "heading_tag": "h2",
         "accessibility_info": "Bandeau"
       }
     },
@@ -85,10 +86,11 @@
       "type": "multicolumn",
       "settings": {
         "title": "Catherine Plante : Illustrations, impressions d'art et cartes de souhaits",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Texte du bouton",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 1,
         "column_alignment": "left",
@@ -97,7 +99,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "3c848308-6bf7-46e2-8bd8-da395a404aea-1": {
@@ -107,6 +109,7 @@
           "type": "heading",
           "settings": {
             "heading": "Au cœur de la nature!",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -199,6 +202,7 @@
       ],
       "settings": {
         "heading": "Galerie",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
@@ -215,6 +219,7 @@
       "type": "multicolumn",
       "settings": {
         "title": "Joseeincolors : Bijoux, foulards et toiles",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -237,6 +242,7 @@
           "type": "heading",
           "settings": {
             "heading": "Un joyau de créativité!",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -329,6 +335,7 @@
       ],
       "settings": {
         "heading": "Galerie",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
@@ -345,6 +352,7 @@
       "type": "multicolumn",
       "settings": {
         "title": "Anne-Marie Chagnon : Bijoux",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -367,6 +375,7 @@
           "type": "heading",
           "settings": {
             "heading": "Le chic intemporel!",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -459,6 +468,7 @@
       ],
       "settings": {
         "heading": "Galerie",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "gallery_type": "classic",
         "columns_desktop": 3,
@@ -478,6 +488,7 @@
           "type": "heading",
           "settings": {
             "heading": "Louise Forget : vivacité, contrastes et mouvements",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
