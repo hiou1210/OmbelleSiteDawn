@@ -21,7 +21,16 @@
             "heading": "Foire aux questions",
             "heading_is_h1": true,
             "heading_size": "h1",
+            "subheading": "",
+            "subheading_style": "body",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "show_text_box": true,
+            "box_opacity": 55,
             "box_align": "middle-left",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -35,8 +44,10 @@
       "settings": {
         "slider_visual": "dots",
         "auto_rotate": false,
+        "change_slides_speed": 5,
         "stack_on_mobile": false,
         "hide_without_image": false,
+        "heading_tag": "h2",
         "accessibility_info": "Bandeau"
       }
     },
@@ -353,6 +364,8 @@
         "template--14817897283665__bc607cb2-80a7-483e-ba1a-325d94ff4dbd-16755694594d013904-7"
       ],
       "settings": {
+        "heading": "Questions fréquentes",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
         "padding_top": 20,
