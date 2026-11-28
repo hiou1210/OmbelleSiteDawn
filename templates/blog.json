@@ -18,11 +18,22 @@
             "image": "shopify://shop_images/blogue.jpg",
             "mobile_image": "shopify://shop_images/blogue-mobile.jpg",
             "image_overlay_opacity": 0,
+            "heading": "Blogue",
+            "heading_is_h1": false,
+            "heading_size": "h1",
             "subheading": "Nouveautés - Trucs - Astuces",
             "subheading_style": "subtitle",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "show_text_box": true,
+            "box_opacity": 55,
             "box_align": "middle-center",
             "text_alignment": "center",
+            "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
         }
@@ -33,8 +44,10 @@
       "settings": {
         "slider_visual": "dots",
         "auto_rotate": false,
+        "change_slides_speed": 5,
         "stack_on_mobile": true,
         "hide_without_image": false,
+        "heading_tag": "h2",
         "accessibility_info": "Bandeau"
       }
     },
